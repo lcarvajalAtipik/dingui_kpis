@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- dingui_kpis ---
+# Datos crudos (exports bancarios, exports Tipsi, contabilidad, nóminas, etc.) nunca al repo
+data/
+# Base de datos local
+db/
+# Gráficos y artefactos generados
+outputs/
+# Lockfiles de uv los dejamos (commit recomendado)
+!uv.lock
+.claude/settings.local.json
