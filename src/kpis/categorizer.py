@@ -126,6 +126,50 @@ HARDCODED_PATTERNS: list[tuple[str, str]] = [
     # Notaría → Legal (confirmado user 2026-07-06; OJO en Fondeo notaría era Financiero)
     ("notaria", "Legal, gestión, software"),
     ("notariado", "Legal, gestión, software"),
+
+    # ========================================================================
+    # FASE OPERATIVA (apertura ≈ mediados de junio 2026, TPV desde el 18/06).
+    # Reglas nuevas vistas en los extractos de mayo-julio 2026.
+    # ========================================================================
+
+    # --- Traspasos entre cuentas propias (Caixa ↔ Santander, titular Nuevo VH SL).
+    # "Nuevo Vh" en el concepto = la propia sociedad → siempre interno.
+    # Backup de mark_internal_transfers() para cuando falte la otra pata.
+    ("de nuevo vh", "Movimiento entre cuentas"),
+    ("a favor de nuevo vh", "Movimiento entre cuentas"),
+
+    # --- TPV Santander: liquidaciones del datáfono = ventas (neto de comisión;
+    # el bruto viene en Referencia 1 / extra). El detalle real de ventas está en Tipsi.
+    ("liquidacion efectuada", "Ingresos"),
+
+    # --- Confirming/factoring Santander: el abono y el cargo a vencimiento rotan
+    # (neto 0); el coste real son los intereses ("comisiones/intereses" ya matchea
+    # arriba). La factura subyacente financiada se reclasifica a mano si procede.
+    ("factoring y confirming", "Financiero"),
+    ("cobro a vencimiento", "Financiero"),
+
+    # --- Gastos de servicio Santander (TPV y cuenta)
+    ("cuota app android", "Financiero"),
+    ("liquidacion del contrato", "Financiero"),
+    ("liquidacion indemnizatorio", "Financiero"),
+
+    # --- COGS: mayoristas de alimentación/bebida (compras del local)
+    ("makro", "COGS"),
+    ("picking gades", "COGS"),
+    ("cash lepe", "COGS"),
+
+    # --- Equipamiento sonido/luces (Thomann/Madrid HiFi/Betopper/Lightcloud)
+    ("thomann", "Sonido/Luces"),
+    ("madrid hifi", "Sonido/Luces"),
+    ("betopperdj", "Sonido/Luces"),
+    ("lightcloud", "Sonido/Luces"),
+
+    # --- Costes fijos: telecom del local
+    ("o2 fibra", "Costes Fijos"),
+
+    # --- Asesorías/gestoría (recibos mensuales)
+    ("stipendium", "Legal, gestión, software"),
+    ("remesa ases", "Legal, gestión, software"),
 ]
 
 
@@ -197,6 +241,9 @@ def resolve_ambiguous(concept_norm: str, importe: float, bank: str | None = None
     # abono = devolución que el usuario marcó como Financiero.
     if concept_norm == "ume":
         return "Sonido/Luces" if importe is not None and importe < 0 else "Financiero"
+    # Coca-Cola Europacific: cargo = compra de producto (COGS); abono = rappel.
+    if "coca cola" in concept_norm or "coca-cola" in concept_norm:
+        return "COGS" if importe is not None and importe < 0 else "Rappels"
     return None
 
 
@@ -317,6 +364,13 @@ class Categorizer:
         # 1) Match exacto en reglas aprendidas del ground truth
         if norm_concept_only in self.exact_rules:
             r = self.exact_rules[norm_concept_only]
+            # Guardia de época: el GT pre-apertura enseñó TRASPASO/TRANSF. A SU
+            # FAVOR/TRANSFER INMEDIATA → Aportaciones, pero una aportación nunca
+            # es un cargo. Un "traspaso" SALIENTE es dinero movido a otra cuenta
+            # propia (Santander desde 06/2026) → Movimiento entre cuentas.
+            if r.category == "Aportaciones" and importe is not None and importe < 0:
+                return CategorizeResult("Movimiento entre cuentas", 0.9,
+                                        "ambiguous_resolved", norm_concept_only)
             return CategorizeResult(r.category, r.confidence, "exact", norm_concept_only)
 
         # 2) Ambigüedad conocida del histórico
@@ -360,3 +414,48 @@ class Categorizer:
 
         # 7) Sin matching
         return CategorizeResult(None, 0.0, "unmatched")
+
+
+# ============================================================================
+# Traspasos entre cuentas propias (Caixa ↔ Santander)
+# ============================================================================
+# Desde 06/2026 Nuevo VH SL tiene dos cuentas. Un traspaso interno aparece como
+# cargo en una y abono en la otra → no es P&L. Se detecta cruzando importes
+# opuestos entre bancos distintos con fechas cercanas. Se ejecuta ANTES de
+# aceptar la categoría del categorizador (pisa lo que este diga).
+
+INTERNAL_TRANSFER_CATEGORY = "Movimiento entre cuentas"
+
+# Al menos una pata debe oler a transferencia/traspaso para no emparejar
+# casualidades de importe (p.ej. un gasto y un ingreso iguales el mismo día).
+_INTERNAL_HINTS = ("traspaso", "transfer", "transferencia", "nuevo vh", "santabder")
+
+
+def mark_internal_transfers(df: pd.DataFrame, max_days: int = 3) -> pd.Series:
+    """Devuelve una Series booleana: True = pata de un traspaso entre cuentas.
+
+    Requiere columnas: bank, booking_date, amount_eur, concept. Empareja
+    greedy 1:1 (cada pata solo se usa una vez) cargos de un banco con abonos
+    del mismo importe en otro banco a ≤ max_days de distancia.
+    """
+    flags = pd.Series(False, index=df.index)
+    candidates = df[
+        df["concept"].astype(str).str.lower().apply(
+            lambda c: any(h in _strip_accents(c) for h in _INTERNAL_HINTS)
+        )
+    ]
+    outs = candidates[candidates["amount_eur"] < 0]
+    ins_ = candidates[candidates["amount_eur"] > 0]
+    used: set = set()
+    for oi, o in outs.iterrows():
+        m = ins_[
+            (~ins_.index.isin(used))
+            & (ins_["bank"] != o["bank"])
+            & (ins_["amount_eur"].round(2) == round(-o["amount_eur"], 2))
+            & ((ins_["booking_date"] - o["booking_date"]).abs().dt.days <= max_days)
+        ]
+        if len(m):
+            ii = m.index[0]
+            used.add(ii)
+            flags.loc[[oi, ii]] = True
+    return flags

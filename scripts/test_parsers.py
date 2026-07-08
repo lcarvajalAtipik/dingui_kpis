@@ -57,9 +57,9 @@ def report(name: str, df: pd.DataFrame, iban: str | None) -> None:
 
 
 def main() -> None:
-    files = sorted(p for p in INBOX.glob("*") if p.suffix.lower() in (".xls", ".xlsx"))
+    files = sorted(p for p in INBOX.glob("*") if p.suffix.lower() in (".xls", ".xlsx", ".csv"))
     if not files:
-        print(f"No hay archivos en {INBOX} — descarga el export de CaixaBank y déjalo ahí.")
+        print(f"No hay archivos en {INBOX} — descarga los exports (CaixaBank/Santander) y déjalos ahí.")
         return
     cat = Categorizer()
     for path in files:

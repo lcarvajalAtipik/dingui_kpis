@@ -1,39 +1,25 @@
 ---
 name: pl-categories
-description: "Categorías reales de Dingui (columna Tipo del sheet) — fase pre-apertura; las operativas llegarán al abrir. 96,6% de acierto del categorizador vs ground truth."
-metadata:
+description: "Categorías P&L de Dingui — pre-apertura (validadas 98,9%) + operativas desde jun 2026 (Ingresos, COGS, Costes Fijos, Movimiento entre cuentas). Propuestas pendientes de validar con el usuario."
+metadata: 
+  node_type: memory
   type: project
+  originSessionId: a861d9eb-9449-477a-89e6-e7bb7676b867
 ---
 
-**Categorías REALES de Dingui** (columna `Tipo` de la hoja "movimientos 30 abril 2026" — 88 movimientos, 20/08/2025 → 30/04/2026, todos categorizados por el usuario):
+**Categorías pre-apertura** (columna `Tipo` del sheet, 88 movimientos 20/08/2025 → 30/04/2026, validadas por el usuario): Aportaciones (+221.638,53), Obra (-94.133,97), Alquiler/Fianza, Insonorización, Arquitectos, Sonido/Luces, Licencia/Trámites, Legal gestión software, Marketing, Otros, Financiero. Validación categorizador: cobertura 100%, acierto 98,9% (única excepción: devolución notaría +524,15 → user_override, en `CONFIRMED_CORRECTIONS` de `scripts/validate_categorizer.py`).
 
-| Tipo | n | Total € |
-|---|---:|---:|
-| Aportaciones | 31 | +221.638,53 |
-| Obra | 8 | -94.133,97 |
-| Alquiler/Fianza | 5 | -21.211,11 |
-| Insonorización | 1 | -20.000,00 |
-| Arquitectos | 2 | -11.495,00 |
-| Sonido/Luces | 1 | -8.582,50 |
-| Licencia/Trámites | 6 | -8.251,54 |
-| Legal, gestión, software | 14 | -3.464,49 |
-| Marketing | 1 | -342,00 |
-| Otros | 8 | -266,70 |
-| Financiero | 11 | -12,72 |
+**Categorías OPERATIVAS en uso desde la apertura (~jun 2026)**, añadidas al categorizador el 08/07/2026 (estilo Fondeo):
+- **Ingresos** — liquidaciones TPV Santander (`liquidacion efectuada` → neto de comisión; bruto en extra/Referencia 1).
+- **COGS** — mayoristas: `makro`, `picking gades`, `cash lepe`; Coca-Cola resuelto por signo (cargo → COGS, abono → Rappels).
+- **Costes Fijos** — `o2 fibra` (telecom).
+- **Movimiento entre cuentas** — traspasos Caixa↔Santander. Detección: `mark_internal_transfers()` en categorizer.py (cruce de importes opuestos entre bancos, ≤3 días, con hint de transferencia) + patrones `de nuevo vh`/`a favor de nuevo vh` + guardia "Aportaciones nunca negativas".
+- **Financiero** — confirming (`factoring y confirming`, `cobro a vencimiento` — rotan neto 0), gastos TPV (`cuota app android`, `liquidacion del contrato`, `liquidacion indemnizatorio`).
+- **Sonido/Luces** — `thomann`, `madrid hifi`, `betopperdj`, `lightcloud`.
+- **Legal, gestión, software** — asesorías `stipendium`, `remesa ases`.
 
-Son categorías de **pre-apertura** (coinciden con las partidas del forecast "VdE - FC inicial"). Al abrir aparecerán las operativas (Ingresos, COGS, Nominas, DJ, Rappels… al estilo Fondeo).
+**⚠ Reglas de época pre-apertura aún activas:** transferencias ENTRANTES sueltas (TRASPASO / TRANSF. A SU FAVOR / TRANSFER INMEDIATA sin pata cruzada) siguen → Aportaciones. Corrección conocida pendiente de aplicar: TRANSF. A SU FAVOR **+1.126,85 (01/05/2026)** es la devolución del cargo duplicado CNX 0001176170 de obra → Obra, no Aportación (user_override al ingestar).
 
-**Reglas clave aprendidas (en `src/kpis/categorizer.py`):**
-- `TRASPASO` / `TRANSF. A SU FAVOR` / `TRANSFER INMEDIATA` → **Aportaciones** (⚠ SOLO en pre-apertura; al abrir, transferencias entrantes podrán ser Ingresos — revisar estas reglas entonces).
-- `TRIBUTOS` → **Licencia/Trámites** (⚠ pre-apertura; cuando haya nóminas, TRIBUTOS IRPF será Nominas como en Fondeo).
-- `realmivo` / `cuota comunidad` / `fianza y garantia` → Alquiler/Fianza.
-- `p.serv` / `precio servic` / `corresp.` / `mantenimiento` → Financiero (gastos de servicio CaixaBank).
-- docusign / godaddy / apple / adobe / google workspace / trimble → Legal, gestión, software.
-- **notaría/notariado → Legal, gestión, software** (confirmado 2026-07-06; OJO: en Fondeo notaría era Financiero).
-- `UME` → Sonido/Luces si cargo, Financiero si abono (resolver por signo).
+**Propuestas PENDIENTES de validar con el usuario (08/07/2026):** certificaciones "parte N certifica"/Florente → Obra; "sonido 1parte" → Sonido/Luces; neveras/mesa refrigerada/tostadora → ¿categoría nueva "Equipamiento"?; Viento Creativo (cartel fachada) → ¿Marketing?; bazares/Carrefour/supermercados → ¿COGS o menaje?; restaurantes (comidas equipo) → ¿Otros?; y sin identificar: Discount_ES, pago prezo, ALIEXPRESS, pulseras, AQUALAR, SUMINISTRSO UNIC, BARTER CONSULTANC, TRF.INTERNACIONAL, imposición a plazo 3.000 €.
 
-**Validación (confirmada por el usuario 2026-07-06):** cobertura 100%, acierto 98,9% (87/88). Las 3 inconsistencias del sheet quedaron resueltas: Trimble → Legal/software; PRECIO SERVIC.PAGOS -137,34 → Financiero; la devolución de +524,15 € en TRANSF. A SU FAVOR **es notariado** → Legal, gestión, software. Esta última es el único caso que el categorizador no puede distinguir por concepto (idéntico a las aportaciones) — se resuelve con `user_override` al ingestar; está registrada en `CONFIRMED_CORRECTIONS` de `scripts/validate_categorizer.py`.
-
-**OJO al matching contra extractos crudos:** en el sheet el usuario a veces sustituye el concepto del banco por descripción propia ("alquiler febrero", "acopio material", "honorarios proyec"…). Esas reglas exactas NO matchearán el export crudo — la prueba real llega con el primer XLS de CaixaBank.
-
-Relacionado: [[business-overview]], [[reference-proyecciones-sheet]], [[ignorar-fx-convention]].
+Relacionado: [[business-overview]], [[reference-proyecciones-sheet]], [[ignorar-fx-convention]], [[bank-format-santander]].

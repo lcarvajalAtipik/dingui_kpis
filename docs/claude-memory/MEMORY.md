@@ -1,14 +1,17 @@
 # Memory Index
 
 - [User role](user_role.md) — Propietario de Dingui (y Fondeo) e ingeniero de software. Idioma: español.
-- [Business overview](business_overview.md) — Dingui EN PRE-APERTURA (obra en curso) en El Puerto de Santa María (Cádiz). CaixaBank, Tipsi, alquiler Realmivo 2.297€/mes. Caja 30/04/2026: 53.878€.
+- [Business overview](business_overview.md) — Dingui ABIERTO desde ~mediados de junio 2026 (El Puerto de Santa María). Sociedad Nuevo VH SL, 2 cuentas (CaixaBank + Santander/TPV). Caja 08/07/2026: ~17.480€. Obra aún pagándose.
 - [Reference: fondeo_kpis repo](reference_fondeo_repo.md) — Repo hermano (~/Desktop/fondeo_kpis) = implementación de referencia; portar de ahí, sin copiar reglas de proveedores.
 - [Reference: sheet Proyecciones](reference_proyecciones_sheet.md) — Sheet "Proyecciones PuertoSantamaria" en Drive: ground truth de movimientos (hoja "movimientos 30 abril 2026", columna Tipo) + FC inicial + cap table.
-- [P&L categories](pl_categories.md) — Categorías reales pre-apertura (Aportaciones, Obra, Licencia/Trámites…). Categorizador validado: 96,6% acierto, 100% cobertura.
-- [Bank format: CaixaBank](bank_format_caixa.md) — Layout exacto del export XLS de CaixaBank (portado de Fondeo; validar con primer export de Dingui).
+- [P&L categories](pl_categories.md) — Pre-apertura validadas (98,9%) + operativas desde jun 2026 (Ingresos TPV, COGS, Movimiento entre cuentas…). Propuestas pendientes de validar.
+- [Bank format: CaixaBank](bank_format_caixa.md) — Formato REAL: CSV CaixaBankNow (Concepto;Fecha;Importe;Saldo, conceptos truncados, sin IBAN). Validado 08/07/2026.
+- [Bank format: Santander](bank_format_santander.md) — Cuenta TPV ES47 0049… (Nuevo VH SL). XLSX con extensión .xls, headers fila 8; liquidaciones TPV netas con bruto en Referencia 1.
 - [ignorar_fx convention](ignorar_fx_convention.md) — Flag de exclusión de cashflow; política de Dingui aún vacía, definir con el usuario.
 - [IVA rates](iva_rates.md) — Hostelería 10%, gastos 21%, rappels 21%; entradas discoteca probablemente 21% (CONFIRMAR con gestoría).
-- [Project: Tipsi (PoS)](project_tipsi.md) — Análisis de ventas; mecanismo de acceso a datos por confirmar (API vs exports).
+- [Project: Tipsi (PoS)](project_tipsi.md) — Extractor AUTOSERVICIO funcionando (scripts/tipsi_extract.py). API interna backend-green.tipsipro.com: LoginWeb Basic→cookie, GET query params, bools en minúscula. brand/local autodetectados. 1ª descarga: 1023 tickets.
+- [Fourvenues y puerta en Tipsi](fourvenues_puerta_ticketing.md) — Desde 07/07/2026 FV+puerta se tickean en Tipsi (cierra la brecha del TPV). FV: entradas 10/12/15€ (media 13), son copas; gestión 8% = 7% FV (coste) + 1% empresa.
+- [Tipsi sin marca/modificadores](tipsi_no_brand_modifiers.md) — Tipsi NO captura marca del destilado; COPA 1/2/3/* = tramos de precio. Marca solo en el nombre de vinos/cócteles. Para tenerla: configurar modificadores en la carta.
 - [GCP auth strategy](gcp_auth_strategy.md) — ADC vía `gcloud auth application-default login`; proyecto/dataset BQ por crear.
 - [Feedback: chat-only workflow](feedback_chat_only_workflow.md) — Todo el análisis se consume en la conversación. Nada de notebooks/dashboards.
 - [Feedback: no pre-filter data](feedback_no_prefilter_data.md) — El usuario sube exports crudos; yo deduplico y delimito rangos.
