@@ -14,10 +14,13 @@ DATA_DIR = REPO_ROOT / "data"
 OUTPUTS_DIR = REPO_ROOT / "outputs"
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 
-# Tipsi (PoS) — mecanismo de acceso por confirmar (API vs exports del back office)
-TIPSI_API_TOKEN = os.getenv("TIPSI_API_TOKEN")
-TIPSI_API_USER = os.getenv("TIPSI_API_USER")
+# Tipsi (PoS) — API interna (backend-green.tipsipro.com): login Basic → cookie de sesión.
+TIPSI_EMAIL = os.getenv("TIPSI_EMAIL")
+TIPSI_PASSWORD = os.getenv("TIPSI_PASSWORD")
 TIPSI_API_BASE = os.getenv("TIPSI_API_BASE")
+# brandId/localId del establecimiento (se autodetectan; fijar solo para saltarse la detección).
+TIPSI_BRAND_ID = os.getenv("TIPSI_BRAND_ID")
+TIPSI_LOCAL_ID = os.getenv("TIPSI_LOCAL_ID")
 
 # Google Cloud BigQuery
 GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
