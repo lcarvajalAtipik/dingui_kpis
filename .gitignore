@@ -219,7 +219,10 @@ __marimo__/
 
 # --- dingui_kpis ---
 # Datos crudos (exports bancarios, exports Tipsi, contabilidad, nóminas, etc.) nunca al repo
-data/
+data/*
+# EXCEPCIÓN: cierres diarios del gerente — transcritos a mano desde imágenes de chat,
+# no se pueden regenerar de ninguna fuente → viajan por git
+!data/cierres_gerente/
 # Base de datos local
 db/
 # Gráficos y artefactos generados
