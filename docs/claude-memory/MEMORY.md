@@ -11,7 +11,7 @@
 - [IVA rates](iva_rates.md) — Hostelería 10%, gastos 21%, rappels 21%; entradas discoteca probablemente 21% (CONFIRMAR con gestoría).
 - [Cierres diarios del gerente](cierres_gerente_diarios.md) — Flujo diario desde 14/07/2026: imagen del cierre de cada noche → transcribir ÍNTEGRA a data/cierres_gerente/cierres_gerente.csv (git-tracked), dedup por fecha, validar cuadres, archivar imagen.
 - [Project: Tipsi (PoS)](project_tipsi.md) — Extractor AUTOSERVICIO funcionando (scripts/tipsi_extract.py). API interna backend-green.tipsipro.com: LoginWeb Basic→cookie, GET query params, bools en minúscula. brand/local autodetectados. 1ª descarga: 1023 tickets.
-- [Fourvenues y puerta en Tipsi](fourvenues_puerta_ticketing.md) — Desde 07/07/2026 FV+puerta se tickean en Tipsi (cierra la brecha del TPV). FV: entradas 10/12/15€ (media 13), son copas; gestión 8% = 7% FV (coste) + 1% empresa.
+- [Fourvenues y puerta en Tipsi](fourvenues_puerta_ticketing.md) — Desde 07/07/2026 la puerta se tickea en Tipsi (validado al céntimo vs cierres gerente); FV NO está en la caja Tipsi (caja = Z + FV). Jornada: corte 08:00, taquilla en lote al cierre. FV: entradas 10/12/15€ (media 13), son copas; gestión 8% = 7% FV + 1% empresa.
 - [Tipsi sin marca/modificadores](tipsi_no_brand_modifiers.md) — Tipsi NO captura marca del destilado; COPA 1/2/3/* = tramos de precio. Marca solo en el nombre de vinos/cócteles. Para tenerla: configurar modificadores en la carta.
 - [GCP auth strategy](gcp_auth_strategy.md) — ADC vía `gcloud auth application-default login`; proyecto/dataset BQ por crear.
 - [Feedback: chat-only workflow](feedback_chat_only_workflow.md) — Todo el análisis se consume en la conversación. Nada de notebooks/dashboards.
