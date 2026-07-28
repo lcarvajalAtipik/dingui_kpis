@@ -27,22 +27,28 @@ CREATE INDEX IF NOT EXISTS idx_pnl_period   ON pnl_lines (period_year, period_mo
 CREATE INDEX IF NOT EXISTS idx_pnl_category ON pnl_lines (category);
 
 -- ============================================================================
--- Bancos: movimientos crudos. Dingui opera con CaixaBank; si se abre otra
--- cuenta en otro banco, ampliar el CHECK y añadir parser en ingest/bancos.py.
+-- Bancos: movimientos crudos. Dingui opera con CaixaBank (operativa) y
+-- Santander (TPV, ES47 0049…). Si se abre otra cuenta, ampliar el CHECK y
+-- añadir parser en ingest/bancos.py.
 -- ============================================================================
 CREATE TABLE IF NOT EXISTS bank_transactions (
     id              INTEGER PRIMARY KEY,
-    bank            TEXT NOT NULL CHECK (bank IN ('caixa')),
-    account_iban    TEXT NOT NULL,
+    bank            TEXT NOT NULL CHECK (bank IN ('caixa', 'santander')),
+    account_iban    TEXT NOT NULL,    -- '' si el export no lo trae (CaixaBankNow)
     booking_date    TEXT NOT NULL,    -- YYYY-MM-DD
     value_date      TEXT NOT NULL,
     amount_eur      REAL NOT NULL,    -- positivo = entrada, negativo = salida
     currency        TEXT NOT NULL DEFAULT 'EUR',
     concept         TEXT NOT NULL,
+    extra           TEXT,             -- info secundaria del export (Referencia 1 Santander, "Más datos" Caixa)
     counterpart     TEXT,             -- contrapartida si la conocemos
-    category        TEXT,             -- categorización posterior (proveedor, nómina, impuestos…)
+    category        TEXT,             -- categoría P&L (NULL = sin categorizar, pendiente de revisión)
+    cat_method      TEXT,             -- exact / hardcoded / fuzzy / internal_transfer_pair / user…
+    cat_confidence  REAL,
+    user_override   INTEGER NOT NULL DEFAULT 0,  -- 1 = categoría confirmada/corregida por el usuario
     raw_tx_id       TEXT,             -- id natural del banco para dedupe
-    source          TEXT NOT NULL CHECK (source IN ('gocardless', 'manual_csv')),
+    source_file     TEXT,             -- export del que salió la fila
+    source          TEXT NOT NULL CHECK (source IN ('gocardless', 'manual_csv', 'manual_xlsx')),
     ingested_at     TEXT NOT NULL DEFAULT (datetime('now')),
     UNIQUE (bank, account_iban, raw_tx_id)
 );

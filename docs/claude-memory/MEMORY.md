@@ -5,6 +5,7 @@
 - [Reference: fondeo_kpis repo](reference_fondeo_repo.md) — Repo hermano (~/Desktop/fondeo_kpis) = implementación de referencia; portar de ahí, sin copiar reglas de proveedores.
 - [Reference: sheet Proyecciones](reference_proyecciones_sheet.md) — Sheet "Proyecciones PuertoSantamaria" en Drive: ground truth de movimientos (hoja "movimientos 30 abril 2026", columna Tipo) + FC inicial + cap table.
 - [P&L categories](pl_categories.md) — Pre-apertura validadas (98,9%) + operativas desde jun 2026 (Ingresos TPV, COGS, Movimiento entre cuentas…). Propuestas pendientes de validar.
+- [Bank ingest state](project_bank_ingest_state.md) — SQLite local (máquina 15/07) con 239 movs hasta 08/07/2026; 38 sin categorizar pendientes de revisar con el usuario.
 - [Bank format: CaixaBank](bank_format_caixa.md) — Formato REAL: CSV CaixaBankNow (Concepto;Fecha;Importe;Saldo, conceptos truncados, sin IBAN). Validado 08/07/2026.
 - [Bank format: Santander](bank_format_santander.md) — Cuenta TPV ES47 0049… (Nuevo VH SL). XLSX con extensión .xls, headers fila 8; liquidaciones TPV netas con bruto en Referencia 1.
 - [ignorar_fx convention](ignorar_fx_convention.md) — Flag de exclusión de cashflow; política de Dingui aún vacía, definir con el usuario.
