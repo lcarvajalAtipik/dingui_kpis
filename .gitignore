@@ -223,6 +223,10 @@ data/*
 # EXCEPCIÓN: cierres diarios del gerente — transcritos a mano desde imágenes de chat,
 # no se pueden regenerar de ninguna fuente → viajan por git
 !data/cierres_gerente/
+# EXCEPCIÓN: registro de facturas (metadatos + líneas extraídas, con drive_id) — viaja por git.
+# Los PDFs en sí NO (viven en Drive, se cachean localmente en cache/)
+!data/facturas/
+data/facturas/cache/
 # Base de datos local
 db/
 # Gráficos y artefactos generados
