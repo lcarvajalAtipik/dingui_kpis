@@ -1,1 +1,341 @@
 drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marca,formato,contenido,unidades,precio_unitario_eur,importe_eur,iva_pct
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,caja,24U,10.0,29.3,292.96,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,60.0,11.13,667.9,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,36.0,10.03,361.19,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"BARCELO AÑEJO 0,7L(12U)",bebida,alcohol,Ron Barceló,botella,70cl,60.0,11.21,672.59,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,72.0,11.82,851.18,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,36.0,11.19,402.84,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,24.0,13.18,316.39,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"PUERTO DE INDIAS GIN FRESA 0,7L(6U)",bebida,alcohol,Puerto de Indias,botella,70cl,18.0,14.43,259.74,21.0
+1PqX4CkWx4VwG333L9Xrs77ZWoNPTT3VQ,"Miguel Merino Distribuciones, S.L.",2026-07-27,"PUERTO DE INDIAS GIN FRESA 0,7L(6U)",bebida,alcohol,Puerto de Indias,botella,70cl,3.0,0.0,0.0,21.0
+13nwrvQC__L9yk03a-AJE77Sf_9uJeHYW,"Miguel Merino Distribuciones, S.L.",2026-07-27,"BOLD CREW WHISKY 0,7L(6U)",bebida,alcohol,Bold Crew,botella,70cl,5.0,0.0,0.0,21.0
+13nwrvQC__L9yk03a-AJE77Sf_9uJeHYW,"Miguel Merino Distribuciones, S.L.",2026-07-27,"M&C BRUT IMPERIAL ICE 0,75L(6U)",bebida,vino,Moët & Chandon,botella,75cl,12.0,45.25,543.0,21.0
+1hlZebkLpTfgbsPXLaWgMSAxgHxZz-5ML,"Miguel Merino Distribuciones, S.L.",2026-07-20,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,24.0,10.32,247.68,21.0
+1hlZebkLpTfgbsPXLaWgMSAxgHxZz-5ML,"Miguel Merino Distribuciones, S.L.",2026-07-20,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,18.0,11.45,206.1,21.0
+1hlZebkLpTfgbsPXLaWgMSAxgHxZz-5ML,"Miguel Merino Distribuciones, S.L.",2026-07-20,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,12.0,13.56,162.72,21.0
+1hlZebkLpTfgbsPXLaWgMSAxgHxZz-5ML,"Miguel Merino Distribuciones, S.L.",2026-07-20,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,6.0,11.51,69.06,21.0
+1hlZebkLpTfgbsPXLaWgMSAxgHxZz-5ML,"Miguel Merino Distribuciones, S.L.",2026-07-20,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,24.0,12.16,291.84,21.0
+18dLtvoCjQOjFztvrEaVh7YH5keugm4Kw,"Miguel Merino Distribuciones, S.L.",2026-07-21,"OLMECA ALTOS REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca Altos,botella,70cl,-12.0,21.64,-259.68,21.0
+18dLtvoCjQOjFztvrEaVh7YH5keugm4Kw,"Miguel Merino Distribuciones, S.L.",2026-07-21,"OLMECA ALTOS REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca Altos,botella,70cl,12.0,10.37,124.44,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,caja,24U,6.0,29.3,175.78,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,24.0,11.51,276.24,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,24.0,13.56,325.44,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"OLMECA ALTOS REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca Altos,botella,70cl,18.0,21.64,389.52,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"M&C BRUT IMPERIAL 0,75L(6U)",bebida,vino,Moët & Chandon,botella,75cl,6.0,34.6,207.6,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,48.0,11.45,549.6,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,42.0,12.16,510.72,21.0
+12G3CEE8bjN9RixJpje6HxQktPsnrEtIg,MIGUEL MERINO DISTRIBUCIONES SL,2026-07-20,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,6.0,21.47,128.82,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,48.0,11.45,549.6,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,60.0,12.16,729.6,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,24.0,13.56,325.44,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,42.0,10.32,433.44,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,48.0,11.51,552.48,21.0
+1SZuGG24DudRVSWBhfyhuHucTRyuzkatT,"Miguel Merino Distribuciones, S.L.",2026-07-21,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,caja,24U,5.0,29.3,146.48,21.0
+11ZoTYNY4ud-eSjsr9j8geke70qYGFRe_,Miguel Merino Distribuciones SL,2026-07-21,"OLMECA ALTOS REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca Altos,botella,70cl,-6.0,21.64,-129.84,21.0
+1GLrfJ18tTCHb-RorWxcoSI1TQjHZiO9q,"Miguel Merino Distribuciones, S.L.",2026-07-13,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl (caja 6u),48.0,11.45,549.6,21.0
+1GLrfJ18tTCHb-RorWxcoSI1TQjHZiO9q,"Miguel Merino Distribuciones, S.L.",2026-07-13,"BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl (caja 6u),2.0,15.15,30.3,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,caja,33cl,3.0,24.58,73.74,10.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,BOTELLERO EN PRESTAMO,otros_consumo,,,ud,,1.0,0.0,0.0,
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,AQUAREL PET 33cl 35 UDS,bebida,agua,Nestlé Aquarel,caja,35x33cl,3.0,5.92,18.12,10.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,botella,70cl,12.0,12.36,139.42,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,botella,70cl,30.0,8.41,244.73,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,RED BULL ENERG 25cl 24 UDS,bebida,refresco,Red Bull,caja,24x25cl,4.0,23.55,94.36,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SEVEN FREE RET 200 CC,bebida,refresco,Seven Up,caja,200cc,7.0,23.28,114.07,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,caja,200cc,5.0,24.96,81.12,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,caja,200cc,10.0,24.96,162.24,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,caja,33cl,4.0,24.58,98.32,10.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,AQUAREL PET 33cl 35 UDS,bebida,agua,Nestlé Aquarel,caja,35x33cl,5.0,5.92,30.2,10.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,"BTLLA WHITE LABEL 0,70 - DEMENTE",bebida,alcohol,Dewar's White Label,botella,70cl,24.0,10.24,185.55,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,caja,28x200ml,5.0,31.92,111.72,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,caja,28x200ml,6.0,26.04,93.74,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,caja,28x200ml,7.0,26.04,109.37,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,-7.0,4.8,-33.6,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,7.0,4.8,33.6,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,15.0,4.8,72.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,18.0,5.2,93.6,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,BARRIL CRUZCAMPO 50L,bebida,cerveza,Cruzcampo,barril,50L,1.0,168.0,168.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,RIVES GIN EXOTICA 70CL,bebida,alcohol,Rives,botella,70cl,6.0,12.59,73.27,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,RED BULL ENERG 25cl 24 UDS,bebida,refresco,Red Bull,caja,24x25cl,2.0,23.55,47.18,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,caja,200cc,5.0,24.96,81.12,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,caja,28x200ml,5.0,31.92,111.72,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,FIANZA BARRIL 50 L,otros_consumo,,Cruzcampo,barril,50L,-2.0,12.02,-24.04,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,-21.0,4.8,-100.8,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,-25.0,5.2,-130.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,FIANZA BARRIL 50 L,otros_consumo,,Cruzcampo,barril,50L,1.0,12.02,12.02,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,5.0,4.8,24.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,5.0,5.2,26.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,caja,28x200ml,6.0,26.04,93.74,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,6.0,5.2,31.2,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SEVEN FREE RET 200 CC,bebida,refresco,Seven Up,caja,200cc,5.0,23.28,81.48,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,caja,200cc,6.0,24.96,97.34,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,caja,200cc,10.0,24.96,162.24,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,caja,28x200ml,10.0,31.92,223.44,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,caja,28x200ml,3.0,26.04,46.87,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,caja,28x200ml,5.0,26.04,78.12,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,-14.0,4.8,-67.2,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,-12.0,5.2,-62.4,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,FIANZA 1/3 CRUZCAMPO,otros_consumo,,Cruzcampo,caja,33cl,-3.0,3.7,-11.1,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,-4.0,4.8,-19.2,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,5.0,4.8,24.0,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,16.0,4.8,76.8,21.0
+1T7_1yYPY21Pc6Jy9ePpluujDIp6l581Q,MELGAREJO DISTRIBUIDORES DE BEBIDAS S.L,2026-07-13,CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,18.0,5.2,93.6,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,904 FIANZA BARRIL 50 L,otros_consumo,,,barril,50L,-1.0,12.02,-12.02,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,1.55 BARRIL CRUZCAMPO 50L,bebida,cerveza,Cruzcampo,barril,50L,1.0,168.0,168.0,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,87067 SEVEN FREE RET 200 CC,bebida,refresco,Seven Up,caja,200cc,4.0,23.28,65.18,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,87386 PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,caja,200cc,4.0,24.96,64.9,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,87388 PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,caja,200cc,6.0,24.96,97.34,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7007014 CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,-1.0,4.8,-4.8,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7007046 CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,-3.0,4.8,-14.4,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7009130 CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,-4.0,5.2,-20.8,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,F96176 SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,caja,28x200ml,6.0,31.92,134.06,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,F98215 SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,caja,28x200ml,4.0,26.04,62.5,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,F98216 SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,caja,28x200ml,6.0,26.04,93.74,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,904 FIANZA BARRIL 50 L,otros_consumo,,,barril,50L,1.0,12.02,12.02,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7007014 CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,Seven Up,caja,200cc,4.0,4.8,19.2,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7007046 CAJA C/BOT  PEPSI 200 RET,otros_consumo,,Pepsi,caja,200cc,10.0,4.8,48.0,21.0
+1qnBvM2fxHlk4DrZwe0FLkQky1VsdlJX6,Melgarejo Distribuidores de Bebidas S.L.,2026-07-07,7009130 CAJA C/BOT  SCHWEPPES 200 RET,otros_consumo,,Schweppes,caja,200cc,16.0,5.2,83.2,21.0
+1LLfVOz84rdHVzDf6gorXhBHwVGMPXdLZ,"Makro Distribución Mayorista, S.A.",2026-07-10,BURRATA 125GX5 LAFUENTE,comida,,Lafuente,pack,5x125g,3.0,8.35,25.05,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,PAN MOLDE SANDWICH MC 1KG,comida,,Makro Chef,bolsa,1kg,3.0,1.55,4.65,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,MANTEQUILLA MC BQ 1KG,comida,,Makro Chef,barqueta,1kg,1.0,9.21,9.21,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,QSO VACA AHUM LONC 300G QUESAR,comida,,Quesar,bandeja,300g,2.0,3.39,6.78,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,QSO HAVARTI LONCH ARLA 1KG (D),comida,,Arla,bandeja,1kg,1.0,16.19,16.19,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,QSO CHEDDAR LONCH ROJO MC 1KG,comida,,Makro Chef,bandeja,1kg,1.0,8.4,8.4,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,QSO BRIE BARRA R.PICOT 500G,comida,,Reny Picot,ud,500g,2.0,7.59,15.18,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,GAZPACHO S/GLUTEN PET MC 1L,comida,,Makro Chef,botella,1L,1.0,2.99,2.99,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,FIAMBRE SANDW LONCH 500G ALMIR,comida,,ElPozo,sobre,500g,2.0,2.69,5.38,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,SOBRASADA EXT EL POZO 250G,comida,,ElPozo,tarrina,250g,2.0,1.85,3.7,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,TOMATE C-GG MAD2/3 BJ,comida,,,kg,"1,442kg",1.442,2.65,3.82,4.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,PEPINIL.SAND.AGRID.B.CAM.370GN,comida,,,frasco,370g,2.0,3.09,6.18,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,SSA TARTARA TUSCE 1KG,comida,,,bote,1kg,1.0,7.45,7.45,10.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,BOLSA CAM REC 65X70 3UG200,otros_consumo,,,bolsa,,1.0,0.89,0.89,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,ABREBOTELLAS PLANO ARO 11CM,otros_consumo,,,ud,,1.0,1.95,1.95,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,ABREBOTELLAS ARO 8CM 10 UD,otros_consumo,,,pack,10 ud,1.0,3.95,3.95,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,PINZA HIELO INOX MPRO 18CM X3,otros_consumo,,Metro Professional,pack,3 ud,2.0,3.95,7.9,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,"CATAVINO SERVICE LINE 15,5CL",otros_consumo,,,pack,"24x15,5cl",24.0,0.708,16.99,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,"VASO CHUPITO SHOT MPRO 3,4CLX6",otros_consumo,,Metro Professional,pack,"6x3,4cl",2.0,4.65,9.3,21.0
+14FiJLMSbSWQE3dpYheVPSo_d7wpw8OoP,"Makro Distribución Mayorista, S.A.",2026-07-11,COPA CAVA AVEIRO MPRO20CLX6,otros_consumo,,Metro Professional,caja,6x20cl,3.0,16.5,49.5,21.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,MIX GOURMET RIOBA 20GX50 CJ,comida,,Rioba,caja,50x20g,1.0,7.29,7.29,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,"CEBOLLA ROJA MC C-60/80 1 KG MA (Lote 01465, Origen Netherlands)",comida,,Makro Chef,malla,1kg,1.0,1.85,1.85,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,"CEBOLLA ROJA MC C-60/80 1 KG MA (Lote 01756, Origen Spain)",comida,,Makro Chef,malla,1kg,1.0,1.85,1.85,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,APIO DEL TERRENO BL 500 GR,comida,,,bolsa,500g,1.0,1.35,1.35,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,GERMINADOS RABANITOS ROSAS 90G BJ,comida,,,bandeja,90g,2.0,2.39,4.78,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,RABANITOS TA 500 GR,comida,,,tarrina,500g,1.0,2.59,2.59,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,CHERRY ATIGRADO MC C-M TA 500G BJ,comida,,Makro Chef,bandeja,500g,3.0,2.05,6.15,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,TOMATE BEEF MC C-GG MAD4/5 BJ KG,comida,,Makro Chef,kg,"1,188kg",1.188,3.05,3.62,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,TOMATE BEEF MC C-GG MAD4/5 BJ KG,comida,,Makro Chef,kg,"1,217kg",1.217,3.05,3.71,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,RUCULA SELVATICA MC BL 250G,comida,,Makro Chef,bolsa,250g,1.0,2.75,2.75,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,CANONIGOS MC TA 400G,comida,,Makro Chef,tarrina,400g,1.0,4.99,4.99,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,TOMATE RALLADO MC BT 500 ML,comida,,Makro Chef,bote,500ml,2.0,3.15,6.3,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,GUACAMOLE SUAVE MC TA 1 KG,comida,,Makro Chef,tarrina,1kg,1.0,7.19,7.19,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,LIMON BOTE 1 LITRO,comida,,,bote,1L,1.0,5.15,5.15,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,ENSALAD PMTO PIQ ALSUR 1500GNE LT,comida,,Alsur,lata,1500g,2.0,10.75,21.5,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PATATA PARIS BRICKC LT 1650GNE,comida,,,lata,1650g,1.0,10.05,10.05,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PMTO PIQ 60-80 MC LT 1900GNE,comida,,Makro Chef,lata,1900g,1.0,11.05,11.05,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PEPINILLO S/ANCH MC FC 1100GNE,comida,,Makro Chef,frasco,1100g,1.0,7.39,7.39,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,ALTRAMUCES SALADITOS BO 810GNE,comida,,Saladitos,bote,810g,1.0,2.79,2.79,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PIPARRA MC FR 700GNE,comida,,Makro Chef,frasco,700g,1.0,11.95,11.95,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,CEBOLLITA VINAG. MC FR FR 1100,comida,,Makro Chef,frasco,1100g,1.0,5.39,5.39,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,ACEI.RELL ANCH EXCEL.LT 2000GN,comida,,Excelencia,lata,2000g,1.0,19.55,19.55,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,ACEI MAN FI S-NAT MC LT2500GNE,comida,,Makro Chef,lata,2500g,1.0,14.54,14.54,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,AOVE COOSUR 750ML BT,comida,,Coosur,botella,750ml,1.0,6.25,6.25,4.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,WASABI POLVO FANYA 35G LT,comida,,Fanya,lata,35g,3.0,2.45,7.35,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,SNACK ALGAS SEA FRIEND 5GX3 PQ,comida,,Sea Friend,paquete,3x5g,1.0,2.05,2.05,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,MAYOWASABI RIOBA BIBERON 300ML UD,comida,,Rioba,biberon,300ml,1.0,2.95,2.95,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,"MAYONESA YBARRA 1,8L CB",comida,,Ybarra,cubo,"1,8L",1.0,8.89,8.89,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PATATAS FRITAS MADRILEÑA 1KG CJ,comida,,La Madrileña,bolsa,1kg,3.0,5.43,16.29,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,"COMPRA MÁS PAGA MENOS 0,66-",comida,,,,,1.0,-0.66,-0.66,10.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,B.BAS NEG ARO 85X105 100L 10U RT,otros_consumo,,,rollo,10 bolsas 100L,4.0,1.498,5.99,21.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,B.BAS ASEO BCA MPRO 10L 40UD,otros_consumo,,Makro Professional,rollo,40 bolsas 10L,1.0,2.35,2.35,21.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,BOLSA CAM REC 65X70 3UG200 BL,otros_consumo,,,bolsa,65x70cm,1.0,0.89,0.89,21.0
+1DvihecLMfKRrR9WYJq7NJd3kGVc_Rm4Z,"Makro Distribución Mayorista, S.A.",2026-07-07,PAPELERA T/BASCULANTE TH 9L UD,otros_consumo,,,ud,9L,2.0,6.95,13.9,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,PAN MOLD TRAMEZZINO MC 1KG,comida,,Metro Chef,paquete,1kg,1.0,6.25,6.25,4.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,MOZZ FRSCA 8UD 1KG LAFUENTE,comida,,Lafuente,caja,8ud/1kg,3.0,9.29,27.87,4.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,PULLED PORK BBQ BL 550G TULIP,comida,,Tulip,bolsa,550g,3.0,7.75,23.25,10.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,ZURRAPA LOMO ICARBEN TA 500G,comida,,Icarben,tarro,500g,3.0,5.55,16.65,10.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,SERV MPRO 20X20CM NEGRO 150UD,otros_consumo,,Metro Professional,paquete,150ud,2.0,1.95,3.9,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BOWL ENSALADERA MPRO 7CM,otros_consumo,,Metro Professional,caja,6ud,3.0,6.95,20.85,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BOWL ENSALADERA MPRO 9CM,otros_consumo,,Metro Professional,caja,6ud,2.0,8.15,16.3,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BOWL ENSALADERA MPRO 12CM,otros_consumo,,Metro Professional,caja,6ud,2.0,10.55,21.1,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,CUBETA MANUTENCION BCA 35L,otros_consumo,,,caja,35L,2.0,25.0,50.0,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,CUBETA RECTAN S/TAPA MPRO 35L,otros_consumo,,Metro Professional,ud,35L,1.0,14.29,14.29,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,FUENT MACA BCO MPRO 30X20CMX6,otros_consumo,,Metro Professional,pack,6ud (30x20cm),2.0,23.95,47.9,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,FUENTE MODERN 21X17 MPRO X6,otros_consumo,,Metro Professional,pack,6ud (21x17cm),2.0,16.95,33.9,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,PLAT LLA NAGGADO BC MPRO27CMX6,otros_consumo,,Metro Professional,pack,6ud (27cm),2.0,13.95,27.9,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BANDEJA OVAL INOX MPRO 20X15CM,otros_consumo,,Metro Professional,ud,20x15cm,22.0,1.55,34.1,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,CUCHILLO MESA ESCAND ARO X12,otros_consumo,,Aro,pack,12ud,2.0,5.15,10.3,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,SET SAL Y PIMIENTA ARO X2,otros_consumo,,Aro,set,2ud,1.0,1.6,1.6,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,TENEDOR MESA VERONA ARO X12,otros_consumo,,Aro,pack,12ud,2.0,3.05,6.1,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BANDEJA OVAL BORDE VUELTO 30CM,otros_consumo,,,ud,30cm,12.0,4.69,56.28,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,BANDEJA OVAL BORDE VUELTO 35CM,otros_consumo,,,ud,35cm,3.0,5.49,16.47,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,CUBO BASURA TAPA NGRO MPRO 95L,otros_consumo,,Metro Professional,ud,95L,1.0,21.95,21.95,21.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,COMPRA MAS PAGA MENOS (dto. sobre MOZZ FRSCA 8UD 1KG LAFUENTE),comida,,Lafuente,descuento,,1.0,-1.32,-1.32,4.0
+1QlBrd7Z_eZ9Q1FOf3K_uuuPJLIyw2cun,"Makro Distribucion Mayorista, S.A.",2026-07-08,COMPRA MÁS PAGA MENOS (dto. sobre BANDEJA OVAL BORDE VUELTO 30CM),otros_consumo,,,descuento,,1.0,-6.0,-6.0,21.0
+1rkfUZr1J0ToVH0xJapZlqNkC2PZTL6sX,Hielo Express Los Mellis,2026-07-13,HIELO PICADO,otros_consumo,,,ud,,5.0,4.55,22.73,10.0
+1rkfUZr1J0ToVH0xJapZlqNkC2PZTL6sX,Hielo Express Los Mellis,2026-07-13,HIELO,otros_consumo,,,ud,,124.0,3.64,450.91,10.0
+1VY9GskEaXSWQF7ZbwJCV_AWG0ZDCuZag,"Miguel Merino Distribuciones, S.L.",2026-07-10,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,48.0,12.16,583.68,21.0
+1VY9GskEaXSWQF7ZbwJCV_AWG0ZDCuZag,"Miguel Merino Distribuciones, S.L.",2026-07-10,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,12.0,13.56,162.72,21.0
+1VY9GskEaXSWQF7ZbwJCV_AWG0ZDCuZag,"Miguel Merino Distribuciones, S.L.",2026-07-10,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,botella,70cl,18.0,10.37,186.66,21.0
+1VY9GskEaXSWQF7ZbwJCV_AWG0ZDCuZag,"Miguel Merino Distribuciones, S.L.",2026-07-10,"MACALLAN 12 AÑOS DOUBLE CASK 0,7L(6U)",bebida,alcohol,The Macallan,botella,70cl,2.0,58.15,116.3,21.0
+1VY9GskEaXSWQF7ZbwJCV_AWG0ZDCuZag,"Miguel Merino Distribuciones, S.L.",2026-07-10,"ZACAPA RON 23 AÑOS 0,7L(6U)",bebida,alcohol,Ron Zacapa,botella,70cl,2.0,29.59,59.18,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,NARANJA MESA MC C-4/5 MA 2KG,comida,,Makro Chef,malla,2kg,1.0,2.95,2.95,4.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,LIMON MC C-4/5 MA 2KG,comida,,Makro Chef,malla,2kg,1.0,5.79,5.79,4.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,TOMATE RALLADO MC BT 1 L,comida,,Makro Chef,bote,1L,1.0,4.35,4.35,10.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,MOSTAZA Y MIEL SSA ASTURIA 1KG,comida,,Asturiana,bote,1kg,2.0,5.59,11.18,10.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,SERV MPRO 20X20CM NEGRO 150UD,otros_consumo,,Metro Professional,paquete,150ud,4.0,1.95,7.8,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,GUANTES NIT NGR MPRO TM 100UD,otros_consumo,,Metro Professional,caja,100ud,1.0,4.95,4.95,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,BOLSA CAM REC 65X70 3UG200,otros_consumo,,,pack,,1.0,0.89,0.89,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,PLA LLANO MODERN MPRO25X25CMx6,otros_consumo,,Metro Professional,pack,6ud,1.0,28.5,28.5,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,CENICERO NGR MELAM MPRO 10X3CM,otros_consumo,,Metro Professional,pack,6ud,2.0,21.15,42.3,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,CUCHARA CAFE ESCAND ARO X24,otros_consumo,,Aro,pack,24ud,3.0,2.95,8.85,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,BANDEJA C/ PINZA P/ NOTAS,otros_consumo,,,ud,,12.0,4.09,49.08,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,BANDEJA OVAL BORDE VUELTO 30CM,otros_consumo,,,ud,,16.0,4.69,75.04,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,COMPRA MAS PAGA MENOS (dto. bandeja c/ pinza ref 79104),otros_consumo,,,descuento,,1.0,-4.92,-4.92,21.0
+1PAL9DMqGkWxLVOGdloA9xo6bkmI9B1KO,"Makro Distribucion Mayorista, S.A.",2026-07-04,COMPRA MAS PAGA MENOS (dto. bandeja oval ref 80448),otros_consumo,,,descuento,,1.0,-8.0,-8.0,21.0
+13vJ1FdSWyE0QVolMn1e2IRHUSX3RWDE4,Miguel Merino Distribuciones SL,2026-07-06,"CLASE AZUL TEQUILA REPOSADO 0,7L(6U)",bebida,alcohol,Clase Azul,botella,70cl,2.0,154.45,308.9,21.0
+1BG4aomnDu4RWLC5C1RhAOBZZ5zsus-O9,"Miguel Merino Distribuciones, S.L.",2026-07-06,"CLASE AZUL TEQUILA PLATA 0,7L(6U)",bebida,alcohol,Clase Azul,botella,70cl,-2.0,96.85,-193.7,21.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,ENSALADILLA,comida,,,ud,,1.0,3.5,3.5,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,COCA COLA ZERO,bebida,refresco,Coca-Cola,botella,,1.0,2.5,2.5,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,"AGUA LANJARON 0,5 L.",bebida,agua,Lanjarón,botella,"0,5L",1.0,2.5,2.5,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,CAÑON,bebida,cerveza,,barril,,1.0,2.7,2.7,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,PAN Y PICOS,comida,,,ud,,2.0,1.2,2.4,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,CAFE CORTADO,bebida,otros,,ud,,1.0,1.8,1.8,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,CAFE LECHE,bebida,otros,,ud,,1.0,1.8,1.8,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,DOBLADILLO,comida,,,ud,,1.0,4.0,4.0,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,POLLO AL CURRY,comida,,,ud,,1.0,4.0,4.0,10.0
+1Pf19grJlgKJHfIJ9uyTiQto2wqxmUX34,"Hostelera Plato al Centro, S.L.U.",2026-07-02,GUNKAN,comida,,,ud,,4.0,3.0,12.0,10.0
+18jPUAORO_zVRyK4LKWbj6C_d2MEFJTS0,"Hostelera Plato al Centro, S.L.U.",2026-06-30,PIMIENTOS RELLENOS,comida,,,ud,,1.0,3.64,3.64,10.0
+18jPUAORO_zVRyK4LKWbj6C_d2MEFJTS0,"Hostelera Plato al Centro, S.L.U.",2026-06-30,ENSALADILLA,comida,,,ud,,1.0,3.18,3.18,10.0
+18jPUAORO_zVRyK4LKWbj6C_d2MEFJTS0,"Hostelera Plato al Centro, S.L.U.",2026-06-30,1/2 TOSTA CUATROPASO,comida,,,ud,,1.0,9.09,9.09,10.0
+18jPUAORO_zVRyK4LKWbj6C_d2MEFJTS0,"Hostelera Plato al Centro, S.L.U.",2026-06-30,CAÑA,bebida,cerveza,,barril,,3.0,2.27,6.82,10.0
+1PBoxpFczuyY0HPNaf0d09IQQf0mCeEAM,"Picking Gades, S.L.",2026-06-02,Tocino cielo lata 120g (C/14 uds) Tragus,comida,,Tragus,caja,14x120g,1.0,33.4,33.4,10.0
+1PBoxpFczuyY0HPNaf0d09IQQf0mCeEAM,"Picking Gades, S.L.",2026-06-02,Dos chocolates lata 120g (C/14 uds) Tragus,comida,,Tragus,caja,14x120g,1.0,33.4,33.4,10.0
+1PBoxpFczuyY0HPNaf0d09IQQf0mCeEAM,"Picking Gades, S.L.",2026-06-02,Limoncello lata 120g (C/14uds) Tragus,comida,,Tragus,caja,14x120g,1.0,33.4,33.4,10.0
+1PBoxpFczuyY0HPNaf0d09IQQf0mCeEAM,"Picking Gades, S.L.",2026-06-02,Queso frambuesa lata 120g (C14 uds) Tragus,comida,,Tragus,caja,14x120g,1.0,33.4,33.4,10.0
+1Trw4rcgjume9lm1R6sddbf82ZGSKoXmI,"Picking Gades, S.L. (Picking Cádiz)",2026-06-02,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,caja,12x135g,1.0,57.2658,57.27,10.0
+1Trw4rcgjume9lm1R6sddbf82ZGSKoXmI,"Picking Gades, S.L. (Picking Cádiz)",2026-06-02,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,caja,12x135g,1.0,57.2658,57.27,10.0
+1Av9BJNJLtMW9alqG-3LslnI3p8wGVuZW,Bazar Chino,2026-06-19,AGUA 1.5L,bebida,agua,,botella,1.5L,3.0,1.0,3.0,21.0
+1Av9BJNJLtMW9alqG-3LslnI3p8wGVuZW,Bazar Chino,2026-06-19,ALARGADOR,otros_consumo,,,ud,,1.0,29.0,29.0,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,60.0,10.32,619.2,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BARCELO AÑEJO 0,7L(12U)",bebida,alcohol,Ron Barceló,botella,70cl,24.0,12.87,308.88,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"RIVES EXOTICA GIN 0,7L(6U) PROMO CRUZADA",bebida,alcohol,Rives,botella,70cl,2.0,0.0,0.0,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BARCELO IMPERIAL 0,7L(6U)",bebida,alcohol,Ron Barceló,botella,70cl,6.0,21.36,128.16,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,60.0,12.16,729.6,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,48.0,13.56,650.88,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"HENDRICK´S GIN 0,7L(6U)",bebida,alcohol,Hendrick's,botella,70cl,6.0,23.94,143.64,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"MILLER`S GIN 0,7L(6U) 40 GRADOS",bebida,alcohol,Martin Miller's,botella,70cl,6.0,19.73,118.38,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,72.0,11.45,824.4,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"JAMESON 0,7L(6U)",bebida,alcohol,Jameson,botella,70cl,18.0,14.48,260.64,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,6.0,15.15,90.9,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"J.WALKER GREEN 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,3.0,43.22,129.66,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,96.0,11.51,1104.96,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"GREY GOOSE VODKA 0,7L(6U)",bebida,alcohol,Grey Goose,botella,70cl,18.0,37.34,672.12,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"GREY GOOSE VODKA 1,75L(6U) CON LUZ",bebida,alcohol,Grey Goose,botella,1.75L,6.0,96.55,579.3,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,botella,70cl,6.0,10.37,62.22,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"CLASE AZUL TEQUILA PLATA 0,7L(6U)",bebida,alcohol,Clase Azul,botella,70cl,4.0,96.85,387.4,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"CODIGO 1530 TEQUILA BLANCO 0,7L(6U)",bebida,alcohol,Código 1530,botella,70cl,6.0,46.55,279.3,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"MUMM C.ROUGE 0,75L(6U) SIN ESTUCHE",bebida,vino,G.H. Mumm,botella,75cl,6.0,34.78,208.68,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"M&C BRUT IMPERIAL ICE 0,75L(6U)",bebida,vino,Moët & Chandon,botella,75cl,2.0,45.25,90.5,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"DOM PERIGNON VINTAGE 0,75L(6U)(15)",bebida,vino,Dom Pérignon,botella,75cl,6.0,170.5,1023.0,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"SEAGRAM`S 0.0 GIN S/ALCOHOL 0,7L(6U)",bebida,otros,Seagram's,botella,70cl,2.0,0.0,0.0,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"ABSOLUT TABASCO 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,2.0,0.0,0.0,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"M&C BRUT IMPERIAL 0,75L(6U)",bebida,vino,Moët & Chandon,botella,75cl,2.0,34.6,69.2,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,12.0,21.47,257.64,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"J.WALKER BLUE 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,2.0,191.11,382.22,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"MACARONESIAN GIN 0,7L(6U)",bebida,alcohol,Macaronesian,botella,70cl,1.0,17.2,17.2,21.0
+1ikkSNo9RKAaD9zxue6IYz3xNTdgU5eSI,Merino (distribuidor de bebidas),2026-06-22,"BOLD CREW WHISKY 0,7L(6U)",bebida,alcohol,Bold Crew,botella,70cl,1.0,11.1,11.1,21.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,MANTEQUILLA MC BQ 1KG,comida,,Metro Chef,barqueta,1kg,1.0,9.21,9.21,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,QSO ESCAMAS CURADO ARO 500G,comida,,Aro,bolsa,500g,1.0,7.95,7.95,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,QSO EMMENTAL LONCH LAFUENT 1KG,comida,,Lafuente,paquete,1kg,1.0,8.75,8.75,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,BURRATA 125GX5 LAFUENTE,comida,,Lafuente,tarrina,5x125g,1.0,9.25,9.25,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,QSO HAVARTI LONCH ARLA 300G,comida,,Arla,bandeja,300g,2.0,5.15,10.3,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,LONCHAS TIPO CHEDD 1KG LAFUENT,comida,,Lafuente,paquete,1kg,1.0,5.99,5.99,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,SALMOREJO S/GLUTEN PET MC 1L,comida,,Metro Chef,botella,1L,1.0,3.29,3.29,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,PULLED PORK BBQ BL 550G TULIP,comida,,Tulip,estuche,550g,1.0,7.75,7.75,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,PREPAR. ENSALADILLA MC BL 2KG,comida,,Metro Chef,bolsa,2kg,2.0,6.95,13.9,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,HUMMUS CLASICO 500G YGRIEGA,comida,,Ygriega,tarrina,500g,2.0,1.75,3.5,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,COLA GAMBA SAL 130/200 MC 900G,comida,,Metro Chef,tarrina,900g,1.0,17.49,17.49,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,ZURRAPA LOMO ICARBEN TA 500G,comida,,Icarben,tarrina,500g,1.0,5.55,5.55,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,SOBRASADA IB TA 250G LEGADO,comida,,Legado,tarrina,250g,2.0,2.09,4.18,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,LIMON MC C-4/5 MA 2KG,comida,,Metro Chef,malla,2kg,1.0,6.79,6.79,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,GERMINADOS RABANITOS ROSAS 90G,comida,,,bandeja,90g,1.0,2.39,2.39,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,RABANITOS TA 500 GR,comida,,,tarrina,500g,1.0,2.59,2.59,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,APIO VDE BL 500G,comida,,,bolsa,500g,1.0,1.42,1.42,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,ZANAHORIA MC C-25/35MM 2KG,comida,,Metro Chef,bolsa,2kg,1.0,2.49,2.49,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,CHERRY ATIGRADO MC C-M TA 500G,comida,,Metro Chef,bandeja,500g,2.0,2.15,4.3,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,TOMATE BEEF MC C-GG MAD4/5 BJ,comida,,Metro Chef,kg,"1,296kg",1.296,2.95,3.82,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,TOMATE BEEF MC C-GG MAD4/5 BJ,comida,,Metro Chef,kg,"1,199kg",1.199,2.95,3.54,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,RUCULA SELVATICA BL 50GR,comida,,,bolsa,50g,2.0,1.15,2.3,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,CANONIGOS BL200G,comida,,,bolsa,200g,2.0,2.29,4.58,4.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,TOMATE RALLADO MC BT 1 L,comida,,Metro Chef,botella,1L,1.0,4.35,4.35,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,GUACAMOLE SUAVE MC TA 1 KG,comida,,Metro Chef,tarrina,1kg,1.0,5.75,5.75,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,ATUN FILETE NAT BL 950GNE BENI,comida,,,bolsa,950g,2.0,6.69,13.38,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,PIPARRA MC FR 150GNE,comida,,Metro Chef,frasco,150g,1.0,5.15,5.15,10.0
+1_MaEHrbBkbNX1XP9AjjVedyLbs_IioJg,"Makro Distribución Mayorista, S.A.",2026-06-17,CURRY MC 450G,comida,,Metro Chef,tarro,450g,1.0,4.05,4.05,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,REBUJO PICOS ANDRES 25GX50UD,comida,,Picos Andrés,caja,50x25g,1.0,6.69,6.69,4.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PASAS JUMBO S/P PRUNITA 1KG,comida,,Prunita,bolsa,1kg,1.0,7.85,7.85,4.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,ALMENDRA MARC FRIT SAL MC 500G,comida,,Makro Chef,bolsa,500g,1.0,13.25,13.25,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,NUEZ MONDADA CHILE MC 500G,comida,,Makro Chef,caja,500g,1.0,8.99,8.99,4.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,ENSAL PMTO PIQ ALSUR 355GNE,comida,,Alsur,lata,355g,2.0,2.55,5.1,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,TOMATE FRITO MARTINETE 415G,comida,,Martinete,bote,415g,3.0,1.09,3.27,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PMTO PIQ-AJILLO RIOVER FR310GN,comida,,Riover,frasco,310g,1.0,2.39,2.39,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PEPINIL.SAND.AGRID.B.CAM.370GN,comida,,,frasco,370g,2.0,3.09,6.18,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,COCKTAIL ACTE SARAS LT 600GNE,comida,,Saras,lata,600g,3.0,5.85,17.55,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,AOVE OLEOESTEPA 1L,comida,,Oleoestepa,botella,1L,1.0,7.39,7.39,4.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,SAL MALDON CUBO 570GR,comida,,Maldon,cubo,570g,1.0,10.65,10.65,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CEBOLLINO MC 70G,comida,,Makro Chef,tarro,70g,1.0,3.79,3.79,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CURCUMA MOLIDA MC 500G,comida,,Makro Chef,tarro,500g,1.0,3.29,3.29,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PIMIENTA NEGRA MOLIDA MC 550G,comida,,Makro Chef,tarro,550g,1.0,7.82,7.82,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PIMENTON DULCE DOP MPM 500GR,comida,,,bote,500g,1.0,7.49,7.49,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,WASABI PASTA BLUE DRAGON 45G,comida,,Blue Dragon,ud,45g,1.0,2.4,2.4,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,SSA TARTARA TUSCE 1KG,comida,,Tusce,bote,1kg,1.0,7.45,7.45,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,MOSTAZA DIJON BORNIER 720G,comida,,Bornier,frasco,720g,1.0,5.45,5.45,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,"MAYONESA YBARRA 1,8L",comida,,Ybarra,garrafa,1.8L,1.0,8.05,8.05,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,SSA PESTO GENOVESE MC 980G,comida,,Makro Chef,paquete,980g,1.0,7.15,7.15,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,SSA CALÇOTS FERRER 645G,comida,,Ferrer,bote,645g,1.0,4.69,4.69,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PATATAS FRITAS MADRILEÑA 1KG,comida,,Madrileña,caja,1kg,1.0,5.43,5.43,10.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,FILM TRANS MPRO 300MX29CM 7MC,otros_consumo,,Metro Professional,rollo,300mx29cm,1.0,6.95,6.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PAPEL HORNO ARO 50MX30CM,otros_consumo,,Aro,rollo,50mx30cm,1.0,5.09,5.09,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BOWL ENSALADERA MPRO 7CM,otros_consumo,,Metro Professional,caja,6 uds x 7cm,1.0,6.95,6.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BOWL ENSALADERA MPRO 9CM,otros_consumo,,Metro Professional,caja,6 uds x 9cm,1.0,8.15,8.15,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BOWL ENSALADERA MPRO 12CM,otros_consumo,,Metro Professional,caja,6 uds x 12cm,1.0,10.55,10.55,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PELADOR UNIVERSAL INOX 11CM,otros_consumo,,,ud,11cm,1.0,3.15,3.15,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,ESPATULA PLANCHA INOX 10X11.5C,otros_consumo,,Lacor,ud,10x11.5cm,1.0,3.69,3.69,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,TIJERA COCINA 235 MM,otros_consumo,,,ud,235mm,1.0,7.99,7.99,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,ESPATULA SILICONA MPRO 36CM,otros_consumo,,Metro Professional,ud,36cm,1.0,6.29,6.29,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BATIDOR INOX MPRO 29CM,otros_consumo,,Metro Professional,ud,29cm,1.0,4.95,4.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BOWL REDONDO INOX MPRO 24CM,otros_consumo,,Metro Professional,ud,24cm,2.0,6.95,13.9,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BOWL REDONDO INOX MPRO 30 CM,otros_consumo,,Metro Professional,ud,30cm,2.0,12.95,25.9,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,TABLA CORTE ARO BCA 40X30X1.5C,otros_consumo,,Aro,ud,40x30x1.5cm,1.0,13.05,13.05,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,PINCEL SILICONA MPRO21/4CM,otros_consumo,,Metro Professional,ud,21/4cm,1.0,3.95,3.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,MANGA PASTELERA MPRO 23X45 100,otros_consumo,,Metro Professional,caja,100 uds 23x45cm,1.0,9.45,9.45,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,AFILADOR 2 EN 1 MPRO,otros_consumo,,Metro Professional,ud,,1.0,10.2,10.2,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CUCHI CHEF EXP MPRO 200MM,otros_consumo,,Metro Professional,ud,200mm,1.0,10.5,10.5,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CUCHI PASTEL A/SLIP MPRO 260MM,otros_consumo,,Metro Professional,ud,260mm,1.0,9.95,9.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BASCULA PAGE COMPACT300 5KG,otros_consumo,,Page,ud,5kg,1.0,13.95,13.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,ESPATULA FIBRA 40CM S.ROMAIN,otros_consumo,,Saint Romain,ud,40cm,1.0,9.15,9.15,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CUBETA INOX GN 1/1 2CM MPRO,otros_consumo,,Metro Professional,ud,GN 1/1 2cm,4.0,8.5,34.0,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CUBETA INOX GN 1/1 10CM MPRO,otros_consumo,,Metro Professional,ud,GN 1/1 10cm,3.0,12.95,38.85,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,"MOLDE RDO INOX 10X4,5CM",otros_consumo,,Lacor,ud,10x4.5cm,1.0,4.15,4.15,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,MOLDE RDO INOX 10X6CM,otros_consumo,,Lacor,ud,10x6cm,1.0,5.69,5.69,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,DOSIFICADOR TRANSP 1040CC 2UD,otros_consumo,,,pack,2x1040cc,1.0,6.35,6.35,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,DOSIFICADOR TRANSP. MPRO760CCX,otros_consumo,,Metro Professional,ud,760cc,1.0,7.65,7.65,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,FUENT MACA BCO MPRO 30X20CMX6,otros_consumo,,Metro Professional,pack,6 uds 30x20cm,1.0,23.95,23.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,FUENTE MODERN 21X17 MPRO X6,otros_consumo,,Metro Professional,pack,6 uds 21x17cm,1.0,16.95,16.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,RAMEQUIN MELAM BC MPRO 7CM X6,otros_consumo,,Metro Professional,pack,6 uds 7cm,1.0,4.95,4.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,CUCHILLO SANTOKU EXP MPRO 180M,otros_consumo,,Metro Professional,ud,180mm,1.0,12.95,12.95,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BANDEJA OVAL INOX MPRO 20X15CM,otros_consumo,,Metro Professional,ud,20x15cm,1.0,1.55,1.55,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BANDEJA OVAL INOX MPRO 27X18CM,otros_consumo,,Metro Professional,ud,27x18cm,1.0,2.62,2.62,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BANDEJA OVAL BORDE VUELTO 40CM,otros_consumo,,,ud,40cm,1.0,7.45,7.45,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BANDEJA OVAL BORDE VUELTO 30CM,otros_consumo,,,ud,30cm,1.0,4.69,4.69,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,BANDEJA OVAL BORDE VUELTO 35CM,otros_consumo,,,ud,35cm,1.0,5.49,5.49,21.0
+1ddhUrlner8coIuRAtkxAfMLmWLiMoPd7,"Makro Distribución Mayorista, S.A.",2026-06-15,DELANTAL PETO CRUZADO TEJANO,otros_consumo,,,ud,,2.0,15.99,31.98,21.0
+1y9eninvmf5VV3c1y3Dc3otDovqz0OOYN,"Hostelera Plato al Centro, S.L.U.",2026-06-10,"MENU VARIABLE 2x 51,00 102,00",comida,,,ud,,2.0,46.36,92.73,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023905 NAVAJA OL-120 5/8 ESPINALER  REF. 244200,comida,,Espinaler,lata,OL-120,2.0,6.123,12.25,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,029121 CARACOL OL-120  ESPINALER REF. 290111,comida,,Espinaler,lata,OL-120,2.0,3.795,7.59,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023674 HIGADO DE BACALAO RR-125 ESPINALER REF,comida,,Espinaler,lata,RR-125,1.0,3.274,3.27,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,025051 ALMEJON AL NATURAL OL-120 ESPINALER  REF.,comida,,Espinaler,lata,OL-120,1.0,1.753,1.75,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023671 SALSA BOTELLIN 92ML ESPINALER REF 299075,comida,,Espinaler,botella,92ml,1.0,1.863,0.0,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023916 PIPARRAS T-60GR ESPINALER REF. 287187,comida,,Espinaler,tarro,60g,1.0,3.712,3.71,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,025319 SALSA CHILE HABANERO BOTELLIN 92ML,comida,,Espinaler,botella,92ml,1.0,1.973,1.97,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023672 SALSA PICANTE BOTELLIN 92ML ESPINALER REF,comida,,Espinaler,botella,92ml,1.0,1.863,1.86,10.0
+1yg-rePkYWSnah9aVZxG0q4Re-t1FaZ6T,"NARBONA SOLIS, S.L.",2026-04-01,023663 #VERMUT VINTAGE 50CL  ESPINALER REF.112051,bebida,vino,Espinaler,botella,50cl,1.0,5.205,0.0,10.0
