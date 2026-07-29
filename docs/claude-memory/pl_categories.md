@@ -20,6 +20,12 @@ metadata:
 
 **⚠ Reglas de época pre-apertura aún activas:** transferencias ENTRANTES sueltas (TRASPASO / TRANSF. A SU FAVOR / TRANSFER INMEDIATA sin pata cruzada) siguen → Aportaciones. Corrección conocida pendiente de aplicar: TRANSF. A SU FAVOR **+1.126,85 (01/05/2026)** es la devolución del cargo duplicado CNX 0001176170 de obra → Obra, no Aportación (user_override al ingestar).
 
-**Propuestas PENDIENTES de validar con el usuario (08/07/2026):** certificaciones "parte N certifica"/Florente → Obra; "sonido 1parte" → Sonido/Luces; neveras/mesa refrigerada/tostadora → ¿categoría nueva "Equipamiento"?; Viento Creativo (cartel fachada) → ¿Marketing?; bazares/Carrefour/supermercados → ¿COGS o menaje?; restaurantes (comidas equipo) → ¿Otros?; y sin identificar: Discount_ES, pago prezo, ALIEXPRESS, pulseras, AQUALAR, SUMINISTRSO UNIC, BARTER CONSULTANC, TRF.INTERNACIONAL, imposición a plazo 3.000 €.
+**Propuestas PENDIENTES de validar con el usuario (08/07/2026):** certificaciones "parte N certifica" → Obra; "sonido 1parte" → Sonido/Luces; neveras/mesa refrigerada/tostadora → ¿categoría nueva "Equipamiento"?; bazares/Carrefour/supermercados → ¿COGS o menaje?; restaurantes (comidas equipo) → ¿Otros?; y aún sin identificar: Discount_ES, ALIEXPRESS, imposición a plazo 3.000 €.
+
+**✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
+- **La constructora es "LORENTE Y MILLÁN CONSTRUCCIONES S.L."** (no "Florente" — lectura errónea del concepto bancario). Certificaciones = "PAGO TRANSFERENCIAS".
+- **El confirming Santander financia una certificación de obra de Lorente y Millán (32.343,05 €, fact. 04/06, cobro a vencimiento 19-22/06)** — pregunta antigua zanjada. Comisión: Santander Factoring 892,29 € (fact. 22/06).
+- `pago prezo` = FUTURE IS AN ATTITUDE S.L. (181,45) · `SUMINISTRSO UNIC` = Suministros Unic SL · `BARTER CONSULTANC` = Barter Consultancy Partners SL (605) · `pulseras` = Gráficas Pedraza (95,59) · `TRF.INTERNACIONAL` = BA visuals LLC (138) · `AQUALAR` = Aqualar Piscinas, ferretería/mantenimiento · neveras/mesa refrigerada/tostadora = Innovación y Diseño para Hostelería SL (equipamiento cocina) · Viento Creativo: "acopio material" 10.890 (30/04) + cartas menú 88 + un cargo 2.371,60 (08/07) SIN factura en Drive.
+- Facturas SIN cargo bancario visible aún y cargos SIN factura: ver columnas `pago_estado` en `data/facturas/registro_facturas.csv` (53 conciliadas / 36 sin extracto / 27 no encontradas).
 
 Relacionado: [[business-overview]], [[reference-proyecciones-sheet]], [[ignorar-fx-convention]], [[bank-format-santander]].
