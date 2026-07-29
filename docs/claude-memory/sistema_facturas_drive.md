@@ -13,7 +13,7 @@ metadata:
 - Documentación Dingui: `1jF3ZauLnSpD1TsG-NWGVffZLKK7KCErW`
 - Facturas (subcarpeta por mes): `1Y2gqblXGgD5QTlHrbf2EwGddiZtcBWpH`
 
-**⚠ Acceso:** el conector Drive de claude.ai va con `l.carvajal@atipikproperties.com` y a 29/07 esa cuenta NO ve estas dos carpetas (el sheet de proyecciones sí, está compartido). El usuario debe compartirlas con esa cuenta; hasta entonces el sistema está montado pero sin datos.
+**Acceso:** concedido 29/07 (compartidas con `l.carvajal@atipikproperties.com`, cuenta del conector). **Censo COMPLETO 29/07/2026: 118/118 facturas procesadas** (5 subcarpetas: 1er trimestre, abril, mayo, junio, julio 26), 389 líneas F&B. Bebida 18 fact/~31K (alcohol 19,2K > refrescos 3,1K [casa Pepsi/Schweppes vía Melgarejo; CCEP solo 160€ vidrio retornable] > vino 2,1K [Dom Pérignon, Moët] > cerveza 346€ [solo 2 barriles Cruzcampo 50L — Dingui vende copas, no cerveza]). Comida ~3,9K (La Encina jamones 2,5K, Makro, Picking). Proveedor bebida dominante: **Miguel Merino Distribuciones** (~20K). Detectado y marcado 1 duplicado (Melgarejo N3371 subida 2 veces). Las facturas de Coca-Cola CCEP vienen en formato albarán con envases retornables — a los agentes les cuesta, revisar sus líneas a mano.
 
 **Dónde vive:** `data/facturas/` (git-tracked, excepción en .gitignore): `registro_facturas.csv` (una fila por archivo Drive, clave = drive_id — el diff contra esto evita reprocesar), `lineas_facturas.csv` (detalle línea a línea SOLO comida/bebida) y `README.md` (esquema completo). PDFs NO van al repo: cache local `data/facturas/cache/` (gitignored), Drive es la fuente.
 
