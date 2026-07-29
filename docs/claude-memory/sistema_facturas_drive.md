@@ -17,6 +17,8 @@ metadata:
 
 **Dónde vive:** `data/facturas/` (git-tracked, excepción en .gitignore): `registro_facturas.csv` (una fila por archivo Drive, clave = drive_id — el diff contra esto evita reprocesar), `lineas_facturas.csv` (detalle línea a línea SOLO comida/bebida) y `README.md` (esquema completo). PDFs NO van al repo: cache local `data/facturas/cache/` (gitignored), Drive es la fuente.
 
+**Email → facturas (montado 29/07, PENDIENTE de credenciales):** `scripts/gmail_facturas.py` — extractor IMAP del buzón de facturas de Dingui (cuenta DISTINTA de la del conector, confirmado por el usuario; probablemente info@dinguiclub.com — confirmar). Necesita `GMAIL_USER`+`GMAIL_APP_PASSWORD` (contraseña de aplicación, requiere 2FA) en `.env`. Baja adjuntos PDF/JPG/PNG ≥8KB sin pre-filtrar, dedup por sha256+message_id en `email_registro.csv` (git-tracked), archivos a `email_inbox/` (gitignored). Ciclo completo previsto: email → revisar bandeja → subir a Drive (carpeta del mes) → workflow procesar-facturas → conciliar banco.
+
 **Procesamiento:** workflow `.claude/workflows/procesar-facturas.js` (committeado): Inventario Drive → diff vs registro → un agente por factura nueva (descarga+Read+extracción con schema) → verificación adversarial de sumas y clasificación en las F&B. Pasar `args.procesados` = drive_ids ya en el CSV.
 
 **Taxonomía bebida:** tipo_bebida = refresco (incl. tónicas/zumos/energéticas) | cerveza | alcohol (destilados/licores) | vino (incl. cava/champán; Moët=vino) | agua | otros. Marca siempre normalizada (Coca-Cola, Cruzcampo, Ballantine's…). Cerveza: formato barril | botellin | lata. Hielo/desechables = otros_consumo.

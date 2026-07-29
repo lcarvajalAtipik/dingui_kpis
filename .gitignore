@@ -227,6 +227,8 @@ data/*
 # Los PDFs en sí NO (viven en Drive, se cachean localmente en cache/)
 !data/facturas/
 data/facturas/cache/
+# Adjuntos descargados del email (se suben a Drive, que es la fuente canónica)
+data/facturas/email_inbox/
 # Base de datos local
 db/
 # Gráficos y artefactos generados

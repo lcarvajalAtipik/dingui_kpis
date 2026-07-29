@@ -37,6 +37,13 @@ cada archivo para no reprocesar jamás.
 | `contenido` | Volumen/pack si consta ("50L", "24x33cl", "70cl") |
 | `unidades`, `precio_unitario_eur`, `importe_eur`, `iva_pct` | Números de la línea |
 
+### `email_registro.csv` — adjuntos detectados en el buzón de Dingui
+Estado de cada adjunto bajado por `scripts/gmail_facturas.py` (IMAP, credenciales
+`GMAIL_USER`/`GMAIL_APP_PASSWORD` en `.env`): `descargado` → `subido_drive` (con su
+`drive_id`) → `procesado`, o `descartado` (no era factura). Dedup por sha256 +
+message_id. Los archivos en sí caen en `email_inbox/` (gitignored): Drive sigue
+siendo la fuente canónica — lo que valga se sube a la carpeta del mes.
+
 ## Flujo (al llegar facturas nuevas)
 
 1. Listar archivos de TODAS las subcarpetas de mes en Drive.
