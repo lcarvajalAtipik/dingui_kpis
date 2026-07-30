@@ -388,3 +388,356 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 13upGkzmxJt_eaiJmViShlNSoHeXlmG3N,Coca-Cola European Partners Iberia SLU,2026-07-01,COCACOLA VR237 C24,bebida,refresco,Coca-Cola,caja retornable,24x237ml,4.0,17.83,71.33,21.0
 13upGkzmxJt_eaiJmViShlNSoHeXlmG3N,Coca-Cola European Partners Iberia SLU,2026-07-01,COCACOLA ZER VR237 C24,bebida,refresco,Coca-Cola Zero,caja retornable,24x237ml,4.0,17.83,71.33,21.0
 13upGkzmxJt_eaiJmViShlNSoHeXlmG3N,Coca-Cola European Partners Iberia SLU,2026-07-01,FUZE LIMON VR30 C24,bebida,refresco,Fuze Tea,caja retornable,24x300ml,1.0,17.74,17.74,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1.55 BARRIL CRUZCAMPO 50L,bebida,cerveza,Cruzcampo,barril,50L,3.0,168.0,504.0,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,7032 VASOS MACETA PABLO,otros_consumo,,,,,5.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1.131 1/3 RET. HEINEKEN LONG NECK (dto 30%),bebida,cerveza,Heineken,botellin,24x33cl,2.0,40.88,57.25,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,10073 BTLL HITO 75CL,bebida,vino,Hito (Cepa 21),,75cl,5.0,9.04,45.2,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,10073 BTLL HITO 75CL ** Promocion **,bebida,vino,Hito (Cepa 21),,75cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,20003 BTLLA HITO ROSADO 75CL,bebida,vino,Hito (Cepa 21),,75cl,6.0,7.58,45.48,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,4.200 TUBO 10 KILOS CO2,otros_consumo,,,,10kg,1.0,31.5,31.5,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,45393 BTLLA RV GINEBRA RIVES 70 CL (dto 3%),bebida,alcohol,Rives,,70cl,12.0,8.41,97.89,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,45799 RIVES ESPECIAL 70CL (dto 3%),bebida,alcohol,Rives,,70cl,6.0,19.52,113.61,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,45805 RIVES LONDON 1880 70cl (dto 3%),bebida,alcohol,Rives,,70cl,6.0,12.35,71.88,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"45808 RIVES GIN EXOTICA 70CL (dto 3,01%)",bebida,alcohol,Rives,,70cl,6.0,12.59,73.27,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"47797 LICOR AMOR AMARETTO RIVES 70cl (dto 3,01%)",bebida,alcohol,Rives,,70cl,6.0,7.92,46.09,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,50060 BTLLA. FINO QUINTA 75cl,bebida,vino,Osborne (Fino Quinta),,75cl,5.0,5.42,27.11,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,50060 BTLLA. FINO QUINTA 75cl ** Promocion **,bebida,vino,Osborne (Fino Quinta),,75cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"51965 HEINEKEN 0.0% 33cl 24 UDS (dto 29,99%)",bebida,cerveza,Heineken,botellin,24x33cl,2.0,42.59,59.65,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,56031 RED BULL ENERG 25cl 24 UDS,bebida,refresco,Red Bull,,24x25cl,4.0,23.55,94.36,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"56082 CRUZCAMPO SIN GLUTEN 33cl. 12 UDS (dto 20,01%)",bebida,cerveza,Cruzcampo,botellin,12x33cl,2.0,18.29,29.57,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,56799 DESPERADOS 33cl 24 UDS (dto 45%),bebida,cerveza,Desperados,botellin,24x33cl,1.0,62.93,34.97,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"59118 C.C RADLER 33cl 24 UDS (dto 32,99%)",bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,38.16,25.58,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,61784 1/3 CRUZCAMPO PILSEN RET (dto 30%),bebida,cerveza,Cruzcampo,botellin,24x33cl,8.0,33.06,185.22,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"67997 CRUZCAMPO 1904 BR CAJA 24X33 CL (dto 25,99%)",bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,35.21,26.07,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,87067 SEVEN FREE RET 200 CC (dto 30%),bebida,refresco,7Up,,20cl (caja retornable),6.0,23.28,97.78,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,87386 PEPSI MAX AXL RET 200CC (dto 30%),bebida,refresco,Pepsi,,20cl (caja retornable),6.0,24.96,104.83,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,87388 PEPSI REGULAR AXL RET 200 CC (dto 30%),bebida,refresco,Pepsi,,20cl (caja retornable),6.0,24.96,104.83,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,91360 AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,,33cl (caja),3.0,24.58,73.74,10.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"93263 SCH TONIC ZERO 20CL RET 28 UND (dto 30,01%)",bebida,refresco,Schweppes,,28x20cl,1.0,31.92,22.34,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,900051 BTLL RIOJA E.LIMITADA MONTECILLO,bebida,vino,Montecillo,,75cl,5.0,8.47,42.33,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,900051 BTLL RIOJA E.LIMITADA MONTECILLO ** Promocion **,bebida,vino,Montecillo,,75cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,930331 AQUAREL PET 33cl 35 UDS,bebida,agua,Nestlé Aquarel,,35x33cl,4.0,5.92,24.16,10.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"1160064 BTLLA WHITE LABEL 0,70 - DEMENTE (dto 24,50%)",bebida,alcohol,Dewar's (White Label),,70cl,24.0,10.24,185.55,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1650002 MONTECILLO BLANCO VERDEJO,bebida,vino,Montecillo,,75cl,5.0,6.06,30.29,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1650002 MONTECILLO BLANCO VERDEJO ** Promocion **,bebida,vino,Montecillo,,75cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1800028 BTLLA GIN NORDES,bebida,alcohol,Nordes,,70cl,5.0,21.58,107.88,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1800028 BTLLA GIN NORDES ** Promocion **,bebida,alcohol,Nordes,,70cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,2590002 RON AÑEJO 5 AÑOS FLOR DE CAÑA,bebida,alcohol,Flor de Caña,,70cl,5.0,11.08,55.4,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,2590002 RON AÑEJO 5 AÑOS FLOR DE CAÑA ** Promocion **,bebida,alcohol,Flor de Caña,,70cl,1.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,CMM CUBITERA METALICA MONTECILLO BARRA,otros_consumo,,,,,2.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,F96176 SCH TONICA RET 28X1X200ML (dto 30%),bebida,refresco,Schweppes,,28x20cl,10.0,31.92,223.44,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"F96223 SCH WILD BERRY RET 28X20CL (dto 29,99%)",bebida,refresco,Schweppes,,28x20cl,2.0,26.04,36.46,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,F98023 LCA TDV LIMON RET 24X1X275ML (dto 30%),bebida,refresco,Trina,,"24x27,5cl",2.0,32.88,46.03,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"F98072 LCA TDV GASEOASA RET (dto 29,99%)",bebida,refresco,La Casera,,"24x27,5cl",1.0,32.88,23.02,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"F98215 SCH NARANJA LOW CAL RET 28X1X200 (dto 29,99%)",bebida,refresco,Schweppes,,28x20cl,2.0,26.04,36.46,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,F98216 SCH LIMO LOW RET 28X200ML (dto 30%),bebida,refresco,Schweppes,,28x20cl,4.0,26.04,72.91,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,F98820 SCH GINBEER PREMIUM CHILI 12X20CL,bebida,refresco,Schweppes,,12x20cl,4.0,23.28,93.84,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,CMM CUBITERA METALICA MONTECILLO BARRA (devolucion),otros_consumo,,,,,-2.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,146 FIANZA 1/3 CRUZCAMPO,otros_consumo,,,,,9.0,3.7,33.3,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,904 FIANZA BARRIL 50 L,otros_consumo,,,,,3.0,12.02,36.06,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1.132 FIANZA 1/3 HEINEKEN LONG,otros_consumo,,,,,4.0,3.7,14.8,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,46428 FIANZA 1/3 AMSTEL RET,otros_consumo,,,,,1.0,3.7,3.7,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,4.2020 ENVASES TUBOS,otros_consumo,,,,,1.0,50.0,50.0,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,7007014 CAJA C/BOT SEVEN-UP 200 CC (fianza envase),otros_consumo,,,,,6.0,4.8,28.8,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,7007046 CAJA C/BOT PEPSI 200 RET (fianza envase),otros_consumo,,,,,12.0,4.8,57.6,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"7009120 CAJA C/BOT TRINA 27,5 RET (fianza envase)",otros_consumo,,,,,3.0,4.8,14.4,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,7009130 CAJA C/BOT SCHWEPPES 200 RET (fianza envase),otros_consumo,,,,,19.0,5.2,98.8,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"207120 CC MESA ALTA (comodato, albaran F-30612)",otros_consumo,,,,,10.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"62229221 TABURETES CRUZCAMPO HPTL NEGRA 75X31X31 (comodato, albaran F-30612)",otros_consumo,,,,,40.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"ARMARIO ARMARIO VERTICAL CONSERVACION (comodato, albaran F-30612)",otros_consumo,,,,,1.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"62008986CC MESA NEGRA CRUZCAMPO TERRAZA (comodato, albaran F-30790)",otros_consumo,,,,,4.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"62014351 BOTELLERO METALICO CRUZCAMPO (comodato, albaran F-30790)",otros_consumo,,,,,2.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,"62008985CC SILLA NEGRA CRUZCAMPO TERRAZA (comodato, albaran F-30790)",otros_consumo,,,,,16.0,,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1650002 MONTECILLO BLANCO VERDEJO (albaran J-124825),bebida,vino,Montecillo,,75cl,10.0,6.06,60.58,21.0
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,1650002 MONTECILLO BLANCO VERDEJO ** Promocion ** (albaran J-124825),bebida,vino,Montecillo,,75cl,2.0,0.0,0.0,
+email:815328ab78e6a569,Melgarejo Distribuidores de Bebidas SL,2026-06-30,62228086 VASOS MACETA 6x55cl 2024 (albaran J-124825),otros_consumo,,,,6x55cl,5.0,,0.0,
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BARRIL CRUZCAMPO 50L,bebida,cerveza,Cruzcampo,barril,50L,2.0,168.0,336.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,RED BULL ENERG 25cl 24 UDS,bebida,refresco,Red Bull,,24x25cl,5.0,23.55,117.95,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,caja 200ml RET,2.0,23.28,32.59,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,3.0,5.92,18.12,10.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x200ml,6.0,26.04,93.74,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x200ml,6.0,26.04,93.74,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA BARRIL 50 L,otros_consumo,,,,,2.0,12.02,24.04,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,2.0,4.8,9.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,12.0,5.2,62.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,caja 200ml RET,3.0,24.96,48.67,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x200ml,3.0,26.04,46.87,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-19.0,5.2,-98.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,-6.0,4.8,-28.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,3.0,4.8,14.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,3.0,5.2,15.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,VASOS MACETA PABLO,otros_consumo,,,,,4.0,0.0,0.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,12.0,8.41,97.89,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CRUZCAMPO SIN GLUTEN 33cl. 12 UDS,bebida,cerveza,Cruzcampo,botellin,12x33cl,1.0,18.29,14.78,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,1/3 CRUZCAMPO PILSEN RET,bebida,cerveza,Cruzcampo,botellin,24x33cl,4.0,33.06,92.61,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,caja 200ml RET,2.0,23.28,32.59,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,caja 200ml RET,3.0,24.96,48.67,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,caja 200ml RET,4.0,24.96,64.9,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,,33x20cl,1.0,24.58,24.58,10.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,1.0,5.92,6.04,10.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,"BTLLA WHITE LABEL 0,70 - DEMENTE",bebida,alcohol,Dewar's White Label,,70cl,12.0,10.24,92.77,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,MONTECILLO BLANCO VERDEJO,bebida,vino,Montecillo,,75cl,10.0,6.06,60.58,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,MONTECILLO BLANCO VERDEJO ** Promocion **,bebida,vino,Montecillo,,75cl,2.0,0.0,0.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x200ml,12.0,31.92,268.13,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x200ml,4.0,26.04,62.5,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x200ml,3.0,26.04,46.87,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML (abono),bebida,refresco,Schweppes,,28x200ml,-4.0,26.04,-62.5,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA 1/3 CRUZCAMPO,otros_consumo,,,,,4.0,3.7,14.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,2.0,4.8,9.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,7.0,4.8,33.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,15.0,5.2,78.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BARRIL CRUZCAMPO 50L,bebida,cerveza,Cruzcampo,barril,50L,2.0,168.0,336.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA BARRIL 50 L (devolución),otros_consumo,,,,,-1.0,12.02,-12.02,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-12.0,4.8,-57.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-9.0,5.2,-46.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA 1/3 CRUZCAMPO (devolución),otros_consumo,,,,,-4.0,3.7,-14.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,-3.0,4.8,-14.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA BARRIL 50 L,otros_consumo,,,,,2.0,12.02,24.04,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,caja 200ml RET,4.0,24.96,64.9,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,caja 200ml RET,4.0,24.96,64.9,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-15.0,4.8,-72.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-9.0,5.2,-46.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,8.0,4.8,38.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,12.0,8.41,97.89,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,C.C RADLER 33cl 24 UDS,bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,38.16,38.17,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,caja 200ml RET,7.0,23.28,114.07,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,caja 200ml RET,3.0,24.96,48.67,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,caja 200ml RET,3.0,24.96,48.67,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,,33x20cl,7.0,24.58,172.06,10.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,7.0,5.92,42.29,10.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,"BTLLA WHITE LABEL 0,70 - DEMENTE",bebida,alcohol,Dewar's White Label,,70cl,12.0,10.24,92.77,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x200ml,10.0,31.92,223.44,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-8.0,5.2,-41.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-8.0,4.8,-38.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,-3.0,4.8,-14.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,FIANZA 1/3 AMSTEL RET,otros_consumo,,,,,1.0,3.7,3.7,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,7.0,4.8,33.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,6.0,4.8,28.8,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,10.0,5.2,52.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLL RIOJA E.LIMITADA MONTECILLO,bebida,vino,Montecillo,,75cl,5.0,8.47,42.33,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLL RIOJA E.LIMITADA MONTECILLO ** Promocion **,bebida,vino,Montecillo,,75cl,1.0,0.0,0.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,"BTLL. AMPERSAND GIN 0,70",bebida,alcohol,Ampersand,,70cl,5.0,11.23,56.14,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,"BTLL. AMPERSAND GIN 0,70 ** Promocion **",bebida,alcohol,Ampersand,,70cl,1.0,0.0,0.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,RON AÑEJO 5 AÑOS FLOR DE CAÑA,bebida,alcohol,Flor de Caña,,70cl,5.0,11.08,55.4,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,RON AÑEJO 5 AÑOS FLOR DE CAÑA ** Promocion **,bebida,alcohol,Flor de Caña,,70cl,1.0,0.0,0.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x200ml,12.0,26.04,187.49,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-5.0,5.2,-26.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-5.0,4.8,-24.0,21.0
+email:1ea81eb0e7c9816a,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,12.0,5.2,62.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,1/3 RET. HEINEKEN LONG NECK,bebida,cerveza,Heineken,botellin,24x33cl,1.0,40.88,40.89,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,18.0,8.41,146.84,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,5.0,23.28,81.48,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,7.0,24.96,113.57,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,RIVES GIN EXOTICA 70CL,bebida,alcohol,Rives,,70cl,6.0,12.59,73.27,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,1/3 CRUZCAMPO PILSEN RET,bebida,cerveza,Cruzcampo,botellin,24x33cl,5.0,33.06,165.35,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,6.0,24.96,97.34,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,4.0,5.92,24.16,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,"BTLLA WHITE LABEL 0,70 - DEMENTE",bebida,alcohol,Dewar's White Label,,70cl,48.0,10.24,371.1,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,8.0,31.92,204.29,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,2.0,26.04,31.25,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,5.0,26.04,78.12,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 CRUZCAMPO,otros_consumo,,Cruzcampo,,,5.0,3.7,18.5,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 HEINEKEN LONG,otros_consumo,,Heineken,,,1.0,3.7,3.7,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,13.0,4.8,62.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,15.0,5.2,78.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,5.0,23.28,81.48,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,129.79,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,129.79,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,8.0,31.92,178.75,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,4.0,26.04,62.5,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,5.0,26.04,78.12,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,-12.0,4.8,-57.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,-5.0,4.8,-24.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA BARRIL 50 L,otros_consumo,,,,50L,-1.0,12.02,-12.02,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,-31.0,5.2,-161.2,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 CRUZCAMPO,otros_consumo,,Cruzcampo,,,-6.0,3.7,-22.2,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 HEINEKEN LONG,otros_consumo,,Heineken,,,-2.0,3.7,-7.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,16.0,4.8,76.8,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,17.0,5.2,88.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,139.78,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,6.0,31.92,134.06,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,3.0,26.04,54.68,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,2.0,23.28,32.59,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,139.78,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,6.0,26.04,109.37,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,2.0,4.8,9.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,16.0,4.8,76.8,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,15.0,5.2,78.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BOTELLERO METALICO CRUZCAMPO,otros_consumo,,Cruzcampo,,,-1.0,,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BOTELLERO METALICO CRUZCAMPO,otros_consumo,,Cruzcampo,,,1.0,,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,5.0,23.28,81.48,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,139.78,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,139.78,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AMPERSAND GIN MELON,bebida,alcohol,Ampersand,,70cl,5.0,11.26,56.29,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AMPERSAND GIN MELON ** Promocion **,bebida,alcohol,Ampersand,,70cl,1.0,0.0,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,RON AÑEJO 5 AÑOS FLOR DE CAÑA,bebida,alcohol,Flor de Caña,,70cl,20.0,11.08,221.58,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,RON AÑEJO 5 AÑOS FLOR DE CAÑA ** Promocion **,bebida,alcohol,Flor de Caña,,70cl,4.0,0.0,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,RON FLOR DE CAÑA 12 AÑOS CENTENARIO,bebida,alcohol,Flor de Caña,,70cl,5.0,20.55,102.75,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,RON FLOR DE CAÑA 12 AÑOS CENTENARIO ** Promocion **,bebida,alcohol,Flor de Caña,,70cl,1.0,0.0,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,8.0,31.92,178.75,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,4.0,26.04,62.5,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,5.0,26.04,78.12,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,-33.0,5.2,-171.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,-34.0,4.8,-163.2,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,-12.0,4.8,-57.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 CRUZCAMPO,otros_consumo,,Cruzcampo,,,-1.0,3.7,-3.7,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,16.0,4.8,76.8,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,17.0,5.2,88.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,2.0,23.28,32.59,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,129.79,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,129.79,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,7.0,31.92,156.41,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,2.0,26.04,31.25,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,7.0,26.04,127.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,2.0,4.8,9.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,16.0,4.8,76.8,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,16.0,5.2,83.2,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,4.0,24.96,69.89,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,8.0,24.96,139.78,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,12.0,4.8,57.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,2.0,23.28,32.59,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,,33cl,1.0,24.58,24.58,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,3.0,5.92,18.12,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH SEL AGUA CON GAS 12X1X20CL,bebida,agua,Schweppes,,12x20cl,2.0,23.28,23.64,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,2.0,26.04,36.46,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,2.0,4.8,9.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,2.0,5.2,10.4,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEPARADOR NEGRO TEXT CIRSTAL TEMPLADO,otros_consumo,,,,,2.0,,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BOTELLERO EN PRESTAMO,otros_consumo,,,,,-1.0,,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BOTELLERO METALICO CRUZCAMPO,otros_consumo,,Cruzcampo,,,1.0,,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,10.0,23.28,162.96,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,4.0,24.96,69.89,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,16.0,24.96,259.58,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AGUA EVIAN CON GAS 200 X33 CL,bebida,agua,Evian,,33cl,3.0,24.58,73.74,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,6.0,5.92,36.25,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH TONICA RET 28X1X200ML,bebida,refresco,Schweppes,,28x20cl,5.0,31.92,111.72,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH SEL AGUA CON GAS 12X1X20CL,bebida,agua,Schweppes,,12x20cl,3.0,23.28,35.46,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,4.0,26.04,72.91,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,4.0,26.04,72.91,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET,otros_consumo,,Pepsi,,,-24.0,4.8,-115.2,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,-5.0,4.8,-24.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI MAX AXL RET 200CC,bebida,refresco,Pepsi,,20cl,-4.0,24.96,-69.89,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,PEPSI REGULAR AXL RET 200 CC,bebida,refresco,Pepsi,,20cl,-16.0,24.96,-259.58,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,7Up,,,10.0,4.8,48.0,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT PEPSI 200 RET (sin cantidad ni importe en factura),otros_consumo,,Pepsi,,,,4.8,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,13.0,5.2,67.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,30.0,8.41,244.73,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA RV GINEBRA RIVES 70 CL ** Promocion **,bebida,alcohol,Rives,,70cl,6.0,0.0,0.0,
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CRUZCAMPO SIN GLUTEN 33cl. 12 UDS,bebida,cerveza,Cruzcampo,botellin,12x33cl,1.0,18.29,18.44,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,C.C RADLER 33cl 24 UDS,bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,38.16,38.17,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,1/3 CRUZCAMPO PILSEN RET,bebida,cerveza,Cruzcampo,botellin,24x33cl,3.0,33.06,99.21,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,AQUAREL PET 33cl 35 UDS,bebida,agua,Aquarel,,35x33cl,5.0,5.92,30.2,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,"BTLLA WHITE LABEL 0,70 - DEMENTE",bebida,alcohol,Dewar's White Label,,70cl,36.0,10.24,278.32,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH SEL AGUA CON GAS 12X1X20CL,bebida,agua,Schweppes,,12x20cl,5.0,23.28,59.1,10.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH NARANJA LOW CAL RET 28X1X200,bebida,refresco,Schweppes,,28x20cl,2.0,26.04,31.25,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SCH LIMO LOW RET 28X200ML,bebida,refresco,Schweppes,,28x20cl,6.0,26.04,109.37,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,-18.0,5.2,-93.6,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 CRUZCAMPO,otros_consumo,,Cruzcampo,,,3.0,3.7,11.1,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,FIANZA 1/3 AMSTEL RET,otros_consumo,,Amstel,,,1.0,3.7,3.7,21.0
+email:7b9862ba1a0f5271,Melgarejo Distribuidores de Bebidas SL,2026-07-27,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,Schweppes,,,8.0,5.2,41.6,21.0
+email:f707f85504c90a17,Melgarejo Distribuidores de Bebidas SL,2026-05-31,PEPSI MAX LATA 330 SIN HICONE,bebida,refresco,Pepsi,lata,33cl,1.0,40.32,0.01,21.0
+email:df35bcf14bc2ff53,Miguel Merino Distribuciones SL,2026-07-16,"CLASE AZUL TEQUILA REPOSADO 0,7L(6U)",bebida,alcohol,Clase Azul,botella,70cl,1.0,154.45,154.45,21.0
+email:df35bcf14bc2ff53,Miguel Merino Distribuciones SL,2026-07-16,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,48.0,12.16,583.68,21.0
+email:df35bcf14bc2ff53,Miguel Merino Distribuciones SL,2026-07-16,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,lata,24x25cl,6.0,29.3,175.78,21.0
+email:df35bcf14bc2ff53,Miguel Merino Distribuciones SL,2026-07-16,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,24.0,10.32,247.68,21.0
+email:3fa5fd681998bf7f,Miguel Merino Distribuciones SL,2026-07-27,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,lata,24x25cl,10.0,29.3,292.96,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,,70cl,-60.0,10.32,-619.2,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,,70cl,60.0,10.03,601.99,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,-60.0,12.16,-729.6,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,60.0,11.82,709.32,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,-48.0,13.56,-650.88,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,48.0,13.18,632.79,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-72.0,11.45,-824.4,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,72.0,11.13,801.48,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"JAMESON 0,7L(6U)",bebida,alcohol,Jameson,,70cl,-18.0,14.48,-260.64,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"JAMESON 0,7L(6U)",bebida,alcohol,Jameson,,70cl,18.0,14.08,253.39,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-6.0,15.15,-90.9,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,6.0,14.73,88.37,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER GREEN 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,-3.0,43.22,-129.66,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER GREEN 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,3.0,42.27,126.82,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,-96.0,11.51,-1104.96,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,96.0,11.19,1074.24,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"GREY GOOSE VODKA 0,7L(6U)",bebida,alcohol,Grey Goose,,70cl,-18.0,37.34,-672.12,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"GREY GOOSE VODKA 0,7L(6U)",bebida,alcohol,Grey Goose,,70cl,18.0,36.5,657.06,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,,70cl,-6.0,10.37,-62.22,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,,70cl,6.0,10.08,60.49,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"CODIGO 1530 TEQUILA BLANCO 0,7L(6U)",bebida,alcohol,Código 1530,,70cl,-6.0,46.55,-279.3,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"CODIGO 1530 TEQUILA BLANCO 0,7L(6U)",bebida,alcohol,Código 1530,,70cl,6.0,45.26,271.54,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,-12.0,21.47,-257.64,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,12.0,20.87,250.45,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLUE 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,-2.0,191.11,-382.22,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLUE 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,2.0,186.87,373.73,21.0
+email:bc032d66ea151891,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 18826/26A,otros_consumo,,,,,,,0.0,4.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,-48.0,12.16,-583.68,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,48.0,11.82,567.45,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,-12.0,13.56,-162.72,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,12.0,13.18,158.2,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,,70cl,-18.0,10.37,-186.66,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"OLMECA REPOSADO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,,70cl,18.0,10.08,181.47,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"MACALLAN 12 AÑOS DOUBLE CASK 0,7L(6U)",bebida,alcohol,Macallan,,70cl,-2.0,58.15,-116.3,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"MACALLAN 12 AÑOS DOUBLE CASK 0,7L(6U)",bebida,alcohol,Macallan,,70cl,2.0,56.99,113.97,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"ZACAPA RON 23 AÑOS 0,7L(6U)",bebida,alcohol,Zacapa,,70cl,-2.0,29.59,-59.18,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,"ZACAPA RON 23 AÑOS 0,7L(6U)",bebida,alcohol,Zacapa,,70cl,2.0,28.71,57.42,21.0
+email:5451f831d0afde18,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 21203/26A,otros_consumo,,,,,0.0,0.0,0.0,4.0
+email:235cca718662a12e,Miguel Merino Distribuciones SL,2026-07-24,"031146 -48 BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-48.0,11.45,-549.6,21.0
+email:235cca718662a12e,Miguel Merino Distribuciones SL,2026-07-24,"031146 48 BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,48.0,11.13,534.32,21.0
+email:235cca718662a12e,Miguel Merino Distribuciones SL,2026-07-24,"037499 -2 BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-2.0,15.15,-30.3,21.0
+email:235cca718662a12e,Miguel Merino Distribuciones SL,2026-07-24,"037499 2 BALLANTINES 10 AÑOS 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,2.0,14.73,29.46,21.0
+email:235cca718662a12e,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 21369/26A,otros_consumo,,,,,0.0,0.0,0.0,4.0
+email:e71758ffb9f9cf48,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U) (abono, ref 033164)",bebida,alcohol,Beefeater,,70cl,-48.0,12.16,-583.68,21.0
+email:e71758ffb9f9cf48,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U) (recargo con dto 0,33, ref 033164)",bebida,alcohol,Beefeater,,70cl,48.0,11.82,567.45,21.0
+email:e71758ffb9f9cf48,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U) (abono, ref 041913)",bebida,alcohol,Havana Club,,70cl,-24.0,10.32,-247.68,21.0
+email:e71758ffb9f9cf48,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U) (recargo con dto 0,28, ref 041913)",bebida,alcohol,Havana Club,,70cl,24.0,10.03,240.79,21.0
+email:e71758ffb9f9cf48,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 21729/26A,otros_consumo,,,,,0.0,0.0,0.0,4.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,-24.0,11.51,-276.24,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,24.0,11.19,268.56,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,-24.0,13.56,-325.44,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,24.0,13.18,316.39,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-48.0,11.45,-549.6,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,48.0,11.13,534.32,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,-42.0,12.16,-510.72,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,42.0,11.82,496.52,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,-6.0,21.47,-128.82,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,,70cl,6.0,20.87,125.23,21.0
+email:cef0a61cd34f8ce1,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 22215/26A,otros_consumo,,,,,0.0,0.0,0.0,4.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"041913 -24 HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,-24.0,10.32,-247.68,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"041913 24 HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,24.0,10.03,240.79,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"031146 -18 BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,-18.0,11.45,-206.1,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"031146 18 BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,18.0,11.13,200.37,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"020126 -12 SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,-12.0,13.56,-162.72,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"020126 12 SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,12.0,13.18,158.2,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"032250 -6 ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,-6.0,11.51,-69.06,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"032250 6 ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,6.0,11.19,67.14,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"033164 -24 BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,-24.0,12.16,-291.84,21.0
+email:e2d26e2651ebf046,Miguel Merino Distribuciones SL,2026-07-24,"033164 24 BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,24.0,11.82,283.73,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,-48.0,11.45,-549.6,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,,70cl,48.0,11.13,534.32,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,-60.0,12.16,-729.6,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,,70cl,60.0,11.82,709.32,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,-24.0,13.56,-325.44,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,,70cl,24.0,13.18,316.39,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,,70cl,-42.0,10.32,-433.44,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,,70cl,42.0,10.03,421.39,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,-48.0,11.51,-552.48,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,,70cl,48.0,11.19,537.12,21.0
+email:d546fde2d3aea8d2,Miguel Merino Distribuciones SL,2026-07-24,RECTIF PRECIOS FRA 22366/26A,otros_consumo,,,,,,,0.0,4.0
+email:f1f55e361f7a4dd2,Coca-Cola European Partners Iberia SLU,2026-06-18,"544 COCACOLA VR237 C24. (5600 DESCUENTO % -30,53; Punto verde 0,1; Neto 71,33)",bebida,refresco,Coca-Cola,botella vidrio retornable,24x237ml,4.0,17.83,71.33,21.0
+email:f1f55e361f7a4dd2,Coca-Cola European Partners Iberia SLU,2026-06-18,"554 COCACOLA ZER VR237 C24 (5600 DESCUENTO % -30,53; Punto verde 0,1; Neto 71,33)",bebida,refresco,Coca-Cola,botella vidrio retornable,24x237ml,4.0,17.83,71.33,21.0
+email:f1f55e361f7a4dd2,Coca-Cola European Partners Iberia SLU,2026-06-18,910 CAJA+BOTELLAS VR237 (8 oz). — cargo envases,otros_consumo,,,caja retornable,caja + botellas VR 237ml (8 oz),8.0,4.8,38.4,21.0
+email:f1f55e361f7a4dd2,Coca-Cola European Partners Iberia SLU,2026-06-18,910 CAJA+BOTELLAS VR237 (8 oz). — devolución envases,otros_consumo,,,caja retornable,caja + botellas VR 237ml (8 oz),-8.0,4.8,-38.4,21.0
+email:91a48670be2447a5,Coca-Cola European Partners Iberia SLU,2026-07-10,"544 COCACOLA VR237 C24. (dto -75,05, punto verde 0,24, neto 179,59)",bebida,refresco,Coca-Cola,botella vidrio retornable,24x237ml,10.0,17.96,179.59,21.0
+email:91a48670be2447a5,Coca-Cola European Partners Iberia SLU,2026-07-10,"554 COCACOLA ZER VR237 C24 (dto -52,53, punto verde 0,17, neto 125,72)",bebida,refresco,Coca-Cola,botella vidrio retornable,24x237ml,7.0,17.96,125.72,21.0
+email:91a48670be2447a5,Coca-Cola European Partners Iberia SLU,2026-07-10,910 CAJA+BOTELLAS VR237 (8 oz). — cargo fianza envases retornables,otros_consumo,,Coca-Cola,caja + botellas retornables,24x237ml,17.0,4.8,81.6,21.0
+email:91a48670be2447a5,Coca-Cola European Partners Iberia SLU,2026-07-10,910 CAJA+BOTELLAS VR237 (8 oz). — devolución cascos vacíos,otros_consumo,,Coca-Cola,caja + botellas retornables,24x237ml,-15.0,4.8,-72.0,21.0
+email:5ef63a226b269cee,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,1.0,57.2658,57.27,10.0
+email:5ef63a226b269cee,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,2.0,57.2658,114.53,10.0
+email:5ef63a226b269cee,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,1.0,57.2658,57.27,10.0
