@@ -1,5 +1,12 @@
 ---
 name: tipsi-no-brand-modifiers
+# Clasificación de artículos Tipsi (validada 31/07 con 10.288 líneas de detalle):
+# COPAS: "COPA 1" (7,72 s/IVA), "COPA 2" (8,65), "COPA 3" (9,03), COPA <marca>. CHUPITOS: "CHAMAN"
+# (el chupito de la casa, 3,18) y "TEQUILA" (3,18). CERVEZA: TERCIO (3,79) / CORTADA (1,90, caña
+# pequeña) / ENTERA (3,18) / BOTELLIN / RADLER. BOTELLAS reservado: "Bot *" (texto libre del camarero,
+# muy sucio). PUERTA: "Visas puerta"/"Efect puerta" = lotes de taquilla. "CONSUMICIÓN" 0€ = canje
+# de entrada. Comida: BIK./GILDAS/TOST. etc. Detalle en data/tipsi/lineas_tickets.parquet (gitignored,
+# regenerable de raw/detalle_tickets).
 description: "Tipsi de Dingui NO captura la marca del destilado ni modificadores. COPA 1/2/3/* son tramos de precio (7,5/8,5/9,5/10€), no marcas. Solo hay marca en el nombre para vinos/cócteles/refrescos."
 metadata: 
   node_type: memory
