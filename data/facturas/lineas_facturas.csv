@@ -467,7 +467,7 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,3.0,4.8,14.4,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,3.0,5.2,15.6,21.0
-12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Ron Barceló,,70cl,6.0,12.36,69.71,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,VASOS MACETA PABLO,otros_consumo,,,,,4.0,0.0,0.0,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,12.0,8.41,97.89,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CRUZCAMPO SIN GLUTEN 33cl. 12 UDS,bebida,cerveza,Cruzcampo,botellin,12x33cl,1.0,18.29,14.78,21.0
@@ -501,7 +501,7 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,-9.0,5.2,-46.8,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,8.0,4.8,38.4,21.0
-12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Ron Barceló,,70cl,6.0,12.36,69.71,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,12.0,8.41,97.89,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,C.C RADLER 33cl 24 UDS,bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,38.16,38.17,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,caja 200ml RET,7.0,23.28,114.07,21.0
@@ -529,7 +529,7 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SEVEN-UP 200 CC,otros_consumo,,,,,-2.0,4.8,-9.6,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT PEPSI 200 RET,otros_consumo,,,,,-5.0,4.8,-24.0,21.0
 12XFZmMJky-QFGwYUTBLxSwSe5BcwuBGk,Melgarejo Distribuidores de Bebidas SL,2026-07-20,CAJA C/BOT SCHWEPPES 200 RET,otros_consumo,,,,,12.0,5.2,62.4,21.0
-1R3StpjXXDDGxWlMZvQkSoGUW341iUD63,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Barceló,,70cl,6.0,12.36,69.71,21.0
+1R3StpjXXDDGxWlMZvQkSoGUW341iUD63,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA BARCELO AÑEJO RON 70cl,bebida,alcohol,Ron Barceló,,70cl,6.0,12.36,69.71,21.0
 1R3StpjXXDDGxWlMZvQkSoGUW341iUD63,Melgarejo Distribuidores de Bebidas SL,2026-07-27,1/3 RET. HEINEKEN LONG NECK,bebida,cerveza,Heineken,botellin,24x33cl,1.0,40.88,40.89,21.0
 1R3StpjXXDDGxWlMZvQkSoGUW341iUD63,Melgarejo Distribuidores de Bebidas SL,2026-07-27,BTLLA RV GINEBRA RIVES 70 CL,bebida,alcohol,Rives,,70cl,18.0,8.41,146.84,21.0
 1R3StpjXXDDGxWlMZvQkSoGUW341iUD63,Melgarejo Distribuidores de Bebidas SL,2026-07-27,SEVEN FREE RET 200 CC,bebida,refresco,7Up,,20cl,5.0,23.28,81.48,21.0
@@ -741,3 +741,128 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 1ysNocfBaqDz1uvvj-Kstq2UQSXxkums0,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,1.0,57.2658,57.27,10.0
 1ysNocfBaqDz1uvvj-Kstq2UQSXxkums0,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,2.0,57.2658,114.53,10.0
 1ysNocfBaqDz1uvvj-Kstq2UQSXxkums0,Picking Gades SL,2026-07-08,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/ 12 uds (caja),12x135g,1.0,57.2658,57.27,10.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,24.0,13.18,316.39,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,36.0,11.19,402.84,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,36.0,11.82,425.59,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"BARCELO AÑEJO 0,7L(12U)",bebida,alcohol,Ron Barceló,botella,70cl,24.0,11.21,269.03,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,24.0,11.13,267.16,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,30.0,10.03,300.99,21.0
+1cHuRPd1xPNU6fJUQxyhKnHmzOJYt3-Ys,Miguel Merino Distribuciones SL,2026-08-04,RETIRA CLIENTE DOMINGO 02 08,otros_consumo,,,,,0.0,0.0,0.0,4.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,6.0,11.13,66.79,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,8.0,11.82,94.58,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,5.0,11.19,55.95,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"HAVANA 7 AÑOS 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,4.0,18.76,75.05,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"M&C BRUT IMPERIAL 0,75L(6U)",bebida,vino,Moët & Chandon,botella,75cl,4.0,34.6,138.4,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,lata,24x25cl,8.0,29.3,234.37,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"CHIVAS REGAL 0,7L(6U)",bebida,alcohol,Chivas Regal,botella,70cl,2.0,22.38,44.76,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"CHIVAS REGAL 16 AÑOS 0,7L(6U)",bebida,alcohol,Chivas Regal,botella,70cl,1.0,47.53,47.53,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"LUC BELAIRE BRUT GOLD FANTOME 0,75L(6U)",bebida,vino,Luc Belaire,botella,75cl,6.0,27.09,162.54,21.0
+1ZxB6Y3Lx_13vEfWByxVNV9XH3W4bDfxX,Miguel Merino Distribuciones SL,2026-07-31,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,1.0,20.87,20.87,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,6.0,20.87,125.23,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,30.0,11.13,333.95,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,42.0,11.82,496.52,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,30.0,11.19,335.7,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,12.0,11.13,133.58,21.0
+1ryCdMbIuMUZmF7dJq9UZBxy3r5J6KtXh,Miguel Merino Distribuciones SL,2026-07-31,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,12.0,11.82,141.86,21.0
+15dKJpLzxEzWPiesIUVwOYHNtG32kH6z4,Monbake Grupo Empresarial SAU,2026-07-31,CUADRADO CRISTAL 28 UDS MONBAKE,comida,,Monbake,caja,28 uds,1.0,7.89,7.89,4.0
+15dKJpLzxEzWPiesIUVwOYHNtG32kH6z4,Monbake Grupo Empresarial SAU,2026-07-31,PAN DE MOLDE 10UDS,comida,,Monbake,unidad,10 uds,10.0,2.698,26.98,4.0
+15dKJpLzxEzWPiesIUVwOYHNtG32kH6z4,Monbake Grupo Empresarial SAU,2026-07-31,PAN DE MOLDE 10UDS,comida,,Monbake,unidad,10 uds,10.0,2.698,26.98,4.0
+1YbkEpnvhNIoonDivFCVTeu7oQSVv_YtK,CoverManager,2026-07-31,Servicios (July 2026) - CoverBookings,otros_consumo,,CoverManager,,,1.0,73.45,73.45,21.0
+1YbkEpnvhNIoonDivFCVTeu7oQSVv_YtK,CoverManager,2026-07-31,Servicios (July 2026) - Web booking engine (Pax),otros_consumo,,CoverManager,,,104.0,0.0,0.0,21.0
+1FVbuOQe2fzJdWWBmXz7342PsT_dvM4bg,Miguel Merino Distribuciones SL,2026-07-31,"CLASE AZUL TEQUILA REPOSADO 0,7L(6U)",bebida,alcohol,Clase Azul,caja 6 botellas,6x70cl,2.0,154.45,308.9,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,BISTRO SIDRA VASO REFORZAD 510CC (ALBARAN SF-1356 18/07/2026),otros_consumo,,,,510cc,312.0,0.663,206.86,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,BISTRO SIDRA VASO REFORZAD 510CC (ALBARAN SF-1376 21/07/2026),otros_consumo,,,,510cc,384.0,0.663,254.59,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,"V OURO 3,4 'R' 24un C.1 (ALBARAN SF-1406 23/07/2026)",bebida,cerveza,Ouro,botellin,caja 24 uds (retornable),3.0,12.489,37.47,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,BISTRO SIDRA VASO REFORZAD 510CC (ALBARAN SF-1449 28/07/2026),otros_consumo,,,,510cc,312.0,0.663,206.86,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,BISTRO SIDRA VASO REFORZAD 510CC (ALBARAN SF-1506 31/07/2026),otros_consumo,,,,510cc,216.0,0.663,143.21,21.0
+116kuskEmnyxthHgmhpz072Mkpj08uSx9,IPASUR LICORES & VINOS SL,2026-07-31,"V OURO 3,4 'R' 24un C.1 (ALBARAN SF-1506 31/07/2026)",bebida,cerveza,Ouro,botellin,caja 24 uds (retornable),5.0,12.489,62.45,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SCHWEPPES 200 RET (Albarán AV-58480, devolución)",otros_consumo,,Schweppes,,,-27.0,5.2,-140.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"FIANZA 1/3 CRUZCAMPO (Albarán AV-58480, devolución)",otros_consumo,,Cruzcampo,,,-10.0,3.7,-37.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"FIANZA BARRIL 50 L (Albarán AV-58480, devolución)",otros_consumo,,,,50L,-1.0,12.02,-12.02,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"FIANZA 1/3 HEINEKEN LONG (Albarán AV-58480, devolución)",otros_consumo,,Heineken,,,-1.0,3.7,-3.7,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT PEPSI 200 RET (Albarán AV-58480, devolución)",otros_consumo,,Pepsi,,,-1.0,4.8,-4.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SEVEN-UP 200 CC (Albarán AV-58480, devolución)",otros_consumo,,7Up,,,-4.0,4.8,-19.2,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,VASOS MACETA PABLO (Albarán J-126761),otros_consumo,,,,,3.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,1/3 RET. HEINEKEN LONG NECK (Albarán J-126761),bebida,cerveza,Heineken,botellin,24x33cl,2.0,40.89,81.78,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CRUZCAMPO SIN GLUTEN 33cl. 12 UDS (Albarán J-126761),bebida,cerveza,Cruzcampo,botellin,12x33cl,2.0,18.45,36.89,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,1/3 CRUZCAMPO PILSEN RET (Albarán J-126761),bebida,cerveza,Cruzcampo,botellin,24x33cl,6.0,33.07,198.42,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CRUZCAMPO 1904 BR CAJA 24X33 CL (Albarán J-126761, dto 25,99%)",bebida,cerveza,Cruzcampo,botellin,24x33cl,1.0,26.07,26.07,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SEVEN FREE RET 200 CC (Albarán J-126761, dto 30%)",bebida,refresco,7Up,,20cl,5.0,16.3,81.48,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"PEPSI MAX AXL RET 200CC (Albarán J-126761, dto 30%)",bebida,refresco,Pepsi,,20cl,10.0,17.47,174.72,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"PEPSI REGULAR AXL RET 200 CC (Albarán J-126761, dto 30%)",bebida,refresco,Pepsi,,20cl,13.0,17.47,227.14,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH TONICA RET 28X1X200ML (Albarán J-126761, dto 30%)",bebida,refresco,Schweppes,,28x20cl,10.0,22.34,223.44,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH NARANJA LOW CAL RET 28X1X200 (Albarán J-126761, dto 30%)",bebida,refresco,Schweppes,,28x20cl,4.0,18.23,72.91,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH LIMO LOW RET 28X200ML (Albarán J-126761, dto 30%)",bebida,refresco,Schweppes,,28x20cl,10.0,18.23,182.28,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,FIANZA 1/3 CRUZCAMPO (Albarán J-126761),otros_consumo,,Cruzcampo,,,7.0,3.7,25.9,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,FIANZA 1/3 HEINEKEN LONG (Albarán J-126761),otros_consumo,,Heineken,,,2.0,3.7,7.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SEVEN-UP 200 CC (Albarán J-126761),otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT PEPSI 200 RET (Albarán J-126761),otros_consumo,,Pepsi,,,23.0,4.8,110.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SCHWEPPES 200 RET (Albarán J-126761),otros_consumo,,Schweppes,,,24.0,5.2,124.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,MONTECILLO BLANCO VERDEJO (Albarán J-126762),bebida,vino,Montecillo,,75cl,5.0,6.06,30.29,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,MONTECILLO BLANCO VERDEJO ** Promocion ** (Albarán J-126762),bebida,vino,Montecillo,,75cl,1.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH SEL AGUA CON GAS 12X1X20CL (Albarán J-126762, dto 50%)",bebida,agua,Schweppes,,12x20cl,2.0,11.82,23.64,10.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,VASOS MACETA PABLO (Albarán J-126950),otros_consumo,,,,,3.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"EL AGUILA SIN FILTRAR 33cl 12UDS (Albarán J-126950, dto 39,98%)",bebida,cerveza,El Águila,botellin,12x33cl,1.0,11.78,11.78,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SEVEN FREE RET 200 CC (Albarán J-126950, dto 30%)",bebida,refresco,7Up,,20cl,5.0,16.3,81.48,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"PEPSI MAX AXL RET 200CC (Albarán J-126950, dto 30%)",bebida,refresco,Pepsi,,20cl,10.0,17.47,174.72,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"PEPSI REGULAR AXL RET 200 CC (Albarán J-126950, dto 30%)",bebida,refresco,Pepsi,,20cl,14.0,17.47,244.61,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH TONICA RET 28X1X200ML (Albarán J-126950, dto 30%)",bebida,refresco,Schweppes,,28x20cl,10.0,22.34,223.44,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH WILD BERRY RET 28X20CL (Albarán J-126950, dto 40%)",bebida,refresco,Schweppes,,28x20cl,3.0,15.62,46.87,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"LCA TDV LIMON RET 24X1X275ML (Albarán J-126950, dto 50%) - tinto de verano La Casera",bebida,otros,La Casera,,"24x27,5cl",1.0,16.44,16.44,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH NARANJA LOW CAL RET 28X1X200 (Albarán J-126950, dto 30%)",bebida,refresco,Schweppes,,28x20cl,4.0,18.23,72.91,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH LIMO LOW RET 28X200ML (Albarán J-126950, dto 30%)",bebida,refresco,Schweppes,,28x20cl,10.0,18.23,182.28,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SCHWEPPES 200 RET (Albarán J-126950, devolución)",otros_consumo,,Schweppes,,,-22.0,5.2,-114.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SEVEN-UP 200 CC (Albarán J-126950, devolución)",otros_consumo,,7Up,,,-6.0,4.8,-28.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT PEPSI 200 RET (Albarán J-126950, devolución)",otros_consumo,,Pepsi,,,-30.0,4.8,-144.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SEVEN-UP 200 CC (Albarán J-126950),otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT PEPSI 200 RET (Albarán J-126950),otros_consumo,,Pepsi,,,24.0,4.8,115.2,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT TRINA 27,5 RET (Albarán J-126950)",otros_consumo,,Trina,,,1.0,4.8,4.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SCHWEPPES 200 RET (Albarán J-126950),otros_consumo,,Schweppes,,,27.0,5.2,140.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"PEPSI REGULAR AXL RET 200 CC (Albarán J-126956, dto 30%)",bebida,refresco,Pepsi,,20cl,12.0,17.47,209.66,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH TONICA RET 28X1X200ML (Albarán J-126956, dto 30%)",bebida,refresco,Schweppes,,28x20cl,5.0,22.34,111.72,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT PEPSI 200 RET (Albarán J-126956),otros_consumo,,Pepsi,,,12.0,4.8,57.6,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SCHWEPPES 200 RET (Albarán J-126956),otros_consumo,,Schweppes,,,5.0,5.2,26.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,BARRIL CRUZCAMPO 50L (Albarán J-127191),bebida,cerveza,Cruzcampo,barril,50L,3.0,168.0,504.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"BTLLA RV GINEBRA RIVES 70 CL (Albarán J-127191, dto 3%)",bebida,alcohol,Rives,,70cl,24.0,8.16,195.78,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,BTLLA. FINO QUINTA 75cl ** Promocion ** (Albarán J-127191),bebida,vino,Osborne,,75cl,12.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,1/3 CRUZCAMPO PILSEN RET (Albarán J-127191),bebida,cerveza,Cruzcampo,botellin,24x33cl,7.0,33.07,231.49,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SEVEN FREE RET 200 CC (Albarán J-127191, dto 30%)",bebida,refresco,7Up,,20cl,5.0,16.3,81.48,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,AGUA EVIAN CON GAS 200 X33 CL (Albarán J-127191),bebida,agua,Evian,,33cl,2.0,24.58,49.16,10.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,BTLLA RIOJA MONTECILLO CZA 75 CL ** Promocion ** (Albarán J-127191),bebida,vino,Montecillo,,75cl,12.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"BTLLA WHITE LABEL 0,70 - DEMENTE (Albarán J-127191, dto 24,50%)",bebida,alcohol,Dewar's,,70cl,30.0,7.73,231.94,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,MONTECILLO BLANCO VERDEJO ** Promocion ** (Albarán J-127191),bebida,vino,Montecillo,,75cl,12.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH TONICA RET 28X1X200ML (Albarán J-127191, dto 30%)",bebida,refresco,Schweppes,,28x20cl,7.0,22.34,156.41,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH SEL AGUA CON GAS 12X1X20CL (Albarán J-127191, dto 50%)",bebida,agua,Schweppes,,12x20cl,4.0,11.82,47.28,10.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH NARANJA LOW CAL RET 28X1X200 (Albarán J-127191, dto 30%)",bebida,refresco,Schweppes,,28x20cl,7.0,18.23,127.6,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"SCH LIMO LOW RET 28X200ML (Albarán J-127191, dto 30%)",bebida,refresco,Schweppes,,28x20cl,11.0,18.23,200.51,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SEVEN-UP 200 CC (Albarán J-127191, devolución)",otros_consumo,,7Up,,,-6.0,4.8,-28.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT PEPSI 200 RET (Albarán J-127191, devolución)",otros_consumo,,Pepsi,,,-25.0,4.8,-120.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"CAJA C/BOT SCHWEPPES 200 RET (Albarán J-127191, devolución)",otros_consumo,,Schweppes,,,-19.0,5.2,-98.8,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"FIANZA 1/3 CRUZCAMPO (Albarán J-127191, devolución)",otros_consumo,,Cruzcampo,,,-2.0,3.7,-7.4,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,FIANZA 1/3 CRUZCAMPO (Albarán J-127191),otros_consumo,,Cruzcampo,,,7.0,3.7,25.9,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,FIANZA BARRIL 50 L (Albarán J-127191),otros_consumo,,,,50L,3.0,12.02,36.06,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SEVEN-UP 200 CC (Albarán J-127191),otros_consumo,,7Up,,,5.0,4.8,24.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,CAJA C/BOT SCHWEPPES 200 RET (Albarán J-127191),otros_consumo,,Schweppes,,,25.0,5.2,130.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"DISARONNO ORIGINALE 0,70 cl (Albarán J-127192)",bebida,alcohol,Disaronno,,70cl,5.0,13.27,66.34,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,"DISARONNO ORIGINALE 0,70 cl ** Promocion ** (Albarán J-127192)",bebida,alcohol,Disaronno,,70cl,1.0,0.0,0.0,21.0
+1z42_HLORhxXkpVojpTHUJzN5xa6clEge,Melgarejo Distribuidores de Bebidas SL,2026-07-31,AQUAREL PET 33cl 35 UDS (Albarán J-127192),bebida,agua,Nestlé Aquarel,,35x33cl,2.0,6.04,12.08,10.0
+1kJmuLdkFtkWN0tZAuOVo_Rbyo-sZT3qE,Google Cloud EMEA Limited,2026-07-31,Google Workspace Business Starter - Utilización 1 jul - 31 jul,otros_consumo,,Google,,,1.0,8.1,8.1,0.0
+1zVOVxyNzm1_wVthf3VblYvL_eGunT63W,Coca-Cola European Partners Iberia SLU,2026-07-31,544 COCACOLA VR237 C24.,bebida,refresco,Coca-Cola,botellin,24x237ml,35.0,17.83,624.12,21.0
+1zVOVxyNzm1_wVthf3VblYvL_eGunT63W,Coca-Cola European Partners Iberia SLU,2026-07-31,554 COCACOLA ZER VR237 C24,bebida,refresco,Coca-Cola,botellin,24x237ml,25.0,17.83,445.8,21.0
+1zVOVxyNzm1_wVthf3VblYvL_eGunT63W,Coca-Cola European Partners Iberia SLU,2026-07-31,910 CAJA+BOTELLAS VR237 (8 oz). (cargo fianza envases),otros_consumo,,Coca-Cola,,caja 24x237ml (envase retornable),60.0,4.8,288.0,21.0
+1zVOVxyNzm1_wVthf3VblYvL_eGunT63W,Coca-Cola European Partners Iberia SLU,2026-07-31,910 CAJA+BOTELLAS VR237 (8 oz). (devolucion fianza envases),otros_consumo,,Coca-Cola,,caja 24x237ml (envase retornable),-11.0,4.8,-52.8,21.0
+1FSvfd0IIEGJPT04piELqHFw0wXru_5rG,Miguel Merino Distribuciones SL,2026-07-29,"OLMECA BLANCO TEQUILA 0,7L(6U)",bebida,alcohol,Olmeca,,70cl,30.0,9.62,288.45,21.0
+1Fq7kCVr5DtXZ7-x52FAAVmCJ_RpNJEtR,Miguel Merino Distribuciones SL,2026-07-29,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,36.0,11.82,425.59,21.0
+1Fq7kCVr5DtXZ7-x52FAAVmCJ_RpNJEtR,Miguel Merino Distribuciones SL,2026-07-29,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,36.0,10.03,361.19,21.0
+1Fq7kCVr5DtXZ7-x52FAAVmCJ_RpNJEtR,Miguel Merino Distribuciones SL,2026-07-29,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,12.0,13.18,158.2,21.0
+1Fq7kCVr5DtXZ7-x52FAAVmCJ_RpNJEtR,Miguel Merino Distribuciones SL,2026-07-29,"ABSOLUT 0,7L(6U)",bebida,alcohol,Absolut,botella,70cl,24.0,11.19,268.56,21.0
+1Fq7kCVr5DtXZ7-x52FAAVmCJ_RpNJEtR,Miguel Merino Distribuciones SL,2026-07-29,"BALLANTINE`S 0,7L(6U) ED. KISS",bebida,alcohol,Ballantine's,botella,70cl,30.0,11.13,333.95,21.0
+1kga3-mCIYpxyZR2n2Tu_8mJ61_2sHA7C,Picking Gades SL,2026-07-29,Carpaccio vaca ultracongelado raciones 90 g (C/15 uds),comida,,,Caja,15x90g,1.0,58.4,58.4,10.0
+1kga3-mCIYpxyZR2n2Tu_8mJ61_2sHA7C,Picking Gades SL,2026-07-29,Pastrami loncheado 150 g cong,comida,,,C/14 sobres,14x150g,1.0,76.4067,76.41,10.0
+1kga3-mCIYpxyZR2n2Tu_8mJ61_2sHA7C,Picking Gades SL,2026-07-29,Steak tartar ultracongelado 135 gr. (12 und/caja),comida,,,C/12 uds,12x135g,2.0,57.2658,114.53,10.0
+1HDiBwvNHvzohFaQFicQEs5yYvgNwGNAn,Monbake Grupo Empresarial SAU,2026-06-30,REBANADAS DE PAN PAYES 5UDS MONB,comida,,Monbake,caja,5 uds/caja,2.0,41.105,82.21,4.0
+1HDiBwvNHvzohFaQFicQEs5yYvgNwGNAn,Monbake Grupo Empresarial SAU,2026-06-30,PAN DE MOLDE 10UDS,comida,,Monbake,unidad,10 uds,10.0,2.698,26.98,4.0
+1HDiBwvNHvzohFaQFicQEs5yYvgNwGNAn,Monbake Grupo Empresarial SAU,2026-06-30,CUADRADO CRISTAL 28 UDS MONBAKE,comida,,Monbake,caja,28 uds/caja,4.0,7.895,31.58,4.0
+19RbqsgzpV5v-6ge0biVVxJGLLuSvlFRz,Fernando Chávarri Salrá (DJ Chaver),2026-07-14,Prestación de servicios DJ CHAVER en eventos musicales en DINGUI el dia 10 de Julio 2026 (10/07/2026),otros_consumo,,,,,1.0,250.0,250.0,21.0
+1O4RgJvd60svE1qwORL822QKZBWw6YMqe,Fernando Chávarri Salrá (DJ Chaver),2026-07-27,Prestación de servicios DJ CHAVER en eventos musicales en la sala DINGUI el dia 25 de Julio 2026 (25/07/2026),otros_consumo,,,,,1.0,200.0,200.0,21.0
+1glFMrsxYXuWjqDj6iOPzSdj9lmLsJaSR,DANIEL FELIX ALONSO RODRIGUEZ,2026-07-31,Sesion DJ Danielo 17 de Julio,otros_consumo,,,,,1.0,250.0,250.0,21.0
