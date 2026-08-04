@@ -20,7 +20,13 @@ metadata:
 
 **⚠ Reglas de época pre-apertura aún activas:** transferencias ENTRANTES sueltas (TRASPASO / TRANSF. A SU FAVOR / TRANSFER INMEDIATA sin pata cruzada) siguen → Aportaciones. Corrección conocida pendiente de aplicar: TRANSF. A SU FAVOR **+1.126,85 (01/05/2026)** es la devolución del cargo duplicado CNX 0001176170 de obra → Obra, no Aportación (user_override al ingestar).
 
-**Propuestas PENDIENTES de validar con el usuario (08/07/2026):** certificaciones "parte N certifica" → Obra; "sonido 1parte" → Sonido/Luces; neveras/mesa refrigerada/tostadora → ¿categoría nueva "Equipamiento"?; bazares/Carrefour/supermercados → ¿COGS o menaje?; restaurantes (comidas equipo) → ¿Otros?; y aún sin identificar: Discount_ES, ALIEXPRESS, imposición a plazo 3.000 €.
+**Categorías nuevas VALIDADAS por el usuario (04/08/2026):**
+- **Equipamiento** — aparatos, menaje y ferretería del local: ID Hostelería (neveras, mesa fría, tostadora), bazares (Chino, Viñador), Aqualar (ferretería), Suministros Unic, Decofiesta, Carrefour (electrónica).
+- **Gastos extra actividad** — gasto menor dentro de la actividad normal: comidas del equipo (Restaurante Plato, Rest.Booking, Venta La Blanca), súper pequeños, taxi, pulseras de acceso (Gráficas Pedraza).
+- Cartel fachada Viento Creativo (2.371,60, 08/07) → **Obra**. Imposición a plazo Santander 3.000 € (02/07) → **Financiero**. Certificaciones "parte N certifica"/Florente(=Lorente y Millán) → **Obra**; "sonido 1parte" → Sonido/Luces (0.8); "software" 28/05 → Legal/software (probable Tipsi, factura 1.064,75 vs cargo 1.149,33). Reglas añadidas a HARDCODED_PATTERNS el 04/08.
+- Aplicada corrección: TRANSF. A SU FAVOR +1.126,85 (01/05) → Obra (user_override, devolución dup CNX Edistribución).
+
+**Aún sin identificar (los únicos 3):** ALIEXPRESS −542,71 (30/04), "2 parte factura" −5.000 (08/05, ¿BS Aislamientos insonorización o Sánchez Yuste clima?), Discount_ES −747,89 (15/06).
 
 **✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
 - **La constructora es "LORENTE Y MILLÁN CONSTRUCCIONES S.L."** (no "Florente" — lectura errónea del concepto bancario). Certificaciones = "PAGO TRANSFERENCIAS".
