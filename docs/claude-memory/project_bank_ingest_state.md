@@ -1,14 +1,19 @@
 ---
 name: project-bank-ingest-state
-description: "Estado de la ingesta bancaria — SQLite local con histórico completo hasta 08/07/2026, 38 movimientos sin categorizar pendientes de revisar con el usuario"
-metadata: 
-  node_type: memory
+description: "Estado ingesta bancaria: 489 movs hasta 05/08/2026 (Caixa+Santander). HALLAZGO CLAVE: cero nóminas/TGSS/IRPF en banco → personal se paga en efectivo de caja. Proveedores bebida se pagan por 'deuda' en redondos. 57 movs nuevos sin categorizar (transferencias obra con alias)"
+metadata:
   type: project
-  originSessionId: 9d5c392d-c027-49d3-b367-5eebd439e97e
 ---
 
-Ingesta bancaria persistida el 15/07/2026 en `db/kpis.sqlite` (tabla `bank_transactions`, esquema v2 de `schemas/001_init.sql`: admite caixa+santander, columnas extra/cat_method/cat_confidence/user_override): 239 movimientos (20/08/2025 → 08/07/2026), Caixa 197 + Santander 42. Exports fuente copiados a `data/bancos/inbox/` (`CaixaBank_digital_CaixaBankNow_20260708.csv`, `Documento_69nUd17E.xls`).
+**Estado 05/08/2026:** `scripts/ingest_bancos_sqlite.py` (nuevo, dedup por raw_tx_id) → DB local 489 movimientos, 2025-08-20 → 2026-08-05. Exports en data/bancos/inbox/ (Caixa CSV 05/08 + Santander XLS 05/08).
 
-**OJO**: `db/` y `data/` están en el gitignore → el SQLite y los exports SOLO existen en la máquina donde se ingirió (la del 15/07). En otra máquina hay que re-pedir los exports y re-ejecutar la ingesta. Ver [[feedback-sync-memoria]].
+**HALLAZGOS del tramo 08/07→05/08:**
+1. **CERO nóminas, CERO TGSS, IRPF solo 73,69 € (AEAT 20/07)** → el personal de sala se paga EN EFECTIVO desde la caja nocturna (el "gasto personal" de los partes). No hay estructura formal de nómina visible aún (salvo "Formación Cocina Paco" 700 €). Tema laboral/fiscal a tratar con el usuario y gestoría — el gross-up de SS/IRPF que estimábamos NO se está pagando (aún).
+2. **El efectivo de caja casi no se ingresa en banco** (solo 1 ingreso 2.850 de Borja Ybarra) — se usa para pagar personal y gastos.
+3. **Proveedores de bebida se pagan por "deuda" en importes redondos**, no por factura: Merino 25.000 pagados (facturado ~36,5K → pendiente ~11,5K), Melgarejo 9.000 (facturado 26,1K → pendiente ~17K).
+4. **HIELO real: 3.121,10 € pagados** (521 + 1.069,10 + 1.531 el 04/08) → existe una 3ª factura de hielo ~1.531 SIN capturar (pedirla). Hielo julio ≈ 2.800 sin IVA → ~0,25-0,27 €/copa.
+5. **TPV julio-agosto: 179.355 € netos** en 152 liquidaciones.
+6. **La obra/instalaciones se está pagando con la caja del verano**: desde 8/7 → Mantec/Sánchez Yuste (aires) 26,2K + Stima (arquitecto) 13,1K + BS Aislamientos 8,1K + Aycoa (sonido) 10K + Florente 8,8K + Viento Creativo 7,4K ≈ **74K de deuda de obra liquidada en un mes**.
+7. **57 movimientos sin categorizar (−131,7K)**: casi todo las transferencias anteriores (conceptos con alias: "Florente", "Mantec", "Aycoa", "Stima") → añadir reglas al categorizador. NOTA: los alias de transferencia usan apodos ("Florente" = Lorente y Millán).
 
-04/08/2026: resueltos 35 de los 38 sin categorizar vía conciliación con facturas ([[pl-categories]] tiene el detalle y las 2 categorías nuevas validadas: Equipamiento, Gastos extra actividad). Quedan solo 3 con `category IS NULL`: ALIEXPRESS −542,71 (30/04), "2 parte factura" −5.000 (08/05) y Discount_ES −747,89 (15/06). El extracto ingerido sigue llegando solo hasta el 08/07/2026 — pedir exports nuevos para julio.
+Relacionado: [[coste-personal]], [[pl-categories]], [[mercaderia-gerente]], [[sistema-facturas-drive]].
