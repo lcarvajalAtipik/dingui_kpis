@@ -26,6 +26,8 @@ metadata:
 - Cartel fachada Viento Creativo (2.371,60, 08/07) → **Obra**. Imposición a plazo Santander 3.000 € (02/07) → **Financiero**. Certificaciones "parte N certifica"/Florente(=Lorente y Millán) → **Obra**; "sonido 1parte" → Sonido/Luces (0.8); "software" 28/05 → Legal/software (probable Tipsi, factura 1.064,75 vs cargo 1.149,33). Reglas añadidas a HARDCODED_PATTERNS el 04/08.
 - Aplicada corrección: TRANSF. A SU FAVOR +1.126,85 (01/05) → Obra (user_override, devolución dup CNX Edistribución).
 
+**Préstamo de socios (validado 04/08):** las TRANSFER INMEDIATA de JUNIO son dinero que metieron los socios como **préstamo** para llegar a los pagos (NO capital): 07/06 +4.000, 07/06 +5.000, 08/06 +10.000 = **+19.000 → categoría "Préstamo socios"** (user_override, ids 132/133/136). Los TRASPASO de junio (08/06 +3.000, 27/06 +2.000, ids 135/180) → Movimiento entre cuentas (OJO: sin pata cruzada en los 2 extractos que tenemos). Todo lo anterior a junio (incl. TRANSFER INMEDIATA 08/05 +10.000 y todas las TRANSF. A SU FAVOR) sigue siendo **Aportaciones**. Regla NO automatizada en categorizer.py: "TRANSFER INMEDIATA" genérico sigue → Aportaciones; el préstamo se marca a mano porque depende del contexto (socios, junio, para pagos).
+
 **Aún sin identificar (los únicos 3):** ALIEXPRESS −542,71 (30/04), "2 parte factura" −5.000 (08/05, ¿BS Aislamientos insonorización o Sánchez Yuste clima?), Discount_ES −747,89 (15/06).
 
 **✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
