@@ -5,6 +5,8 @@ metadata:
   type: project
 ---
 
+**⚠ EXPORT SANTANDER 05/08 INCOMPLETO:** verificación de continuidad de saldos detecta −22.369,05 € de cargos del 4-5/8 que el saldo refleja pero NO están como filas (el saldo salta de 71.612,95 a 51.426,96). PEDIR re-export. El check de integridad (saldo fila a fila) queda como práctica estándar en cada ingesta. Caixa 05/08: 0 rupturas, completo. Saldos 5/8: Santander 26.874,85.
+
 **Estado 05/08/2026:** `scripts/ingest_bancos_sqlite.py` (nuevo, dedup por raw_tx_id) → DB local 489 movimientos, 2025-08-20 → 2026-08-05. Exports en data/bancos/inbox/ (Caixa CSV 05/08 + Santander XLS 05/08).
 
 **HALLAZGOS del tramo 08/07→05/08:**
