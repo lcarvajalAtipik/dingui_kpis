@@ -20,3 +20,6 @@ metadata:
 **How to apply:** para el coste de personal REAL hacen falta (a) extractos bancarios frescos (transferencias a trabajadores, cargos TGSS, pagos AEAT modelo 111/303) y (b) idealmente las nóminas/TC de la gestoría → montar tabla `nominas` (hoy vacía en la DB). Hasta entonces solo tenemos: DJs facturados (exacto) + gasto_personal del gerente (agregado nocturno, mezclado).
 
 Relacionado: [[pl-categories]], [[cierres-gerente-diarios]], [[business-overview]], [[sistema-facturas-drive]].
+
+
+**REGLAS DE MODELADO validadas por el usuario (06/08/2026):** DJs en nómina → IRPF 2% (régimen artistas); DJs con factura → retención 15%; trabajadores de sala → IRPF normal (uso 2% mínimo de contratos temporales hostelería, ajustable) + SS trabajador 6,48%; empresa → SS ~32% sobre bruto. El cash de los partes se trata como NETO. Julio: neto sala 32.011 → bruto 34.977 → +SS empresa 11.193; DJs factura 742 (ret. 111); formación 700 → personal formalizado 47.612 vs cash real 33.453 (sobrecoste de formalización ~14.200, hoy NO pagado).
