@@ -28,7 +28,9 @@ metadata:
 
 **Préstamo de socios (validado 04/08):** las TRANSFER INMEDIATA de JUNIO son dinero que metieron los socios como **préstamo** para llegar a los pagos (NO capital): 07/06 +4.000, 07/06 +5.000, 08/06 +10.000 = **+19.000 → categoría "Préstamo socios"** (user_override, ids 132/133/136). Los TRASPASO de junio (08/06 +3.000, 27/06 +2.000, ids 135/180) → Movimiento entre cuentas (OJO: sin pata cruzada en los 2 extractos que tenemos). Todo lo anterior a junio (incl. TRANSFER INMEDIATA 08/05 +10.000 y todas las TRANSF. A SU FAVOR) sigue siendo **Aportaciones**. Regla NO automatizada en categorizer.py: "TRANSFER INMEDIATA" genérico sigue → Aportaciones; el préstamo se marca a mano porque depende del contexto (socios, junio, para pagos).
 
-**Aún sin identificar (los únicos 3):** ALIEXPRESS −542,71 (30/04), "2 parte factura" −5.000 (08/05, ¿BS Aislamientos insonorización o Sánchez Yuste clima?), Discount_ES −747,89 (15/06).
+**Validado por el usuario 06/08/2026:** "devolucion presta" = devoluciones del **Préstamo temporal socios** (entraron 19.000 € el 7-8/6: 4K+5K+10K, categoría 'Préstamo socios'; devueltos 5K el 20/7 y 3K el 5/8 → pendiente 11K). Álvaro Gómez −217 = devolución de ingreso. Doyouspain + Love My Bar → Gastos extra actividad. AEAT → **Impuestos** (categoría nueva). Ingreso efectivo de Borja Ybarra +2.850 (14/7) = **ingreso de efectivo de la caja al banco** → Movimiento entre cuentas (¡no es aportación!). ALIEXPRESS → Equipamiento. DB al 99,6% categorizada (487/489).
+
+**Aún sin identificar (los únicos 2):** "2 parte factura" −5.000 (08/05, ¿BS Aislamientos o Sánchez Yuste?), Discount_ES −747,89 (15/06).
 
 **✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
 - **La constructora es "LORENTE Y MILLÁN CONSTRUCCIONES S.L."** (no "Florente" — lectura errónea del concepto bancario). Certificaciones = "PAGO TRANSFERENCIAS".
