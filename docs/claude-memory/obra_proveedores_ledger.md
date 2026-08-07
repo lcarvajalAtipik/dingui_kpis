@@ -25,7 +25,7 @@ metadata:
 
 **NOTARÍA (Legal V35, ampliación capital): provisión 2.100 (19/2 "209-2026") vs factura A209/A210/G19 1.629,45 → sobrante 470,55 sin justificar** (¿devolución pendiente de la notaría o factura adicional?).
 
-**AYCOA (sonido): 20.000 € pagados SIN NINGUNA factura** (10K "sonido 1parte" 5/6 + 5K "Deuda David" 14/7 + 5K "Deuda Sonido" 29/7) — mayor agujero documental; pedir factura.
+**AYCOA (sonido/iluminación/acústica) — resumen recibido 07/08 (chat):** presupuesto/resumen firmado 13/06/2026: sonido 22.438 (PA Void Venus + JBL + LEA + inst/program 2.000) + iluminación 5.800 + acústica 5.880 (suelo 3.030, limitador 1.350, ingeniero+dirección 1.500) = 34.118 + IVA 21% = **TOTAL 41.282,78**. Pagado 20.000 (10K "sonido 1parte" 5/6 Caixa + 5K "Deuda David" 14/7 + 5K "Deuda Sonido" 29/7 Santander) → **PENDIENTE 21.282,78**. Sigue SIN factura formal (solo resumen). Descuadres internos a aclarar con Aycoa: líneas de iluminación suman 5.980 vs subtotal impreso 5.800 (−180) y "mano de obra" PVP 3.000 vs total 3.500. PDF solo en chat — pedir al usuario subirlo a Drive (junio26) para registrarlo. ¿El "suelo" acústico solapa con BS Aislamientos? NO asumido, preguntar. La cabina DJ (Profesional DJ, Betopper, Thomann, Madrid Hifi) va APARTE de este resumen — sin doble conteo.
 
 **PRÉSTAMO SOCIOS (corregido 06/08): 22.000 € entraron** (7/6: 4K+5K · 8/6: 10K + 3K "TRASPASO"), devueltos 8.000 (5K el 20/7, 3K el 5/8) → **14.000 pendientes de devolver**.
 
