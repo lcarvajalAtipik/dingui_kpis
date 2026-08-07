@@ -9,7 +9,7 @@
 - [Bank format: CaixaBank](bank_format_caixa.md) — Formato REAL: CSV CaixaBankNow (Concepto;Fecha;Importe;Saldo, conceptos truncados, sin IBAN). Validado 08/07/2026.
 - [Bank format: Santander](bank_format_santander.md) — Cuenta TPV ES47 0049… (Nuevo VH SL). XLSX con extensión .xls, headers fila 8; liquidaciones TPV netas con bruto en Referencia 1.
 - [ignorar_fx convention](ignorar_fx_convention.md) — Flag de exclusión de cashflow; política de Dingui aún vacía, definir con el usuario.
-- [IVA rates](iva_rates.md) — Hostelería 10%, gastos 21%, rappels 21%; entradas discoteca probablemente 21% (CONFIRMAR con gestoría).
+- [IVA rates](iva_rates.md) — Hostelería 10%, gastos 21%, rappels 21%; entradas 10% CONFIRMADO 07/08.
 - [Sistema facturas Drive](sistema_facturas_drive.md) — Facturas por mes en Drive → registro CSV con drive_id (no reprocesar). PENDIENTE: usuario debe compartir las 2 carpetas con l.carvajal@atipikproperties.com. Objetivo 1: comida/bebida (refresco/cerveza/alcohol/vino + marca; cerveza barril vs botellín).
 - [Reference: sheet DJs](reference_dj_sheet.md) — Programación/caché DJs Dingui (ID 1P1zBFi…, cols Presu.+Total Fra). Compartida 04/08. Presu.=caché planeado ≠ facturas registradas (julio 6.080€ vs 742€ facturas).
 - [Ledger obra/proveedores](obra_proveedores_ledger.md) — Lorente pagada salvo 178,54€ (cuadre cert a cert); Sánchez Yuste CERRADA a 0; Aycoa 20K sin factura; "2 parte factura" → prob. BS Aislamientos. Préstamo socios 22K in / 8K devuelto / 14K vivo.
