@@ -170,6 +170,40 @@ HARDCODED_PATTERNS: list[tuple[str, str]] = [
     # --- Asesorías/gestoría (recibos mensuales)
     ("stipendium", "Legal, gestión, software"),
     ("remesa ases", "Legal, gestión, software"),
+
+    # ========================================================================
+    # Categorías nuevas validadas por el usuario el 04/08/2026 tras conciliar
+    # los movimientos con las facturas de Drive (registro_facturas.csv).
+    # ========================================================================
+
+    # --- Equipamiento: aparatos, menaje y ferretería del local.
+    # ID Hostelería (neveras/mesa fría/tostadora) paga con conceptos manuales,
+    # pero estos comercios sí se repiten en el extracto.
+    ("bazar chino", "Equipamiento"),
+    ("bazar vi", "Equipamiento"),        # BAZAR VI§ADOR (Viñador, encoding roto en Caixa)
+    ("aqualar", "Equipamiento"),         # ferretería/mantenimiento
+    ("suministrso unic", "Equipamiento"),  # typo del banco: Suministros Unic SL
+    ("suministros unic", "Equipamiento"),
+    ("decofiesta", "Equipamiento"),
+    ("carref el paseo", "Equipamiento"),  # OJO: si empieza a haber compra de comida en Carrefour, revisar
+
+    # --- Gastos extra actividad: gasto menor dentro de la actividad normal
+    # (comidas del equipo, taxis, consumibles de puerta…)
+    ("restaurante plato", "Gastos extra actividad"),
+    ("rest.booking", "Gastos extra actividad"),
+    ("venta la blanca", "Gastos extra actividad"),
+    ("licencia taxi", "Gastos extra actividad"),
+
+    # --- Marketing operativo
+    ("barter consultanc", "Marketing"),   # Barter Consultancy: mensualidad marketing digital
+
+    # --- Software operativo
+    ("pago prezo", "Legal, gestión, software"),  # Prezo (Future is an Attitude SL)
+
+    # --- Constructora: Lorente y Millán. Los pagos de certificaciones suelen ir
+    # como "PAGO TRANSFERENCIAS" (ya exact-match → Obra) o conceptos manuales
+    # "parte N certifica"; este patrón caza las variantes con "certifica".
+    ("certifica", "Obra"),
 ]
 
 

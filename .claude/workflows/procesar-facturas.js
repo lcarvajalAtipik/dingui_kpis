@@ -10,9 +10,13 @@ export const meta = {
 }
 
 // args: { carpeta: '<drive folder id>', procesados: ['drive_id', ...], cacheDir: '<abs path>' }
-const CARPETA = args?.carpeta || '1Y2gqblXGgD5QTlHrbf2EwGddiZtcBWpH'
-const PROCESADOS = new Set(args?.procesados || [])
-const CACHE = args?.cacheDir || 'data/facturas/cache'
+// (defensivo: args puede llegar como string JSON serializado)
+const A = typeof args === 'string' ? JSON.parse(args) : (args || {})
+const CARPETA = A.carpeta || '1Y2gqblXGgD5QTlHrbf2EwGddiZtcBWpH'
+const PROC_RAW = typeof A.procesados === 'string' ? JSON.parse(A.procesados) : (A.procesados || [])
+const PROCESADOS = new Set(PROC_RAW)
+if (A.procesados && !PROCESADOS.size) throw new Error('procesados vacío tras parsear — abortando para no reprocesar todo')
+const CACHE = A.cacheDir || 'data/facturas/cache'
 
 const INV_SCHEMA = {
   type: 'object', required: ['archivos'],

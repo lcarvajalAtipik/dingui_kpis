@@ -60,7 +60,7 @@ def cargar_env():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, _, v = line.partition("=")
-                os.environ.setdefault(k.strip(), v.strip())
+                os.environ.setdefault(k.strip(), v.strip().strip("'\""))
 
 
 def slug(s: str, maxlen: int = 40) -> str:

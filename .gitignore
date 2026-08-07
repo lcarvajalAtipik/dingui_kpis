@@ -236,3 +236,7 @@ outputs/
 # Lockfiles de uv los dejamos (commit recomendado)
 !uv.lock
 .claude/settings.local.json
+
+# macOS
+.DS_Store
+**/.DS_Store
