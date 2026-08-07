@@ -24,3 +24,5 @@ metadata:
 **Puerta/taquilla:** entradas cobradas en puerta (se paga 15 € una copa en puerta). En el parte del 6 jul fueron 690 € (120 efvo + 570 visa). Desde 07/07 también en Tipsi.
 
 **How to apply:** para "facturación de la noche" real usar barra + puerta + FV (desde 07/07 todo sale de Tipsi). En P&L, aplicar el 7% de comisión FV como coste sobre la venta del canal FV. Ver [[project-tipsi]] (extractor), [[business-overview]], [[iva-rates]].
+
+**⚠ COBRO FV SIN RASTRO (verificado 07/08/2026):** barrido completo de los 489 movimientos de ambos bancos: **CERO abonos de Fourvenues**. FV facturado según cierres ≈ 51K (jun+jul, 42.525 solo julio) sin llegar a Caixa ni Santander. PREGUNTAR: ¿dónde/cuándo liquida FV (cuenta tercera, liquidación mensual, retención)? Es el mayor importe "en el aire" del negocio.
