@@ -19,6 +19,12 @@ metadata:
 
 **SÁNCHEZ YUSTE cierre fino (07/08):** el 0165 se pagó con el "PAGO TRANSFERENCIAS" 24.271,39 del 27/2; las otras 3 facturas (0215 24.271,39 + 0216 892,74 + 0375 1.050,67 = 26.214,80) se pagaron con los 3 "Mantec" de Santander: 5.000 + 10.000 (28/7) + 11.214,80 (5/8) — suma exacta.
 
+**PROFESIONAL DJ / "UME" (cabina, resuelto 07/08):** la transferencia Caixa 12/3 "UME" −8.582,50 = presupuesto PEDIDO 98063 de Profesional DJ (Sonido, Iluminación y Publicidad Profesional SL, Murcia) 8.508 IVA inc. + 74,50 portes: 2×CDJ-3000X + DJM-A9 + accesorios. Solo tenemos PRESUPUESTO — pedir factura formal a info@profesionaldj.es.
+
+**VIENTO CREATIVO (rotulación/producción): pagado 18.261,60, facturado 10.978,09** — VTA/26-000181 10.890 (a cuenta presu VTA/26-000154 "acopio material", pagada 30/4) + cartas menú 88,09. Faltan facturas de: cartel fachada 2.371,60 (=1.960+21% exacto, transf. 8/7) y a cuenta 5.000 (15/7). Pedir también el total del presupuesto VTA/26-000154 para saber cuánto queda.
+
+**NOTARÍA (Legal V35, ampliación capital): provisión 2.100 (19/2 "209-2026") vs factura A209/A210/G19 1.629,45 → sobrante 470,55 sin justificar** (¿devolución pendiente de la notaría o factura adicional?).
+
 **AYCOA (sonido): 20.000 € pagados SIN NINGUNA factura** (10K "sonido 1parte" 5/6 + 5K "Deuda David" 14/7 + 5K "Deuda Sonido" 29/7) — mayor agujero documental; pedir factura.
 
 **PRÉSTAMO SOCIOS (corregido 06/08): 22.000 € entraron** (7/6: 4K+5K · 8/6: 10K + 3K "TRASPASO"), devueltos 8.000 (5K el 20/7, 3K el 5/8) → **14.000 pendientes de devolver**.
