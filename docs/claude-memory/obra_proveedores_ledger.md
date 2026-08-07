@@ -15,7 +15,9 @@ metadata:
 
 **BS AISLAMIENTOS (insonorización):** factura OB-113 45.798,50 (15/4). Pagos: "parte 1 facrura" 20.000 (30/4) + "2 parte factura" 5.000 (8/5, categorizado Insonorización 06/08, conf. 0.85) + "Último Pago Bs" 8.145,50 (20/7) = 33.145,50 → **aparente pendiente 12.653** PERO el pago del 20/7 dice "ÚLTIMO" → ¿cierre con descuento negociado? PREGUNTAR al usuario.
 
-**STIMA 21 (arquitectos) — completado 07/08 con facturas del email:** facturado 24.623,50 (T42575 3.025 dic-25 + T12619 8.470 feb + T32661 4.537,50 jun, pagada 13/7 exacta + T32665 8.591 jul, pagada 5/8 exacta). Pagos visibles 21.598,50 → **T42575 (3.025, dic-2025) sin pago bancario visible** — ¿pagada antes del inicio del extracto (20/8/25→…, sí cubre dic) o en efectivo/otra cuenta? PREGUNTAR.
+**STIMA 21 (arquitectos) — CERRADA A CERO (resuelto 07/08):** facturado 24.623,50 = pagado. T42575 3.025 ← 17/04/2026 Caixa concepto "redaccion proyect" (exacto); T12619 8.470 ← 13/3; T32661 4.537,50 ← 13/7; T32665 8.591 ← 5/8. Sin pendientes.
+
+**SÁNCHEZ YUSTE cierre fino (07/08):** el 0165 se pagó con el "PAGO TRANSFERENCIAS" 24.271,39 del 27/2; las otras 3 facturas (0215 24.271,39 + 0216 892,74 + 0375 1.050,67 = 26.214,80) se pagaron con los 3 "Mantec" de Santander: 5.000 + 10.000 (28/7) + 11.214,80 (5/8) — suma exacta.
 
 **AYCOA (sonido): 20.000 € pagados SIN NINGUNA factura** (10K "sonido 1parte" 5/6 + 5K "Deuda David" 14/7 + 5K "Deuda Sonido" 29/7) — mayor agujero documental; pedir factura.
 
