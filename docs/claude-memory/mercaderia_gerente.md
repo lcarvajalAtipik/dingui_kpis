@@ -16,6 +16,6 @@ metadata:
 
 **Números julio:** mercadería gerente = 24.491 € (11,0% de caja) = Σ (su % × caja noche). Mi COGS teórico mismo periodo 23.911 € (−2,4%). Ambos ~11% de caja / ~19-21% de la venta de barra.
 
-**Hielo:** solo 1 factura capturada (Hielo Express 521€, 13/07) — insuficiente para el mes; probable pago en efectivo al hielero. Pedir al gerente cómo se paga.
+**Hielo (RESUELTO 07/08):** Hielo Express Los Mellis factura semanal (facturas simplificadas): nº1353 13/07 base 473,64 + nº1430 20/07 base 932,81 (julio = 1.406,45 base) + nº1572 02/08 base 1.362,90 (total 1.531,00 = transferencia Caixa 04/08 exacta; ~74% hielo al 10%, resto Coca-Cola/agua al 21%; cubre el último finde de julio). Se paga por TRANSFERENCIA, no en efectivo.
 
 Relacionado: [[coste-personal]], [[cierres-gerente-diarios]], [[sistema-facturas-drive]].

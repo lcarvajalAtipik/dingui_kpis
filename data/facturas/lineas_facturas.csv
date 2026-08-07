@@ -875,3 +875,37 @@ drive_id,proveedor,fecha_factura,descripcion_original,categoria,tipo_bebida,marc
 1vNh4U-YMRrvyvAFzv9ScuFabcDQOBiov,Hielo Express Los Mellis,2026-07-20,CAJA COCACOLA 237,bebida,refresco,Coca-Cola,caja,24x237ml,5.0,21.9,90.5,21.0
 1vNh4U-YMRrvyvAFzv9ScuFabcDQOBiov,Hielo Express Los Mellis,2026-07-20,CAJA COCACOLA ZERO 237,bebida,refresco,Coca-Cola Zero,caja,24x237ml,5.0,21.9,90.5,21.0
 1vNh4U-YMRrvyvAFzv9ScuFabcDQOBiov,Hielo Express Los Mellis,2026-07-20,CAJA MONSTER,bebida,refresco,Monster,caja,,3.0,28.0,69.42,21.0
+1CIS-IETKdk5gtL3cGbbWosGMyXS2qS_O,Miguel Merino Distribuciones SL,2026-08-05,RED BULL ENERGY DRINK (24U),bebida,refresco,Red Bull,lata,24x25cl,10.0,29.3,292.96,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"J.WALKER BLACK 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,12.0,20.87,250.45,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"BEEFEATER GIN 0,7L(6U)",bebida,alcohol,Beefeater,botella,70cl,48.0,11.82,567.45,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"BALLANTINE`S 0,7L(6U)",bebida,alcohol,Ballantine's,botella,70cl,48.0,11.13,534.32,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"SEAGRAM`S GIN 0,7L(6U)",bebida,alcohol,Seagram's,botella,70cl,24.0,13.18,316.39,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"HAVANA RON AÑEJO ORIGEN 0,7L(6U)",bebida,alcohol,Havana Club,botella,70cl,48.0,10.03,481.59,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"ZACAPA RON 23 AÑOS 0,7L(6U)",bebida,alcohol,Zacapa,botella,70cl,1.0,28.71,28.71,21.0
+18diGKeiI1kCARSqGlP58X-90OEv3HCUI,Miguel Merino Distribuciones SL,2026-08-04,"J.WALKER RED 0,7L(6U)",bebida,alcohol,Johnnie Walker,botella,70cl,1.0,0.0,0.0,21.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,QSO VACA AHUM LONC 300G QUESAR,comida,,Quesar,,300g,2.0,3.25,6.5,4.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,QSO HAVARTI LONCH ARLA 1KG (D),comida,,Arla,,1kg,1.0,16.19,16.19,4.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,QSO CHEDDAR LONCH ROJO MC 1KG,comida,,Makro Chef,,1kg,1.0,7.95,7.95,4.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,QSO BRIE BARRA R.PICOT 500G,comida,,Reny Picot,,500g,1.0,7.59,7.59,4.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,SALMOREJO S/GLUTEN PET MC 1L,comida,,Makro Chef,,1L,1.0,3.29,3.29,10.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,GAZPACHO S/GLUTEN PET MC 1L,comida,,Makro Chef,,1L,1.0,2.99,2.99,10.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,HUMMUS MC TA 900 GR,comida,,Makro Chef,,900g,3.0,3.58,10.74,10.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,TOMATE RALLADO MC BT 1 L,comida,,Makro Chef,,1L,1.0,4.35,4.35,10.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,MAYONESA YBARRA 750ML,comida,,Ybarra,,750ml,2.0,3.35,6.7,10.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,WHISKY DEWAR'S W.LABEL 1L,bebida,alcohol,Dewar's,,1L,18.0,11.92,214.56,21.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,GINEBRA SEAGRAMS 70CL,bebida,alcohol,Seagram's,,70cl,6.0,12.09,72.54,21.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,RON AÑEJO BARCELO 70CL,bebida,alcohol,Ron Barceló,,70cl,18.0,11.95,215.1,21.0
+16EgjY8xuR4eT5TNxSvF0k_R4L5reWEFI,Makro Autoservicio Mayorista SA,2026-08-01,BOLSA COMPRA MPRO,otros_consumo,,Metro Professional,,,1.0,1.5,1.5,21.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,HIELO,otros_consumo,,,bolsa,,278.0,3.64,1010.91,10.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,HIELO ESCAMA 20K,otros_consumo,,,saco,20kg,2.0,6.36,12.73,10.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,CAJA COCACOLA ZERO 237,bebida,refresco,Coca-Cola,caja,237ml,7.0,18.1,126.69,21.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,HIELO PICADO,otros_consumo,,,bolsa,,3.0,4.55,13.64,10.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,CAJA COCACOLA 237,bebida,refresco,Coca-Cola,caja,237ml,5.0,18.1,90.5,21.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,AGUA CON GAS PLASTICO AQUABONA,bebida,agua,Aquabona,caja PET,,8.0,9.01,72.07,21.0
+1q5BHIS2TvTCw-FgqMc79-iJWg4s8VwR3,Hielo Express Los Mellis,2026-08-02,AGUA PLASTICO 5.0,bebida,agua,,caja PET,,5.0,7.27,36.36,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,HICHARRON CADI,comida,,,,,6.0,1.6,9.6,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,JAMON COCIDO,comida,,,,,1.68,16.0,26.88,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,QUESO OLOROSO,comida,,,,,1.06,28.0,29.68,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,QUESO PIMENTON,comida,,,,,0.96,28.0,26.88,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,BANDERILLAS ATUN Y QYUESO,comida,,,,,4.0,12.5,50.0,10.0
+1CHhkb9st2ls8IV1ATRdRcmpdbiistaqp,Jamones y Delicatessen La Encina (Javier Quintero Alarcón),2026-08-04,CECINA,comida,,,,,10.0,4.4,44.0,10.0
