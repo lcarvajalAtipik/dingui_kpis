@@ -1,13 +1,17 @@
 ---
 name: project-bank-ingest-state
 description: "Estado ingesta bancaria: 489 movs hasta 05/08/2026 (Caixa+Santander). HALLAZGO CLAVE: cero nóminas/TGSS/IRPF en banco → personal se paga en efectivo de caja. Proveedores bebida se pagan por 'deuda' en redondos. 57 movs nuevos sin categorizar (transferencias obra con alias)"
-metadata:
+metadata: 
+  node_type: memory
   type: project
+  originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
 ---
 
 **⚠ EXPORT SANTANDER 05/08 INCOMPLETO:** verificación de continuidad de saldos detecta −22.369,05 € de cargos del 4-5/8 que el saldo refleja pero NO están como filas (el saldo salta de 71.612,95 a 51.426,96). PEDIR re-export. El check de integridad (saldo fila a fila) queda como práctica estándar en cada ingesta. Caixa 05/08: 0 rupturas, completo. Saldos 5/8: Santander 26.874,85.
 
 **Estado 05/08/2026:** `scripts/ingest_bancos_sqlite.py` (nuevo, dedup por raw_tx_id) → DB local 489 movimientos, 2025-08-20 → 2026-08-05. Exports en data/bancos/inbox/ (Caixa CSV 05/08 + Santander XLS 05/08).
+
+**⚙ OVERRIDES QUE VIAJAN POR GIT (montado 07/08/2026):** la DB (`db/kpis.sqlite`) y los exports están en .gitignore → se reconstruyen por máquina, así que las categorías puestas A MANO se perderían. Ahora viven en **`data/bank_overrides.csv` (SÍ trackeado**, excepción en .gitignore), clave = `raw_tx_id` (hash determinista banco+fecha+importe+concepto+saldo, estable entre exports; fallback por banco+fecha+importe+concepto). Flujo: (1) recategorizas en la DB → (2) `uv run python scripts/dump_bank_overrides.py` refresca el CSV → (3) commit. Al re-ingestar, `ingest_bancos_sqlite.py` llama a `apply_bank_overrides.py` y las reaplica solas. A 07/08: 113 overrides capturados. Probado round-trip (rompí y restauró). SIEMPRE hacer dump+commit tras categorizar a mano.
 
 **HALLAZGOS del tramo 08/07→05/08:**
 1. **CERO nóminas, CERO TGSS, IRPF solo 73,69 € (AEAT 20/07)** → el personal de sala se paga EN EFECTIVO desde la caja nocturna (el "gasto personal" de los partes). No hay estructura formal de nómina visible aún (salvo "Formación Cocina Paco" 700 €). Tema laboral/fiscal a tratar con el usuario y gestoría — el gross-up de SS/IRPF que estimábamos NO se está pagando (aún).

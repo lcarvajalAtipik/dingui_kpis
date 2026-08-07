@@ -14,6 +14,8 @@ from kpis import config, db
 from kpis.categorizer import Categorizer, should_ignore_fx
 from kpis.ingest.bancos import parse_any
 
+from apply_bank_overrides import apply_overrides
+
 INBOX = config.REPO_ROOT / "data" / "bancos" / "inbox"
 
 
@@ -49,6 +51,12 @@ def main() -> None:
         after = conn.execute("select count(*) from bank_transactions").fetchone()[0]
         print(f"✓ {path.name} ({bank}): {len(df)} filas → +{after - before} nuevas en DB")
         total_new += after - before
+    # Reaplica las categorizaciones manuales (data/bank_overrides.csv, trackeado en git)
+    # para que no se pierdan al reconstruir la DB en otra máquina.
+    applied, missing = apply_overrides(conn)
+    conn.commit()
+    print(f"Overrides manuales reaplicados: {applied}" + (f" | sin match: {missing}" if missing else ""))
+
     n, dmin, dmax = conn.execute(
         "select count(*), min(booking_date), max(booking_date) from bank_transactions").fetchone()
     print(f"\nDB: {n} movimientos, {dmin} → {dmax} (+{total_new} nuevos)")
