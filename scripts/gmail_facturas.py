@@ -35,10 +35,12 @@ import email
 import email.utils
 import hashlib
 import imaplib
+import io
 import os
 import re
 import sys
 import unicodedata
+import zipfile
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -49,7 +51,7 @@ CAMPOS = [
     "message_id", "fecha_email", "remitente", "asunto", "adjunto_original",
     "archivo_local", "sha256", "bytes", "estado", "drive_id", "notas",
 ]
-EXT_OK = {".pdf", ".jpg", ".jpeg", ".png"}
+EXT_OK = {".pdf", ".jpg", ".jpeg", ".png", ".zip"}
 MIN_BYTES = 8_000  # adjuntos más pequeños suelen ser logos/firmas
 
 
@@ -176,6 +178,43 @@ def main() -> int:
             contenido = parte.get_payload(decode=True)
             if not contenido or len(contenido) < MIN_BYTES:
                 continue
+
+            # Los ZIP (p.ej. facturas Coca-Cola de invoices1Iberian@ccep.com) se
+            # expanden y cada miembro PDF/imagen sigue el flujo normal de dedup.
+            if Path(fn).suffix.lower() == ".zip":
+                try:
+                    zf = zipfile.ZipFile(io.BytesIO(contenido))
+                except zipfile.BadZipFile:
+                    continue
+                miembros = []
+                for zi in zf.infolist():
+                    if zi.is_dir() or Path(zi.filename).suffix.lower() not in (EXT_OK - {".zip"}):
+                        continue
+                    datos_m = zf.read(zi)
+                    if len(datos_m) < 1_000:
+                        continue
+                    miembros.append((Path(zi.filename).name, datos_m))
+                for nombre_m, datos_m in miembros:
+                    sha = hashlib.sha256(datos_m).hexdigest()
+                    if sha in vistos_sha:
+                        saltados += 1
+                        continue
+                    dominio = remitente.split("@")[-1].strip(">").split(".")[0] if "@" in remitente else "desc"
+                    local = f"{fecha or 'sinfecha'}_{slug(dominio, 20)}_{slug(nombre_m, 60)}"
+                    print(f"  [{n:>3}] {fecha} {slug(dominio,18):18} {nombre_m[:38]} (zip: {fn[:20]}) {len(datos_m)//1024:>5} KB"
+                          + ("  (LISTAR)" if args.listar else ""))
+                    if not args.listar:
+                        (INBOX_DIR / local).write_bytes(datos_m)
+                    nuevos.append({
+                        "message_id": message_id, "fecha_email": fecha, "remitente": remitente,
+                        "asunto": asunto, "adjunto_original": f"{fn}!{nombre_m}", "archivo_local": local,
+                        "sha256": sha, "bytes": len(datos_m),
+                        "estado": "listado" if args.listar else "descargado",
+                        "drive_id": "", "notas": f"extraído de {fn}",
+                    })
+                    vistos_sha.add(sha)
+                continue
+
             sha = hashlib.sha256(contenido).hexdigest()
             if message_id in vistos_msg and sha in vistos_sha:
                 saltados += 1
