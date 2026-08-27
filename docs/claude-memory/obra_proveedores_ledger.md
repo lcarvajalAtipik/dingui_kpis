@@ -1,11 +1,11 @@
 ---
 name: obra-proveedores-ledger
-description: "Cuentas corrientes de la obra al 27/08/2026: Lorente y Millán CERRADA (237.413,48 = pagado, Cert 06 pagada 12/08); Sánchez Yuste y Stima 21 CERRADAS; Aycoa facturado 44.114,18 / pagado 25.000 (hipótesis pago 24/08) → pdte 19.114,18; BS Aislamientos 33.146 pagado / 12.653 o cierre negociado; Viento Creativo: presu tematización 31.600,38, pdte 15.710,38 + PROMO 10.000 efectivo sin factura"
+description: "Cuentas corrientes de la obra al 27/08/2026: Lorente y Millán CERRADA (237.413,48 = pagado, Cert 06 pagada 12/08); Sánchez Yuste y Stima 21 CERRADAS; Aycoa facturado 44.114,18 / pagado 25.000 (hipótesis pago 24/08) → pdte 19.114,18; BS Aislamientos RESUELTA: proveedor pagado 100% (12.653 por confirming Santander, cargo en cuenta en SEPT); Viento Creativo: presu tematización 31.600,38, pdte 15.710,38 + PROMO 10.000 efectivo sin factura"
 metadata: 
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
-  modified: 2026-08-27T11:27:59.136Z
+  modified: 2026-08-27T12:00:31.227Z
 ---
 
 **Método validado por el usuario:** los pagos de obra van EN ORDEN CRONOLÓGICO según las certificaciones, a veces por partes ("parte 1/2/3 certifica"). Las certificaciones de Lorente DEDUCEN las anteriores (los importes de factura ya son netos incrementales — verificado leyendo los PDFs: "A DEDUCIR 1ª PROVISIÓN DE FONDOS −45.401,14…"). Los alias bancarios: "Florente"=Lorente y Millán, "Mantec"=Sánchez Yuste. "PAGO TRANSFERENCIAS" (Caixa) es concepto GENÉRICO — asignar por importe/cronología, no asumir proveedor.
@@ -18,7 +18,7 @@ metadata:
 
 **SÁNCHEZ YUSTE / Mantec (clima-frío) — CERRADA A CERO:** facturado 50.486,19 (0165+0215+0216+0375) = pagado 50.486,19 (24.271,39 el 27/2 "PAGO TRANSFERENCIAS" + 5.000 + 10.000 + 11.214,80 jul-ago).
 
-**BS AISLAMIENTOS (insonorización):** factura OB-113 45.798,50 (15/4). Pagos: "parte 1 facrura" 20.000 (30/4) + "2 parte factura" 5.000 (8/5, categorizado Insonorización 06/08, conf. 0.85) + "Último Pago Bs" 8.145,50 (20/7) = 33.145,50 → **aparente pendiente 12.653** PERO el pago del 20/7 dice "ÚLTIMO" → ¿cierre con descuento negociado? PREGUNTAR al usuario.
+**BS AISLAMIENTOS (insonorización) — RESUELTO 27/08 por el usuario: PROVEEDOR PAGADO AL 100%, sin quita.** Factura OB-113 45.798,50 (15/4). Por cuenta: 20.000 (30/4) + 5.000 (8/5) + 8.145,50 (20/7 "Último Pago") = 33.145,50. El resto (**12.653**) se pagó por **CONFIRMING Santander → el banco lo cargará en cuenta en SEPTIEMBRE 2026** (esperar cargo ~12.653 + comisión, patrón Cert 04 Lorente). Aún sin rastro en extractos al 27/08.
 
 **STIMA 21 (arquitectos) — CERRADA A CERO (resuelto 07/08):** facturado 24.623,50 = pagado. T42575 3.025 ← 17/04/2026 Caixa concepto "redaccion proyect" (exacto); T12619 8.470 ← 13/3; T32661 4.537,50 ← 13/7; T32665 8.591 ← 5/8. Sin pendientes.
 
@@ -28,7 +28,7 @@ metadata:
 
 **VIENTO CREATIVO (rotulación/tematización) — ACTUALIZADO 27/08 con docs del usuario:** (1) **Presupuesto VTA/26-000154 (09/04) = tematización mortero efecto piedra 276,36 m² → 31.600,38 IVA inc.** (26.116,02+21%), precio cerrado salvo ±10% superficie, pago 50% aceptación/50% entrega. A cuenta: fact VTA/26-000181 10.890 (30/4) + transf 5.000 (15/7, sin factura, hipótesis a cuenta de este presu) = 15.890 → **pendiente tematización 15.710,38**. (2) **Cartel fachada: factura VTA/26-000314 (08/07) 2.371,60 RECIBIDA 27/08** (rótulo DINGUI composite; PDF local en data/facturas/email_inbox/, registrada SIN drive_id → pendiente subir a Drive "Facturas Julio 2026") — ya no falta. (3) Cartas menú fact 88,09 sin pago localizado. (4) **PAGO EN EFECTIVO 10.000 SIN FACTURA "por ser PROMO" (indicado por el usuario 27/08)** — contabilizar como coste de proyecto (Obra/Viento Creativo), NO descuenta el presupuesto de tematización; fecha del pago pendiente de preguntar. Total Viento: pagado banco 18.261,60 + efectivo 10.000 = 28.261,60; facturado 13.349,69.
 
-**SONIDO menor — CERRADOS (verificado 27/08):** Thomann neto 3.546,20 (fact 4.361,20 − abono 815 devolución Wolfmix W1, abono cobrado en banco 23/5) = pagado neto ✓. Madrid Hifi 860,05: el 2º cargo de 860,05 (20/5) fue DEVUELTO el 21/5 → neto = factura, NO falta factura. Betopper/Big Dipper: pago 2.923,45, factura #12676 en Drive registrada SIN importe → confirmar que cubre el pago. Sonicolor 318,22 facturado sin pago en banco (¿caja o pendiente?).
+**SONIDO menor — CERRADOS (verificado 27/08):** Thomann neto 3.546,20 (fact 4.361,20 − abono 815 devolución Wolfmix W1, abono cobrado en banco 23/5) = pagado neto ✓. Madrid Hifi 860,05: el 2º cargo de 860,05 (20/5) fue DEVUELTO el 21/5 → neto = factura, NO falta factura. Betopper/Big Dipper CERRADO: factura #12676 es en USD ($3.283,43 = 4x LB150 + envío) = contravalor del cargo 2.923,45 € (06/05); total_eur fijado en el registro 27/08. Sonicolor 318,22 facturado sin pago en banco (¿caja o pendiente?).
 
 **NOTARÍA (Legal V35, ampliación capital): provisión 2.100 (19/2 "209-2026") vs factura A209/A210/G19 1.629,45 → sobrante 470,55 sin justificar** (¿devolución pendiente de la notaría o factura adicional?).
 
