@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
-  modified: 2026-08-27T12:29:29.790Z
+  modified: 2026-08-27T12:53:55.371Z
 ---
 
 **Método validado por el usuario:** los pagos de obra van EN ORDEN CRONOLÓGICO según las certificaciones, a veces por partes ("parte 1/2/3 certifica"). Las certificaciones de Lorente DEDUCEN las anteriores (los importes de factura ya son netos incrementales — verificado leyendo los PDFs: "A DEDUCIR 1ª PROVISIÓN DE FONDOS −45.401,14…"). Los alias bancarios: "Florente"=Lorente y Millán, "Mantec"=Sánchez Yuste. "PAGO TRANSFERENCIAS" (Caixa) es concepto GENÉRICO — asignar por importe/cronología, no asumir proveedor.
@@ -30,7 +30,7 @@ metadata:
 
 **SONIDO menor — CERRADOS (verificado 27/08):** Thomann neto 3.546,20 (fact 4.361,20 − abono 815 devolución Wolfmix W1, abono cobrado en banco 23/5) = pagado neto ✓. Madrid Hifi 860,05: el 2º cargo de 860,05 (20/5) fue DEVUELTO el 21/5 → neto = factura, NO falta factura. Betopper/Big Dipper CERRADO: factura #12676 es en USD ($3.283,43 = 4x LB150 + envío) = contravalor del cargo 2.923,45 € (06/05); total_eur fijado en el registro 27/08. Sonicolor 318,22 facturado sin pago en banco (¿caja o pendiente?).
 
-**CONFIRMING SANTANDER — DEUDA VIVA (descubierto 27/08):** el principal del confirming de Lorente Cert 04 (**32.343,05**) NUNCA se cargó en cash: 19/6 comisión formalización 302,50 → 22/6 cargo a vencimiento −32.343,05 + abono Factoring +32.343,05 (neto 0, REFINANCIADO) → intereses 892,29 (24/6) + 299,14 (8/7). Sin cargo de principal hasta 27/08 → **sigue pendiente de vencimiento**. Además el usuario dice 27/08: "nos han pagado VARIAS cosas por confirming que nos cobrarán en septiembre" — confirmadas: BS Aislamientos 12.653; LISTA COMPLETA PENDIENTE de que el usuario detalle (proveedor, importe, vencimiento) — ¿incluye Aycoa u otros pendientes que creemos sin pagar? Los pagos por confirming NO dejan rastro en cuenta hasta el vencimiento. Cargos esperados sept: ≥ 32.343,05 + 12.653 + intereses.
+**CONFIRMING SANTANDER — DEUDA VIVA (descubierto 27/08):** el principal del confirming de Lorente Cert 04 (**32.343,05**) NUNCA se cargó en cash: 19/6 comisión formalización 302,50 → 22/6 cargo a vencimiento −32.343,05 + abono Factoring +32.343,05 (neto 0, REFINANCIADO) → intereses 892,29 (24/6) + 299,14 (8/7). Sin cargo de principal hasta 27/08 → **sigue pendiente de vencimiento**. **LISTA CERRADA (confirmado por el usuario 27/08): el confirming vivo es SOLO esto — Lorente C04 32.343,05 + BS Aislamientos 12.653 = 44.996,05 + intereses, cargos esperados en SEPTIEMBRE.** No hay más pagos por confirming ocultos (ni Aycoa ni otros). Los pagos por confirming no dejan rastro en cuenta hasta el vencimiento → al ingerir septiembre, casar los cargos contra estos dos.
 
 **LICENCIA / DR (anotado por el usuario 27/08): FALTAN 10.000 € POR PAGAR de licencia "para la DR"** (¿Declaración Responsable? — confirmar). Sin especificar aún: a quién se paga, si lleva factura o es efectivo, y fecha prevista → PREGUNTAR. Pagado hasta ahora en Licencia/Trámites: tasas ayto 8.251,54 (6 cargos Caixa "TRIBUTOS": 190,25 el 13/02 + 8.061,29 el 17/04), sin factura (tasas).
 
