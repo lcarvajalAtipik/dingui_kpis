@@ -24,4 +24,5 @@
 - [Feedback: no pre-filter data](feedback_no_prefilter_data.md) — El usuario sube exports crudos; yo deduplico y delimito rangos.
 - [Feedback: bank format stable](feedback_bank_format_stable.md) — Cada banco exporta siempre el mismo formato; parser dedicado por banco.
 - [Feedback: ask more](feedback_ask_more.md) — REGLA DURA (07/08): lo no documentado NUNCA se escribe como hecho; conciliaciones inferidas se marcan "hipótesis" y se PREGUNTAN antes de fijarlas. Preguntar > asumir.
+- [Feedback: persistir decisiones](feedback_persist_decisions.md) — Anotar TODO acuerdo en el momento y reutilizarlo; no re-litigar ni tratar como nuevo lo ya decidido (preocupación 27/08).
 - [Feedback: sync memoria](feedback_sync_memoria.md) — Usuario multi-ordenador; repo en GitHub (lcarvajalAtipik/dingui_kpis). Sync memoria: push + commit + push; en máquina nueva, pull.

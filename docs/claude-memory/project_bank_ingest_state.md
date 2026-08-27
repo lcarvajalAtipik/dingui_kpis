@@ -1,13 +1,18 @@
 ---
 name: project-bank-ingest-state
-description: "Estado ingesta bancaria: 489 movs hasta 05/08/2026 (Caixa+Santander). HALLAZGO CLAVE: cero nóminas/TGSS/IRPF en banco → personal se paga en efectivo de caja. Proveedores bebida se pagan por 'deuda' en redondos. 57 movs nuevos sin categorizar (transferencias obra con alias)"
+description: "Estado ingesta bancaria: 659 movs hasta 27/08/2026 (Caixa+Santander). Personal se paga EN EFECTIVO (confirmado por usuario). Comisión TPV va descontada de origen (neto=venta real). Categoría nueva 'DJs / Programación'. Solo 1 sin categorizar (Discount_ES). OJO dedup entre exports solapados."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
+  modified: 2026-08-27T09:45:33.351Z
 ---
 
-**⚠ EXPORT SANTANDER 05/08 INCOMPLETO:** verificación de continuidad de saldos detecta −22.369,05 € de cargos del 4-5/8 que el saldo refleja pero NO están como filas (el saldo salta de 71.612,95 a 51.426,96). PEDIR re-export. El check de integridad (saldo fila a fila) queda como práctica estándar en cada ingesta. Caixa 05/08: 0 rupturas, completo. Saldos 5/8: Santander 26.874,85.
+**ACTUALIZACIÓN 27/08/2026:** re-ingesta con export Santander nuevo (12/06→27/08). DB ahora **659 movs, 2025-08-20 → 2026-08-27**. Solo **1 sin categorizar** (Discount_ES −747,89, 15/06, sigue sin identificar). Nueva categoría **"DJs / Programación"** (pagos DJ por banco desde agosto: Marina Aguilar, Lucas Haurie, Francisco Ruiz, Adrián León, concepto "Pago Dj"; en julio NO hay DJs por banco). Usuario CONFIRMÓ: personal se paga en efectivo; comisión TPV va descontada de origen (el neto liquidado ES la venta real); alquiler se imputa al mes devengado. **⚠ LECCIÓN DEDUP:** exports Santander solapados generan raw_tx_id DISTINTO para el día de solape (05/08 dio 11 duplicados exactos) → tras re-ingestar, dedup fino por (fecha, importe, concepto) y borrar los del export más nuevo. **⚠ SIEMPRE `dump_bank_overrides.py` tras recategorizar en DB**: la reingesta reaplica el CSV y revierte cambios solo-en-DB (pasó con id 136, la devolución +10.000 de Lorente del 8/6 volvió a 'Préstamo socios'; ya persistido a Obra en el CSV).
+
+**⚠ EXPORT SANTANDER 05/08 INCOMPLETO (resuelto 27/08):** el re-export del 27/08 trae el 05/08 completo; los 11 movs del 05/08 coincidían exactos con el export viejo (0 filas nuevas ese día), así que el hueco de −22,4K era del tramo 4/8 y quedó cubierto. Check de continuidad de saldos sigue como práctica estándar.
+
+**[histórico 05/08] ⚠ EXPORT SANTANDER 05/08 INCOMPLETO:** verificación de continuidad de saldos detecta −22.369,05 € de cargos del 4-5/8 que el saldo refleja pero NO están como filas (el saldo salta de 71.612,95 a 51.426,96). PEDIR re-export. El check de integridad (saldo fila a fila) queda como práctica estándar en cada ingesta. Caixa 05/08: 0 rupturas, completo. Saldos 5/8: Santander 26.874,85.
 
 **Estado 05/08/2026:** `scripts/ingest_bancos_sqlite.py` (nuevo, dedup por raw_tx_id) → DB local 489 movimientos, 2025-08-20 → 2026-08-05. Exports en data/bancos/inbox/ (Caixa CSV 05/08 + Santander XLS 05/08).
 

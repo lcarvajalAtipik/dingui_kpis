@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: a861d9eb-9449-477a-89e6-e7bb7676b867
-  modified: 2026-08-07T15:58:29.462Z
+  modified: 2026-08-27T09:49:27.463Z
 ---
 
 **Categorías pre-apertura** (columna `Tipo` del sheet, 88 movimientos 20/08/2025 → 30/04/2026, validadas por el usuario): Aportaciones (+221.638,53), Obra (-94.133,97), Alquiler/Fianza, Insonorización, Arquitectos, Sonido/Luces, Licencia/Trámites, Legal gestión software, Marketing, Otros, Financiero. Validación categorizador: cobertura 100%, acierto 98,9% (única excepción: devolución notaría +524,15 → user_override, en `CONFIRMED_CORRECTIONS` de `scripts/validate_categorizer.py`).
@@ -31,7 +31,9 @@ metadata:
 
 **Validado por el usuario 06/08/2026:** "devolucion presta" = devoluciones del **Préstamo temporal socios** (entraron 12.000 € el 7-8/6: 4K+5K+3K(TRASPASO 8/6) — CORREGIDO 07/08, el 10K del 8/6 era devolución de Lorente, no préstamo; devueltos 5K el 20/7 y 3K el 5/8 → pendiente 4K). Álvaro Gómez −217 = devolución de ingreso. Doyouspain + Love My Bar → Gastos extra actividad. AEAT → **Impuestos** (categoría nueva). Ingreso efectivo de Borja Ybarra +2.850 (14/7) = **ingreso de efectivo de la caja al banco** → Movimiento entre cuentas (¡no es aportación!). ALIEXPRESS → Equipamiento. DB al 99,6% categorizada (487/489).
 
-**Aún sin identificar (los únicos 2):** "2 parte factura" −5.000 (08/05, ¿BS Aislamientos o Sánchez Yuste?), Discount_ES −747,89 (15/06).
+**Categoría "DJs / Programación" (acordada con el usuario como categoría propia; formalizada en banco 27/08):** su fuente de coste es el sheet de DJs [[reference_dj_sheet]] (`Presu.`=caché), NO solo el banco. Pagos por banco "Pago Dj" desde agosto (Marina Aguilar, Lucas Haurie, Francisco Ruiz, Adrián León); en julio no hay DJs por banco pero SÍ hay caché (julio ≈6.080, parte por nómina → cuidado doble conteo con Personal). **COGS ampliado 27/08** (antes solo makro/picking gades/cash lepe): añadidos como COGS por override los recibos de Melgarejo, Miguel Merino, Distribuciones Dilaso, Ipasur Licores, Hielos Express/Mellis Hielos, Berlys, Jamones La Encina.
+
+**Aún sin identificar (el único):** Discount_ES −747,89 (15/06). [El "2 parte factura" −5.000 del 08/05 quedó como Insonorización/BS.]
 
 **✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
 - **La constructora es "LORENTE Y MILLÁN CONSTRUCCIONES S.L."** (no "Florente" — lectura errónea del concepto bancario). Certificaciones = "PAGO TRANSFERENCIAS".
