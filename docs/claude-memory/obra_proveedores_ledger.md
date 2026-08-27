@@ -1,11 +1,11 @@
 ---
 name: obra-proveedores-ledger
-description: "Cuentas corrientes de la obra al 27/08/2026: Lorente y Millán CERRADA (237.413,48 = pagado, Cert 06 pagada 12/08); Sánchez Yuste y Stima 21 CERRADAS; Aycoa facturado 44.114,18 / pagado 25.000 (hipótesis pago 24/08) → pdte 19.114,18; BS Aislamientos RESUELTA: proveedor pagado 100% (12.653 por confirming Santander, cargo en cuenta en SEPT); Viento Creativo: presu tematización 31.600,38, pdte 15.710,38 + PROMO 10.000 efectivo sin factura"
+description: "Cuentas corrientes de la obra al 27/08/2026: Lorente y Millán CERRADA (237.413,48 = pagado, Cert 06 pagada 12/08); Sánchez Yuste CERRADA; Stima: presu 26.350+IVA, banco pagado 20.350+IVA, PDTE 6.000 efectivo sin IVA (PROMO); Aycoa facturado 44.114,18 / pagado 25.000 (hipótesis pago 24/08) → pdte 19.114,18; BS Aislamientos RESUELTA: proveedor pagado 100% (12.653 por confirming Santander, cargo en cuenta en SEPT); Viento Creativo: presu tematización 31.600,38, pdte 15.710,38 + PROMO 10.000 efectivo sin factura"
 metadata: 
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
-  modified: 2026-08-27T12:00:31.227Z
+  modified: 2026-08-27T12:16:23.412Z
 ---
 
 **Método validado por el usuario:** los pagos de obra van EN ORDEN CRONOLÓGICO según las certificaciones, a veces por partes ("parte 1/2/3 certifica"). Las certificaciones de Lorente DEDUCEN las anteriores (los importes de factura ya son netos incrementales — verificado leyendo los PDFs: "A DEDUCIR 1ª PROVISIÓN DE FONDOS −45.401,14…"). Los alias bancarios: "Florente"=Lorente y Millán, "Mantec"=Sánchez Yuste. "PAGO TRANSFERENCIAS" (Caixa) es concepto GENÉRICO — asignar por importe/cronología, no asumir proveedor.
@@ -20,7 +20,7 @@ metadata:
 
 **BS AISLAMIENTOS (insonorización) — RESUELTO 27/08 por el usuario: PROVEEDOR PAGADO AL 100%, sin quita.** Factura OB-113 45.798,50 (15/4). Por cuenta: 20.000 (30/4) + 5.000 (8/5) + 8.145,50 (20/7 "Último Pago") = 33.145,50. El resto (**12.653**) se pagó por **CONFIRMING Santander → el banco lo cargará en cuenta en SEPTIEMBRE 2026** (esperar cargo ~12.653 + comisión, patrón Cert 04 Lorente). Aún sin rastro en extractos al 27/08.
 
-**STIMA 21 (arquitectos) — CERRADA A CERO (resuelto 07/08):** facturado 24.623,50 = pagado. T42575 3.025 ← 17/04/2026 Caixa concepto "redaccion proyect" (exacto); T12619 8.470 ← 13/3; T32661 4.537,50 ← 13/7; T32665 8.591 ← 5/8. Sin pendientes.
+**STIMA 21 (arquitectos) — ACTUALIZADO 27/08 por el usuario: presupuesto TOTAL 26.350 + IVA.** Facturado/pagado por banco 20.350 + IVA = 24.623,50 (cuadra al céntimo): T42575 3.025 ← 17/04/2026 Caixa "redaccion proyect"; T12619 8.470 ← 13/3; T32661 4.537,50 ← 13/7; T32665 8.591 ← 5/8. **PENDIENTE: 6.000 € que se pagan EN EFECTIVO SIN IVA y sin factura (PROMO, como Viento Creativo)** — coste total Stima = 30.623,50. Cuando se pague, registrar fecha.
 
 **SÁNCHEZ YUSTE cierre fino (07/08):** el 0165 se pagó con el "PAGO TRANSFERENCIAS" 24.271,39 del 27/2; las otras 3 facturas (0215 24.271,39 + 0216 892,74 + 0375 1.050,67 = 26.214,80) se pagaron con los 3 "Mantec" de Santander: 5.000 + 10.000 (28/7) + 11.214,80 (5/8) — suma exacta.
 
