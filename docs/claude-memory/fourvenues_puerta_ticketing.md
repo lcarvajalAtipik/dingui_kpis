@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 84abf2a4-b0ee-40eb-a33d-d4637ef9e3ce
+  modified: 2026-08-27T13:13:30.959Z
 ---
 
 **Cambio (desde 2026-07-07):** la **puerta/taquilla** (y reservados) pasa a tickearse en **Tipsi**. Antes quedaba fuera del TPV: en el cuadre de la noche del 6→7 jul, Tipsi (barra) solo captaba ~65% de la caja (3.701 € de 5.656 €; puerta 690 € y FV 1.135 € iban aparte). **VALIDADO 14/07/2026 cruzando tickets Tipsi vs cierres del gerente:** desde el 7/7 los tickets Tipsi = Z del cierre al céntimo (7/7 +0,50; 9/7 0,00; 13/7 +5,00; 10/7 −132,50; 11/7 −261). **PERO Fourvenues NO aparece en la caja de Tipsi** (9/7 FV 340, 10/7 FV 150, 13/7 FV 2.548 — todos fuera de la Z; quizá se tickean a 0 €): TOTAL CAJA del gerente = Z(Tipsi) + FV. Para noches **anteriores al 7/7** hay que sumar puerta + FV desde el parte del gerente; para posteriores, solo FV.
@@ -25,4 +26,6 @@ metadata:
 
 **How to apply:** para "facturación de la noche" real usar barra + puerta + FV (desde 07/07 todo sale de Tipsi). En P&L, aplicar el 7% de comisión FV como coste sobre la venta del canal FV. Ver [[project-tipsi]] (extractor), [[business-overview]], [[iva-rates]].
 
-**⚠ COBRO FV SIN RASTRO (verificado 07/08/2026):** barrido completo de los 489 movimientos de ambos bancos: **CERO abonos de Fourvenues**. FV facturado según cierres ≈ 51K (jun+jul, 42.525 solo julio) sin llegar a Caixa ni Santander. PREGUNTAR: ¿dónde/cuándo liquida FV (cuenta tercera, liquidación mensual, retención)? Es el mayor importe "en el aire" del negocio.
+**⚠ COBRO FV SIN RASTRO (verificado 07/08/2026, re-verificado 27/08 sobre 659 movs):** CERO abonos de Fourvenues en Caixa ni Santander. Devengado según cierres: jun ~8,5K (hipótesis) + jul 42.525 + ago 32.710 (a 22/08) → ~97K proyectado a fin de agosto.
+
+**✅ DECISIÓN del usuario (27/08/2026): el saldo FV cuenta SIEMPRE como liquidez disponible** — "en cualquier momento podemos disponer de ese dinero" (retirable a demanda desde la plataforma). En análisis de tesorería/liquidez, tratar FV devengado como caja disponible (línea separada "FV disponible"), no como cuenta a cobrar incierta. Sigue pendiente conocer la mecánica exacta de retirada y a qué cuenta llega — al aparecer el primer abono, casarlo.
