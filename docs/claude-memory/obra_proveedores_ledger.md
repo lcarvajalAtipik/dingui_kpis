@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
-  modified: 2026-08-27T12:53:55.371Z
+  modified: 2026-08-27T12:59:03.939Z
 ---
 
 **Método validado por el usuario:** los pagos de obra van EN ORDEN CRONOLÓGICO según las certificaciones, a veces por partes ("parte 1/2/3 certifica"). Las certificaciones de Lorente DEDUCEN las anteriores (los importes de factura ya son netos incrementales — verificado leyendo los PDFs: "A DEDUCIR 1ª PROVISIÓN DE FONDOS −45.401,14…"). Los alias bancarios: "Florente"=Lorente y Millán, "Mantec"=Sánchez Yuste. "PAGO TRANSFERENCIAS" (Caixa) es concepto GENÉRICO — asignar por importe/cronología, no asumir proveedor.
@@ -24,7 +24,7 @@ metadata:
 
 **SÁNCHEZ YUSTE cierre fino (07/08):** el 0165 se pagó con el "PAGO TRANSFERENCIAS" 24.271,39 del 27/2; las otras 3 facturas (0215 24.271,39 + 0216 892,74 + 0375 1.050,67 = 26.214,80) se pagaron con los 3 "Mantec" de Santander: 5.000 + 10.000 (28/7) + 11.214,80 (5/8) — suma exacta.
 
-**PROFESIONAL DJ / "UME" (cabina, CONFIRMADO por usuario 07/08):** la transferencia Caixa 12/3 "UME" −8.582,50 = presupuesto PEDIDO 98063 de Profesional DJ (Sonido, Iluminación y Publicidad Profesional SL, Murcia) 8.508 IVA inc. + 74,50 SIN justificar (hipótesis portes — NO documentado): 2×CDJ-3000X + DJM-A9 + accesorios. Respuesta de Israel García 10/08: el 98063 es PRESUPUESTO, no factura; la factura se genera automática en la cuenta web del cliente, pero info@dinguiclub.com NO tiene cuenta → **Borja debe decirle con qué email se hizo el pedido** para que la envíe/descargue.
+**PROFESIONAL DJ / "UME" (cabina, CONFIRMADO por usuario 07/08 y RE-CONFIRMADO 27/08: el concepto bancario "UME" NO es UME, el proveedor real es Profesional DJ — nota persistida en data/bank_overrides.csv y counterpart en DB; ES LA ÚNICA FACTURA GRANDE QUE FALTA DEL PROYECTO):** la transferencia Caixa 12/3 "UME" −8.582,50 = presupuesto PEDIDO 98063 de Profesional DJ (Sonido, Iluminación y Publicidad Profesional SL, Murcia) 8.508 IVA inc. + 74,50 SIN justificar (hipótesis portes — NO documentado): 2×CDJ-3000X + DJM-A9 + accesorios. Respuesta de Israel García 10/08: el 98063 es PRESUPUESTO, no factura; la factura se genera automática en la cuenta web del cliente, pero info@dinguiclub.com NO tiene cuenta → **Borja debe decirle con qué email se hizo el pedido** para que la envíe/descargue.
 
 **VIENTO CREATIVO (rotulación/tematización) — ACTUALIZADO 27/08 con docs del usuario:** (1) **Presupuesto VTA/26-000154 (09/04) = tematización mortero efecto piedra 276,36 m² → 31.600,38 IVA inc.** (26.116,02+21%), precio cerrado salvo ±10% superficie, pago 50% aceptación/50% entrega. A cuenta: fact VTA/26-000181 10.890 (30/4) + transf 5.000 (15/7, sin factura, hipótesis a cuenta de este presu) = 15.890 → **pendiente tematización 15.710,38**. (2) **Cartel fachada: factura VTA/26-000314 (08/07) 2.371,60 RECIBIDA 27/08** (rótulo DINGUI composite; PDF local en data/facturas/email_inbox/, registrada SIN drive_id → pendiente subir a Drive "Facturas Julio 2026") — ya no falta. (3) Cartas menú fact 88,09 sin pago localizado. (4) **PAGO EN EFECTIVO 10.000 SIN FACTURA "por ser PROMO" (indicado por el usuario 27/08)** — contabilizar como coste de proyecto (Obra/Viento Creativo), NO descuenta el presupuesto de tematización; fecha del pago pendiente de preguntar. Total Viento: pagado banco 18.261,60 + efectivo 10.000 = 28.261,60; facturado 13.349,69.
 

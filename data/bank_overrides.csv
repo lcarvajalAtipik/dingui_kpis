@@ -1,5 +1,5 @@
 bank,raw_tx_id,booking_date,amount_eur,concept,category,cat_method,nota
-caixa,169355d14a2d4162,2026-03-12,-8582.5,UME,Sonido/Luces,user,
+caixa,169355d14a2d4162,2026-03-12,-8582.5,UME,Sonido/Luces,user,"NO es UME: es PROFESIONAL DJ (Sonido, Iluminación y Publicidad Profesional SL, Murcia) — cabina DJ, pedido 98063 (8.508 + 74,50 sin justificar). FALTA FACTURA (Borja debe dar el email del pedido a Israel García)."
 caixa,c31217f2c0e07579,2026-04-16,189.99,UME,Financiero,user,
 caixa,3bdc11228d4b634f,2026-04-30,-1126.85,CNX 0001176170,Obra,user,
 caixa,b9617999ab468431,2026-04-30,-1126.85,CNX 0001176170,Obra,user,
