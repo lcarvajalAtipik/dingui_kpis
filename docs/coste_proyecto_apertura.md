@@ -1,14 +1,16 @@
 # Coste del proyecto de apertura Dingui — FUENTE DE VERDAD
 
-**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 504.678,28 €.**
+**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €.**
 Si otra sesión calcula un número distinto, comparar SU desglose contra este fichero línea a línea — no recalcular de cero. Actualizar este fichero (y commitear) cuando cambie algo.
 
 ## Convenciones (leer antes de comparar)
 
+- **CRITERIO TEMPORAL (decidido por el usuario 28/08): todo gasto anterior a la apertura de julio (corte 01/07/2026) es coste de proyecto, sea de la categoría que sea** — incluye alquiler/fianza, stock inicial, software/gestoría y gastos menores pre-julio. Nota: hubo soft-opening con TPV desde ~22/06 (5 liquidaciones, 2.313,48 de ingresos en junio); aun así junio cuenta como pre-apertura.
+- Además del corte temporal, siguen contando como proyecto los compromisos de obra/montaje pagados o cargados DESPUÉS de julio (Cert 06 Lorente, Mantec ago, confirming sept, Aycoa, tematización Viento, licencia DR…).
 - Todos los importes **IVA incluido** (los PROMO en efectivo no llevan IVA).
 - Coste total = pagado + pendiente comprometido, **tenga factura o no**.
 - **Incluye** los pagos en efectivo sin factura tipo PROMO (Viento 10.000 + Stima 6.000 = 16.000) y los pendientes comprometidos (Aycoa, tematización Viento, licencia DR 10.000, Stima 6.000, Sonicolor).
-- **Excluye**: toda la operativa (COGS, personal, DJs, alquiler/fianza, suministros, marketing recurrente), y el **coste financiero del confirming** (1.493,93 pagados hasta 27/08 + intereses futuros — va en categoría Financiero, no en coste de proyecto).
+- **Excluye**: la operativa DESDE julio (COGS, personal, DJs, alquiler, suministros, marketing recurrente), y el **coste financiero** (confirming 1.493,93 pagados hasta 27/08 + intereses futuros, y comisiones bancarias pre-julio ~551,80 — va en categoría Financiero, no en coste de proyecto; pendiente de confirmar con el usuario si el financiero pre-julio debería entrar).
 - BS Aislamientos cuenta como pagada al 100% (12.653 vía confirming; el cargo bancario llega en septiembre — es deuda con el banco, no con el proveedor).
 - Confirming vivo (lista CERRADA por el usuario 27/08): Lorente C04 32.343,05 + BS 12.653 = **44.996,05 de cargos en septiembre** (+ intereses).
 
@@ -25,7 +27,11 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Equipamiento / mobiliario | 7.426,63 | 7.426,63 | 0 |
 | Gastos extra apertura | 2.390,59 | 2.390,59 | 0 |
 | Otros | 1.149,33 | 1.149,33 | 0 |
-| **TOTAL** | **504.678,28** | **453.447,41** | **51.230,87** |
+| Alquiler/fianza pre-apertura | 23.508,13 | 23.508,13 | 0 |
+| Stock inicial (COGS junio) | 2.436,16 | 2.436,16 | 0 |
+| Software/gestoría pre-apertura | 1.224,64 | 1.224,64 | 0 |
+| Otros pre-apertura | 450,41 | 450,41 | 0 |
+| **TOTAL** | **532.297,62** | **481.066,75** | **51.230,87** |
 
 ## Desglose por proveedor
 
@@ -69,6 +75,12 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 ### Otros — 1.149,33
 - Tipsi (alta TPV/software, 2 facturas) ✓ conciliado al céntimo.
 
+### Pre-apertura operativa (añadido 28/08 por criterio temporal) — 27.619,34
+- **Alquiler/fianza pre-julio: 23.508,13** = fianza y garantía 13.600 (17/09/2025) + cuota comunidad 720,05 (10/02) + rentas feb–may Realmivo 4 × 2.297,02 = 9.188,08. (La renta de junio no aparece cargada antes de julio.)
+- **Stock inicial junio (COGS pre-apertura): 2.436,16** — Makro (3), Cash Lepe (3), Coca-Cola, Picking Gades (4), del 15/06 al 29/06.
+- **Software/gestoría pre-julio: 1.224,64** — lo de "Legal, gestión, software" pre-julio que NO estaba ya contado en Licencia/legal ni Otros: GoDaddy 53,85 · DocuSign 2×62 · Trimble 4×18,99 · Apple 2×49,99 · Google Workspace 3×~8 · Adobe 3×44,41 · Remesa Ases. 2×145,20 · Stipendium 242 · pago prezo (Future Is An Attitude) 181,45.
+- **Otros + gastos extra pre-julio: 450,41** = Otros 283,41 (Narigoni, Narbona Solís, Vistahermosa, Amazon, Packlink, cuota tarjeta…) + gastos extra 167,00 (comidas equipo Rest. Plato 127 + licencia taxi 40). (Pedraza 95,59 ya estaba en Gastos extra apertura.)
+
 ## Pendientes / hipótesis abiertas (27/08)
 
 1. Fecha del PROMO Viento 10.000 y del futuro pago Stima 6.000 (efectivo).
@@ -77,3 +89,4 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 4. Factura Profesional DJ (única factura grande que falta) — Borja debe dar el email del pedido.
 5. Cartas menú Viento 88,09: ¿pagadas por caja?
 6. Subir a Drive: factura Viento 314 (→ Facturas Julio 2026) y presupuesto 154 (→ Facturas abril26); rellenar drive_id en registro.
+7. (28/08) ¿El coste FINANCIERO pre-julio entra en el proyecto? Comisiones bancarias 551,80 + confirming pre-julio (comisión 302,50 + intereses 892,29) = 1.746,59. Hoy EXCLUIDO por convención.
