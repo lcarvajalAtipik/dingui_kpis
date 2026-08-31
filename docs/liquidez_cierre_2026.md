@@ -137,16 +137,28 @@ Neto caja 2026: −11,8K → **fin de año sube a ≈132K (~126K disponibles)**.
 FIN 2026                                     ≈132.000
 Ene-may: alquiler −11.485, gestoría/seguros −2.000,
   mod 111 −1.200, Mahou 2º pago +10.000, IVA +1.000
-MAYO 2027                                    ≈128.300
-Pre-apertura: stock −18.000, puesta a punto −5.000,
-  marketing −2.000
-PUNTO MÁS BAJO (primeros de junio)           ≈103.000
-IS 2026 (~35K prudente) vence JULIO 2027 — con caja del verano.
+MAYO-JUNIO 2027 (reapertura)                 ≈128.300
+    Gastos de pre-apertura (stock, puesta a punto,
+    marketing…): SIN CIFRAR — el usuario los definirá;
+    NO asumir importes (regla 30/08).
++ TPV junio (reapertura, cobra dentro del mes)
+− IS 2026 (modelo 200): PAGO 1-25 JULIO 2027  −35.000
+    (escenario prudente; 0-37K según palancas de
+     amortización — ya con la caja del verano entrando)
 ```
 
-**Dividendo: repartible cómodo ≈50K ahora** (deja punto bajo ~53K en jun-27); repartir 87K
-dejaría ~16K, tan justo como el arranque 2026 (4,6K). Resto tras el verano 2027.
-Si gestoría deja IS 2026 ≈0 (libertad amortización): margen sube a ~65-70K.
+### Calendario IS
+
+- **2026: cero pagos de IS.** Los 202 (fraccionados) de oct/dic 2026 van sobre la cuota
+  de 2025 = 0 (método por defecto art. 40.2 LIS; hipótesis a confirmar con gestoría).
+- **1-25 julio 2027: IS del ejercicio 2026** (modelo 200), ~35K prudente / 0-37K real.
+  Tipo 15% empresa de nueva creación (aplica también al ejercicio 2027).
+- **Oct y dic 2027: 202 sobre la cuota 2026 → 18% cada uno (~6,6K c/u si IS=37K).**
+  Son anticipos del IS 2027; caen con caja post-verano pero hay que contarlos.
+
+**Punto de referencia para el dividendo: llegada a la reapertura (jun-27) con ≈128K** antes de
+gastos de pre-apertura (sin cifrar) y del IS de julio (~35K prudente). Cuánto repartir y cuánto
+colchón dejar: decisión de socios con esas dos piezas delante.
 
 ## Hipótesis abiertas (29/08)
 

@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: e9095604-fa70-4eee-8b5a-0e0af98cba4e
-  modified: 2026-08-30T15:37:11.736Z
+  modified: 2026-08-30T16:03:00.909Z
 ---
 
 **Conciliación global 28/08/2026** (banco a 27/08, 676 movs limpios) — TODO CUADRA:
@@ -38,8 +38,9 @@ metadata:
 
 **AMPLIACIÓN 30/08 — IVA fino + puente a reapertura jun-2027 (en docs/liquidez_cierre_2026.md §5-6):**
 - REDEME mensual (NO trimestral; el usuario lo creía trimestral — aclarado). Sep-dic: −17,5 (IVA ago, 20/09) + devoluciones +5,3 sept (cobro nov) + 0,4/mes → neto 2026 −11,8K → **fin de año ≈132K (~126K disp.)**. CONFIRMAR con gestoría nueva que seguimos en REDEME.
-- Puente 2027: fijos ene-may −14,7 + Mahou +10 → mayo ~128; pre-apertura (stock ~18 + puesta a punto 5 + mkt 2) → **punto más bajo ~103K primeros de junio**; IS vence jul-27 con caja del verano.
-- **Dividendo recomendado: ~50K ahora** (deja punto bajo ~53K); repartir 87K dejaría ~16K (repetir la agonía del arranque 2026). Resto tras verano 2027.
+- Puente 2027: fijos ene-may −14,7 + Mahou +10 + IVA +1 → **llegada a reapertura jun-27 ≈128K**. ⚠ CORREGIDO 30/08: los gastos de pre-apertura que yo asumí (stock 18K, puesta a punto 5K, marketing 2K) los QUITÓ el usuario — sin cifrar, preguntarle cuando planifique 2027. NO asumir importes no confirmados en los puentes (refuerzo de [[feedback-ask-more]]).
+- Dividendo: decisión de socios con dos piezas delante: llegada jun-27 ~128K y IS jul-27 ~35K. (La recomendación de 50K quedó obsoleta con el cambio.)
+- **Calendario IS (añadido 30/08)**: 2026 cero pagos (202 oct/dic sobre cuota 2025=0); **IS 2026 se paga 1-25 JULIO 2027** (mod 200, ~35K prudente / 0-37K); 202 oct+dic 2027 = 18% c/u de la cuota 2026 (~6,6K c/u si IS=37K, anticipos del IS 2027).
 
 **EN INVESTIGACIÓN 28/08 — 33.146,03 € de abonos dudosos (parcialmente resuelto 29/08, ver arriba):**
 - **+10.000 el 08/06 categorizado "Obra"** (transfer inmediata, mismo día que préstamo 3K y pago cert 1 Lorente −10K): huele a 4º préstamo socio o aportación. Préstamos categorizados: 12K in (4+5 el 07/06, 3 el 08/06) / 12K out (5 el 20/07, 3+4 el 05/08) — saldados y FUERA de aportaciones. Si el +10K es préstamo → deuda viva 10K con socio.
