@@ -5,7 +5,7 @@
 - [Reference: fondeo_kpis repo](reference_fondeo_repo.md) — Repo hermano (~/Desktop/fondeo_kpis) = implementación de referencia; portar de ahí, sin copiar reglas de proveedores.
 - [Reference: sheet Proyecciones](reference_proyecciones_sheet.md) — Sheet "Proyecciones PuertoSantamaria" en Drive: ground truth de movimientos (hoja "movimientos 30 abril 2026", columna Tipo) + FC inicial + cap table.
 - [P&L categories](pl_categories.md) — Pre-apertura validadas (98,9%) + operativas desde jun 2026 (Ingresos TPV, COGS…) + nuevas validadas 04/08: Equipamiento, Gastos extra actividad. Solo 3 movs sin identificar.
-- [Bank ingest state](project_bank_ingest_state.md) — SQLite 676 movs hasta 27/08/2026, 2 cuentas al día; 2 sin categorizar (Discount_ES −747,89, FUTURE IS AN ATT. −202,01). OJO: cada re-ingesta re-añade 11 dups Santander 05/08 (hash con saldo + reordenación intradía) → borrarlos tras cada run.
+- [Bank ingest state](project_bank_ingest_state.md) — SQLite 735 movs, AMBAS cuentas al día hasta 07/09/2026 (saldos: Santander 122,0K + Caixa 19,8K). 11 sin categorizar (Chamán 4.766, Henris 1.635, "financiación" 5.000, Chancleo 1.000, Ulivo 713 + menores) — preguntados. OJO: cada re-ingesta re-añade 11 dups Santander 05/08 → borrarlos tras cada run.
 - [Bank format: CaixaBank](bank_format_caixa.md) — Formato REAL: CSV CaixaBankNow (Concepto;Fecha;Importe;Saldo, conceptos truncados, sin IBAN). Validado 08/07/2026.
 - [Bank format: Santander](bank_format_santander.md) — Cuenta TPV ES47 0049… (Nuevo VH SL). XLSX con extensión .xls, headers fila 8; liquidaciones TPV netas con bruto en Referencia 1.
 - [ignorar_fx convention](ignorar_fx_convention.md) — Flag de exclusión de cashflow; política de Dingui aún vacía, definir con el usuario.
