@@ -15,23 +15,29 @@ Tipsy, varios). Mahou aún NO ha llegado. Sin retiradas FV.
 LIQUIDEZ 07/09: 141.835 bancos + 6.000 plazo + 83.700 FV      ≈231.535
 
 + Mahou 1er pago                                               +30.000
-− Comprometido restante sept:                                 −144.314
+− Comprometido restante sept:                                 −140.884
     Confirming restante (44.996 − 5.000 cargado)  −39.996
-    Aycoa −19.114 · IVA ago est. −17.500 · Viento −15.710
+    Aycoa −19.114 · IVA ago est. −17.500
+    Viento −12.280 (estado de cuentas del proveedor 02/09:
+      10.148,80+IVA; sustituye los −15.710 estimados)
     RRPP −12.000 · Licencia DR −10.000 · TC1 ago ~−8.400
     Stima efvo −6.000 · Nómina ago restante ~−5.600
     Vacaciones ~−5.000 · Alquiler ago+sep −4.594 · Gestoría −400
-FIN DE SEPTIEMBRE                                              ≈117.200
+FIN DE SEPTIEMBRE                                              ≈120.650
 
 Oct–dic: −7.500 fijos + 5.700 cobros IVA REDEME (sept/oct)      −1.800
-FIN DE AÑO 2026                                                ≈115.400
-    → DISPONIBLE ≈109.400 (6.000 en aval Mahou) · +10K Mahou ene-27
+FIN DE AÑO 2026                                                ≈118.850
+    → DISPONIBLE ≈112.850 (6.000 en aval Mahou) · +10K Mahou ene-27
 ```
+
+Viento 07/09: estado de cuentas oficial del proveedor (email 02/09): pendiente 10.148,80+IVA =
+12.280,05. Trae un presupuesto nuevo no registrado (VTA/26-000217, 11.220, fact 202 de 8.000 ya
+emitida) y la fact 205 (2.240) → pedir PDFs. El PROMO 10K efectivo de Viento va aparte.
 
 Drift vs proyección del 29/08 (132K → 115K, −17K): cola TPV −5,9K bajo previsión + salidas de sept que
 no estaban en la limpieza (DJs 5,96K, comidas equipo/taxis 3,6K, gestoría Stipendium 1,7K, uniformes
 Henris 1,6K, ordenador Tipsy 0,6K). La bebida y el personal vinieron clavados al plan.
-Resumen socios (§4): caja fin de año ~115K (~109K disp.) → tras IS prudente −35K, **libre ≈74K** (+10K ene-27).
+Resumen socios (§4): caja fin de año ~119K (~113K disp.) → tras IS prudente −35K, **libre ≈78K** (+10K ene-27).
 
 ## Convenciones
 
