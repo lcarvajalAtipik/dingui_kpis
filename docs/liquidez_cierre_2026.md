@@ -25,9 +25,14 @@ LIQUIDEZ 07/09: 141.835 bancos + 6.000 plazo + 83.700 FV      ≈231.535
     Vacaciones ~−5.000 · Alquiler ago+sep −4.594 · Gestoría −400
 FIN DE SEPTIEMBRE                                              ≈120.650
 
-Oct–dic: −7.500 fijos + 5.700 cobros IVA REDEME (sept/oct)      −1.800
-FIN DE AÑO 2026                                                ≈118.850
-    → DISPONIBLE ≈112.850 (6.000 en aval Mahou) · +10K Mahou ene-27
+Oct–dic: fijos −9.277 (alquiler 6.891 + gestoría 436 + seguros
+  750 + mod 111 1.200) + cobros IVA REDEME +5.700 (sept 5,3K
+  cobra nov · oct 0,4K cobra dic)                               −3.577
+FIN DE AÑO 2026                                                ≈117.100
+    → DISPONIBLE ≈111.100 (6.000 en aval Mahou) · +10K Mahou ene-27
+
+⚠ Corrección 07/09 bis: el "−7.500 fijos" que arrastraban §3 y la actualización anterior ya
+incluía +1.800 de IVA; al contar el IVA fino (+5.700) aparte, los fijos reales son −9.277.
 ```
 
 Viento 07/09: estado de cuentas oficial del proveedor (email 02/09): pendiente 10.148,80+IVA =
@@ -37,7 +42,7 @@ emitida) y la fact 205 (2.240) → pedir PDFs. El PROMO 10K efectivo de Viento v
 Drift vs proyección del 29/08 (132K → 115K, −17K): cola TPV −5,9K bajo previsión + salidas de sept que
 no estaban en la limpieza (DJs 5,96K, comidas equipo/taxis 3,6K, gestoría Stipendium 1,7K, uniformes
 Henris 1,6K, ordenador Tipsy 0,6K). La bebida y el personal vinieron clavados al plan.
-Resumen socios (§4): caja fin de año ~119K (~113K disp.) → tras IS prudente −35K, **libre ≈78K** (+10K ene-27).
+Resumen socios (§4): caja fin de año ~117K (~111K disp.) → tras IS prudente −35K, **libre ≈76K** (+10K ene-27).
 
 ## Convenciones
 
