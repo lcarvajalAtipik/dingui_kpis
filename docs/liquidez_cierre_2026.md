@@ -44,6 +44,24 @@ no estaban en la limpieza (DJs 5,96K, comidas equipo/taxis 3,6K, gestoría Stipe
 Henris 1,6K, ordenador Tipsy 0,6K). La bebida y el personal vinieron clavados al plan.
 Resumen socios (§4): caja fin de año ~117K (~111K disp.) → tras IS prudente −35K, **libre ≈76K** (+10K ene-27).
 
+## ⚡⚡ ACTUALIZACIÓN 07/09 (2ª) — Cruzcampo, Pepsi, RRPP — VIGENTE, sustituye el puente de la 1ª
+
+Correcciones del usuario 07/09: (1) **el préstamo cervecera es CRUZCAMPO, no Mahou** — donde el
+histórico diga Mahou, léase Cruzcampo (30K sept + 10K ene-27, aval 6.000, se amortiza con pedidos);
+(2) **Pepsi paga 17.000 + IVA = 20.570 en OCTUBRE** (nuevo cobro; su IVA repercutido 3.570 convierte
+la liquidación REDEME de octubre de +400 a devolver en −3.170 a pagar el 20/11); (3) **RRPP = 12.998**
+(no 12.000). Aycoa conciliada al céntimo con estado de cuentas del proveedor (pte 19.114,18).
+
+```
+LIQUIDEZ 07/09 (231.535) + Cruzcampo 30.000 − limpieza sept 141.882
+FIN DE SEPTIEMBRE                                               ≈119.650
+Oct–dic: +Pepsi 20.570 − fijos 9.277 + IVA (nov: +5.300 sept
+  y −3.170 oct netean +2.130)                                   +13.420
+FIN DE AÑO 2026                                                 ≈133.070
+    → DISPONIBLE ≈127.070 (6.000 en aval Cruzcampo)
+IS 2026 prudente sube a ~37K (base +17K Pepsi) → libre ≈96K (+10K Cruzcampo ene-27)
+```
+
 ## Convenciones
 
 - Liquidez total = bancos + plazo fijo Santander + saldo Fourvenues (retirable a demanda).
