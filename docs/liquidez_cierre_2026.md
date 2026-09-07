@@ -3,6 +3,36 @@
 **Cerrado en sesión 28-29/08/2026 con el usuario.** Último dato bancario: 27/08 (Santander) / 26/08 (Caixa).
 Comparar contra este fichero, no recalcular de cero. Actualizar y commitear cuando cambie algo.
 
+## ⚡ ACTUALIZACIÓN 07/09/2026 (sustituye las cifras de §2-§3; el resto sigue vigente)
+
+Bancos reales al 07/09 (0 rupturas de saldo): **Santander 122.022,16 + Caixa 19.813,34 = 141.835,50**.
+Tramo 28/08→07/09 real: entradas 21.222 (TPV 21.075 — cola cerrada, vs 27.000 previstos) · salidas 57.243
+(COGS bebida ago 22.257 ✓ ≈ plan 22K, incl. Chamán 4.766 · Personal 17.787 = TC1 julio 8.387 ✓ + adelantos
+nómina ago 9.400 · DJs 5.957 · confirming 1er cargo 5.000 · extras/equipo 3.587 · legal 1.947 · Henris,
+Tipsy, varios). Mahou aún NO ha llegado. Sin retiradas FV.
+
+```
+LIQUIDEZ 07/09: 141.835 bancos + 6.000 plazo + 83.700 FV      ≈231.535
+
++ Mahou 1er pago                                               +30.000
+− Comprometido restante sept:                                 −144.314
+    Confirming restante (44.996 − 5.000 cargado)  −39.996
+    Aycoa −19.114 · IVA ago est. −17.500 · Viento −15.710
+    RRPP −12.000 · Licencia DR −10.000 · TC1 ago ~−8.400
+    Stima efvo −6.000 · Nómina ago restante ~−5.600
+    Vacaciones ~−5.000 · Alquiler ago+sep −4.594 · Gestoría −400
+FIN DE SEPTIEMBRE                                              ≈117.200
+
+Oct–dic: −7.500 fijos + 5.700 cobros IVA REDEME (sept/oct)      −1.800
+FIN DE AÑO 2026                                                ≈115.400
+    → DISPONIBLE ≈109.400 (6.000 en aval Mahou) · +10K Mahou ene-27
+```
+
+Drift vs proyección del 29/08 (132K → 115K, −17K): cola TPV −5,9K bajo previsión + salidas de sept que
+no estaban en la limpieza (DJs 5,96K, comidas equipo/taxis 3,6K, gestoría Stipendium 1,7K, uniformes
+Henris 1,6K, ordenador Tipsy 0,6K). La bebida y el personal vinieron clavados al plan.
+Resumen socios (§4): caja fin de año ~115K (~109K disp.) → tras IS prudente −35K, **libre ≈74K** (+10K ene-27).
+
 ## Convenciones
 
 - Liquidez total = bancos + plazo fijo Santander + saldo Fourvenues (retirable a demanda).

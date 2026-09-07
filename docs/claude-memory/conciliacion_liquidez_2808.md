@@ -5,8 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: e9095604-fa70-4eee-8b5a-0e0af98cba4e
-  modified: 2026-08-30T16:03:00.909Z
+  modified: 2026-09-07T17:27:36.528Z
 ---
+
+**ACTUALIZACIÓN 07/09/2026 (banco real hasta 07/09; VIGENTE, sustituye cifras anteriores):** liquidez 07/09 **≈231,5K** (bancos 141.835,50 = Santander 122.022,16 + Caixa 19.813,34 · plazo 6.000 · FV 83.700 sin retiradas). Tramo 28/08→07/09: −36.022 netos; bebida ago (22,3K incl. Chamán) y personal (TC1 jul 8.387 + adelantos ago 9.400) clavados al plan; drift −17K por cola TPV corta (21,1K vs 27K) + DJs 6K + equipo/gestoría/uniformes ~7,5K no previstos. Confirming: cargado 5.000 de 44.996. Mahou 30K AÚN NO llegado. **Fin sept ≈117K · FIN DE AÑO ≈115K (~109K disp.) · tras IS prudente −35K → libre ≈74K** (+10K Mahou ene-27). Detalle en docs/liquidez_cierre_2026.md §Actualización 07/09.
 
 **Conciliación global 28/08/2026** (banco a 27/08, 676 movs limpios) — TODO CUADRA:
 
