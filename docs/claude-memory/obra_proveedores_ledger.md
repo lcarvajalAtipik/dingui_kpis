@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
-  modified: 2026-09-07T17:38:09.095Z
+  modified: 2026-09-07T17:49:15.496Z
 ---
 
 **Método validado por el usuario:** los pagos de obra van EN ORDEN CRONOLÓGICO según las certificaciones, a veces por partes ("parte 1/2/3 certifica"). Las certificaciones de Lorente DEDUCEN las anteriores (los importes de factura ya son netos incrementales — verificado leyendo los PDFs: "A DEDUCIR 1ª PROVISIÓN DE FONDOS −45.401,14…"). Los alias bancarios: "Florente"=Lorente y Millán, "Mantec"=Sánchez Yuste. "PAGO TRANSFERENCIAS" (Caixa) es concepto GENÉRICO — asignar por importe/cronología, no asumir proveedor.
@@ -33,6 +33,8 @@ metadata:
 **SONIDO menor — CERRADOS (verificado 27/08):** Thomann neto 3.546,20 (fact 4.361,20 − abono 815 devolución Wolfmix W1, abono cobrado en banco 23/5) = pagado neto ✓. Madrid Hifi 860,05: el 2º cargo de 860,05 (20/5) fue DEVUELTO el 21/5 → neto = factura, NO falta factura. Betopper/Big Dipper CERRADO: factura #12676 es en USD ($3.283,43 = 4x LB150 + envío) = contravalor del cargo 2.923,45 € (06/05); total_eur fijado en el registro 27/08. Sonicolor 318,22 facturado sin pago en banco (¿caja o pendiente?).
 
 **CONFIRMING SANTANDER — DEUDA VIVA (descubierto 27/08):** el principal del confirming de Lorente Cert 04 (**32.343,05**) NUNCA se cargó en cash: 19/6 comisión formalización 302,50 → 22/6 cargo a vencimiento −32.343,05 + abono Factoring +32.343,05 (neto 0, REFINANCIADO) → intereses 892,29 (24/6) + 299,14 (8/7). Sin cargo de principal hasta 27/08 → **sigue pendiente de vencimiento**. **LISTA CERRADA (confirmado por el usuario 27/08): el confirming vivo es SOLO esto — Lorente C04 32.343,05 + BS Aislamientos 12.653 = 44.996,05 + intereses, cargos esperados en SEPTIEMBRE.** No hay más pagos por confirming ocultos (ni Aycoa ni otros). Los pagos por confirming no dejan rastro en cuenta hasta el vencimiento → al ingerir septiembre, casar los cargos contra estos dos.
+
+**AYCOA — CONFIRMADA 07/09 con estado de cuentas del proveedor ("Ctas Dingui.pdf", del usuario):** FACT 41 (05/06) 12.515,03 + FACT 61 (10/08) 31.599,15 = 44.114,18 · pagos 10.000 (05/06 "sonido 1parte", Caixa) + 5.000 (14/07) + 5.000 (29/07) + 5.000 (24/08, hipótesis CONFIRMADA, override fijado) = 25.000 → **PTE 19.114,18, cuadra AL CÉNTIMO con nuestro ledger**. Sigue abierto solo el porqué del +2.831 de la FACT 61 vs el resumen de junio (el estado de cuentas confirma el importe facturado, no lo explica).
 
 **ACTUALIZACIÓN 07/09:** primer cargo visto: **"Cobro Por Financiación" −5.000 el 03/09, CONFIRMADO por el usuario como confirming** (categorizado Obra, override). No casa entero con ninguno de los dos principales (32.343,05 / 12.653) → hipótesis: cargo parcial o tramo — quedan **~39.996 por cargar**; seguir casando con los próximos extractos. Nuevo proveedor bebida confirmado 07/09: **Chamán** (transfer 4.766,19 → COGS).
 
