@@ -1,6 +1,6 @@
 ---
 name: artifact-dingui-mes-a-mes
-description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v5 publicada 17/09/2026 (extractos a 16/09): res26 254,2K, IS26 38,1K, liquidez fin sept 118,5K, dic-26 150,4K, dic-27 334,1K. URL, fuente en docs/artifacts/, convenciones."
+description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v6 publicada 17/09/2026 (extractos a 16/09): res26 249,2K, IS26 37,4K, liquidez fin sept 118,9K, dic-26 150,4K, dic-27 329,0K. URL, fuente en docs/artifacts/, convenciones."
 metadata: 
   node_type: memory
   type: project
@@ -44,3 +44,5 @@ metadata:
 **v5 PUBLICADA 17/09/2026 (noche):** Pernod Ricard 6.200 + IVA (P&L jul/ago por botellas; caja octubre +7.502; `rappel27` 6.200 cobro oct-27) · Melgarejo +484 = aportación comercial (P&L acuerdos sept 400; caja in_acuerdos) · abonos Merino 1244/1245 base 8.207,97 restan compras de septiembre; bebida pendiente sin Merino = 4.554 (saldo a favor Merino 5.987 NO contado hasta saber si lo devuelven) · **amortización lineal a 10 años (contrato de alquiler de 10 años): `amortAnual` 39.500** sobre ~394.600 € sin IVA (contab 325.041 + Stima 22.100 + Viento con factura ~28.150 + tasas 8.250 + sonido menor ~6.300 + equipamiento ~2.500 + conexiones ~2.300); máximo fiscal ~44.700 (sonido 20 %). Jul/ago amort calculada dentro de modelo() (reacciona al supuesto).
 **Cifras v5:** resultado 2026 254.233 · IS 38.135 · resultado 2027 213.461 · liquidez fin sept 118.488 (mínimo) · dic-26 150.443 · dic-27 334.075.
 **Abierto:** Merino ¿devuelve 5.987 o crédito?, ¿más abonos? · Lorente fact 23 ¿pago doble? · 3 € confirming.
+
+**v6 17/09/2026 (noche):** Merino devuelve EN DINERO el saldo a favor +5.987,26 (usuario) → SEP_PEND op_cogs. **Marketing sin pagar a 16/09 (facturas leídas por Opus):** Álvaro Pastor 3.000 base (−210 ret. 7 %, 3.420 a pagar; "gestión comercial, captación, publicidad y marketing", sin periodo → P&L agosto supuesto) · Juan Máximo foto/vídeo 1.000 (5 días a 200: jul 400 / ago 600; 1.060 a pagar) · Evans (José María Carrión, FOTÓGRAFO, no DJ — la gestoría lo tiene en 607) 1.000 (jul 200 / ago 800; 1.060 a pagar). Caja sept −5.540; retenciones 510 en el 111 de octubre; 2027 repite ×ventas. **Pago de marketing de junio 500 € (usuario): sin factura ni cargo en banco — preguntado a quién.** DJs: faltan 2 facturas por recibir para pagar (importes por saber; el P&L ya lleva el calendario). Cifras v6: res26 249.233 · IS 37.385 · res27 208.461 · fin sept 118.935 · dic-26 150.381 · dic-27 328.982.
