@@ -1,6 +1,6 @@
 # Coste del proyecto de apertura Dingui — FUENTE DE VERDAD
 
-**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50).**
+**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50). Pagado/pendiente actualizado 17/09 con extractos hasta 16/09: Aycoa pagada entera en septiembre.**
 Si otra sesión calcula un número distinto, comparar SU desglose contra este fichero línea a línea — no recalcular de cero. Actualizar este fichero (y commitear) cuando cambie algo.
 
 ## Convenciones (leer antes de comparar)
@@ -19,7 +19,7 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Categoría | Coste total | Pagado | Pendiente |
 |---|--:|--:|--:|
 | Obra | 284.383,90 | 268.585,43 | 15.798,47 |
-| Sonido / iluminación | 60.665,60 | 41.233,20 | 19.432,40 |
+| Sonido / iluminación | 60.665,60 | 60.347,38 | 318,22 |
 | Ventilación / clima | 50.486,19 | 50.486,19 | 0 |
 | Insonorización | 45.798,50 | 45.798,50 | 0 |
 | Arquitecto | 30.741,00 | 24.623,50 | 6.117,50 |
@@ -31,7 +31,7 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Stock inicial (COGS junio) | 2.436,16 | 2.436,16 | 0 |
 | Software/gestoría pre-apertura | 1.224,64 | 1.224,64 | 0 |
 | Otros pre-apertura | 450,41 | 450,41 | 0 |
-| **TOTAL** | **532.415,12** | **481.066,75** | **51.348,37** |
+| **TOTAL** | **532.415,12** | **500.180,93** | **32.234,19** |
 
 ## Desglose por proveedor
 
@@ -43,7 +43,7 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 - **"h"** (transf. 23/02 sin identificar): 150,00.
 
 ### Sonido / iluminación — 60.665,60
-- **Aycoa**: 44.114,18 facturado (facts 41+61); pagado 25.000 (incluye 5.000 del 24/08 "pago sonido", hipótesis) → **pendiente 19.114,18**. (+2.831,40 vs resumen firmado sin pactar por escrito.)
+- **Aycoa**: 44.114,18 facturado (facts 41+61) = PAGADO. 25.000 hasta agosto (5.000 del 24/08 "pago sonido" confirmado por el estado de cuentas del proveedor 07/09) + 9.000 (07/09, Caixa "sonido penúltima") + 10.114,18 (08/09, "último pago sonido"). CERRADA 08/09. (Sigue sin explicar el +2.831,40 de la fact 61 vs resumen firmado.)
 - **Profesional DJ** (concepto bancario "UME" 12/03): 8.582,50 pagado. **FALTA FACTURA** (pedido 98063 = 8.508 + 74,50 sin justificar).
 - **Thomann**: 3.546,20 neto (fact 4.361,20 − abono 815 devolución Wolfmix) ✓ cerrada.
 - **Betopper/Big Dipper**: 2.923,45 (fact #12676 en USD $3.283,43) ✓ cerrada.
@@ -89,4 +89,5 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 4. Factura Profesional DJ (única factura grande que falta) — Borja debe dar el email del pedido.
 5. Cartas menú Viento 88,09: ¿pagadas por caja?
 6. Subir a Drive: factura Viento 314 (→ Facturas Julio 2026) y presupuesto 154 (→ Facturas abril26); rellenar drive_id en registro.
+8. (07/09) **Viento Creativo — posible AUMENTO del total**: el estado de cuentas del proveedor (email 02/09) fija el pendiente en 10.148,80 + IVA = 12.280,05 (aquí figura 15.798,47), pero incluye un presupuesto NUEVO VTA/26-000217 (11.220 base) con facts 202 (8.000) y 205 (2.240) no registradas, y un "7.500 a cuenta" que no está en banco (¿efectivo?). Si el presu 217 es proyecto, el total Viento subiría del orden de +4K (HIPÓTESIS, sin PDFs). Pendiente: pedir PDFs, preguntar al usuario qué es el 217 y si el 7.500 se pagó en efectivo. Hasta entonces el total se mantiene en 44.060,07.
 7. (28/08) ¿El coste FINANCIERO pre-julio entra en el proyecto? Comisiones bancarias 551,80 + confirming pre-julio (comisión 302,50 + intereses 892,29) = 1.746,59. Hoy EXCLUIDO por convención.
