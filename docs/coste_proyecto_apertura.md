@@ -1,11 +1,11 @@
 # Coste del proyecto de apertura Dingui — FUENTE DE VERDAD
 
-**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50). Pagado/pendiente actualizado 17/09 con extractos hasta 16/09: Aycoa pagada entera en septiembre.**
+**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50). Pagado/pendiente actualizado 17/09 con extractos hasta 16/09: Aycoa pagada entera en septiembre. DECISIÓN 17/09 (usuario): la pre-apertura operativa (27.619,34) SALE del coste de proyecto → COSTE DE PROYECTO = 504.795,78 € (pagado 472.561,59 + pendiente 32.234,19).**
 Si otra sesión calcula un número distinto, comparar SU desglose contra este fichero línea a línea — no recalcular de cero. Actualizar este fichero (y commitear) cuando cambie algo.
 
 ## Convenciones (leer antes de comparar)
 
-- **CRITERIO TEMPORAL (decidido por el usuario 28/08): todo gasto anterior a la apertura de julio (corte 01/07/2026) es coste de proyecto, sea de la categoría que sea** — incluye alquiler/fianza, stock inicial, software/gestoría y gastos menores pre-julio. Nota: hubo soft-opening con TPV desde ~22/06 (5 liquidaciones, 2.313,48 de ingresos en junio); aun así junio cuenta como pre-apertura.
+- ~~CRITERIO TEMPORAL (28/08): todo gasto anterior al 01/07/2026 es proyecto~~ **REVOCADO 17/09 por el usuario: la pre-apertura operativa (alquiler/fianza, stock inicial, software/gestoría, gastos menores pre-julio = 27.619,34) NO es coste de proyecto; queda como línea informativa fuera del total.** El coste de proyecto es solo montaje: obra, instalaciones, sonido, arquitecto, licencias, equipamiento, gastos de lanzamiento y alta TPV. Nota: hubo soft-opening con TPV desde ~22/06 (5 liquidaciones, 2.313,48 de ingresos en junio); aun así junio cuenta como pre-apertura.
 - Además del corte temporal, siguen contando como proyecto los compromisos de obra/montaje pagados o cargados DESPUÉS de julio (Cert 06 Lorente, Mantec ago, confirming sept, Aycoa, tematización Viento, licencia DR…).
 - Todos los importes **IVA incluido** (los PROMO en efectivo no llevan IVA).
 - Coste total = pagado + pendiente comprometido, **tenga factura o no**.
@@ -27,11 +27,8 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Equipamiento / mobiliario | 7.426,63 | 7.426,63 | 0 |
 | Gastos extra apertura | 2.390,59 | 2.390,59 | 0 |
 | Otros | 1.149,33 | 1.149,33 | 0 |
-| Alquiler/fianza pre-apertura | 23.508,13 | 23.508,13 | 0 |
-| Stock inicial (COGS junio) | 2.436,16 | 2.436,16 | 0 |
-| Software/gestoría pre-apertura | 1.224,64 | 1.224,64 | 0 |
-| Otros pre-apertura | 450,41 | 450,41 | 0 |
-| **TOTAL** | **532.415,12** | **500.180,93** | **32.234,19** |
+| **TOTAL COSTE DE PROYECTO** | **504.795,78** | **472.561,59** | **32.234,19** |
+| _(informativo, fuera del total desde 17/09) Pre-apertura operativa: alquiler/fianza 23.508,13 + stock junio 2.436,16 + software/gestoría 1.224,64 + otros 450,41_ | _27.619,34_ | _27.619,34_ | _0_ |
 
 ## Desglose por proveedor
 
@@ -69,13 +66,13 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 ### Equipamiento / mobiliario — 7.426,63
 - ID Hostelería 4.456,01 ✓ · IGMA Cerrajeros 871,20 ✓ · vidaXL 747,89 (pago = hipótesis cargo "Discount_ES" 15/06) · AliExpress 542,71 (sin factura) · compras menores (bazares/Leroy/ferretería) 808,82.
 
-### Gastos extra apertura — 2.390,59
-- Barter 1.815 (3×605; falta recibo agosto) · Otherview 342 ✓ · BA visuals 138 ✓ · Gráficas Pedraza 95,59 ✓.
+### Gastos extra apertura (lanzamiento/marketing) — 2.390,59
+- Barter Consultancy 1.815 (agencia de marketing digital, 3 mensualidades de 605: jun, jul, ago; falta recibo agosto) · Otherview 342 (José J. Díaz, autónomo: "sesión Dingui", abril; probable sesión de foto/vídeo o actuación, con retención IRPF 7%) · BA visuals 138 (diseño gráfico, EE.UU., sin IVA) · Gráficas Pedraza 95,59 (750 pulseras impresas a 2 colores). **DUDA 17/09: las mensualidades de Barter de jul y ago (1.210) son posteriores a la apertura → ¿marketing operativo en vez de proyecto? Preguntar.**
 
 ### Otros — 1.149,33
-- Tipsi (alta TPV/software, 2 facturas) ✓ conciliado al céntimo.
+- Tipsi (TPV): F267112 1.064,75 (equipamiento TPV y puesta en marcha, hardware + setup) + F267113 84,59 (primer mes de licencias de software, mayo). ✓ conciliado al céntimo. Las cuotas mensuales posteriores (84,59/mes) son operativa.
 
-### Pre-apertura operativa (añadido 28/08 por criterio temporal) — 27.619,34
+### Pre-apertura operativa — 27.619,34 (INFORMATIVO, fuera del coste de proyecto desde 17/09)
 - **Alquiler/fianza pre-julio: 23.508,13** = fianza y garantía 13.600 (17/09/2025) + cuota comunidad 720,05 (10/02) + rentas feb–may Realmivo 4 × 2.297,02 = 9.188,08. (La renta de junio no aparece cargada antes de julio.)
 - **Stock inicial junio (COGS pre-apertura): 2.436,16** — Makro (3), Cash Lepe (3), Coca-Cola, Picking Gades (4), del 15/06 al 29/06.
 - **Software/gestoría pre-julio: 1.224,64** — lo de "Legal, gestión, software" pre-julio que NO estaba ya contado en Licencia/legal ni Otros: GoDaddy 53,85 · DocuSign 2×62 · Trimble 4×18,99 · Apple 2×49,99 · Google Workspace 3×~8 · Adobe 3×44,41 · Remesa Ases. 2×145,20 · Stipendium 242 · pago prezo (Future Is An Attitude) 181,45.
