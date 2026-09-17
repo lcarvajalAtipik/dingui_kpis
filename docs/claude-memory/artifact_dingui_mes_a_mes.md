@@ -1,6 +1,6 @@
 ---
 name: artifact-dingui-mes-a-mes
-description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027) publicado 17/09/2026: URL, fuente en docs/artifacts/, convenciones del modelo y cifras clave (res26 261K, IS26 39K, liquidez dic-26 133K, dic-27 ~326K)"
+description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027) publicado 17/09/2026: URL, fuente en docs/artifacts/, convenciones del modelo y cifras clave (res26 247,5K, IS26 37,1K, liquidez dic-26 133K, dic-27 ~329K)"
 metadata: 
   node_type: memory
   type: project
@@ -17,10 +17,12 @@ metadata:
 - Liquidez = bancos + plazo fijo 6.000 + saldo Fourvenues. Traspasos entre esas bolsas (plazo, retiradas FV) no son flujo.
 - Real ene→ago 2026: ene-jun reconstruido de los extractos locales (Caixa CSV 08/07 + Santander XLS; cuadre 0,00 € con los saldos mensuales); jul y ago (hasta el 27/08) de la memoria + overrides. Cada mes real lleva una línea "Ajuste al saldo real del extracto" en «Otros ingresos» (ago −6.745 €, el resto < 400 €).
 - Septiembre 2026 = tramo real 28/08→07/09 + lista comprometida VIGENTE de docs/liquidez_cierre_2026.md (act. 07/09 2ª: Cruzcampo +30K, confirming 39.996, Aycoa 19.114, Viento 12.280, RRPP 12.998, DR 10.000, TC1 8.400, Stima 6.000, nómina 5.600, vacaciones 5.000, alquiler 4.594, gestoría 400, IVA ago 17.500). Fin sept 119.653 · fin 2026 133.077 (coincide al euro con el doc).
-- P&L operativo arranca en julio (criterio 28/08: pre-julio = proyecto; fila memo "Inversión del proyecto" = filas de proyecto de caja). Jul real; ago = cierres 1-26 + 3 noches previstas ≈ 360K con IVA. Personal según estructura oficial (líquido + extras B + IRPF + SS − DJ nómina); DJs caché del sheet; RRPP imputado a agosto; amortización 45K/año desde julio; IS 15 % sobre resultado (param).
+- P&L: ventas y compras desde julio; **alquiler, comunidad y fijos del local se devengan desde enero/febrero 2026 (petición del usuario 17/09)**; el resto pre-julio = proyecto (criterio 28/08; fila memo "Inversión del proyecto" = filas de proyecto de caja). Fila "Resultado antes de amortización e impuestos" porque la amortización (45K/año) está PENDIENTE DE ESTUDIAR con la gestoría (usuario 17/09). Jul real; ago = cierres 1-26 + 3 noches previstas ≈ 360K con IVA. Personal según estructura oficial (líquido + extras B + IRPF + SS − DJ nómina); DJs caché del sheet; RRPP imputado a agosto; amortización 45K/año desde julio; IS 15 % sobre resultado (param).
 - 2027 = repetición de 2026 (cobros/pagos bancarios jul-ago-sep escalados por `ventas27`), parámetros: ventas27, jun27 (% de julio, 0), cogs27 22 %, personal27 17,9 %, djs27 2,6 %, rrpp27 12.998, pepsi27 17.000, preap27 0 (regla 30/08: sin cifrar), vac27 5.000, is 15 %, ivaAgo26 17.500, amortAnual 45.000. IS 2026 se paga jul-27; 202 (18 % cuota 26) oct y dic 27.
 
-**Cifras por defecto:** resultado 2026 +261.040 (jul 109.217 · ago 161.551 · sep-dic −9.7K con Pepsi +17K) · IS 2026 ≈ 39.156 · resultado 2027 +215.609 · liquidez dic-26 133.077 · dic-27 ≈ 326.116 · mínimo desde sept: 119.653 (sept-26).
+**Cifras por defecto (v2, 17/09):** EBITDA 2026 +270.035 · resultado 2026 +247.535 (jul 109.217 · ago 161.551) · IS 2026 ≈ 37.130 · resultado 2027 +215.609 · liquidez dic-26 133.077 · dic-27 ≈ 328.871 · mínimo desde sept: 119.653 (sept-26). Préstamo socios: 12K in / 12K out (5K 20/07, 3K+4K 05/08) — el 4K del 05/08 no está en overrides, va en el modelo.
+
+**Puente ventas→cobros jul-ago 2026 (sección propia en la página):** ventas 583.641 con IVA = efectivo 51.841 (no pasa por banco) + Fourvenues 89.171 + tarjeta 442.629; TPV liquidado 411.182 + cola sept 21.075 = 432.257 → 10.372 (2,3 %) por explicar: comisión TPV ~0,4 %, domingo 23/08 sin hoja, noches 27-29 estimadas. Julio −12.893 = lag de liquidación (30-31/07 cobran en agosto).
 
 **Pendientes que salieron al construirlo (preguntar):** +524,15 TRANSF. A SU FAVOR 09/04 (¿devolución notaría?) · +2.000 TRASPASO 27/06 sin pareja · +189,99 UME 16/04 (¿devolución cabina, no financiero?) · el ajuste de agosto −6.745 (abonos/salidas menores entre el 8/7 y el 27/8 no desglosados en local: esta máquina no tiene la DB de 735 movs).
 

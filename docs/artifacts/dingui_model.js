@@ -7,8 +7,9 @@
 //      Los traspasos entre esas tres bolsas NO son flujo (incl. imposiciones a plazo y retiradas FV).
 //    · Enero–agosto 2026 = real (banco). Agosto llega hasta el 27/08; el tramo 28/08→07/09 real
 //      está en septiembre. Desde el 08/09 es proyección (docs/liquidez_cierre_2026.md, act. 07/09 2ª).
-//    · P&L: criterio 28/08 → todo lo anterior al 01/07/2026 es coste de proyecto (fuera del P&L).
-//      El P&L operativo arranca en julio de 2026.
+//    · P&L: criterio 28/08 → lo anterior al 01/07/2026 es coste de proyecto (fuera del P&L), salvo el
+//      alquiler, la comunidad y los fijos del local, que se devengan desde enero/febrero (petición del usuario 17/09).
+//      Las ventas y compras arrancan en julio de 2026.
 //    · 2027 repite 2026 (temporada julio–agosto) con parámetros.
 // ===================================================================================
 
@@ -29,11 +30,12 @@ const FILAS_PL = [
   ["Personal (nóminas, extras, IRPF y Seguridad Social)","personal","","Estructura oficial del coste de personal (07/08): nóminas líquidas + horas extra en efectivo + IRPF + Seguridad Social, menos los DJs que cobran por nómina (van en la fila de DJs). Julio real de Stipendium; agosto de los cierres del gerente + TC1 estimado + vacaciones."],
   ["DJs","djs","","Caché total del mes según el calendario de DJs (columna Presu.): julio 7.650 €, agosto 5.980 €."],
   ["Relaciones públicas","rrpp","","Pago RRPP de la temporada: 12.998 € con IVA (base 10.742 €), pagado en septiembre; se imputa a agosto."],
-  ["Alquiler y comunidad","alquiler","","Realmivo: 2.297,02 €/mes de renta + cuota de comunidad (~720 € al trimestre, 240 €/mes)."],
-  ["Gestoría, seguros, alarma, telecom y software","fijos","","Gestoría nueva 120 €/mes desde agosto (Stipendium jun–jul), Mapfre, Prosegur, O2 y software (~250 €/mes). Agosto incluye la gestoría laboral extra de Stipendium (1.700 €)."],
+  ["Alquiler y comunidad","alquiler","","Realmivo: 2.297,02 €/mes de renta desde febrero de 2026 (primera renta cargada el 10/02) + cuota de comunidad (~720 € al trimestre, 240 €/mes) desde enero. Se devenga cada mes aunque el banco lo pague con retraso (junio y julio se pagaron en julio–agosto; agosto y septiembre en septiembre)."],
+  ["Gestoría, seguros, alarma, telecom y software","fijos","","Enero–junio: lo pagado por banco (gestoría Remesa/Stipendium, GoDaddy, DocuSign, Trimble, Apple, Google, Adobe) ÷ 1,21; abril lleva una devolución de 524 €. Desde julio: gestoría 120 €/mes (Stipendium jun–jul 242), Mapfre, Prosegur, O2 y software (~250 €/mes). Agosto incluye la gestoría laboral extra de Stipendium (1.700 €)."],
   ["Marketing","marketing","","Barter Consultancy 605 €/mes con IVA (500 € base), solo junio–agosto."],
   ["Gastos de equipo y varios","extra","","Comidas del equipo, taxis, uniformes (Henris 1.635 €), ordenador Tipsi, farmacia… Sin IVA (÷1,21)."],
   ["Gastos financieros","financiero","","Comisiones bancarias y del TPV, comisión e intereses del confirming (302,50 + 892,29 + 299,14 €). Las imposiciones a plazo NO son gasto."],
+  ["Resultado antes de amortización e impuestos","ebitda","rule",""],
   ["Amortización","amort","","Activo amortizable ≈ 400.000 € sin IVA → ~45.000 €/año (obra, insonorización, clima y arquitecto al 10 %; sonido al 20 %). Desde julio de 2026: 3.750 €/mes. Estimación pendiente de la gestoría."],
   ["Resultado antes de impuestos","resultado","rule total",""],
   ["Impuesto de sociedades","is","","Tipo del 15 % (empresa de nueva creación, también en 2027) sobre el resultado del año. La gestoría puede bajarlo con amortización acelerada (art. 103 LIS) y libertad de amortización por creación de empleo (art. 102): cambia el tipo efectivo en los supuestos."],
@@ -44,7 +46,7 @@ const FILAS_CAJA = [
   ["Aportaciones de socios","in_aportaciones","","Transferencias entrantes de los socios (cap table: 322.000 € comprometidos; banco real ≈ 313.700 €)."],
   ["Cobros del TPV","in_tpv","","Liquidaciones del datáfono Santander, netas de comisión. Las ventas en efectivo no pasan por el banco: pagan al personal y las promos."],
   ["Ventas por Fourvenues","in_fv","","Entradas anticipadas vendidas en Fourvenues. El saldo de Fourvenues cuenta como liquidez (decisión 27/08: retirable a demanda). Las retiradas a CaixaBank son traspasos internos."],
-  ["Préstamos (socios y Cruzcampo)","in_prestamos","","Préstamo de socios: 12.000 € entrados en junio y devueltos entre julio y agosto (4.000 pendientes). Cruzcampo: 30.000 € en septiembre de 2026 y 10.000 € en enero de 2027; se amortiza con pedidos de cerveza, sin cuotas; aval de 6.000 € en el plazo fijo."],
+  ["Préstamos (socios y Cruzcampo)","in_prestamos","","Préstamo de socios: 12.000 € entrados el 7 y 8 de junio y devueltos íntegros (5.000 el 20/07, 3.000 + 4.000 el 05/08). Cruzcampo: 30.000 € en septiembre de 2026 y 10.000 € en enero de 2027; se amortiza con pedidos de cerveza, sin cuotas; aval de 6.000 € en el plazo fijo."],
   ["Devoluciones de IVA","in_redeme","","REDEME (devolución mensual): 40.059,78 € de la obra cobrados el 31/07. Septiembre sale a devolver (~5.300 €, cobro en noviembre); octubre con Pepsi sale a pagar."],
   ["Acuerdos comerciales","in_acuerdos","","Pepsi 17.000 € + IVA = 20.570 € en octubre de 2026."],
   ["Otros ingresos y por identificar","in_otros","","Abonos sin pareja (ingresos en efectivo de Ybarra 2.850 + 500, traspaso 2.000 del 27/06, 2.100 y 1.750 del 20/08), devoluciones de proveedores y el residuo hasta cuadrar con el saldo real del banco."],
@@ -254,7 +256,7 @@ REAL_CAJA[7] = {
   op_cogs: [["Recibos Melgarejo y Merino, transferencias a cuenta, Makro… (43 cargos)", -98337]],
   op_personal: [["Disposiciones de efectivo en ventanilla (3.500 + 7.500 + otras)", -12160]],
   op_djs: [["Pago Dj: Marina Aguilar, Lucas Haurie, Francisco Ruiz, Adrián León", -1873]],
-  in_prestamos: [["Devolución préstamo socios (5/8)", -3000]],
+  in_prestamos: [["Devolución préstamo socios (5/8)", -3000],["Devolución préstamo socios, último tramo (5/8)", -4000]],
   op_alquiler: [["Realmivo, renta de agosto (pagada dentro de los 4.594 € de julio–agosto)", -2297.02]],
   op_fijos: [["Prosegur, O2, software", -519]],
   op_marketing: [["Barter (27/8, último recibo)", -605]],
@@ -320,6 +322,13 @@ function modelo(p){
   const s = p.ventas27/100, f = p.jun27/100;
 
   // ===== P&L 2026 =====
+  // Enero–junio: el local ya se pagaba (alquiler, comunidad, gestoría y software) aunque el resto sea coste de proyecto
+  const FIJOS_PRE = {1: -116, 2: -131, 3: 403, 4: -217, 5: -640};   // banco, con IVA
+  for (let i = 0; i <= 5; i++){
+    if (i >= 1) add(pl, "alquiler", i, "Renta Realmivo", -2297.02);
+    add(pl, "alquiler", i, "Comunidad (720 €/trimestre)", -240);
+    if (FIJOS_PRE[i]) add(pl, "fijos", i, FIJOS_PRE[i] > 0 ? "Gestoría y software pagados por banco ÷ 1,21, con devolución de 524 € el 09/04" : "Gestoría y software pagados por banco ÷ 1,21", FIJOS_PRE[i]/1.21);
+  }
   for (const [mes, i] of [["jul", 6], ["ago", 7]]) for (const k in REAL_PL[mes]) for (const [l, v] of REAL_PL[mes][k]) add(pl, k, i, l, v);
   for (let i = 8; i <= 11; i++){
     add(pl, "alquiler", i, "Renta Realmivo", -2297.02); add(pl, "alquiler", i, "Comunidad", -240);
@@ -354,7 +363,8 @@ function modelo(p){
   const sumY = (t, k, y) => { let z = 0; for (let m = 0; m < 12; m++) z += val(t, k, idx(y, m)); return z; };
   const V = {}; for (const k of PL_KEYS) V[k] = COLS.map((_, i) => val(pl, k, i));
   V.margen = COLS.map((_, i) => V.ventas[i] + V.acuerdos[i] + V.cogs[i]);
-  V.resultado = COLS.map((_, i) => V.margen[i] + V.personal[i] + V.djs[i] + V.rrpp[i] + V.alquiler[i] + V.fijos[i] + V.marketing[i] + V.extra[i] + V.financiero[i] + V.amort[i]);
+  V.ebitda = COLS.map((_, i) => V.margen[i] + V.personal[i] + V.djs[i] + V.rrpp[i] + V.alquiler[i] + V.fijos[i] + V.marketing[i] + V.extra[i] + V.financiero[i]);
+  V.resultado = COLS.map((_, i) => V.ebitda[i] + V.amort[i]);
   const res26 = V.resultado.slice(0, 12).reduce((a, b) => a + b, 0), res27 = V.resultado.slice(12).reduce((a, b) => a + b, 0);
   const cuota26 = Math.max(0, res26)*p.is/100, cuota27 = Math.max(0, res27)*p.is/100;
   add(pl, "is", 11, `${p.is} % × resultado 2026 (${Math.round(res26).toLocaleString("es")} €)`, -cuota26);
