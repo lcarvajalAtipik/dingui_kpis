@@ -1,6 +1,6 @@
 ---
 name: artifact-dingui-mes-a-mes
-description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v6 publicada 17/09/2026 (extractos a 16/09): res26 249,2K, IS26 37,4K, liquidez fin sept 118,9K, dic-26 150,4K, dic-27 329,0K. URL, fuente en docs/artifacts/, convenciones."
+description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v7 publicada 17/09/2026 (extractos a 16/09): res26 249,2K, IS26 37,4K, res27 227,7K, liquidez fin sept 118,9K, dic-26 150,4K, dic-27 347,9K. URL, fuente en docs/artifacts/, convenciones."
 metadata: 
   node_type: memory
   type: project
@@ -46,3 +46,5 @@ metadata:
 **Abierto:** Merino ¿devuelve 5.987 o crédito?, ¿más abonos? · Lorente fact 23 ¿pago doble? · 3 € confirming.
 
 **v6 17/09/2026 (noche):** Merino devuelve EN DINERO el saldo a favor +5.987,26 (usuario) → SEP_PEND op_cogs. **Marketing sin pagar a 16/09 (facturas leídas por Opus):** Álvaro Pastor 3.000 base (−210 ret. 7 %, 3.420 a pagar; "gestión comercial, captación, publicidad y marketing", sin periodo → P&L agosto supuesto) · Juan Máximo foto/vídeo 1.000 (5 días a 200: jul 400 / ago 600; 1.060 a pagar) · Evans (José María Carrión, FOTÓGRAFO, no DJ — la gestoría lo tiene en 607) 1.000 (jul 200 / ago 800; 1.060 a pagar). Caja sept −5.540; retenciones 510 en el 111 de octubre; 2027 repite ×ventas. **Pago de marketing de junio 500 € (usuario): sin factura ni cargo en banco — preguntado a quién.** DJs: faltan 2 facturas por recibir para pagar (importes por saber; el P&L ya lleva el calendario). Cifras v6: res26 249.233 · IS 37.385 · res27 208.461 · fin sept 118.935 · dic-26 150.381 · dic-27 328.982.
+
+**v7 17/09/2026 (usuario):** **Pepsi NO paga en 2027** (`pepsi27` = 0). **Junio 2027 = 50.000 € con IVA** (`jun27`), costes variables en % de la temporada 2026 sobre lo facturado (523.226 sin IVA): compras netas 21,75 %, personal 18,56 %, DJs 2,60 %, RRPP 2,40 %, equipo/varios 1,42 %, marketing 1,15 %, financiero 0,15 % (fijos, alquiler y amortización aparte). `cogs27` pasa a 21,75 (neto de devoluciones de fin de temporada; bruto 24,2) y el patrón de caja de sept-27 de compras a −20.950 (pagos − devoluciones cobradas 2026). Junio-27: resultado ≈ +17.836. Cifras v7: res27 227.716 · liquidez jun-27 172.652 · dic-27 347.943.

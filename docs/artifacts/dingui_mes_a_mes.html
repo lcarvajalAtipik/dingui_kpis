@@ -288,12 +288,12 @@ const PL_KEYS = ["ventas","acuerdos","cogs","rappels","personal","djs","rrpp","a
 // ---------------------------------------------------------------- supuestos
 const P = {
   ventas27: 100,      // % de las ventas de 2026 (julio y agosto)
-  jun27: 0,           // ventas de junio de 2027, € con IVA; costes y cobros con la estructura de julio
-  cogs27: 24.2,       // % de ventas (2026 según contabilidad, sin ajuste de existencias)
+  jun27: 50000,       // ventas de junio de 2027, € con IVA (usuario 17/09); costes variables en % de la temporada 2026, cobros con la estructura de julio
+  cogs27: 21.75,      // % de ventas: compras 2026 netas de las devoluciones de fin de temporada (113.800 / 523.226)
   personal27: 18.6,   // % de ventas (2026 con TC1 real de agosto)
   djs27: 2.6,         // % de ventas (2026: 13.630 / 530.583)
   rrpp27: 15172.87,   // € con IVA, septiembre (2026: Security 15.172,87)
-  pepsi27: 17000,     // € sin IVA, octubre
+  pepsi27: 0,         // € sin IVA, octubre: Pepsi no vuelve a pagar en 2027 (usuario 17/09)
   rappel27: 6200,     // € sin IVA, rappel Pernod Ricard temporada 2027, cobro en octubre (2026: 6.200)
   preap27: 0,         // € con IVA, junio: stock, puesta a punto, marketing…
   vac27: 5000,        // € vacaciones no disfrutadas al suspender, septiembre
@@ -304,16 +304,16 @@ const P = {
 const GRUPOS = [
   ["Temporada 2027", [
     ["ventas27","Ventas de julio y agosto sobre 2026","%",5,"2026: jul 223.641 · ago 351.725 con IVA (facturado)"],
-    ["jun27","Ventas de junio 2027","€ con IVA",5000,"2026: apertura el 19/06, 2.313 € por TPV. Compras, personal, DJs y cobros con la estructura de julio"],
-    ["cogs27","Compras de producto","% ventas",0.5,"2026 (contabilidad, sin existencias): jul 23,4 · ago 24,8"],
-    ["personal27","Personal (con IRPF y SS)","% ventas",0.5,"2026: jul 16,5 · ago 19,9"],
+    ["jun27","Ventas de junio 2027","€ con IVA",5000,"Supuesto del usuario: 50.000 €. Costes variables en % de la temporada 2026 (compras, personal, DJs, RRPP 2,40, marketing 1,15, equipo 1,42, financiero 0,15); cobros con la estructura de julio"],
+    ["cogs27","Compras de producto","% ventas",0.5,"2026: 24,2 bruto; 21,75 neto de devoluciones de fin de temporada (Melgarejo, Merino)"],
+    ["personal27","Personal (con IRPF y SS)","% ventas",0.5,"2026: 18,56 de la temporada"],
     ["djs27","DJs","% ventas",0.1,"2026: 2,6"],
     ["rrpp27","Relaciones públicas","€ con IVA",500,"2026: 15.172,87 (Security)"],
     ["preap27","Puesta a punto en junio","€ con IVA",1000,"Sin cifrar: stock, limpieza, marketing…"],
     ["vac27","Vacaciones al cierre","€",500,"2026: pagadas con los finiquitos de agosto"]
   ]],
   ["Acuerdos e impuestos", [
-    ["pepsi27","Pepsi 2027","€ sin IVA",1000,"2026: 17.000 en octubre"],
+    ["pepsi27","Pepsi 2027","€ sin IVA",1000,"2026: 17.000. No se repite en 2027 (usuario 17/09)"],
     ["rappel27","Rappel Pernod Ricard 2027","€ sin IVA",500,"2026: 6.200 + IVA, cobro en octubre"],
     ["is","Impuesto de sociedades, tipo efectivo","%",1,"15 % nueva creación; 0 si la gestoría aplica libertad de amortización"],
     ["ivaAgo26","IVA de agosto 2026","€",500,"Modelo 303 pagado el 14/09 (real)"],
@@ -510,7 +510,7 @@ const PATRON = {   // [mes, fila, label, importe 2026, escala con ventas?]
         ["op_alquiler","Realmivo", -2319.18, false],["op_fijos","Gestoría, seguros, telecom, software", -519, false],["op_marketing","Barter", -605, false],
         ["op_extra","Comidas del equipo y taxis (2026: 2.070)", -2070, true],["fin_comisiones","Comisiones", -307, false],["tax_iva","IVA de julio (2026: 9.421)", -9420.95, true]],
   sep: [["in_tpv","Cola del TPV de las últimas noches (2026: 21.075)", 21075, true],
-        ["op_cogs","Bebida de agosto pagada en septiembre (2026: 22.257 + 13.800 pendientes)", -36057, true],["op_personal","Adelantos y resto de nómina de agosto (2026: 9.400 + 5.600)", -15000, true],
+        ["op_cogs","Bebida de agosto pagada en septiembre menos devoluciones cobradas (2026: 22.257 + 5.944 + 4.554 − 5.818 − 5.987)", -20950, true],["op_personal","Adelantos y resto de nómina de agosto (2026: 9.400 + 5.600)", -15000, true],
         ["op_ss","TC1 de agosto (2026: 10.393)", -10393.44, true],["op_djs","DJs de agosto (2026: 5.957 + 8.718)", -14674.83, true],
         ["op_extra","Comidas, taxis, uniformes (2026: 3.587)", -3587, true],["op_fijos","Gestoría laboral y varios (2026: 2.655)", -2655, false],
         ["op_alquiler","Realmivo", -2319.18, false],["tax_iva","IVA de agosto (2026: 3.375)", null, false]],
@@ -555,10 +555,18 @@ function modelo(p){
       add(pl, "cogs", i, `${p.cogs27} % de las ventas`, -V*p.cogs27/100);
       add(pl, "personal", i, `${p.personal27} % de las ventas`, -V*p.personal27/100);
       add(pl, "djs", i, `${p.djs27} % de las ventas`, -V*p.djs27/100);
-      add(pl, "marketing", i, "Barter (500 € base)", -500);
+      if (m === 5){
+        add(pl, "marketing", i, "1,15 % de las ventas (marketing de la temporada 2026)", -V*0.0115);
+        add(pl, "rrpp", i, "2,40 % de las ventas (RRPP de la temporada 2026)", -V*0.0240);
+      } else add(pl, "marketing", i, "Barter (500 € base)", -500);
       if (m === 6 || m === 7) add(pl, "marketing", i, `Foto, vídeo y gestión comercial como ${m === 6 ? "julio" : "agosto"} de 2026`, (m === 6 ? -600 : -4400)*s);
-      add(pl, "extra", i, m === 7 ? "Como agosto de 2026 (8.700 € con IVA)" : "Como julio de 2026 (562 € con IVA)", (m === 7 ? -7902/1.21*s : (m === 5 ? -464*rj : -464*s)));
-      add(pl, "financiero", i, "Comisiones bancarias, TPV", m === 6 ? -490 : -300);
+      if (m === 5){
+        add(pl, "extra", i, "1,42 % de las ventas (equipo y varios de la temporada 2026)", -V*0.0142);
+        add(pl, "financiero", i, "0,15 % de las ventas (comisiones de la temporada 2026)", -V*0.0015);
+      } else {
+        add(pl, "extra", i, m === 7 ? "Como agosto de 2026 (8.700 € con IVA)" : "Como julio de 2026 (562 € con IVA)", (m === 7 ? -7902/1.21*s : -464*s));
+        add(pl, "financiero", i, "Comisiones bancarias, TPV", m === 6 ? -490 : -300);
+      }
       add(pl, "fijos", i, m === 7 ? "Fijos 395 + gestoría laboral de cierre 1.600" : "Fijos 395 + software y telecom de temporada", m === 7 ? -1995 : -560);
     } else add(pl, "fijos", i, "Gestoría 120 + Mapfre, Prosegur, O2 ~250", -395);
     if (m === 7) add(pl, "rrpp", i, `RRPP ${p.rrpp27.toLocaleString("es")} € con IVA ÷ 1,21`, -p.rrpp27/1.21);
@@ -626,8 +634,9 @@ function modelo(p){
     add(caja, "op_personal", 17, "Disposiciones de efectivo: " + txt + " (13.640 / 223.641)", -13640*rj);
     add(caja, "op_ss", 18, "TC1 de junio: " + txt + " (8.387 / 223.641)", -8387*rj);
     add(caja, "tax_iva", 18, "IVA de junio: " + txt + " (9.421 / 223.641)", -9420.95*rj);
-    add(caja, "op_extra", 17, "Comidas del equipo, taxis: " + txt + " (562 / 223.641)", -562*rj);
-    add(caja, "op_marketing", 17, "Barter", -605);
+    add(caja, "op_extra", 17, "Equipo y varios: 1,42 % de las ventas de junio", -Vj/1.1*0.0142*1.21);
+    add(caja, "op_rrpp", 20, "RRPP de junio: 2,40 % de las ventas de junio + IVA", -Vj/1.1*0.0240*1.21);
+    add(caja, "op_marketing", 20, "Marketing de junio: 1,15 % de las ventas de junio + IVA", -Vj/1.1*0.0115*1.21);
     add(caja, "op_fijos", 17, "Software y telecom de temporada", -165);
     add(caja, "fin_comisiones", 17, "Comisiones TPV", -190*rj);
   }
@@ -966,11 +975,11 @@ const NOTAS = [
  ["mar 27","Cerrado. Alquiler y fijos."],
  ["abr 27","Cerrado. Alquiler y fijos. Sin pago a cuenta de sociedades (la cuota de 2025 fue cero)."],
  ["may 27","Cerrado. Alquiler y fijos."],
- ["jun 27","Reapertura. Stock inicial y puesta a punto (sin cifrar, supuesto a 0). Ventas según el supuesto de junio."],
+ ["jun 27","Reapertura con 50.000 € de ventas con IVA (supuesto). Costes variables en % de la temporada 2026: compras 21,75, personal 18,56, DJs 2,60, RRPP 2,40, equipo 1,42, marketing 1,15. Stock inicial; puesta a punto sin cifrar."],
  ["jul 27","Temporada: mismos cobros y pagos que julio de 2026, escalados. Se paga el impuesto de sociedades de 2026 (modelo 200)."],
  ["ago 27","Mes fuerte. Seguridad Social de julio, DJs por banco, IVA de julio."],
  ["sep 27","Cierre de temporada: cola del TPV, bebida y nómina de agosto, DJs de agosto, Seguridad Social, RRPP, vacaciones, IVA de agosto."],
- ["oct 27","Pepsi y rappel de Pernod Ricard (supuestos), IRPF del tercer trimestre y primer pago a cuenta de sociedades (18 % de la cuota de 2026)."],
+ ["oct 27","Rappel de Pernod Ricard (supuesto; Pepsi no se repite), IRPF del tercer trimestre y primer pago a cuenta de sociedades (18 % de la cuota de 2026)."],
  ["nov 27","Devolución del IVA de septiembre y pago del de octubre."],
  ["dic 27","Segundo pago a cuenta de sociedades. Se devenga el impuesto de 2027 (se paga en julio de 2028)."]
 ];
