@@ -1,6 +1,6 @@
 bank,raw_tx_id,booking_date,amount_eur,concept,category,cat_method,nota
 caixa,169355d14a2d4162,2026-03-12,-8582.5,UME,Sonido/Luces,user,"NO es UME: es PROFESIONAL DJ (Sonido, Iluminación y Publicidad Profesional SL, Murcia) — cabina DJ, pedido 98063 (8.508 + 74,50 sin justificar). FALTA FACTURA (Borja debe dar el email del pedido a Israel García)."
-caixa,c31217f2c0e07579,2026-04-16,189.99,UME,Financiero,user,
+caixa,c31217f2c0e07579,2026-04-16,189.99,UME,Sonido/Luces,user,"Devolución de equipamiento de música DJ (Profesional DJ, concepto UME), confirmado por el usuario 17/09/2026 — no es financiero"
 caixa,3bdc11228d4b634f,2026-04-30,-1126.85,CNX 0001176170,Obra,user,
 caixa,b9617999ab468431,2026-04-30,-1126.85,CNX 0001176170,Obra,user,
 caixa,1e0679049508fa79,2026-04-30,-542.71,ALIEXPRESS,Equipamiento,user,
@@ -33,7 +33,7 @@ caixa,221df374fc803959,2026-06-19,-67.41,SUMINISTRSO UNIC,Equipamiento,user,
 caixa,b84a5f507155d820,2026-06-23,-49.54,AQUALAR PISCINAS,Equipamiento,user,
 caixa,1c17652591ab98e4,2026-06-26,-10.2,BAZAR CHINO,Equipamiento,user,
 caixa,30b9ca20627155f1,2026-06-26,-172.62,COCA COLA EUROPAC,COGS,user,
-caixa,8f2776b6d56bd4b7,2026-06-27,2000.0,TRASPASO,Movimiento entre cuentas,user,
+caixa,8f2776b6d56bd4b7,2026-06-27,2000.0,TRASPASO,Préstamo socios,user,"Tercera transferencia del préstamo de un socio (usuario 17/09/2026): préstamo total 14.000, devueltos 12.000, pendientes 2.000. No es traspaso interno (sin pareja en Santander)"
 caixa,b5e743b91edfa0ad,2026-06-30,-25.0,RESTAURANTE PLATO,Gastos extra actividad,user,
 caixa,8264773a6ca16025,2026-06-30,-18.0,BAZAR CHINO,Equipamiento,user,
 caixa,073c4367dc5c0948,2026-07-01,-605.0,BARTER CONSULTANC,Marketing,user,

@@ -20,3 +20,5 @@
 - [Feedback: sync memoria](feedback_sync_memoria.md) — Usuario multi-ordenador; repo en GitHub (lcarvajalAtipik/dingui_kpis). Sync memoria: push + commit + push; en máquina nueva, pull.
 - [Feedback: delegar a Opus](feedback_delegar_opus.md) — Comando `/opus` / "con Opus" / "usa Opus" en el prompt = subagente Opus 5 para lo mecánico (imágenes, PDFs, bloques de archivos); Fable orquesta y decide.
 - [Artifact: Dingui mes a mes](artifact_dingui_mes_a_mes.md) — P&L + caja ene-26→dic-27 publicado 17/09/2026 (URL, fuente en docs/artifacts/, convenciones y cifras clave).
+- [Feedback: facturas siempre Opus](feedback_facturas_siempre_opus.md) — REGLA 17/09: facturas, nóminas, modelos y docs de gestoría NUNCA con Fable; siempre subagente Opus (Fable solo lista nombres y consolida).
+- [Contabilidad gestoría jun-ago 2026](contabilidad_gestoria_junago.md) — Libros Stipendium leídos 17/09: nómina ago real (TC1 10.393), ventas ago facturadas 319.750, IVA ago no reproducible, 15 anomalías (alquiler sin devengar, sin amortización, cuenta puente BANCOS, caja sin movimientos). Informe en docs/contabilidad_gestoria_jun-ago_2026.md.

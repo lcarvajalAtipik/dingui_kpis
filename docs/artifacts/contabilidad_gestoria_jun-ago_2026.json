@@ -1,0 +1,786 @@
+{
+ "fuente": "data/gestoria/2026-jun-ago (DIARIO/MAYOR/REGISTROS, emitidos 15/09/2026 por Stipendium)",
+ "pl_por_cuenta": [
+  {
+   "cuenta": "60000000000",
+   "nombre": "COMPRAS DE MERCADERÍAS",
+   "jun": -12090.83,
+   "jul": -45768.89,
+   "ago": -74717.78,
+   "total": -132577.5
+  },
+  {
+   "cuenta": "60200000000",
+   "nombre": "COMPRAS DE OTROS APROVISIONAMI",
+   "jun": -564.16,
+   "jul": -1873.62,
+   "ago": -3689.92,
+   "total": -6127.7
+  },
+  {
+   "cuenta": "60200000001",
+   "nombre": "COMPRA DE OTROS APROVISIONAMIE",
+   "jun": -0.0,
+   "jul": -0.0,
+   "ago": -775.14,
+   "total": -775.14
+  },
+  {
+   "cuenta": "60700000000",
+   "nombre": "TRABAJOS REALIZADOS POR OTRAS",
+   "jun": -0.0,
+   "jul": -700.0,
+   "ago": -4950.0,
+   "total": -5650.0
+  },
+  {
+   "cuenta": "62100000000",
+   "nombre": "ARRENDAMIENTOS Y CÁNONES",
+   "jun": -2251.98,
+   "jul": -0.0,
+   "ago": -0.0,
+   "total": -2251.98
+  },
+  {
+   "cuenta": "62200000001",
+   "nombre": "REPARACION Y CONSERVACION",
+   "jun": -0.0,
+   "jul": -584.71,
+   "ago": -0.0,
+   "total": -584.71
+  },
+  {
+   "cuenta": "62300000000",
+   "nombre": "SERVICIOS PROFESIONALES INDEP.",
+   "jun": -752.69,
+   "jul": -0.0,
+   "ago": -0.0,
+   "total": -752.69
+  },
+  {
+   "cuenta": "62300000001",
+   "nombre": "SERVICIOS DE PROF INDEPENDIENT",
+   "jun": -0.0,
+   "jul": -3750.0,
+   "ago": -9389.91,
+   "total": -13139.91
+  },
+  {
+   "cuenta": "62500000000",
+   "nombre": "PRIMAS DE SEGUROS",
+   "jun": -0.0,
+   "jul": -746.17,
+   "ago": -519.05,
+   "total": -1265.22
+  },
+  {
+   "cuenta": "62600000000",
+   "nombre": "SERVICIOS BANCARIOS Y SIMILARE",
+   "jun": -911.2,
+   "jul": -381.47,
+   "ago": -109.32,
+   "total": -1401.99
+  },
+  {
+   "cuenta": "62600000001",
+   "nombre": "COMISIONES FACTORING SANTANDER",
+   "jun": -892.29,
+   "jul": -299.14,
+   "ago": -0.0,
+   "total": -1191.43
+  },
+  {
+   "cuenta": "62700000001",
+   "nombre": "MARKETING DIGITAL",
+   "jun": -500.0,
+   "jul": -500.0,
+   "ago": -1351.6,
+   "total": -2351.6
+  },
+  {
+   "cuenta": "62840000000",
+   "nombre": "SUMINISTRO DE TELEFONÍA E INT.",
+   "jun": -0.0,
+   "jul": -9.12,
+   "ago": -31.4,
+   "total": -40.52
+  },
+  {
+   "cuenta": "62900000000",
+   "nombre": "OTROS SERVICIOS",
+   "jun": -115.46,
+   "jul": -180.07,
+   "ago": -2082.1,
+   "total": -2377.63
+  },
+  {
+   "cuenta": "62900000001",
+   "nombre": "OTROS SERVICIOS",
+   "jun": -107.77,
+   "jul": -32.88,
+   "ago": -60.88,
+   "total": -201.53
+  },
+  {
+   "cuenta": "62900000002",
+   "nombre": "CREACCION BBDD",
+   "jun": -149.96,
+   "jul": -0.0,
+   "ago": -166.95,
+   "total": -316.91
+  },
+  {
+   "cuenta": "64000000000",
+   "nombre": "SUELDOS Y SALARIOS",
+   "jun": -0.0,
+   "jul": -21060.1,
+   "ago": -27423.23,
+   "total": -48483.33
+  },
+  {
+   "cuenta": "64200000000",
+   "nombre": "SEGURIDAD SOCIAL A CARGO DE LA",
+   "jun": -0.0,
+   "jul": -7002.08,
+   "ago": -8717.44,
+   "total": -15719.52
+  },
+  {
+   "cuenta": "70000000000",
+   "nombre": "VENTAS DE MERCADERÍAS",
+   "jun": -0.0,
+   "jul": -0.0,
+   "ago": 4545.46,
+   "total": 4545.46
+  },
+  {
+   "cuenta": "70500000000",
+   "nombre": "PRESTACIONES DE SERVICIOS",
+   "jun": 1604.82,
+   "jul": 204157.51,
+   "ago": 315204.69,
+   "total": 520967.02
+  }
+ ],
+ "pl_por_grupo": {
+  "ventas": {
+   "cuentas": [
+    "70000000000",
+    "70500000000"
+   ],
+   "jun": 1604.82,
+   "jul": 204157.51,
+   "ago": 319750.15,
+   "total": 525512.48
+  },
+  "acuerdos_comerciales_rappels": {
+   "cuentas": [],
+   "jun": 0.0,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": 0.0
+  },
+  "compras_bebida_comida": {
+   "cuentas": [
+    "60000000000",
+    "60200000000",
+    "60200000001",
+    "60800000001"
+   ],
+   "jun": -12654.99,
+   "jul": -47642.51,
+   "ago": -79182.84,
+   "total": -139480.34
+  },
+  "personal": {
+   "cuentas": [
+    "64000000000",
+    "64200000000"
+   ],
+   "jun": 0.0,
+   "jul": -28062.18,
+   "ago": -36140.67,
+   "total": -64202.85
+  },
+  "djs_artistas": {
+   "cuentas": [
+    "60700000000"
+   ],
+   "jun": 0.0,
+   "jul": -700.0,
+   "ago": -4950.0,
+   "total": -5650.0
+  },
+  "rrpp": {
+   "cuentas": [],
+   "jun": 0.0,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": 0.0
+  },
+  "alquiler_y_comunidad": {
+   "cuentas": [
+    "62100000000",
+    "62100000001"
+   ],
+   "jun": -2251.98,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": -2251.98
+  },
+  "fijos_gestoria_seguros_telecom_software": {
+   "cuentas": [
+    "62300000000",
+    "62300000001",
+    "62500000000",
+    "62840000000",
+    "62900000001",
+    "62900000002"
+   ],
+   "jun": -1010.42,
+   "jul": -4538.17,
+   "ago": -10168.19,
+   "total": -15716.78
+  },
+  "marketing_publicidad": {
+   "cuentas": [
+    "62700000001"
+   ],
+   "jun": -500.0,
+   "jul": -500.0,
+   "ago": -1351.6,
+   "total": -2351.6
+  },
+  "gastos_equipo_y_varios": {
+   "cuentas": [
+    "62200000001",
+    "62900000000"
+   ],
+   "jun": -115.46,
+   "jul": -764.78,
+   "ago": -2082.1,
+   "total": -2962.34
+  },
+  "financiero": {
+   "cuentas": [
+    "62600000000",
+    "62600000001"
+   ],
+   "jun": -1803.49,
+   "jul": -680.61,
+   "ago": -109.32,
+   "total": -2593.42
+  },
+  "amortizacion": {
+   "cuentas": [],
+   "jun": 0.0,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": 0.0
+  },
+  "impuesto_sociedades": {
+   "cuentas": [],
+   "jun": 0.0,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": 0.0
+  },
+  "otros_tributos": {
+   "cuentas": [
+    "63100000000"
+   ],
+   "jun": 0.0,
+   "jul": 0.0,
+   "ago": 0.0,
+   "total": 0.0
+  },
+  "otros_sin_clasificar": {
+   "cuentas": [],
+   "jun": 0,
+   "jul": 0,
+   "ago": 0,
+   "total": 0
+  }
+ },
+ "resultado_pyg": {
+  "jun": -16731.52,
+  "jul": 121269.26,
+  "ago": 185765.43,
+  "total": 290303.17
+ },
+ "iva_mayor": {
+  "jun": {
+   "repercutido_mayor": 160.48,
+   "soportado_mayor": 11729.22,
+   "resultado_mayor": -11568.74
+  },
+  "jul": {
+   "repercutido_mayor": 20435.51,
+   "soportado_mayor": 11057.54,
+   "resultado_mayor": 9377.97
+  },
+  "ago": {
+   "repercutido_mayor": 31978.05,
+   "soportado_mayor": 30802.64,
+   "resultado_mayor": 1175.41
+  }
+ },
+ "iva_registros": {
+  "jun": {
+   "repercutido": 160.48,
+   "soportado": null,
+   "resultado": null
+  },
+  "jul": {
+   "repercutido": 20433.81,
+   "soportado": 9453.04,
+   "resultado": 10980.77
+  },
+  "ago": {
+   "repercutido": 31974.65,
+   "soportado": 27617.57,
+   "resultado": 4357.08
+  }
+ },
+ "ventas_emitidas": {
+  "jun": {
+   "10%": 1604.82,
+   "21%": 0.0,
+   "total_base": 1604.82,
+   "cuota": 160.48,
+   "destinatarios": {
+    "CLIENTES (EUROS) [tickets TPV]": 1604.82
+   },
+   "n_facturas": 1
+  },
+  "jul": {
+   "10%": 203992.22,
+   "21%": 165.29,
+   "total_base": 204157.51,
+   "cuota": 20433.81,
+   "destinatarios": {
+    "CLIENTES (EUROS) [tickets TPV]": 203310.4,
+    "MELGAREJO DISTRIBUIDORES (10%)": 681.82,
+    "GLORIA DURAN SL (21%)": 165.29
+   },
+   "n_facturas": 103
+  },
+  "ago": {
+   "10%": 319750.15,
+   "21%": 0.0,
+   "total_base": 319750.15,
+   "cuota": 31974.65,
+   "destinatarios": {
+    "CLIENTES (EUROS) [tickets TPV]": 319750.15
+   },
+   "n_facturas": 149
+  }
+ },
+ "nominas": {
+  "jun": {
+   "bruto_640": 0.0,
+   "ss_empresa_642": 0.0,
+   "liquido_465": 0.0,
+   "irpf_nomina_4751": 0.0,
+   "ss_total_476_abono": 0.0,
+   "ss_trabajador": 0.0,
+   "anticipos_460": 0.0
+  },
+  "jul": {
+   "bruto_640": 21060.1,
+   "ss_empresa_642": 7002.08,
+   "liquido_465": 19319.67,
+   "irpf_nomina_4751": 388.81,
+   "ss_total_476_abono": 8353.7,
+   "ss_trabajador": 1351.62,
+   "anticipos_460": 0.0,
+   "ss_pagada_en_mes": 0.0
+  },
+  "ago": {
+   "bruto_640": 27423.23,
+   "ss_empresa_642": 8717.44,
+   "liquido_465": 24348.11,
+   "irpf_nomina_4751": 547.5,
+   "ss_total_476_abono": 10393.44,
+   "ss_trabajador": 1676.0,
+   "anticipos_460": 851.62,
+   "ss_pagada_en_mes": 8387.32
+  },
+  "saldos_31_08": {
+   "cta465_remuneraciones_pendientes": -43667.78,
+   "cta476_ss_acreedora": -10359.82,
+   "cta4751_irpf": -3037.45,
+   "cta460_anticipos": -851.62
+  }
+ },
+ "balances_31_08": {
+  "proveedores_400": {
+   "40000000001": 1.08,
+   "40000000002": -16.99,
+   "40000000004": -1862.56,
+   "40000000005": -424.86,
+   "40000000006": -19564.43,
+   "40000000007": -2045.86,
+   "40000000008": -63.0
+  },
+  "acreedores_410": {
+   "41000000001": -1191.43,
+   "41000000004": -89.58,
+   "41000000005": -700.0,
+   "41000000006": -130.4,
+   "41000000007": -747.89,
+   "41000000008": -20.1,
+   "41000000009": -601.38,
+   "41000001286": 8145.5,
+   "41000001706": 1633.5,
+   "41000002082": 18173.51,
+   "41000003012": 95.59,
+   "41000003417": 35.64,
+   "41000004194": 9188.06,
+   "41000004298": -84.59,
+   "41000006160": 138.0,
+   "41000006341": 49439.15,
+   "41000006817": 22253.7,
+   "41000006896": 907.5,
+   "41000007863": 12.21,
+   "41000008098": 41323.47,
+   "41000008833": 11495.0,
+   "41000009188": 3576.53,
+   "41000009970": 8.1,
+   "41000033212": -318.22,
+   "41000033213": -299.57,
+   "41000033214": -29.43,
+   "41000033215": -11.03,
+   "41000033216": -2371.6,
+   "41000033217": -4412.2,
+   "41000033218": -477.0,
+   "41000033219": -530.0,
+   "41000033220": -147.74,
+   "41000033221": -1045.2,
+   "41000033223": -218.73,
+   "41000033224": -7.51,
+   "41000033225": -17.15,
+   "41000033226": -27.21,
+   "41000033227": -154.75,
+   "41000033228": -5710.47,
+   "41000033229": -32.97,
+   "41000033230": -49.15,
+   "41000033231": -424.0,
+   "41000033232": -1060.0,
+   "41000033233": -712.8,
+   "41000033234": -1635.44,
+   "41000033235": -64.06,
+   "41000033236": -2686.2,
+   "41000033237": -212.0,
+   "41000033238": -2755.0,
+   "41000033239": -242.0,
+   "41000033240": -4766.19,
+   "41000033241": -44114.18
+  },
+  "clientes_43": {
+   "43000000000": 143083.12,
+   "43000000001": 200.0,
+   "43000000002": 750.0
+  },
+  "socios_551": {
+   "55100000001": -165650.0
+  },
+  "partidas_pdtes_555": {
+   "55500000000": -168631.86
+  },
+  "hacienda": {
+   "47000000001": 54005.81,
+   "47200000000": 54598.24,
+   "47200000001": -860.32,
+   "47500000000": 9420.95,
+   "47510000000": -3037.45,
+   "47600000000": -10359.82,
+   "47700000000": -52574.04
+  },
+  "bancos_572": {
+   "57200000001": -142442.55,
+   "57200000002": 20080.52,
+   "57200000003": 166331.86
+  },
+  "caja_570": {
+   "57000000001": -10890.0
+  },
+  "fianzas_565": {
+   "56500000000": 13600.0,
+   "56500000001": 2100.0
+  },
+  "capital_100": {
+   "10000000001": -6000.0
+  },
+  "inmovilizado_2": {
+   "21500000001": 40118.0,
+   "21500000002": 37850.0,
+   "21500000003": 2829.66,
+   "21500000004": 26729.79,
+   "21500000005": 14680.18,
+   "21500000006": 868.32,
+   "21500000007": 26115.0,
+   "21500000008": 19586.22,
+   "21500000009": 10343.0,
+   "21600000001": 1963.81,
+   "21600000002": 992.0,
+   "21600000005": 720.0,
+   "21900000001": 7031.4,
+   "21900000002": 135213.29
+  },
+  "existencias_300": {},
+  "amort_acum_28": {},
+  "inmovilizado_total": 325040.67,
+  "proveedores_acreedores_saldo_acreedor": -102074.87,
+  "proveedores_acreedores_saldo_deudor": 166426.54,
+  "nombres": {
+   "10000000001": "CAPITAL SOCIAL",
+   "21500000001": "AIRE ACONDICIONADOS",
+   "21500000002": "INSONORIZACION DISCOTECA",
+   "21500000003": "LUCES",
+   "21500000004": "INSTAL FRA 21 LOREN Y MILLAN",
+   "21500000005": "FRA 23 LORENTE Y MILLAN",
+   "21500000006": "MANTENIMIENTO INSTALACIONES",
+   "21500000007": "AYCOA F61 INST SONIDO",
+   "21500000008": "6 CERTIFICACION F28 LORENTE",
+   "21500000009": "AYCOA F41 INST SONIDO",
+   "21600000001": "ARMARIO, FREGADERO, BOTELLERO",
+   "21600000002": "MESA REFRIGERADA",
+   "21600000005": "MOBILIARIO METALICO",
+   "21900000001": "PIONEER",
+   "21900000002": "REFORMA LOCAL DISCOTECA",
+   "40000000001": "MAKRO",
+   "40000000002": "CARREFOUR, S.A.",
+   "40000000003": "SUMINISTROS UNIC SL",
+   "40000000004": "IPASUR LICORES Y VINOS",
+   "40000000005": "DISTRIBUCIONES DILASO SL",
+   "40000000006": "GRUPO MERINO VINOS & DESTILADO",
+   "40000000007": "JAVIER QUINTERO ALARCON",
+   "40000000008": "PICKING GADES SL",
+   "41000000001": "SANTANDER FACTORING Y CONFIRMI",
+   "41000000002": "FUTURE IS AN ATTITUDE S.L.",
+   "41000000003": "BARTER CONSULTANCY PARTNERS SL",
+   "41000000004": "ANA MARIA SANCHEZ RUIS",
+   "41000000005": "FRANCISCO GUZMAN SADA",
+   "41000000006": "MASTER GIFT IMPORT S.L.U.",
+   "41000000007": "VIDAXL COMMERCE INTERNATIONAL",
+   "41000000008": "BAZAR CHINO",
+   "41000000009": "LEROY MERLIN MAJADAHONDA",
+   "41000000010": "HOSTELERIA PLATO AL CENTRO SLU",
+   "41000001001": "BOLETIN OFICIAL DEL ESTADO",
+   "41000001286": "BS AISLAMIENTOS E INSTALACIONE",
+   "41000001706": "LABORATORIOS COGESUR, S.L",
+   "41000002082": "VIENTO CREATIVO PRODUCCIONES S",
+   "41000003012": "GRAFICAS PEDRAZA, S.L",
+   "41000003051": "RODRIGUEZ Y CAPITAN",
+   "41000003417": "DISTRIBUCIONES NARBONA SOLIS,",
+   "41000003641": "BIG DIPPER LASER SCIENCE AND T",
+   "41000003888": "JOSE J DIAZ GARCIA",
+   "41000004194": "REALMIVO, S.L",
+   "41000004298": "TIPSIPOS TECHNOLOGY, S.L",
+   "41000005112": "LEGAL V35, S.L",
+   "41000005179": "ASESORAMIENTO Y GESTION INTEGR",
+   "41000006160": "BA VISUALS LLC",
+   "41000006341": "MANTEC SY",
+   "41000006817": "EDISTRIBUCION REDES DIGITALES,",
+   "41000006896": "PALERMO LEGAL, S.L",
+   "41000007645": "FASTSPRING",
+   "41000007863": "AUCTANE, S.L.U",
+   "41000008098": "LORENTE Y MILLAN CONST SL",
+   "41000008833": "STIMA 21, S.L",
+   "41000009141": "PROFESIONAL DJ",
+   "41000009188": "INNOVACION Y DISEÑO PARA HOSTE",
+   "41000009965": "DIGITAL AUDIMAGEN BQ, S.L",
+   "41000009970": "GOOGLE CLOUD EMEA LIMITED",
+   "41000033211": "THOMANN GMBH",
+   "41000033212": "SONICOLOR SEVILLA, S.L.",
+   "41000033213": "MONBAKE GRUPO EMPRESARIAL S.A.",
+   "41000033214": "LUMISUR PUERTO S.C.",
+   "41000033215": "TELEFONICA DE ESPAÑA SAU",
+   "41000033216": "VIENTO CREATIVO PRODUCCIONES S",
+   "41000033217": "MELGAREJO DISTRIBUIDORES DE BE",
+   "41000033218": "FERNANDO CHAVARRI SALRA",
+   "41000033219": "DANIEL FELIX ALONSO RODRIGUEZ",
+   "41000033220": "RESTAURANT BOOKING & DISTRIBUT",
+   "41000033221": "HIELO EXPRESS LOS MELLIS",
+   "41000033222": "IGMACERRAJEROS S.L.",
+   "41000033223": "SUMINISTROS INDUSTRIALES BAHIA",
+   "41000033224": "FESAMA C.B.",
+   "41000033225": "FCO PONCE MORA",
+   "41000033226": "FARMACIA SARALEGUI, C.B.",
+   "41000033227": "BAZAR VINADOR S.L",
+   "41000033228": "COCA-COLA EUROPACIFIC PARTNERS",
+   "41000033229": "SHANTOU XIAN KEJI YOUXIANGONGS",
+   "41000033230": "LDO. FCO.J.MALDONADO EZEQUIEL",
+   "41000033231": "RUBEN SANZ LANERO",
+   "41000033232": "JOSÉ MARÍA CARRIÓN EVANS",
+   "41000033233": "ULIVO CATERING SOCIEDAD LIMITA",
+   "41000033234": "HENRIS BRAND S.L.",
+   "41000033235": "HIELOS EL IGLU, S.L.",
+   "41000033236": "STIPENDIUM ASESORES SL",
+   "41000033237": "JUAN FRANCISCO GARCIA ZAJARA",
+   "41000033238": "IGNACIO LARA VIGUERA",
+   "41000033239": "SONLIVE GROUP SONIDO E ILUMINA",
+   "41000033240": "CHAMAN SPIRITUAL DRINKS, SL.",
+   "41000033241": "AYCOA DISTRIBUCIONES SL",
+   "43000000000": "CLIENTES (EUROS)",
+   "43000000001": "GLORIA DURAN SL",
+   "43000000002": "MELGRAREJO DISTRIBUIDORES SL",
+   "46000000000": "ANTICIPOS DE REMUNERACIONES",
+   "46500000000": "REMUNERACIONES PENDIENTES DE P",
+   "47000000001": "HP DEUDOR IVA [C]",
+   "47200000000": "HACIENDA PÚBLICA, IVA SOPORTAD",
+   "47200000001": "H.P. IVA SOPORTADO",
+   "47500000000": "HACIENDA PÚBLICA, ACREEDORA PO",
+   "47510000000": "HP, ACREED. RETEN. PRACTICADAS",
+   "47600000000": "ORGANI.DE LA SS.SS.,ACREEDORES",
+   "47700000000": "HACIENDA PÚBLICA, IVA REPERCUT",
+   "47700000001": "H.P. IVA REPERCUTIDO",
+   "55100000001": "CUENTA CORRIENTE CON SOCIOS",
+   "55500000000": "PARTIDAS PENDIENTES DE APLICAC",
+   "56500000000": "FIANZAS CONSTITUIDAS A CORTO P",
+   "56500000001": "FIANZAS PROVISION FONDOS",
+   "57000000001": "CAJA / EUROS",
+   "57200000001": "BANCOS",
+   "57200000002": "CAIXA",
+   "57200000003": "SANTANDER",
+   "60000000000": "COMPRAS DE MERCADERÍAS",
+   "60200000000": "COMPRAS DE OTROS APROVISIONAMI",
+   "60200000001": "COMPRA DE OTROS APROVISIONAMIE",
+   "60700000000": "TRABAJOS REALIZADOS POR OTRAS",
+   "60800000001": "DEVOLUCIONES DE COMPRAS DE MER",
+   "62100000000": "ARRENDAMIENTOS Y CÁNONES",
+   "62100000001": "ALQUILER LOCAL",
+   "62200000001": "REPARACION Y CONSERVACION",
+   "62300000000": "SERVICIOS PROFESIONALES INDEP.",
+   "62300000001": "SERVICIOS DE PROF INDEPENDIENT",
+   "62500000000": "PRIMAS DE SEGUROS",
+   "62600000000": "SERVICIOS BANCARIOS Y SIMILARE",
+   "62600000001": "COMISIONES FACTORING SANTANDER",
+   "62700000001": "MARKETING DIGITAL",
+   "62840000000": "SUMINISTRO DE TELEFONÍA E INT.",
+   "62900000000": "OTROS SERVICIOS",
+   "62900000001": "OTROS SERVICIOS",
+   "62900000002": "CREACCION BBDD",
+   "63100000000": "OTROS TRIBUTOS",
+   "64000000000": "SUELDOS Y SALARIOS",
+   "64200000000": "SEGURIDAD SOCIAL A CARGO DE LA",
+   "70000000000": "VENTAS DE MERCADERÍAS",
+   "70500000000": "PRESTACIONES DE SERVICIOS"
+  }
+ },
+ "comparacion": {
+  "modelo": {
+   "jul": {
+    "ventas": 203310,
+    "compras": 44495,
+    "personal": 33645,
+    "djs": 7650,
+    "rrpp": 0,
+    "alquiler_y_comunidad": 2537,
+    "fijos": 562,
+    "marketing": 500,
+    "varios": 464,
+    "financiero": 490
+   },
+   "ago": {
+    "ventas": 327273,
+    "compras": 72000,
+    "personal": 61335,
+    "djs": 5980,
+    "rrpp": 10742,
+    "alquiler_y_comunidad": 2537,
+    "fijos": 2040,
+    "marketing": 500,
+    "varios": 6531,
+    "financiero": 307
+   }
+  },
+  "gestoria": {
+   "jul": {
+    "ventas": 204157.51,
+    "compras": 47642.51,
+    "personal": 28062.18,
+    "djs": 700.0,
+    "rrpp": 0.0,
+    "alquiler_y_comunidad": -0.0,
+    "fijos": 4538.17,
+    "marketing": 500.0,
+    "varios": 764.78,
+    "financiero": 680.61
+   },
+   "ago": {
+    "ventas": 319750.15,
+    "compras": 79182.84,
+    "personal": 36140.67,
+    "djs": 4950.0,
+    "rrpp": 0.0,
+    "alquiler_y_comunidad": -0.0,
+    "fijos": 10168.19,
+    "marketing": 1351.6,
+    "varios": 2082.1,
+    "financiero": 109.32
+   }
+  },
+  "resultado": {
+   "modelo": {
+    "jul": 112967,
+    "ago": 165301
+   },
+   "gestoria": {
+    "jul": 121269.26,
+    "ago": 185765.43
+   }
+  }
+ },
+ "iva_diferencias_mayor_vs_registro": {
+  "jul": {
+   "total": 1604.5,
+   "melgarejo": 1259.26,
+   "makro": 259.27,
+   "hielo_express": 82.11,
+   "farmacia": 2.16,
+   "google_intracom": 1.7
+  },
+  "ago": {
+   "total": 3185.07,
+   "melgarejo": 2725.31,
+   "hielo_express": 311.07,
+   "makro": 145.29,
+   "google_intracom": 3.4
+  }
+ },
+ "iva_agosto_usuario": {
+  "valor_usuario": 3374.73,
+  "reproducido_mayor": 1175.41,
+  "reproducido_registros": 4357.08,
+  "soportado_implicito": 28599.92,
+  "conclusion": "No reproducible con estos libros; pedir el PDF del 303 de agosto"
+ },
+ "pago_iva_20_08": {
+  "importe": 9420.95,
+  "cuenta": "47500000000",
+  "banco": "SANTANDER",
+  "corresponde_a": "303 de julio (REDEME mensual)",
+  "descuadre_vs_mayor": 42.98
+ },
+ "anomalias": [
+  "IVA agosto 3.374,73 no reproducible (mayor 1.175,41 / registros 4.357,08)",
+  "Registro de recibidas incompleto vs mayor: -3.185,07 IVA en ago y -1.604,50 en jul (sobre todo Melgarejo)",
+  "Credito IVA preapertura 470=54.005,81 sin usar; se pago 9.420,95 el 20/08",
+  "Sin asientos de liquidacion de IVA; 475 con saldo deudor 9.420,95",
+  "Alquiler no devengado en jul ni ago (faltan 2 facturas Realmivo, ~4.504 base)",
+  "Cuenta puente 572.1 BANCOS con -142.442,55 y 166.426,54 de saldos deudores en proveedores: pagos duplicados de obra",
+  "Caja 570 en -10.890 y clientes 430 en +143.083: efectivo de barra no contabilizado",
+  "Cero amortizacion (no hay 68x ni 28x) y cero existencias (no hay 300 ni 61x)",
+  "Capital social contabilizado por 6.000 en vez de 3.000",
+  "Stima 21 (10.850 jul+ago) y cartel Viento Creativo (1.960) a gasto en vez de inmovilizado",
+  "Comision de factoring duplicada (626.0 y 626.1): 1.191,43",
+  "Diario exportado truncado: falta el cierre del asiento 1272 del 31/08 (640 74,88 + 642 48,30); total del diario descuadra -123,18",
+  "Todo facturado al 10%, entradas incluidas",
+  "460 Anticipos de remuneraciones con saldo acreedor -851,62",
+  "Nominas de jul y ago sin pagar en libros (465 = -43.667,78)",
+  "Sin facturas de Fourvenues ni Pepsi en emitidas",
+  "El registro de recibidas de este envio solo cubre jul-ago pese al nombre del fichero"
+ ]
+}
