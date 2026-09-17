@@ -1,6 +1,6 @@
 ---
 name: artifact-dingui-mes-a-mes
-description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027) publicado 17/09/2026: URL, fuente en docs/artifacts/, convenciones del modelo y cifras clave v3 (res26 226K, IS26 34K, liquidez dic-26 131K, dic-27 ~330K)"
+description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v4 publicada 17/09/2026 (extractos a 16/09): res26 242,7K, IS26 36,4K, liquidez fin sept 114,5K, dic-26 139,0K, dic-27 317,5K. URL, fuente en docs/artifacts/, convenciones."
 metadata: 
   node_type: memory
   type: project
@@ -27,3 +27,16 @@ metadata:
 **Resueltos por el usuario 17/09:** +524,15 (09/04) = devolución de la notaría → Licencias/legal · +189,99 UME (16/04) = devolución equipamiento DJ → cabina (override cambiado a Sonido/Luces) · +2.000 TRASPASO 27/06 = 3ª transferencia del préstamo de un socio → préstamo total 14.000, devueltos 12.000, **pendientes 2.000** (override cambiado a Préstamo socios). Queda: el ajuste de agosto −2.745 (abonos/salidas menores entre el 8/7 y el 27/8 no desglosados en local: esta máquina no tiene la DB de 735 movs).
 
 **How to apply:** si cambian cifras (IVA ago real, nómina ago, cargos confirming, Cruzcampo), editar `REAL_CAJA`/`SEP_PEND` en `docs/artifacts/dingui_model.js`, regenerar el HTML (sustituir el bloque del modelo) y republicar con la misma URL. Relacionado: [[reference-fondeo-repo]], [[feedback-delegar-opus]] (la categorización bancaria y el HTML los hicieron subagentes Opus).
+
+
+**v4 PUBLICADA 17/09/2026 (tarde, otra máquina con la DB completa):** extractos Santander + Caixa hasta 16/09 (liquidez real 16/09 = 177.232,49, el modelo cuadra a 0,50 €). Cambios:
+- **Alquiler P&L corregido** (la v3 metía 2.297,02 CON IVA + 240 de comunidad aparte): renta 1.700 + comunidad 198,36 (hasta jul) / 216,68 (desde ago) sin IVA, en la misma factura. Caja 2.319,18/mes desde oct.
+- **Nueva fila P&L «Rappels de marcas»** (cuenta propia, decisión usuario): Pernod Ricard 6.000 (jul 2.405 / ago 3.595 por botellas — reparto supuesto), Cruzcampo ago 401,50 (Melgarejo RU1113), Melgarejo jul 681,82 (movido desde Acuerdos). Param `rappel27` = 6.000. Margen = ventas + acuerdos + compras + rappels.
+- **Devoluciones de compras restan compras**: Melgarejo N4574 base 4.817 en sept (caja +5.818).
+- **13.946,03 del 21/08 = devolución de IVA** (fila in_redeme), no retirada FV. **FV cuadra con los cierres**: FV_REAL jun 0 / jul 42.525 / ago 83.700 → LIQ_REAL jun 4.564, jul 128.478; in_fv ago 41.175. Tabla puente: diferencia temporada −7.568 (comisión TPV + efectivo estimado).
+- **Devolución IVA junio 11.095,82 en octubre** (fecha supuesta).
+- **Septiembre real 28/08→16/09** (SEP_REAL): Aycoa cerrada (9.000 + 10.114,18), Realmivo 4.878,39, IVA ago 3.374,73, RRPP Security 15.172,87 (confirmado), DJs +8.718, Merino 5.944, Ramón Romero 3.389,67, Melgarejo +5.818 / +485,82 / +484 (este sin identificar).
+- **SEP_PEND a 16/09**: Cruzcampo +30.000 · confirming 44.999,05 (usuario) · Viento 12.280,05 · licencia DR 10.000 · TC1 ago 10.393,44 · bebida 8.498 (por proveedor) · Stima 2.117,50 factura + 4.000 efectivo · gestoría 400. **Nómina, vacaciones y finiquitos de agosto ya pagados (usuario) → fuera.**
+- RRPP P&L ago = 15.172,87 / 1,21; rrpp27 = 15.172,87. Coste proyecto 532.415,12 (Stima).
+**Cifras v4:** resultado 2026 242.675 · IS 36.401 · resultado 2027 207.761 · liquidez fin sept 114.544 (mínimo) · dic-26 138.997 · dic-27 317.485. Ajustes a extracto: jul +350, ago −2.698 (explicable: alquiler jul/ago mal repartido en REAL_CAJA, 2º recibo Barter, varios).
+**Abierto:** P&L ago personal lleva «vacaciones estimadas −5.000» (esperar finiquitos reales); Pernod: reparto y fecha de cobro; +484 Melgarejo; posible pago doble a Lorente (fact 23); 3 € del confirming; Cala Santa (motivo).

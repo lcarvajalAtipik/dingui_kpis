@@ -1,6 +1,6 @@
 # Coste del proyecto de apertura Dingui — FUENTE DE VERDAD
 
-**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €.**
+**Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50).**
 Si otra sesión calcula un número distinto, comparar SU desglose contra este fichero línea a línea — no recalcular de cero. Actualizar este fichero (y commitear) cuando cambie algo.
 
 ## Convenciones (leer antes de comparar)
@@ -22,7 +22,7 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Sonido / iluminación | 60.665,60 | 41.233,20 | 19.432,40 |
 | Ventilación / clima | 50.486,19 | 50.486,19 | 0 |
 | Insonorización | 45.798,50 | 45.798,50 | 0 |
-| Arquitecto | 30.623,50 | 24.623,50 | 6.000,00 |
+| Arquitecto | 30.741,00 | 24.623,50 | 6.117,50 |
 | Licencia / legal | 21.754,04 | 11.754,04 | 10.000,00 |
 | Equipamiento / mobiliario | 7.426,63 | 7.426,63 | 0 |
 | Gastos extra apertura | 2.390,59 | 2.390,59 | 0 |
@@ -31,7 +31,7 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Stock inicial (COGS junio) | 2.436,16 | 2.436,16 | 0 |
 | Software/gestoría pre-apertura | 1.224,64 | 1.224,64 | 0 |
 | Otros pre-apertura | 450,41 | 450,41 | 0 |
-| **TOTAL** | **532.297,62** | **481.066,75** | **51.230,87** |
+| **TOTAL** | **532.415,12** | **481.066,75** | **51.348,37** |
 
 ## Desglose por proveedor
 
@@ -57,8 +57,8 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 ### Insonorización — 45.798,50
 - **BS Aislamientos** (fact OB-113): 33.145,50 por cuenta + **12.653 por confirming (cargo banco sept)**. Proveedor pagado 100%, sin quita. CERRADA.
 
-### Arquitecto — 30.623,50
-- **Stima 21**: presupuesto 26.350+IVA. Pagado por banco 20.350+IVA = 24.623,50 (4 facturas ✓). **Pendiente 6.000 en efectivo sin IVA (PROMO)**.
+### Arquitecto — 30.741,00
+- **Stima 21**: presupuesto 26.350+IVA. Pagado por banco 20.350+IVA = 24.623,50 (4 facturas ✓). **ACTUALIZADO 17/09 (usuario): factura extra T32670 (17/09, "5ª certificación sobre honorarios") 1.750 + IVA = 2.117,50 por transferencia + 4.000 en efectivo sin IVA este año** (sustituye los 6.000 en efectivo). Total Stima 30.741,00 (+117,50 vs 30.623,50).
 
 ### Licencia / legal — 21.754,04
 - Tasas/tributos Ayto (6 cargos): 8.251,54 (sin factura, justificante bancario).

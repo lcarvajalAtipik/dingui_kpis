@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: a861d9eb-9449-477a-89e6-e7bb7676b867
+  modified: 2026-08-27T09:49:27.463Z
 ---
 
 **Categorías pre-apertura** (columna `Tipo` del sheet, 88 movimientos 20/08/2025 → 30/04/2026, validadas por el usuario): Aportaciones (+221.638,53), Obra (-94.133,97), Alquiler/Fianza, Insonorización, Arquitectos, Sonido/Luces, Licencia/Trámites, Legal gestión software, Marketing, Otros, Financiero. Validación categorizador: cobertura 100%, acierto 98,9% (única excepción: devolución notaría +524,15 → user_override, en `CONFIRMED_CORRECTIONS` de `scripts/validate_categorizer.py`).
@@ -20,6 +21,24 @@ metadata:
 
 **⚠ Reglas de época pre-apertura aún activas:** transferencias ENTRANTES sueltas (TRASPASO / TRANSF. A SU FAVOR / TRANSFER INMEDIATA sin pata cruzada) siguen → Aportaciones. Corrección conocida pendiente de aplicar: TRANSF. A SU FAVOR **+1.126,85 (01/05/2026)** es la devolución del cargo duplicado CNX 0001176170 de obra → Obra, no Aportación (user_override al ingestar).
 
-**Propuestas PENDIENTES de validar con el usuario (08/07/2026):** certificaciones "parte N certifica"/Florente → Obra; "sonido 1parte" → Sonido/Luces; neveras/mesa refrigerada/tostadora → ¿categoría nueva "Equipamiento"?; Viento Creativo (cartel fachada) → ¿Marketing?; bazares/Carrefour/supermercados → ¿COGS o menaje?; restaurantes (comidas equipo) → ¿Otros?; y sin identificar: Discount_ES, pago prezo, ALIEXPRESS, pulseras, AQUALAR, SUMINISTRSO UNIC, BARTER CONSULTANC, TRF.INTERNACIONAL, imposición a plazo 3.000 €.
+**Categorías nuevas VALIDADAS por el usuario (04/08/2026):**
+- **Equipamiento** — aparatos, menaje y ferretería del local: ID Hostelería (neveras, mesa fría, tostadora), bazares (Chino, Viñador), Aqualar (ferretería), Suministros Unic, Decofiesta, Carrefour (electrónica).
+- **Gastos extra actividad** — gasto menor dentro de la actividad normal: comidas del equipo (Restaurante Plato, Rest.Booking, Venta La Blanca), súper pequeños, taxi, pulseras de acceso (Gráficas Pedraza).
+- Cartel fachada Viento Creativo (2.371,60, 08/07) → **Obra**. Imposición a plazo Santander 3.000 € (02/07) → **Financiero**. Certificaciones "parte N certifica"/Florente(=Lorente y Millán) → **Obra**; "sonido 1parte" → Sonido/Luces (0.8); "software" 28/05 → Legal/software (probable Tipsi, factura 1.064,75 vs cargo 1.149,33). Reglas añadidas a HARDCODED_PATTERNS el 04/08.
+- Aplicada corrección: TRANSF. A SU FAVOR +1.126,85 (01/05) → Obra (user_override, devolución dup CNX Edistribución).
+
+**Préstamo de socios (CORREGIDO 07/08):** solo **12.000 €** = 07/06 +4.000 + 07/06 +5.000 ("TRANSFER INMEDIATA", ids 132/133) + 08/06 +3.000 ("TRASPASO", id 135). El **08/06 +10.000 (id 136) NO era préstamo** → era la **devolución de Lorente y Millán** del pago "parte 1 certifica" del mismo día; reclasificado a **Obra** (user_override 07/08). Devuelto 8.000 (5K 20/7 + 3K 5/8) → **pendiente 4.000**. El 27/06 +2.000 (id 180) → Movimiento entre cuentas. Todo lo anterior a junio (incl. TRANSFER INMEDIATA 08/05 +10.000 y todas las TRANSF. A SU FAVOR) sigue siendo **Aportaciones**. Regla NO automatizada en categorizer.py: "TRANSFER INMEDIATA" genérico sigue → Aportaciones; el préstamo se marca a mano porque depende del contexto (socios, junio, para pagos).
+
+**Validado por el usuario 06/08/2026:** "devolucion presta" = devoluciones del **Préstamo temporal socios** (entraron 12.000 € el 7-8/6: 4K+5K+3K(TRASPASO 8/6) — CORREGIDO 07/08, el 10K del 8/6 era devolución de Lorente, no préstamo; devueltos 5K el 20/7 y 3K el 5/8 → pendiente 4K). Álvaro Gómez −217 = devolución de ingreso. Doyouspain + Love My Bar → Gastos extra actividad. AEAT → **Impuestos** (categoría nueva). Ingreso efectivo de Borja Ybarra +2.850 (14/7) = **ingreso de efectivo de la caja al banco** → Movimiento entre cuentas (¡no es aportación!). ALIEXPRESS → Equipamiento. DB al 99,6% categorizada (487/489).
+
+**Categoría "DJs / Programación" (acordada con el usuario como categoría propia; formalizada en banco 27/08):** su fuente de coste es el sheet de DJs [[reference_dj_sheet]] (`Presu.`=caché), NO solo el banco. Pagos por banco "Pago Dj" desde agosto (Marina Aguilar, Lucas Haurie, Francisco Ruiz, Adrián León); en julio no hay DJs por banco pero SÍ hay caché (julio ≈6.080, parte por nómina → cuidado doble conteo con Personal). **COGS ampliado 27/08** (antes solo makro/picking gades/cash lepe): añadidos como COGS por override los recibos de Melgarejo, Miguel Merino, Distribuciones Dilaso, Ipasur Licores, Hielos Express/Mellis Hielos, Berlys, Jamones La Encina.
+
+**Aún sin identificar (el único):** Discount_ES −747,89 (15/06). [El "2 parte factura" −5.000 del 08/05 quedó como Insonorización/BS.]
+
+**✅ Misterios RESUELTOS por la conciliación con facturas (29/07/2026)** — identificados al céntimo, aplicar en el categorizador:
+- **La constructora es "LORENTE Y MILLÁN CONSTRUCCIONES S.L."** (no "Florente" — lectura errónea del concepto bancario). Certificaciones = "PAGO TRANSFERENCIAS".
+- **El confirming Santander financia una certificación de obra de Lorente y Millán (32.343,05 €, fact. 04/06, cobro a vencimiento 19-22/06)** — pregunta antigua zanjada. Comisión: Santander Factoring 892,29 € (fact. 22/06).
+- `pago prezo` = FUTURE IS AN ATTITUDE S.L. (181,45) · `SUMINISTRSO UNIC` = Suministros Unic SL · `BARTER CONSULTANC` = Barter Consultancy Partners SL (605) · `pulseras` = Gráficas Pedraza (95,59) · `TRF.INTERNACIONAL` = BA visuals LLC (138) · `AQUALAR` = Aqualar Piscinas, ferretería/mantenimiento · neveras/mesa refrigerada/tostadora = Innovación y Diseño para Hostelería SL (equipamiento cocina) · Viento Creativo: "acopio material" 10.890 (30/04) + cartas menú 88 + un cargo 2.371,60 (08/07) SIN factura en Drive.
+- Facturas SIN cargo bancario visible aún y cargos SIN factura: ver columnas `pago_estado` en `data/facturas/registro_facturas.csv` (53 conciliadas / 36 sin extracto / 27 no encontradas).
 
 Relacionado: [[business-overview]], [[reference-proyecciones-sheet]], [[ignorar-fx-convention]], [[bank-format-santander]].

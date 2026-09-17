@@ -33,3 +33,7 @@ Relacionado: [[pl-categories]], [[cierres-gerente-diarios]], [[business-overview
 **ESTRUCTURA OFICIAL del coste de personal mensual (definida por el usuario 07/08):** nóminas (líquido) + horas extra B + DJs + IRPF + SS = coste de personal del mes. Formación va FUERA (OPEX). **Criterio DJs elegido: TODO el caché del sheet** (julio 7.850) **con línea de ajuste −caché "nom"** (julio −2.940) para no duplicar con nómina (los DJs de plantilla — Marina Aguilar, Lucas Haurie, David Venegas… — cobran vía nómina + B).
 
 **JULIO CERRADO: nóminas líquido 19.319,67 + horas extra B 8.523,03 + DJs caché 7.850,00 − ajuste nom −2.940,00 + IRPF 388,81 + SS 8.353,70 = 41.495,21** (20,4% s/ingresos 203.310). Cuadre: = efectivo cierres 32.752,70 + IRPF + SS exacto. Horas extra B = cash − líquido − DJs externos cash (4.910). PENDIENTE: facturas de DJs "fact" solo 742 de 2.270 recibidas (faltan Nacho Lara, Fonseka, Coke Fesser, Adrián León…); "Yanes"/"Halcón" marcados nom no localizados en RN.
+
+**DJs (usuario 17/09/2026): el calendario de DJs (sheet, col. Presu.) tiene TODO el coste de DJs** → el P&L usa el caché del calendario; los pagos por banco (ago 1.873 + sept 5.957 + 8.567 + Bodegas Mirasierra 151,25, que es un DJ) son solo el calendario de pago, no coste adicional.
+
+**AGOSTO 2026 (usuario 17/09): nómina, vacaciones y finiquitos de agosto YA PAGADOS** (con los finiquitos; no queda nada pendiente de personal salvo el TC1 de agosto 10.393,44). RRPP temporada 2026 = **15.172,87 € con IVA a Security ("Comunicación eventos", 14/09)**, base 12.539,56.

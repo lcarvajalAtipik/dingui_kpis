@@ -63,3 +63,6 @@ metadata:
 - **Solape ene-jun**: el P&L anual +296K de [[pnl-2026-snapshot]] incluye ene-jun −54K, pero el criterio 28/08 movió lo pre-julio al proyecto → P&L operativo debería ser jul→dic ≈ +340K para no contar doble.
 - **Plazo fijo dentro de "Financiero"** (−6.000 neto): financiero real acumulado ≈ −2.277,87. Recategorizar pendiente.
 - **Caja efectivo física no medida**: las ventas en efectivo no se ingresan en banco (Ingresos = 100% liquidaciones TPV Santander); de ahí salen los PROMO. Bolsa de liquidez fuera del 281K.
+
+
+**17/09/2026 — CORRECCIÓN:** el +13.946,03 del 21/08 es DEVOLUCIÓN DE IVA (no retirada FV); FV cuadra con los cierres sin retiradas (ver [[fourvenues-puerta-ticketing]]). RRPP real = 15.172,87 (Security, 14/09). Nómina/vacaciones/finiquitos de agosto ya pagados. Liquidez real 16/09 = 87.532,49 bancos + 6.000 plazo + 83.700 FV = 177.232,49. Modelo v4 (docs/artifacts): fin sept ≈114,5K · dic-26 ≈139,0K · dic-27 ≈317,5K.
