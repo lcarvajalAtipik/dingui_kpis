@@ -19,3 +19,4 @@
 - [Feedback: ask more](feedback_ask_more.md) — Cuando dude, preguntar (no asumir). Crítico en Dingui: casi todo está sin documentar aún.
 - [Feedback: sync memoria](feedback_sync_memoria.md) — Usuario multi-ordenador; repo en GitHub (lcarvajalAtipik/dingui_kpis). Sync memoria: push + commit + push; en máquina nueva, pull.
 - [Feedback: delegar a Opus](feedback_delegar_opus.md) — Comando `/opus` / "con Opus" / "usa Opus" en el prompt = subagente Opus 5 para lo mecánico (imágenes, PDFs, bloques de archivos); Fable orquesta y decide.
+- [Artifact: Dingui mes a mes](artifact_dingui_mes_a_mes.md) — P&L + caja ene-26→dic-27 publicado 17/09/2026 (URL, fuente en docs/artifacts/, convenciones y cifras clave).

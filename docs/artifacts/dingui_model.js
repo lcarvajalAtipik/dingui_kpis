@@ -1,0 +1,421 @@
+// ===================================================================================
+//  DINGUI MES A MES — modelo de resultado (P&L, sin IVA) y caja (liquidez, con IVA)
+//  Enero 2026 → diciembre 2027. Cada celda es la SUMA de componentes etiquetados
+//  (label, importe, fuente) para poder explicar de dónde sale cada número.
+//  Convenciones:
+//    · Liquidez = bancos (CaixaBank + Santander) + plazo fijo Santander + saldo Fourvenues.
+//      Los traspasos entre esas tres bolsas NO son flujo (incl. imposiciones a plazo y retiradas FV).
+//    · Enero–agosto 2026 = real (banco). Agosto llega hasta el 27/08; el tramo 28/08→07/09 real
+//      está en septiembre. Desde el 08/09 es proyección (docs/liquidez_cierre_2026.md, act. 07/09 2ª).
+//    · P&L: criterio 28/08 → todo lo anterior al 01/07/2026 es coste de proyecto (fuera del P&L).
+//      El P&L operativo arranca en julio de 2026.
+//    · 2027 repite 2026 (temporada julio–agosto) con parámetros.
+// ===================================================================================
+
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const MESN = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const N = 24;
+const COLS = [];
+for (let i = 0; i < N; i++){ const y = 2026 + Math.floor(i/12), m = i % 12; COLS.push({y, m, label: MES[m] + " " + String(y).slice(2), real: i <= 7, mixto: i === 8}); }
+const idx = (y, m) => (y - 2026)*12 + m;
+
+// ---------------------------------------------------------------- filas
+// [etiqueta, clave, clase css, fuente genérica]
+const FILAS_PL = [
+  ["Ventas (barra, puerta y Fourvenues)","ventas","","Cierres diarios del gerente (total caja de cada noche), sin IVA (÷1,10). Agosto: cierres del 1 al 26 + jue 27 real + vie 28 y sáb 29 previstos ≈ 360.000 € con IVA."],
+  ["Acuerdos comerciales","acuerdos","","Pepsi: 17.000 € + IVA, cobro en octubre de 2026 (dato del usuario 07/09)."],
+  ["Compras de bebida y comida","cogs","","Base imponible de las facturas de comida y bebida por fecha de factura (registro de facturas). Agosto al 22 % de las ventas (facturas incompletas por el retraso de proveedores)."],
+  ["Margen bruto","margen","rule",""],
+  ["Personal (nóminas, extras, IRPF y Seguridad Social)","personal","","Estructura oficial del coste de personal (07/08): nóminas líquidas + horas extra en efectivo + IRPF + Seguridad Social, menos los DJs que cobran por nómina (van en la fila de DJs). Julio real de Stipendium; agosto de los cierres del gerente + TC1 estimado + vacaciones."],
+  ["DJs","djs","","Caché total del mes según el calendario de DJs (columna Presu.): julio 7.650 €, agosto 5.980 €."],
+  ["Relaciones públicas","rrpp","","Pago RRPP de la temporada: 12.998 € con IVA (base 10.742 €), pagado en septiembre; se imputa a agosto."],
+  ["Alquiler y comunidad","alquiler","","Realmivo: 2.297,02 €/mes de renta + cuota de comunidad (~720 € al trimestre, 240 €/mes)."],
+  ["Gestoría, seguros, alarma, telecom y software","fijos","","Gestoría nueva 120 €/mes desde agosto (Stipendium jun–jul), Mapfre, Prosegur, O2 y software (~250 €/mes). Agosto incluye la gestoría laboral extra de Stipendium (1.700 €)."],
+  ["Marketing","marketing","","Barter Consultancy 605 €/mes con IVA (500 € base), solo junio–agosto."],
+  ["Gastos de equipo y varios","extra","","Comidas del equipo, taxis, uniformes (Henris 1.635 €), ordenador Tipsi, farmacia… Sin IVA (÷1,21)."],
+  ["Gastos financieros","financiero","","Comisiones bancarias y del TPV, comisión e intereses del confirming (302,50 + 892,29 + 299,14 €). Las imposiciones a plazo NO son gasto."],
+  ["Amortización","amort","","Activo amortizable ≈ 400.000 € sin IVA → ~45.000 €/año (obra, insonorización, clima y arquitecto al 10 %; sonido al 20 %). Desde julio de 2026: 3.750 €/mes. Estimación pendiente de la gestoría."],
+  ["Resultado antes de impuestos","resultado","rule total",""],
+  ["Impuesto de sociedades","is","","Tipo del 15 % (empresa de nueva creación, también en 2027) sobre el resultado del año. La gestoría puede bajarlo con amortización acelerada (art. 103 LIS) y libertad de amortización por creación de empleo (art. 102): cambia el tipo efectivo en los supuestos."],
+  ["Resultado neto","neto","rule total",""],
+  ["Inversión del proyecto pagada en el mes (con IVA, fuera del P&L)","proyecto","memo","Suma de las filas de proyecto de la tabla de caja: obra, instalaciones, arquitecto, licencias, equipamiento y confirming. Coste total del proyecto cerrado el 28/08: 532.297,62 €."]
+];
+const FILAS_CAJA = [
+  ["Aportaciones de socios","in_aportaciones","","Transferencias entrantes de los socios (cap table: 322.000 € comprometidos; banco real ≈ 313.700 €)."],
+  ["Cobros del TPV","in_tpv","","Liquidaciones del datáfono Santander, netas de comisión. Las ventas en efectivo no pasan por el banco: pagan al personal y las promos."],
+  ["Ventas por Fourvenues","in_fv","","Entradas anticipadas vendidas en Fourvenues. El saldo de Fourvenues cuenta como liquidez (decisión 27/08: retirable a demanda). Las retiradas a CaixaBank son traspasos internos."],
+  ["Préstamos (socios y Cruzcampo)","in_prestamos","","Préstamo de socios: 12.000 € entrados en junio y devueltos entre julio y agosto (4.000 pendientes). Cruzcampo: 30.000 € en septiembre de 2026 y 10.000 € en enero de 2027; se amortiza con pedidos de cerveza, sin cuotas; aval de 6.000 € en el plazo fijo."],
+  ["Devoluciones de IVA","in_redeme","","REDEME (devolución mensual): 40.059,78 € de la obra cobrados el 31/07. Septiembre sale a devolver (~5.300 €, cobro en noviembre); octubre con Pepsi sale a pagar."],
+  ["Acuerdos comerciales","in_acuerdos","","Pepsi 17.000 € + IVA = 20.570 € en octubre de 2026."],
+  ["Otros ingresos y por identificar","in_otros","","Abonos sin pareja (ingresos en efectivo de Ybarra 2.850 + 500, traspaso 2.000 del 27/06, 2.100 y 1.750 del 20/08), devoluciones de proveedores y el residuo hasta cuadrar con el saldo real del banco."],
+  ["Ingresos","ingresos","rule",""],
+  ["Obra: Lorente y Millán","proj_lorente","","Constructora, 6 certificaciones = 237.413,48 €. Cuenta cerrada el 12/08. La certificación 04 (32.343,05 €) se pagó por confirming y se carga en septiembre."],
+  ["Obra: Viento Creativo","proj_viento","","Tematización (presupuesto 31.600,38 €), cartel de fachada 2.371,60 € y cartas. Estado de cuentas del proveedor del 02/09: pendiente 10.148,80 + IVA = 12.280,05 €."],
+  ["Clima: Sánchez Yuste","proj_yuste","","Ventilación y climatización (alias bancario Mantec), 4 facturas = 50.486,19 €. Cerrada."],
+  ["Insonorización: BS Aislamientos","proj_bs","","Factura OB-113 de 45.798,50 €: 33.145,50 € por cuenta y 12.653 € por confirming (cargo en septiembre)."],
+  ["Sonido e iluminación: Aycoa","proj_aycoa","","Facturas 41 + 61 = 44.114,18 €. Pagados 25.000 €. Pendiente 19.114,18 € (conciliado al céntimo con el proveedor el 07/09)."],
+  ["Cabina DJ y sonido menor","proj_cabina","","Profesional DJ 8.582,50 € (concepto bancario UME), Thomann, Betopper, Madrid Hifi, Wolfmix, Sonicolor."],
+  ["Arquitecto: Stima 21","proj_stima","","Presupuesto 26.350 € + IVA. Pagados por banco 24.623,50 €. Pendientes 6.000 € en efectivo sin IVA (promo)."],
+  ["Licencias, tasas y legal","proj_licencias","","Tasas del ayuntamiento 8.251,54 €, notaría, Palermo Legal, Registro Mercantil. Pendiente: 10.000 € de licencia para la DR."],
+  ["Equipamiento y mobiliario","proj_equip","","ID Hostelería, cerrajería, neveras y mesa refrigerada, vidaXL, bazares, ferretería, ordenador Tipsi."],
+  ["Otros del proyecto","proj_otros","","Alta de Tipsi, Cogesur (pruebas de carga), Edistribución (conexión), pequeños."],
+  ["Confirming Santander","proj_confirming","","Cargos del confirming: Lorente C04 32.343,05 + BS 12.653 = 44.996,05 €. Primer cargo de 5.000 € el 03/09; quedan 39.996 €."],
+  ["Compras de bebida y comida","op_cogs","","Merino, Melgarejo, Makro, Picking Gades, Coca-Cola, hielo, La Encina, Dilaso, Chamán… Pagos por banco (transferencias a cuenta y recibos)."],
+  ["Personal: efectivo y nóminas","op_personal","","Disposiciones de efectivo en ventanilla Santander para pagar nóminas y extras (el personal cobra en efectivo), formación y vacaciones. El grueso del personal se paga con las ventas en efectivo, que no pasan por el banco."],
+  ["Seguridad Social (TC1)","op_ss","","Cargo de la TGSS a fin del mes siguiente: julio 8.387 € (31/08), agosto ~8.400 € (septiembre)."],
+  ["IRPF (modelo 111)","op_irpf","","Retenciones trimestrales: 3T en octubre (~1.200 €), 4T en enero."],
+  ["DJs pagados por banco","op_djs","","Transferencias “Pago Dj” desde agosto. El resto del caché se paga en efectivo o por nómina."],
+  ["Relaciones públicas","op_rrpp","","Pago RRPP de 12.998 € en septiembre de 2026."],
+  ["Alquiler y comunidad","op_alquiler","","Realmivo 2.297,02 €/mes; fianza y garantía 13.600 € (septiembre de 2025); comunidad 720,05 € (febrero). En septiembre de 2026 se pagan agosto y septiembre."],
+  ["Gestoría, seguros, alarma, telecom y software","op_fijos","","Stipendium / Remesa Asesores, Mapfre, Prosegur, O2, GoDaddy, DocuSign, Trimble, Apple, Google, Adobe, CoverManager. Cierre: ~395 €/mes."],
+  ["Marketing","op_marketing","","Barter 605 €/mes (junio–agosto), Otherview, BA visuals, Gráficas Pedraza."],
+  ["Gastos de equipo y varios","op_extra","","Comidas del equipo, taxis, uniformes, farmacia, varios."],
+  ["Puesta a punto reapertura 2027","op_preapertura","","Sin cifrar por el usuario (regla 30/08: no asumir importes). Por defecto 0; cámbialo en los supuestos."],
+  ["Comisiones e intereses","fin_comisiones","","Comisiones de cuenta y TPV, comisión e intereses del confirming. Las imposiciones a plazo (6.000 € desde el 20/07) son un traspaso dentro de la liquidez, no un gasto."],
+  ["IVA (modelo 303)","tax_iva","","REDEME mensual: se paga o se devuelve cada mes. Julio 9.420,95 € (20/08), agosto ~17.500 € (20/09), octubre 3.170 € por Pepsi (20/11)."],
+  ["Impuesto de sociedades","tax_is","","IS 2026 (modelo 200) se paga del 1 al 25 de julio de 2027. Pagos a cuenta (modelo 202): 18 % de la cuota de 2026 en octubre y diciembre de 2027. En 2026 los 202 son cero (cuota 2025 = 0)."],
+  ["Gastos","gastos","rule",""],
+  ["Neto del mes","neto",""," "],
+  ["Liquidez a fin de mes","saldo","rule total","Bancos + plazo fijo + Fourvenues. Enero–agosto 2026: saldos reales de los extractos."]
+];
+const IN_KEYS = ["in_aportaciones","in_tpv","in_fv","in_prestamos","in_redeme","in_acuerdos","in_otros"];
+const PROJ_KEYS = ["proj_lorente","proj_viento","proj_yuste","proj_bs","proj_aycoa","proj_cabina","proj_stima","proj_licencias","proj_equip","proj_otros","proj_confirming"];
+const OP_KEYS = ["op_cogs","op_personal","op_ss","op_irpf","op_djs","op_rrpp","op_alquiler","op_fijos","op_marketing","op_extra","op_preapertura","fin_comisiones","tax_iva","tax_is"];
+const OUT_KEYS = PROJ_KEYS.concat(OP_KEYS);
+const PL_KEYS = ["ventas","acuerdos","cogs","personal","djs","rrpp","alquiler","fijos","marketing","extra","financiero","amort","is"];
+
+// ---------------------------------------------------------------- supuestos
+const P = {
+  ventas27: 100,      // % de las ventas de 2026 (julio y agosto)
+  jun27: 0,           // junio de 2027 como % de julio (2026 abrió el 19/06 casi sin ventas)
+  cogs27: 22,         // % de ventas
+  personal27: 17.9,   // % de ventas (2026: 94.945 / 530.583)
+  djs27: 2.6,         // % de ventas (2026: 13.630 / 530.583)
+  rrpp27: 12998,      // € con IVA, septiembre
+  pepsi27: 17000,     // € sin IVA, octubre
+  preap27: 0,         // € con IVA, junio: stock, puesta a punto, marketing…
+  vac27: 5000,        // € vacaciones no disfrutadas al suspender, septiembre
+  is: 15,             // % tipo efectivo del impuesto de sociedades
+  ivaAgo26: 17500,    // € IVA de agosto de 2026, pago 20/09 (estimación pendiente de gestoría)
+  amortAnual: 45000   // € amortización anual
+};
+const GRUPOS = [
+  ["Temporada 2027", [
+    ["ventas27","Ventas de julio y agosto sobre 2026","%",5,"2026: jul 223.641 · ago ≈360.000 con IVA"],
+    ["jun27","Junio 2027, % de julio","%",5,"2026: apertura el 19/06, ventas casi nulas"],
+    ["cogs27","Compras de producto","% ventas",0.5,"2026: jul 21,9 · ago 22,0"],
+    ["personal27","Personal (con IRPF y SS)","% ventas",0.5,"2026: jul 16,5 · ago 18,7"],
+    ["djs27","DJs","% ventas",0.1,"2026: 2,6"],
+    ["rrpp27","Relaciones públicas","€ con IVA",500,"2026: 12.998"],
+    ["preap27","Puesta a punto en junio","€ con IVA",1000,"Sin cifrar: stock, limpieza, marketing…"],
+    ["vac27","Vacaciones al cierre","€",500,"2026: ~5.000 (pendiente gestoría)"]
+  ]],
+  ["Acuerdos e impuestos", [
+    ["pepsi27","Pepsi 2027","€ sin IVA",1000,"2026: 17.000 en octubre"],
+    ["is","Impuesto de sociedades, tipo efectivo","%",1,"15 % nueva creación; 0 si la gestoría aplica libertad de amortización"],
+    ["ivaAgo26","IVA de agosto 2026","€",500,"Pago 20/09. Estimación: repercutido 32,7K − soportado 15K"],
+    ["amortAnual","Amortización anual","€",1000,"~400.000 € de activo sin IVA"]
+  ]]
+];
+
+// ---------------------------------------------------------------- datos reales
+// Ventas con IVA de los cierres del gerente
+const VENTAS_IVA = {jul: 223641, ago: 360000};
+const REAL_PL = {   // sin IVA, julio y agosto de 2026
+  jul: {
+    ventas: [["Cierres del gerente, 26 noches: 223.641 € con IVA ÷ 1,10", 203310]],
+    cogs: [["Facturas de comida y bebida de julio (base imponible)", -44495]],
+    personal: [["Nóminas líquidas (Stipendium, 30 personas)", -19319.67],["Horas extra pagadas en efectivo", -8523.03],["IRPF retenido", -388.81],["Seguridad Social (TC1 julio)", -8353.70],["DJs que cobran por nómina, van en DJs", 2940]],
+    djs: [["Caché del calendario de DJs", -7650]],
+    alquiler: [["Renta Realmivo", -2297.02],["Comunidad (720 €/trimestre)", -240]],
+    fijos: [["Stipendium (gestoría)", -242],["Mapfre, Prosegur, O2", -250],["Software", -70]],
+    marketing: [["Barter (605 € con IVA)", -500]],
+    extra: [["Comidas del equipo, taxis, farmacia (562 € con IVA)", -464]],
+    financiero: [["Intereses confirming 8/7", -299.14],["Comisiones bancarias y TPV", -191]],
+    amort: [["45.000 €/año ÷ 12", -3750]]
+  },
+  ago: {
+    ventas: [["Cierres 1–26 de agosto (25 noches)", 328637/1.1],["Jueves 27 (real, sin hoja)", 3700/1.1],["Viernes 28 y sábado 29 (previsión del usuario, 10.000 € cada uno)", 20000/1.1],["Domingo 23 y redondeo hasta 360.000 € con IVA", (360000-328637-3700-20000)/1.1]],
+    cogs: [["22 % de las ventas (facturas de agosto aún incompletas)", -0.22*360000/1.1]],
+    personal: [["Gasto de personal de los cierres 1–26 (efectivo)", -43435],["Noches 27–29 (estimado)", -4100],["Seguridad Social (TC1 agosto, estimado)", -8400],["IRPF retenido (estimado)", -400],["Vacaciones no disfrutadas al suspender (estimado, pendiente gestoría)", -5000]],
+    djs: [["Caché del calendario de DJs", -5980]],
+    rrpp: [["Pago RRPP 12.998 € con IVA ÷ 1,21", -12998/1.21]],
+    alquiler: [["Renta Realmivo", -2297.02],["Comunidad", -240]],
+    fijos: [["Gestoría nueva", -120],["Mapfre, Prosegur, O2", -250],["Software", -70],["Stipendium, gestoría laboral extra (1.947 € con IVA en septiembre)", -1600]],
+    marketing: [["Barter (605 € con IVA)", -500]],
+    extra: [["Comidas del equipo y taxis de agosto (2.070 € con IVA)", -2070/1.21],["Comidas, taxis y varios pagados del 28/08 al 07/09 (3.587 € con IVA)", -3587/1.21],["Uniformes Henris (1.635 € con IVA)", -1635/1.21],["Ordenador Tipsi (610 € con IVA)", -610/1.21]],
+    financiero: [["Comisiones bancarias y TPV", -307]],
+    amort: [["45.000 €/año ÷ 12", -3750]]
+  }
+};
+// Liquidez real a fin de mes (bancos + plazo + Fourvenues), extractos validados
+const LIQ_REAL = {0: 7300, 1: 110722, 2: 36156, 3: 49000, 4: 13172, 5: 13100, 6: 137000, 7: 267557};
+const LIQ_DIC25 = 7330;   // saldo CaixaBank a 31/12/2025
+const FV_REAL = {5: 8500, 6: 51000, 7: 83700};
+
+// Caja real enero–junio 2026 por fila (banco; lo rellena la reconstrucción de los extractos)
+// Formato: {i: {fila: [[label, importe], ...]}}
+const REAL_CAJA = {
+  0: {
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", -30.0]]
+  },
+  1: {
+    in_aportaciones: [["03/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 4800.0], ["03/02 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 6400.0], ["04/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 2500.0], ["04/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 6400.0], ["04/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 16000.0], ["05/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 2300.0], ["05/02 · TRANSFER INMEDIATA — aportacion de socios (sheet Tipo=Aportaciones)", 8000.0], ["05/02 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 9600.0], ["05/02 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 9600.0], ["07/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 6400.0], ["07/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 6400.0], ["07/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 9600.0], ["12/02 · TRANSFER INMEDIATA — aportacion de socios (sheet Tipo=Aportaciones)", 6050.0], ["12/02 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 30000.0], ["13/02 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 11600.0], ["Resto de movimientos menores de 1.000 €", 788.53]],
+    proj_yuste: [["27/02 · PAGO TRANSFERENCIAS — Sanchez Yuste / Mantec - climatizacion", -24271.39]],
+    proj_licencias: [["19/02 · 209-2026Nuevo Vh — notaria (escritura 209-2026)", -2100.0], ["Resto de movimientos menores de 1.000 €", -1592.75]],
+    proj_otros: [["26/02 · factura 277 — Cogesur pruebas de carga (1.633,50 total = 326,70 'tecnico' + 1.306,80 'factura 277')", -1306.8], ["Resto de movimientos menores de 1.000 €", -476.7]],
+    op_alquiler: [["12/02 · alquiler febrero — Realmivo - renta/comunidad/fianza del local", -2297.02], ["Resto de movimientos menores de 1.000 €", -720.05]],
+    op_fijos: [["Movimientos del extracto (todos menores de 1.000 €)", -115.85]],
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", -136.03]]
+  },
+  2: {
+    proj_lorente: [["06/03 · PAGO TRANSFERENCIAS — Lorente y Millan - obra (sheet Tipo=Obra)", -54935.38]],
+    proj_cabina: [["12/03 · UME — Profesional DJ (mal rotulado 'UME' en banco) - cabina DJ, pedido 98063", -8582.5]],
+    proj_stima: [["13/03 · honorarios proyec — Stima 21 - arquitectura/ingenieria", -8470.0]],
+    proj_otros: [["Movimientos del extracto (todos menores de 1.000 €)", -12.99]],
+    op_alquiler: [["18/03 · REALMIVO SL. — Realmivo - renta/comunidad/fianza del local", -2297.02]],
+    op_fijos: [["Movimientos del extracto (todos menores de 1.000 €)", -130.98]],
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", -137.34]]
+  },
+  3: {
+    in_aportaciones: [["22/04 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 7200.0], ["29/04 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 4800.0], ["29/04 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 6000.0], ["29/04 · TRANSFER INMEDIATA — aportacion de socios (sheet Tipo=Aportaciones)", 9000.0], ["29/04 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 14400.0], ["30/04 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 3600.0], ["30/04 · TRASPASO — aportacion de socios (sheet Tipo=Aportaciones)", 9600.0], ["30/04 · TRANSF. A SU FAVOR — aportacion de socios (sheet Tipo=Aportaciones)", 9600.0]],
+    proj_viento: [["30/04 · acopio material — Viento Creativo - rotulacion/tematizacion (factura 181)", -10890.0]],
+    proj_bs: [["30/04 · parte 1 facrura — BS Aislamientos - insonorizacion", -20000.0]],
+    proj_cabina: [["30/04 · THOMANN DE — equipo de sonido/cabina DJ", -4361.2]],
+    proj_stima: [["17/04 · redaccion proyect — Stima 21 - arquitectura/ingenieria", -3025.0]],
+    proj_licencias: [["17/04 · TRIBUTOS — tasas/tributos ayuntamiento (licencia de apertura / ICIO)", -4935.99], ["17/04 · TRIBUTOS — tasas/tributos ayuntamiento (licencia de apertura / ICIO)", -1885.1], ["17/04 · TRIBUTOS — tasas/tributos ayuntamiento (licencia de apertura / ICIO)", -1240.2]],
+    proj_equip: [["Movimientos del extracto (todos menores de 1.000 €)", -542.71]],
+    proj_otros: [["30/04 · CNX 0001176170 — Edistribucion CNX (acometida electrica); uno de los dos cargos fue devuelto el 01/05", -1126.85], ["30/04 · CNX 0001176170 — Edistribucion CNX (acometida electrica); uno de los dos cargos fue devuelto el 01/05", -1126.85]],
+    op_alquiler: [["08/04 · REALMIVO SL. — Realmivo - renta/comunidad/fianza del local", -2297.02]],
+    op_fijos: [["Movimientos del extracto (todos menores de 1.000 €)", 403.19]],
+    op_marketing: [["Movimientos del extracto (todos menores de 1.000 €)", -342.0]],
+    op_extra: [["Movimientos del extracto (todos menores de 1.000 €)", -201.72]],
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", 189.99]]
+  },
+  4: {
+    in_aportaciones: [["03/05 · TRASPASO — transferencia entrante sin pareja interna -> aportacion de socios", 9600.0], ["05/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 8000.0], ["08/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 9600.0], ["08/05 · TRANSFER INMEDIATA — transferencia entrante sin pareja interna -> aportacion de socios", 10000.0], ["09/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 12000.0], ["22/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 14900.0], ["26/05 · TRASPASO — transferencia entrante sin pareja interna -> aportacion de socios", 3600.0], ["26/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 15000.0], ["28/05 · TRANSF. A SU FAVOR — transferencia entrante sin pareja interna -> aportacion de socios", 5000.0]],
+    proj_lorente: [["01/05 · PAGO TRANSFERENCIAS — Lorente y Millan - obra (sheet Tipo=Obra)", -36494.16], ["20/05 · PAGO TRANSFERENCIAS — Lorente y Millan - obra (sheet Tipo=Obra)", -40000.0], ["22/05 · parte 2 certifica — certificacion de obra Lorente y Millan", -12000.0], ["26/05 · parte 3 certifica — certificacion de obra Lorente y Millan", -10000.0], ["28/05 · ultima parte cert — certificacion de obra Lorente y Millan", -10178.54]],
+    proj_bs: [["08/05 · 2 parte factura — BS Aislamientos - insonorizacion", -5000.0]],
+    proj_cabina: [["06/05 · betopperdj — equipo de sonido/cabina DJ", -2923.45], ["Resto de movimientos menores de 1.000 €", -366.05]],
+    proj_equip: [["15/05 · mesa refrigerada — equipamiento / mobiliario del local", -1200.32], ["27/05 · neveras — equipamiento / mobiliario del local", -2376.21]],
+    proj_otros: [["01/05 · TRANSF. A SU FAVOR — devolucion cargo duplicado CNX Edistribucion (netea uno de los dos -1.126,85 del 30/04)", 1126.85], ["28/05 · software — alta Tipsi (software PoS)", -1149.33]],
+    op_alquiler: [["07/05 · REALMIVO SL. — Realmivo - renta/comunidad/fianza del local", -2297.02]],
+    op_fijos: [["Movimientos del extracto (todos menores de 1.000 €)", -216.7]],
+    op_marketing: [["Movimientos del extracto (todos menores de 1.000 €)", -233.59]],
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", -193.65]]
+  },
+  5: {
+    in_tpv: [["Movimientos del extracto (todos menores de 1.000 €)", 2313.48]],
+    in_prestamos: [["07/06 · TRANSFER INMEDIATA — prestamo de socios entrante (override usuario)", 4000.0], ["07/06 · TRANSFER INMEDIATA — prestamo de socios entrante (override usuario)", 5000.0], ["08/06 · TRASPASO — prestamo de socios entrante (override usuario)", 3000.0]],
+    in_otros: [["27/06 · TRASPASO — TRASPASO +2.000 sin pareja en Santander (+-3d) -> abono sin identificar", 2000.0]],
+    proj_lorente: [["08/06 · parte 1 certifica — certificacion de obra Lorente y Millan", -10000.0], ["08/06 · TRANSFER INMEDIATA — devolucion de Lorente: netea el -10.000 'parte 1 certifica' del mismo dia", 10000.0], ["15/06 · Transferencia A Favor De Florente Concepto: Parte 1 Certificación 3 — Lorente y Millan (alias bancario 'Florente') - certificacion o", -9000.0]],
+    proj_aycoa: [["05/06 · sonido 1parte — Aycoa - sonido/iluminacion (1a parte)", -10000.0]],
+    proj_equip: [["Movimientos del extracto (todos menores de 1.000 €)", -1731.75]],
+    op_cogs: [["Movimientos del extracto (todos menores de 1.000 €)", -2436.16]],
+    op_fijos: [["Movimientos del extracto (todos menores de 1.000 €)", -640.15]],
+    op_extra: [["Movimientos del extracto (todos menores de 1.000 €)", -202.7]],
+    fin_comisiones: [["Movimientos del extracto (todos menores de 1.000 €)", -911.2]],
+    in_fv: [["Ventas Fourvenues de junio (saldo FV 8.500 € a 30/06)", 8500]]
+  }
+};
+
+// Julio 2026 (mes completo) — memoria 27/08 + overrides bancarios
+REAL_CAJA[6] = {
+  in_tpv: [["Liquidaciones TPV de julio (netas de comisión)", 145782]],
+  in_fv: [["Ventas Fourvenues de julio (cierres del gerente)", 42525]],
+  in_redeme: [["Devolución del IVA de la obra (REDEME), 31/07", 40059.78]],
+  in_otros: [["Ingreso en efectivo de Ybarra, 14/07", 2850],["Otros abonos", 750]],
+  proj_lorente: [["Florente, parte cert. 05 (9/7)", -5000],["Florente, resto cert. 05 (18/7)", -3763.02]],
+  proj_viento: [["Cartel de fachada (8/7)", -2371.60],["A cuenta tematización (15/7)", -5000]],
+  proj_yuste: [["Mantec (28/7)", -5000],["Mantec (28/7)", -10000]],
+  proj_bs: [["BS Aislamientos, último pago (20/7)", -8145.50]],
+  proj_aycoa: [["Aycoa (14/7)", -5000],["Aycoa (29/7)", -5000]],
+  proj_stima: [["Stima 21, factura T32661 (13/7)", -4537.50]],
+  proj_equip: [["Equipamiento menor (5 cargos)", -1339]],
+  op_cogs: [["Merino, Melgarejo, Makro, Picking, hielo… (16 cargos)", -29832]],
+  op_personal: [["Disposiciones de efectivo en ventanilla (9.500 + 3.000) y formación", -13640]],
+  op_irpf: [["AEAT 20/07", -73.69]],
+  in_prestamos: [["Devolución préstamo socios (20/7)", -5000]],
+  op_alquiler: [["Realmivo, renta de julio", -2297.02]],
+  op_fijos: [["Gestoría, seguros, telecom y software", -746]],
+  op_marketing: [["Barter", -605]],
+  op_extra: [["Comidas del equipo, taxis, farmacia (10 cargos)", -562]],
+  fin_comisiones: [["Intereses confirming (8/7) y comisiones", -490]]
+};
+// Agosto 2026 hasta el 27/08 — memoria 27/08 + overrides bancarios
+REAL_CAJA[7] = {
+  in_tpv: [["Liquidaciones TPV del 1 al 27 de agosto", 265400]],
+  in_fv: [["Ventas Fourvenues de agosto (saldo FV 83.700 € el 28/08 tras retirar 13.946 €)", 46646]],
+  in_otros: [["Abonos del 20/08 (2.100 + 1.750) e ingreso en efectivo de Ybarra (500)", 4350]],
+  proj_lorente: [["Factura 28, certificación 06 (12/8) — cuenta cerrada", -23699.33]],
+  proj_yuste: [["Mantec, último pago (5/8) — cuenta cerrada", -11214.80]],
+  proj_aycoa: [["“Pago sonido” (24/8)", -5000]],
+  proj_stima: [["Stima 21, factura T32665 (5/8)", -8591]],
+  op_cogs: [["Recibos Melgarejo y Merino, transferencias a cuenta, Makro… (43 cargos)", -98337]],
+  op_personal: [["Disposiciones de efectivo en ventanilla (3.500 + 7.500 + otras)", -12160]],
+  op_djs: [["Pago Dj: Marina Aguilar, Lucas Haurie, Francisco Ruiz, Adrián León", -1873]],
+  in_prestamos: [["Devolución préstamo socios (5/8)", -3000]],
+  op_alquiler: [["Realmivo, renta de agosto (pagada dentro de los 4.594 € de julio–agosto)", -2297.02]],
+  op_fijos: [["Prosegur, O2, software", -519]],
+  op_marketing: [["Barter (27/8, último recibo)", -605]],
+  op_extra: [["Comidas del equipo y taxis (5 cargos)", -2070]],
+  fin_comisiones: [["Comisiones bancarias y TPV", -307]],
+  tax_iva: [["IVA de julio, autoliquidación 20/08", -9420.95]]
+};
+// Septiembre 2026: tramo real 28/08 → 07/09
+const SEP_REAL = {
+  in_tpv: [["Liquidaciones TPV 28/08–07/09 (cola de las últimas noches)", 21075]],
+  in_otros: [["Devolución Amazon", 147]],
+  op_cogs: [["Bebida de agosto: recibos Merino/Melgarejo, Chamán 4.766…", -22257]],
+  op_ss: [["TC1 de julio (TGSS, 31/08)", -8387]],
+  op_personal: [["Adelantos de nómina de agosto (disposiciones)", -9400]],
+  op_djs: [["DJs de agosto", -5957]],
+  proj_confirming: [["Primer cargo del confirming, 03/09", -5000]],
+  op_extra: [["Comidas del equipo, taxis, uniformes Henris, varios", -3587]],
+  op_fijos: [["Stipendium (gestoría laboral) y varios", -1947 - 708]]
+};
+// Septiembre 2026: comprometido pendiente al 07/09 (docs/liquidez_cierre_2026.md, act. 07/09 2ª)
+const SEP_PEND = {
+  in_prestamos: [["Préstamo Cruzcampo, primer pago", 30000]],
+  proj_confirming: [["Confirming restante (44.996 − 5.000 cargado)", -39996]],
+  proj_aycoa: [["Aycoa, pendiente conciliado", -19114.18]],
+  proj_viento: [["Viento Creativo, estado de cuentas del 02/09", -12280.05]],
+  op_rrpp: [["Pago RRPP", -12998]],
+  proj_licencias: [["Licencia para la DR", -10000]],
+  op_ss: [["TC1 de agosto (estimado)", -8400]],
+  proj_stima: [["Stima 21, resto en efectivo sin IVA", -6000]],
+  op_personal: [["Nómina de agosto restante (tras adelantos)", -5600],["Vacaciones no disfrutadas (si aplica)", -5000]],
+  op_alquiler: [["Realmivo, agosto y septiembre", -4594.04]],
+  op_fijos: [["Gestoría y seguros", -400]]
+};
+
+// 2027 repite el patrón de caja de 2026 (banco), escalado por ventas. Importes de 2026:
+const PATRON = {   // [mes, fila, label, importe 2026, escala con ventas?]
+  jun: [["op_cogs","Stock inicial (2026: 2.436 €)", -2436.16, true],["in_tpv","TPV de junio (2026: soft opening)", 2313, true]],
+  jul: [["in_tpv","Liquidaciones TPV (2026: 145.782)", 145782, true],["in_fv","Ventas Fourvenues (2026: 42.525)", 42525, true],
+        ["op_cogs","Compras (2026: 29.832)", -29832, true],["op_personal","Disposiciones de efectivo (2026: 13.640)", -13640, true],
+        ["op_alquiler","Realmivo", -2297.02, false],["op_fijos","Gestoría, seguros, telecom, software", -746, false],["op_marketing","Barter", -605, false],
+        ["op_extra","Comidas del equipo, taxis (2026: 562)", -562, true],["fin_comisiones","Comisiones", -190, false],["op_irpf","Retenciones de junio", -74, false]],
+  ago: [["in_tpv","Liquidaciones TPV (2026: 265.400 hasta el 27/08)", 265400, true],["in_fv","Ventas Fourvenues (2026: 46.646)", 46646, true],
+        ["op_cogs","Compras (2026: 98.337)", -98337, true],["op_personal","Disposiciones de efectivo (2026: 12.160)", -12160, true],
+        ["op_ss","TC1 de julio (2026: 8.387)", -8387, true],["op_djs","Pago Dj por banco (2026: 1.873)", -1873, true],
+        ["op_alquiler","Realmivo", -2297.02, false],["op_fijos","Gestoría, seguros, telecom, software", -519, false],["op_marketing","Barter", -605, false],
+        ["op_extra","Comidas del equipo y taxis (2026: 2.070)", -2070, true],["fin_comisiones","Comisiones", -307, false],["tax_iva","IVA de julio (2026: 9.421)", -9420.95, true]],
+  sep: [["in_tpv","Cola del TPV de las últimas noches (2026: 21.075)", 21075, true],
+        ["op_cogs","Bebida de agosto (2026: 22.257)", -22257, true],["op_personal","Adelantos y resto de nómina de agosto (2026: 9.400 + 5.600)", -15000, true],
+        ["op_ss","TC1 de agosto (2026: 8.400)", -8400, true],["op_djs","DJs de agosto (2026: 5.957)", -5957, true],
+        ["op_extra","Comidas, taxis, uniformes (2026: 3.587)", -3587, true],["op_fijos","Gestoría laboral y varios (2026: 2.655)", -2655, false],
+        ["op_alquiler","Realmivo", -2297.02, false],["tax_iva","IVA de agosto (2026: 17.500)", null, false]],
+  oct: [["op_irpf","Modelo 111 del 3T", -1200, false],["op_alquiler","Realmivo", -2297.02, false],["op_fijos","Gestoría y seguros", -395, false]],
+  nov: [["in_redeme","Devolución del IVA de septiembre", 5300, true],["tax_iva","IVA de octubre (Pepsi)", null, false],["op_alquiler","Realmivo", -2297.02, false],["op_fijos","Gestoría y seguros", -395, false]],
+  dic: [["op_alquiler","Realmivo", -2297.02, false],["op_fijos","Gestoría y seguros", -395, false]]
+};
+
+// ---------------------------------------------------------------- modelo
+function modelo(p){
+  const pl = {}, caja = {};
+  for (const [,k] of FILAS_PL) pl[k] = Array.from({length: N}, () => []);
+  for (const [,k] of FILAS_CAJA) caja[k] = Array.from({length: N}, () => []);
+  const add = (t, k, i, label, v) => { if (v !== null && v !== undefined && Math.abs(v) > 0.004) t[k][i].push([label, v]); };
+  const s = p.ventas27/100, f = p.jun27/100;
+
+  // ===== P&L 2026 =====
+  for (const [mes, i] of [["jul", 6], ["ago", 7]]) for (const k in REAL_PL[mes]) for (const [l, v] of REAL_PL[mes][k]) add(pl, k, i, l, v);
+  for (let i = 8; i <= 11; i++){
+    add(pl, "alquiler", i, "Renta Realmivo", -2297.02); add(pl, "alquiler", i, "Comunidad", -240);
+    add(pl, "fijos", i, "Gestoría 120 + Mapfre, Prosegur, O2 ~250 + software", -395);
+    add(pl, "amort", i, "45.000 €/año ÷ 12", -p.amortAnual/12);
+  }
+  add(pl, "acuerdos", 9, "Pepsi, 17.000 € + IVA (cobro en octubre)", 17000);
+  // ===== P&L 2027 =====
+  const ventas27 = {6: VENTAS_IVA.jul/1.1*s, 7: VENTAS_IVA.ago/1.1*s}; ventas27[5] = ventas27[6]*f;
+  for (let m = 0; m < 12; m++){
+    const i = 12 + m, V = ventas27[m] || 0;
+    if (V > 0){
+      add(pl, "ventas", i, m === 5 ? `Junio: ${p.jun27} % de julio` : `${MESN[m]} 2026 (${Math.round((m === 6 ? VENTAS_IVA.jul : VENTAS_IVA.ago)/1.1).toLocaleString("es")} €) × ${p.ventas27} %`, V);
+      add(pl, "cogs", i, `${p.cogs27} % de las ventas`, -V*p.cogs27/100);
+      add(pl, "personal", i, `${p.personal27} % de las ventas`, -V*p.personal27/100);
+      add(pl, "djs", i, `${p.djs27} % de las ventas`, -V*p.djs27/100);
+      add(pl, "marketing", i, "Barter (500 € base)", -500);
+      add(pl, "extra", i, m === 7 ? "Como agosto de 2026 (8.700 € con IVA)" : "Como julio de 2026 (562 € con IVA)", (m === 7 ? -7902/1.21 : -464)*(m === 5 ? f : 1)*s);
+      add(pl, "financiero", i, "Comisiones bancarias, TPV", m === 6 ? -490 : -300);
+      add(pl, "fijos", i, m === 7 ? "Fijos 395 + gestoría laboral de cierre 1.600" : "Fijos 395 + software y telecom de temporada", m === 7 ? -1995 : -560);
+    } else add(pl, "fijos", i, "Gestoría 120 + Mapfre, Prosegur, O2 ~250", -395);
+    if (m === 7) add(pl, "rrpp", i, `RRPP ${p.rrpp27.toLocaleString("es")} € con IVA ÷ 1,21`, -p.rrpp27/1.21);
+    if (m === 5 && p.preap27 > 0) add(pl, "extra", i, "Puesta a punto de la reapertura (÷1,21)", -p.preap27/1.21);
+    if (m === 8 && p.vac27 > 0) add(pl, "personal", i, "Vacaciones al cierre", -p.vac27);
+    add(pl, "alquiler", i, "Renta Realmivo", -2297.02); add(pl, "alquiler", i, "Comunidad", -240);
+    add(pl, "amort", i, `${p.amortAnual.toLocaleString("es")} €/año ÷ 12`, -p.amortAnual/12);
+    if (m === 9) add(pl, "acuerdos", i, `Pepsi 2027 (supuesto)`, p.pepsi27);
+  }
+  // ===== totales P&L =====
+  const sum = a => a.reduce((x, c) => x + c[1], 0);
+  const val = (t, k, i) => sum(t[k][i]);
+  const sumY = (t, k, y) => { let z = 0; for (let m = 0; m < 12; m++) z += val(t, k, idx(y, m)); return z; };
+  const V = {}; for (const k of PL_KEYS) V[k] = COLS.map((_, i) => val(pl, k, i));
+  V.margen = COLS.map((_, i) => V.ventas[i] + V.acuerdos[i] + V.cogs[i]);
+  V.resultado = COLS.map((_, i) => V.margen[i] + V.personal[i] + V.djs[i] + V.rrpp[i] + V.alquiler[i] + V.fijos[i] + V.marketing[i] + V.extra[i] + V.financiero[i] + V.amort[i]);
+  const res26 = V.resultado.slice(0, 12).reduce((a, b) => a + b, 0), res27 = V.resultado.slice(12).reduce((a, b) => a + b, 0);
+  const cuota26 = Math.max(0, res26)*p.is/100, cuota27 = Math.max(0, res27)*p.is/100;
+  add(pl, "is", 11, `${p.is} % × resultado 2026 (${Math.round(res26).toLocaleString("es")} €)`, -cuota26);
+  add(pl, "is", 23, `${p.is} % × resultado 2027 (${Math.round(res27).toLocaleString("es")} €)`, -cuota27);
+  V.is = COLS.map((_, i) => val(pl, "is", i));
+  V.neto = COLS.map((_, i) => V.resultado[i] + V.is[i]);
+
+  // ===== caja 2026 real =====
+  for (let i = 0; i <= 7; i++) for (const k in REAL_CAJA[i]) for (const [l, v] of REAL_CAJA[i][k]) add(caja, k, i, l, v);
+  for (const k in SEP_REAL) for (const [l, v] of SEP_REAL[k]) add(caja, k, 8, l, v);
+  for (const k in SEP_PEND) for (const [l, v] of SEP_PEND[k]) add(caja, k, 8, l, v);
+  add(caja, "tax_iva", 8, "IVA de agosto (estimación, pago 20/09)", -p.ivaAgo26);
+  // oct–dic 2026
+  add(caja, "in_acuerdos", 9, "Pepsi 17.000 € + IVA", 20570);
+  add(caja, "op_irpf", 9, "Modelo 111 del 3T", -1200);
+  add(caja, "in_redeme", 10, "Devolución del IVA de septiembre (Viento, RRPP, fijos)", 5300);
+  add(caja, "tax_iva", 10, "IVA de octubre: Pepsi 3.570 − fijos 400, pago 20/11", -3170);
+  for (let i = 9; i <= 11; i++){ add(caja, "op_alquiler", i, "Realmivo", -2297.02); add(caja, "op_fijos", i, "Gestoría 145,20 + Mapfre, Prosegur, O2 ~250", -395); }
+  // ===== caja 2027 =====
+  add(caja, "in_prestamos", 12, "Préstamo Cruzcampo, segundo pago", 10000);
+  add(caja, "in_redeme", 12, "Devolución del IVA de noviembre de 2026", 400);
+  add(caja, "in_redeme", 13, "Devolución del IVA de diciembre de 2026", 400);
+  add(caja, "op_irpf", 12, "Modelo 111 del 4T de 2026", -1200);
+  for (let m = 0; m <= 4; m++){ add(caja, "op_alquiler", 12 + m, "Realmivo", -2297.02); add(caja, "op_fijos", 12 + m, "Gestoría y seguros", -395); }
+  if (p.preap27 > 0) add(caja, "op_preapertura", 17, "Supuesto del usuario", -p.preap27);
+  add(caja, "op_alquiler", 17, "Realmivo", -2297.02); add(caja, "op_fijos", 17, "Gestoría y seguros", -395);
+  const ivaAgo27 = -p.ivaAgo26*s;
+  for (const [mes, m] of [["jun", 5], ["jul", 6], ["ago", 7], ["sep", 8], ["oct", 9], ["nov", 10], ["dic", 11]]){
+    const i = 12 + m, esc = (m === 5 ? f : 1)*s;
+    for (const [k, l, v, escala] of PATRON[mes]){
+      let x = v;
+      if (k === "tax_iva" && v === null) x = m === 8 ? ivaAgo27 : -3170*(p.pepsi27/17000);
+      if (k === "op_cogs" && m === 5){ add(caja, k, i, l, v*s); continue; }   // stock inicial: escala con ventas, no con junio
+      add(caja, k, i, l, escala ? x*esc : x);
+    }
+  }
+  add(caja, "in_acuerdos", 21, "Pepsi 2027 + IVA", p.pepsi27*1.21);
+  add(caja, "op_rrpp", 20, "Pago RRPP", -p.rrpp27);
+  if (p.vac27 > 0) add(caja, "op_personal", 20, "Vacaciones al cierre", -p.vac27);
+  add(caja, "tax_is", 18, `IS 2026 (modelo 200), ${p.is} % × ${Math.round(res26).toLocaleString("es")} €`, -cuota26);
+  add(caja, "tax_is", 21, "Modelo 202: 18 % de la cuota de 2026", -0.18*cuota26);
+  add(caja, "tax_is", 23, "Modelo 202: 18 % de la cuota de 2026", -0.18*cuota26);
+
+  // ===== ajuste de los meses reales al saldo del extracto =====
+  // Cada mes real se cuadra con la liquidez real a fin de mes; la diferencia (movimientos menores no desglosados, redondeos) va a "otros / por identificar".
+  { let acum = LIQ_DIC25;
+    for (let i = 0; i <= 7; i++){
+      const neto = IN_KEYS.concat(OUT_KEYS).reduce((a, k) => a + val(caja, k, i), 0);
+      const dif = LIQ_REAL[i] - (acum + neto);
+      if (Math.abs(dif) >= 1) add(caja, "in_otros", i, "Ajuste al saldo real del extracto: movimientos menores no desglosados y abonos por identificar", dif);
+      acum = LIQ_REAL[i];
+    } }
+  // ===== totales de caja =====
+  const C = {}; for (const k of IN_KEYS.concat(OUT_KEYS)) C[k] = COLS.map((_, i) => val(caja, k, i));
+  C.ingresos = COLS.map((_, i) => IN_KEYS.reduce((a, k) => a + C[k][i], 0));
+  C.gastos = COLS.map((_, i) => OUT_KEYS.reduce((a, k) => a + C[k][i], 0));
+  C.neto = COLS.map((_, i) => C.ingresos[i] + C.gastos[i]);
+  C.saldo = []; let sal = LIQ_DIC25;
+  C.neto.forEach((x, i) => { sal += x; C.saldo.push(sal); });
+  V.proyecto = COLS.map((_, i) => -PROJ_KEYS.reduce((a, k) => a + C[k][i], 0));
+  return {pl, caja, V, C, res26, res27, cuota26, cuota27, s, f};
+}
+
+if (typeof module !== "undefined") module.exports = {modelo, P, COLS, FILAS_PL, FILAS_CAJA, IN_KEYS, OUT_KEYS, PROJ_KEYS, OP_KEYS, PL_KEYS, GRUPOS, LIQ_REAL, MES, MESN};
