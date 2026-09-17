@@ -27,3 +27,6 @@ Dingui es el **restaurante / discoteca** del usuario (que también es propietari
 **How to apply:** los análisis desde junio 2026 son híbridos: cashflow de obra + P&L operativo. Cruzar siempre las dos cuentas (Movimiento entre cuentas ≠ P&L). Ingresos bancarios TPV son netos de comisión y llegan con retardo de liquidación — el detalle real de ventas está en Tipsi.
 
 Relacionado: [[pl-categories]], [[reference-proyecciones-sheet]], [[bank-format-caixa]], [[bank-format-santander]], [[project-tipsi]].
+
+
+**Contrato de alquiler Realmivo: 10 AÑOS** (usuario 17/09/2026; firmado 30/09/2025 → fin sept 2035). Relevante para amortizar la obra del local arrendado (plazo del contrato = 10 años = coeficiente 10 %).

@@ -1,6 +1,6 @@
 ---
 name: artifact-dingui-mes-a-mes
-description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v4 publicada 17/09/2026 (extractos a 16/09): res26 242,7K, IS26 36,4K, liquidez fin sept 114,5K, dic-26 139,0K, dic-27 317,5K. URL, fuente en docs/artifacts/, convenciones."
+description: "Artifact 'Dingui mes a mes' (P&L + caja ene-2026 → dic-2027). v5 publicada 17/09/2026 (extractos a 16/09): res26 254,2K, IS26 38,1K, liquidez fin sept 118,5K, dic-26 150,4K, dic-27 334,1K. URL, fuente en docs/artifacts/, convenciones."
 metadata: 
   node_type: memory
   type: project
@@ -40,3 +40,7 @@ metadata:
 - RRPP P&L ago = 15.172,87 / 1,21; rrpp27 = 15.172,87. Coste proyecto 532.415,12 (Stima).
 **Cifras v4:** resultado 2026 242.675 · IS 36.401 · resultado 2027 207.761 · liquidez fin sept 114.544 (mínimo) · dic-26 138.997 · dic-27 317.485. Ajustes a extracto: jul +350, ago −2.698 (explicable: alquiler jul/ago mal repartido en REAL_CAJA, 2º recibo Barter, varios).
 **Abierto:** P&L ago personal lleva «vacaciones estimadas −5.000» (esperar finiquitos reales); Pernod: reparto y fecha de cobro; +484 Melgarejo; posible pago doble a Lorente (fact 23); 3 € del confirming; Cala Santa (motivo).
+
+**v5 PUBLICADA 17/09/2026 (noche):** Pernod Ricard 6.200 + IVA (P&L jul/ago por botellas; caja octubre +7.502; `rappel27` 6.200 cobro oct-27) · Melgarejo +484 = aportación comercial (P&L acuerdos sept 400; caja in_acuerdos) · abonos Merino 1244/1245 base 8.207,97 restan compras de septiembre; bebida pendiente sin Merino = 4.554 (saldo a favor Merino 5.987 NO contado hasta saber si lo devuelven) · **amortización lineal a 10 años (contrato de alquiler de 10 años): `amortAnual` 39.500** sobre ~394.600 € sin IVA (contab 325.041 + Stima 22.100 + Viento con factura ~28.150 + tasas 8.250 + sonido menor ~6.300 + equipamiento ~2.500 + conexiones ~2.300); máximo fiscal ~44.700 (sonido 20 %). Jul/ago amort calculada dentro de modelo() (reacciona al supuesto).
+**Cifras v5:** resultado 2026 254.233 · IS 38.135 · resultado 2027 213.461 · liquidez fin sept 118.488 (mínimo) · dic-26 150.443 · dic-27 334.075.
+**Abierto:** Merino ¿devuelve 5.987 o crédito?, ¿más abonos? · Lorente fact 23 ¿pago doble? · 3 € confirming.
