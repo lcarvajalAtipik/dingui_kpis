@@ -39,7 +39,7 @@ const FILAS_PL = [
   ["Resultado antes de amortización e impuestos","ebitda","rule",""],
   ["Amortización","amort","","Activo amortizable ≈ 394.600 € sin IVA: inmovilizado de la contabilidad 325.041 + lo que falta activar (Stima 22.100, Viento con factura ~28.150, tasas de licencia 8.250, sonido menor ~6.300, equipamiento ~2.500, conexiones y pruebas ~2.300). Contrato de alquiler de 10 años → lineal al 10 %: ~39.500 €/año desde julio de 2026 (3.292 €/mes). El máximo fiscal sería ~44.700 (sonido al 20 %) y con amortización acelerada de empresa reducida el doble."],
   ["Resultado antes de impuestos","resultado","rule total",""],
-  ["Impuesto de sociedades","is","","Tipo del 15 % (empresa de nueva creación, también en 2027) sobre el resultado del año. La gestoría puede bajarlo con amortización acelerada (art. 103 LIS) y libertad de amortización por creación de empleo (art. 102): cambia el tipo efectivo en los supuestos."],
+  ["Impuesto de sociedades","is","","Tipo del 15 % (empresa de nueva creación, también en 2027) sobre la BASE FISCAL: el resultado del año más el personal pagado en B, que está restado en el resultado pero no en la contabilidad y por tanto no es deducible (2026: julio 8.523 de horas extra en efectivo + agosto ~23.187 estimado = efectivo de personal de los cierres − nómina líquida; 2027: el mismo % de las ventas). La gestoría puede bajarlo con amortización acelerada (art. 103 LIS); cambia el tipo efectivo en los supuestos."],
   ["Resultado neto","neto","rule total",""],
   ["Inversión del proyecto pagada en el mes (con IVA, fuera del P&L)","proyecto","memo","Suma de las filas de proyecto de la tabla de caja: obra, instalaciones, arquitecto, licencias, equipamiento y confirming. Coste total del proyecto: 532.415,12 € (cerrado el 28/08 en 532.297,62 y actualizado el 17/09 con Stima)."]
 ];
@@ -388,9 +388,14 @@ function modelo(p){
   V.ebitda = COLS.map((_, i) => V.margen[i] + V.personal[i] + V.djs[i] + V.rrpp[i] + V.alquiler[i] + V.fijos[i] + V.marketing[i] + V.extra[i] + V.financiero[i]);
   V.resultado = COLS.map((_, i) => V.ebitda[i] + V.amort[i]);
   const res26 = V.resultado.slice(0, 12).reduce((a, b) => a + b, 0), res27 = V.resultado.slice(12).reduce((a, b) => a + b, 0);
-  const cuota26 = Math.max(0, res26)*p.is/100, cuota27 = Math.max(0, res27)*p.is/100;
-  add(pl, "is", 11, `${p.is} % × resultado 2026 (${Math.round(res26).toLocaleString("es")} €)`, -cuota26);
-  add(pl, "is", 23, `${p.is} % × resultado 2027 (${Math.round(res27).toLocaleString("es")} €)`, -cuota27);
+  // Gasto sin factura (personal en B): está en el resultado de gestión pero no en la contabilidad → no deducible en sociedades
+  const B26 = 8523.03 + (43435 + 4100 - 24348.11);   // julio: horas extra en efectivo; agosto: efectivo de personal de los cierres − nómina líquida (estimado)
+  const V26 = VENTAS_IVA.jul/1.1 + VENTAS_IVA.ago/1.1 + 165.29, pctB = B26/(V26);
+  const B27 = (ventas27[5] + ventas27[6] + ventas27[7])*pctB;
+  const base26 = res26 + B26, base27 = res27 + B27;
+  const cuota26 = Math.max(0, base26)*p.is/100, cuota27 = Math.max(0, base27)*p.is/100;
+  add(pl, "is", 11, `${p.is} % × base fiscal 2026 ${Math.round(base26).toLocaleString("es")} € (resultado ${Math.round(res26).toLocaleString("es")} + personal en B no deducible ${Math.round(B26).toLocaleString("es")})`, -cuota26);
+  add(pl, "is", 23, `${p.is} % × base fiscal 2027 ${Math.round(base27).toLocaleString("es")} € (resultado ${Math.round(res27).toLocaleString("es")} + personal en B no deducible ${Math.round(B27).toLocaleString("es")}, ${(pctB*100).toFixed(2).replace(".", ",")} % de las ventas como en 2026)`, -cuota27);
   V.is = COLS.map((_, i) => val(pl, "is", i));
   V.neto = COLS.map((_, i) => V.resultado[i] + V.is[i]);
 
@@ -448,7 +453,7 @@ function modelo(p){
   add(caja, "op_marketing", 20, "Foto, vídeo y gestión comercial de la temporada (2026: 5.540 netos)", -5540*s);
   add(caja, "op_irpf", 21, "Retenciones de marketing (2026: 510)", -510*s);
   if (p.vac27 > 0) add(caja, "op_personal", 20, "Vacaciones al cierre", -p.vac27);
-  add(caja, "tax_is", 18, `IS 2026 (modelo 200), ${p.is} % × ${Math.round(res26).toLocaleString("es")} €`, -cuota26);
+  add(caja, "tax_is", 18, `IS 2026 (modelo 200), ${p.is} % × base fiscal ${Math.round(base26).toLocaleString("es")} € (incluye ${Math.round(B26).toLocaleString("es")} € de personal en B no deducible)`, -cuota26);
   add(caja, "tax_is", 21, "Modelo 202: 18 % de la cuota de 2026", -0.18*cuota26);
   add(caja, "tax_is", 23, "Modelo 202: 18 % de la cuota de 2026", -0.18*cuota26);
 
