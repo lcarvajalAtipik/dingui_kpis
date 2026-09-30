@@ -66,3 +66,5 @@ metadata:
 
 
 **17/09/2026 — CORRECCIÓN:** el +13.946,03 del 21/08 es DEVOLUCIÓN DE IVA (no retirada FV); FV cuadra con los cierres sin retiradas (ver [[fourvenues-puerta-ticketing]]). RRPP real = 15.172,87 (Security, 14/09). Nómina/vacaciones/finiquitos de agosto ya pagados. Liquidez real 16/09 = 87.532,49 bancos + 6.000 plazo + 83.700 FV = 177.232,49. Modelo v4 (docs/artifacts): fin sept ≈114,5K · dic-26 ≈139,0K · dic-27 ≈317,5K.
+
+**DECIDIDO 30/09/2026 (usuario): plazo fijo Santander 6.000 (impuesto 20/07, contrato 0049 7343 30 20000771) = contragarantía de un AVAL bancario Santander de 6.000** (póliza firmada ante notario Ruiz Ilundáin 22/09, fact P-0000297 74,92; beneficiario del aval sin identificar). En liquidez: **NO DISPONIBLE, pero SIEMPRE mostrarlo** como línea aparte ("plazo/aval 6K bloqueado"), nunca omitirlo.
