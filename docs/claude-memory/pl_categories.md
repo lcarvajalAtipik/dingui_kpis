@@ -42,3 +42,5 @@ metadata:
 - Facturas SIN cargo bancario visible aún y cargos SIN factura: ver columnas `pago_estado` en `data/facturas/registro_facturas.csv` (53 conciliadas / 36 sin extracto / 27 no encontradas).
 
 Relacionado: [[business-overview]], [[reference-proyecciones-sheet]], [[ignorar-fx-convention]], [[bank-format-santander]].
+
+**Decidido 30/09/2026:** Francave "Cala Santa" T-96898 (30/08, Chipiona, 2.401,50 con IVA 10 %, base 2.183,18) = **comida de equipo** (gasto de personal/equipo, no representación ni COGS).

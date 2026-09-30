@@ -18,3 +18,5 @@ metadata:
 **Merino (captura app del comercial, 17/09):** factura viva 27223/26A 3.944,39 (28/08) + **abonos por devolución YA emitidos** 1244/26N (−335,91) y 1245/26N (−9.595,74) del 02/09 (base −8.207,97; Havana, Ballantine's, Barceló, Absolut, Dom Pérignon…), vencen 17/09 → **neto −5.987,26 a favor de Dingui**. Abierto: si Merino devuelve en dinero o deja crédito para 2027, y si faltan más abonos.
 
 Relacionado: [[artifact-dingui-mes-a-mes]], [[iva-rates]], [[pnl-2026-snapshot]], [[cogs-audit-ago26]].
+
+**Confirmado 30/09 (PDF RU1113 leído):** RU1113 (09/09, −485,82, base −401,50) = rappel por volumen de cerveza de AGOSTO: 300 × 1,00 barril Cruzcampo 50L (6 barriles = 300 L → 1 €/L), 92 × 1,00 Pilsen 1/3, 13 × 0,50 sin gluten, 3 × 1,00 Radler. Va dentro de la transferencia +6.303,82 (15/09, concepto "N4574 Ru1113"). NO es el +484 del 16/09 (ese sigue siendo aportación comercial, dixit usuario).
