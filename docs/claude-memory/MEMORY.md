@@ -38,5 +38,5 @@
 - [Contabilidad gestoría jun-ago 2026](contabilidad_gestoria_junago.md) — Libros Stipendium leídos 17/09: nómina ago real (TC1 10.393), ventas ago facturadas 319.750, IVA ago no reproducible, 15 anomalías (alquiler sin devengar, sin amortización, cuenta puente BANCOS, caja sin movimientos). Informe en docs/contabilidad_gestoria_jun-ago_2026.md.
 - [Rappels y devoluciones](rappel_botella.md) — Pernod Ricard 6.200+IVA cobro OCTUBRE; Melgarejo +484 = aportación comercial; devoluciones restan compras (Melgarejo N4574, Merino abonos 1244/1245 −9.931,65 → Merino neto −5.987 a favor). Rappels en fila propia.
 - [Feedback: nóminas cerradas](feedback_nominas_cerradas.md) — Nóminas/vacaciones/finiquitos ago-26 pagados y cerrados: NO volver a sacarlo (usuario molesto 17/09).
-- [Pendientes tras 17/09](pendientes_dingui_1709.md) — PUNTO DE RETOMA: artifact v8, preguntas abiertas (2 facturas DJs, marketing junio 500, DJs en efectivo ago, Lorente fact 23), lista para gestoría y pasos al llegar extractos.
+- [Pendientes 30/09](pendientes_dingui_3009.md) — PUNTO DE RETOMA: facturas al día; 10 preguntas usuario, lista gestoría, hipótesis confirming 18/09, pasos al llegar extractos >16/09, artifact v9.
 - [Feedback: subir siempre](feedback_subir_siempre.md) — REGLA 30/09: 'sube todo siempre tú' → Drive + commit + push sin preguntar, incluso facturas dudosas.
