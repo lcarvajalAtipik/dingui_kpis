@@ -40,4 +40,4 @@
 - [Feedback: nóminas cerradas](feedback_nominas_cerradas.md) — Nóminas/vacaciones/finiquitos ago-26 pagados y cerrados: NO volver a sacarlo (usuario molesto 17/09).
 - [Pendientes 30/09](pendientes_dingui_3009.md) — PUNTO DE RETOMA: facturas al día; 10 preguntas usuario, lista gestoría, hipótesis confirming 18/09, pasos al llegar extractos >16/09, artifact v9.
 - [Feedback: subir siempre](feedback_subir_siempre.md) — REGLA 30/09: 'sube todo siempre tú' → Drive + commit + push sin preguntar, incluso facturas dudosas.
-- [PyG gestoría v1 29/09](pyg_gestoria_v1_2909.md) — Res. 123,8K; desglose 30/09: 138,6K de obra a gasto + abonos Merino/Melgarejo con signo al revés (26K). Corregida ≈277K ≈ modelo.
+- [PyG gestoría 29/09→01/10](pyg_gestoria_v1_2909.md) — v1 123,8K; v2 01/10 ≈184,8K (Lorente sacado de gasto). Siguen 77,6K de obra a gasto + abonos con signo al revés (26K). Corregida ≈277K ≈ modelo.
