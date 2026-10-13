@@ -40,4 +40,5 @@
 - [Feedback: nóminas cerradas](feedback_nominas_cerradas.md) — Nóminas/vacaciones/finiquitos ago-26 pagados y cerrados: NO volver a sacarlo (usuario molesto 17/09).
 - [Pendientes 30/09](pendientes_dingui_3009.md) — PUNTO DE RETOMA: facturas al día; 10 preguntas usuario, lista gestoría, hipótesis confirming 18/09, pasos al llegar extractos >16/09, artifact v9.
 - [Feedback: subir siempre](feedback_subir_siempre.md) — REGLA 30/09: 'sube todo siempre tú' → Drive + commit + push sin preguntar, incluso facturas dudosas.
-- [PyG gestoría 29/09→08/10](pyg_gestoria_v1_2909.md) — v4 08/10: res 231.607; aceptó amort 10 % (desde fecha factura), Realmivo a sep, Viento a activo. Quedan: lista +14K ventas, desglose 219 (+26K), capital 160.400, bancos 228,8K sin conciliar, Pepsi/Pernod.
+- [PyG gestoría 29/09→08/10](pyg_gestoria_v1_2909.md) — v4 08/10: res 231.607; aceptó amort 10 % (desde fecha factura), Realmivo a sep, Viento a activo. Quedan: lista +14K ventas, desglose 219 (+26K), bancos 228,8K sin conciliar, Pepsi/Pernod.
+- [Capital social Nuevo VH](capital_social_nuevovh.md) — 160.400 € escriturado e inscrito (3.000 constitución 08/08/25 + 157.400 ampliación 16/02/26); el balance de la gestoría está bien en esto. 551 165.650 = resto aportado como deuda.
