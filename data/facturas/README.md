@@ -22,7 +22,7 @@ cada archivo para no reprocesar jamás.
 | `categoria` | `comida` \| `bebida` \| `comida+bebida` \| `otros` (suministros, alquiler, servicios…) |
 | `contiene` | Tags libres: `refrescos,cerveza,alcohol,comida,hielo…` |
 | `n_lineas_fb` | Nº de líneas volcadas a `lineas_facturas.csv` |
-| `estado` | `procesada` \| `ilegible` \| `duplicada` \| `no_factura` |
+| `estado` | `procesada` \| `ilegible` \| `duplicada` \| `no_factura` \| `ajena` (no es de Nuevo VH: p. ej. Fondeo/MC46 subido por error) |
 | `procesado_at`, `notas` | Trazabilidad |
 
 ### `lineas_facturas.csv` — detalle línea a línea SOLO de comida y bebida
