@@ -33,7 +33,7 @@ caixa,221df374fc803959,2026-06-19,-67.41,SUMINISTRSO UNIC,Equipamiento,user,
 caixa,b84a5f507155d820,2026-06-23,-49.54,AQUALAR PISCINAS,Equipamiento,user,
 caixa,1c17652591ab98e4,2026-06-26,-10.2,BAZAR CHINO,Equipamiento,user,
 caixa,30b9ca20627155f1,2026-06-26,-172.62,COCA COLA EUROPAC,COGS,user,
-caixa,8f2776b6d56bd4b7,2026-06-27,2000.0,TRASPASO,Préstamo socios,user,"Tercera transferencia del préstamo de un socio (usuario 17/09/2026): préstamo total 14.000, devueltos 12.000, pendientes 2.000. No es traspaso interno (sin pareja en Santander)"
+caixa,8f2776b6d56bd4b7,2026-06-27,2000.0,TRASPASO,Aportaciones,user_override,"Tercera transferencia del préstamo de un socio (usuario 17/09/2026): préstamo total 14.000, devueltos 12.000, pendientes 2.000. No es traspaso interno (sin pareja en Santander)"
 caixa,b5e743b91edfa0ad,2026-06-30,-25.0,RESTAURANTE PLATO,Gastos extra actividad,user,
 caixa,8264773a6ca16025,2026-06-30,-18.0,BAZAR CHINO,Equipamiento,user,
 caixa,073c4367dc5c0948,2026-07-01,-605.0,BARTER CONSULTANC,Marketing,user,
@@ -147,6 +147,7 @@ santander,bacec62613fdd50d,2026-08-17,-1795.35,"Recibo Ipasur Licores Y Vinos S.
 santander,1b688f65a12271f0,2026-08-18,-10233.29,"Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755 Bbdjnsh Ref. Mandato 6445es4700497343712310017971, De",COGS,user,
 santander,32fe1dbd8d0eaa98,2026-08-19,-2398.22,"Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnxq Ref. Mandato 43000672668nuevoes470049734371231, De",COGS,user,
 santander,3cd6ff81d0c45954,2026-08-19,-2636.48,"Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnxp Ref. Mandato 43000672668nuevoes470049734371231, De",COGS,user,
+caixa,1e2f51c20db0e7f4,2026-08-20,1750.0,TRANSFER INMEDIATA,Aportaciones,user_override,
 santander,fd5103127ba5df40,2026-08-20,-9420.95,2026iva Autoliquidacion.,Impuestos,user,
 santander,7f6f68543a4c8abd,2026-08-20,-354.48,"Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjpff Ref. Mandato 43000672668nuevoes470049734371231, De",COGS,user,
 santander,ae663d140c5469e9,2026-08-20,-247.2,Transferencia A Favor De Francisco Ruiz Concepto: Pago Dj,DJs / Programación,user,
