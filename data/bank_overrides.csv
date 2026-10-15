@@ -182,3 +182,7 @@ santander,da09665a4cb580fa,2026-09-15,-3389.67,Transferencia A Favor De Ramón R
 santander,99318cfa5bab5722,2026-09-15,6303.82,"Transferencia De Melgarejo Distribuidores De Bebidas, Concepto N4574 Ru1113.",COGS,user,"Usuario 17/09: devolución de compra. Documentos (Opus 17/09): N4574 07/09 devolución fin de temporada −5.818,00 (base 21% −4.720,92 + 10% −96,08; incluye ~−759 envases/fianzas) + RU1113 09/09 −485,82 (base −401,50 al 21%) = rappel Cruzcampo agosto (300 barriles ×1 €, 92 tercios…) → en P&L: 4.817 menos compras y 401,50 a Rappels."
 caixa,c8d4aa132744e174,2026-09-16,484.0,MELGAREJO DISTRIB,Acuerdos comerciales,user,Usuario 17/09: APORTACIÓN COMERCIAL de Melgarejo (400 + IVA).
 santander,d64b308bed22699a,2026-09-16,-151.25,Transferencia A Favor De Bodegas Mirasierra Concepto: Servicios,DJs / Programación,user,Usuario 17/09: Bodegas Mirasierra es en realidad un DJ.
+caixa,52b78a11124e0950,2026-09-18,83551.54,TRANSFER INMEDIATA,Movimiento entre cuentas,user_override,
+santander,7154389a81619550,2026-09-22,-225.0,Liquidacion Materializacion Del Aval 0049 7343 21 10000087,Financiero,user_override,
+santander,c38a47c10ceb1338,2026-09-25,2032.09,"Transferencia De Coca Cola Europacific Partners Iberia S.l.u., Concepto 0500023157/doc.:2726803925,2726803942,2726803935,.",Rappels,ambiguous_resolved,
+caixa,40b7a45108439343,2026-10-05,-580.8,RECIBO EXTRA ASC.,"Legal, gestión, software",user_override,
