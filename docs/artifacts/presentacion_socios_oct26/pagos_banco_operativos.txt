@@ -1,0 +1,343 @@
+6|2025-09-17|caixa|-54.4|P.SERV. TRF. AJENA|Financiero|
+7|2025-09-17|caixa|-13600.0|fianza y garantia|Alquiler/Fianza|
+8|2025-09-30|caixa|-1.08|CORRESP. 09/2025|Financiero|
+9|2025-10-01|caixa|-14.2|MANTENIMIENTO|Financiero|
+11|2026-01-01|caixa|-30.0|MANTENIMIENTO|Financiero|
+18|2026-02-05|caixa|-6.0|P.SERV. TRF. AJENA|Financiero|
+28|2026-02-10|caixa|-720.05|cuota cominidad|Alquiler/Fianza|
+30|2026-02-12|caixa|-2297.02|alquiler febrero|Alquiler/Fianza|
+34|2026-02-13|caixa|-12.1|P.SERV.CERTIF.|Financiero|
+35|2026-02-13|caixa|-42.35|P.SERV.CERTIF.|Financiero|
+40|2026-02-17|caixa|-53.85|DNH*GODADDYÑ40193|Legal, gestión, software|
+41|2026-02-18|caixa|-62.0|DOCUSIGN INC.|Legal, gestión, software|
+42|2026-02-19|caixa|-495.0|registro|Legal, gestión, software|
+43|2026-02-19|caixa|-2100.0|209-2026Nuevo Vh|Legal, gestión, software|
+45|2026-02-26|caixa|-33.0|CUOTA T. V.Ele.Bu|Otros|
+47|2026-02-26|caixa|-907.5|factura 4|Legal, gestión, software|
+49|2026-02-28|caixa|-60.68|PRECIO SERVIC.PAGOS|Financiero|
+51|2026-03-06|caixa|-18.99|Trimble|Legal, gestión, software|
+52|2026-03-07|caixa|-137.34|PRECIO SERVIC.PAGOS|Financiero|
+55|2026-03-18|caixa|-2297.02|REALMIVO SL.|Alquiler/Fianza|
+56|2026-03-18|caixa|-62.0|DOCUSIGN INC.|Legal, gestión, software|
+57|2026-03-18|caixa|-49.99|APPLE.COM/BILL|Legal, gestión, software|
+58|2026-03-25|caixa|-12.99|WWW.AMAZON|Otros|
+59|2026-04-01|caixa|-12.0|NARIGONI|Otros|
+60|2026-04-01|caixa|-35.64|NARBONA SOLIS|Otros|
+61|2026-04-01|caixa|-7.57|Google Workspace_|Legal, gestión, software|
+62|2026-04-02|caixa|-130.8|VISTAHERMOSA|Otros|
+63|2026-04-02|caixa|-11.07|MARKET PTO SANTA|Otros|
+64|2026-04-06|caixa|-18.99|Trimble|Legal, gestión, software|
+65|2026-04-08|caixa|-2297.02|REALMIVO SL.|Alquiler/Fianza|
+66|2026-04-08|caixa|-12.21|Packlink - Auctan|Otros|
+73|2026-04-18|caixa|-49.99|APPLE.COM/BILL|Legal, gestión, software|
+75|2026-04-28|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+76|2026-04-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+84|2026-04-30|caixa|-342.0|sesion video|Marketing|
+85|2026-04-30|caixa|-542.71|ALIEXPRESS|Equipamiento|
+93|2026-05-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+94|2026-05-02|caixa|-91.24|PRECIO SERVIC.PAGOS|Financiero|
+97|2026-05-06|caixa|-18.99|Trimble|Legal, gestión, software|
+99|2026-05-07|caixa|-2297.02|REALMIVO SL.|Alquiler/Fianza|
+100|2026-05-07|caixa|-95.59|pulseras|Gastos extra actividad|
+105|2026-05-11|caixa|-138.0|TRF.INTERNACIONAL|Marketing|
+106|2026-05-11|caixa|-2.41|P.SERV.CERTIF.|Financiero|
+107|2026-05-14|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+108|2026-05-15|caixa|-1200.32|mesa refrigerada|Equipamiento|
+112|2026-05-21|caixa|-100.0|PRECIO SERVIC.PAGOS|Financiero|
+120|2026-05-27|caixa|-2376.21|neveras|Equipamiento|
+122|2026-05-28|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+123|2026-05-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+125|2026-05-28|caixa|-1149.33|software|Legal, gestión, software|
+127|2026-06-01|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+128|2026-06-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+129|2026-06-02|caixa|-579.34|tostadora y grill|Equipamiento|
+131|2026-06-06|caixa|-18.99|Trimble|Legal, gestión, software|
+137|2026-06-08|caixa|-181.45|pago prezo|Legal, gestión, software|
+138|2026-06-09|caixa|-126.97|CARREF EL PASEO|Equipamiento|
+139|2026-06-10|caixa|-10.0|NARIGONI|Otros|
+140|2026-06-10|caixa|-102.0|RESTAURANTE PLATO|Gastos extra actividad|
+151|2026-06-15|caixa|-747.89|Discount_ES||
+152|2026-06-15|caixa|-641.27|MAKRO CENTRO 18|COGS|
+154|2026-06-16|caixa|-70.08|CASH LEPE JAMON 1|COGS|
+155|2026-06-17|caixa|-187.18|MAKRO CENTRO 18|COGS|
+156|2026-06-17|caixa|-50.1|DECOFIESTA|Equipamiento|
+157|2026-06-18|caixa|-13.8|NARIGONI|Otros|
+158|2026-06-18|caixa|-2.32|CASH LEPE JAMON 1|COGS|
+160|2026-06-19|santander|-302.5|Comisión Formalización Contrato Comision Formalizaci|Financiero|
+162|2026-06-19|caixa|-32.0|BAZAR CHINO|Equipamiento|
+163|2026-06-19|caixa|-40.0|LICENCIA TAXI Nç|Gastos extra actividad|
+164|2026-06-19|caixa|-202.35|MAKRO CENTRO 18|COGS|
+165|2026-06-19|caixa|-50.3|AQUALAR PISCINAS|Equipamiento|
+166|2026-06-19|caixa|-67.41|SUMINISTRSO UNIC|Equipamiento|
+169|2026-06-22|santander|-32343.05|Cobro A Vencimiento 19/06/2026|Financiero|
+171|2026-06-23|caixa|-49.54|AQUALAR PISCINAS|Equipamiento|
+172|2026-06-23|caixa|-242.0|STIPENDIUM ASES.|Legal, gestión, software|
+173|2026-06-24|santander|-892.29|Comisiones/intereses Por Financiación Liq.dem.:22/06/2026|Financiero|
+176|2026-06-26|caixa|-10.2|BAZAR CHINO|Equipamiento|
+177|2026-06-26|caixa|-2.99|CASH LEPE JAMON 1|COGS|
+178|2026-06-26|caixa|-172.62|COCA COLA EUROPAC|COGS|
+179|2026-06-26|caixa|-11.9|NARIGONI|Otros|
+181|2026-06-28|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+182|2026-06-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+187|2026-06-29|caixa|-716.32|PICKING GADES SL|COGS|
+188|2026-06-29|caixa|-168.09|PICKING GADES SL|COGS|
+189|2026-06-29|caixa|-146.96|PICKING GADES SL|COGS|
+190|2026-06-29|caixa|-125.98|PICKING GADES SL|COGS|
+192|2026-06-30|caixa|-25.0|RESTAURANTE PLATO|Gastos extra actividad|
+193|2026-06-30|caixa|-18.0|BAZAR CHINO|Equipamiento|
+194|2026-07-01|santander|-0.45|Liquidación Indemnizatorio Liq. Indemnizatorio0|Financiero|
+195|2026-07-01|caixa|-605.0|BARTER CONSULTANC|Marketing|
+196|2026-07-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+197|2026-07-01|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+198|2026-07-02|santander|-3000.0|Su Orden De Imposicion En Contrato A Plazo 0049 7343 30 20000770|Financiero|
+199|2026-07-02|caixa|-37.2|RESTAURANTE PLATO|Gastos extra actividad|
+200|2026-07-04|caixa|-273.6|MAKRO CENTRO 18|COGS|
+201|2026-07-04|caixa|-1.4|BAZAR VI§ADOR, SL|Equipamiento|
+202|2026-07-04|caixa|-41.82|MAKRO CENTRO 18|COGS|
+203|2026-07-05|caixa|-7.72|CASH LEPE JAMON 1|COGS|
+212|2026-07-06|santander|-76.2|Liquidacion Del Contrato 0003066 300|Financiero|
+214|2026-07-06|caixa|-27.95|REST.BOOKING|Gastos extra actividad|
+216|2026-07-06|caixa|-29.04|MAKRO CENTRO 18|COGS|
+217|2026-07-06|caixa|-50.0|BAZAR CHINO|Equipamiento|
+218|2026-07-06|caixa|-39.3|VENTA LA BLANCA P|Gastos extra actividad|
+219|2026-07-06|caixa|-18.99|Trimble|Legal, gestión, software|
+225|2026-07-07|santander|-0.48|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+226|2026-07-07|santander|-2.54|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+227|2026-07-07|santander|-1.33|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+228|2026-07-07|santander|-4.32|Cuota App Android. Comercio: 0048628614|Financiero|
+229|2026-07-07|caixa|-252.75|MAKRO CENTRO 18|COGS|
+230|2026-07-07|caixa|-11.03|O2 FIBRA|Costes Fijos|
+231|2026-07-07|caixa|-6.23|MARKET URB. EL GU|Gastos extra actividad|
+232|2026-07-07|santander|-1.33|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+235|2026-07-08|caixa|-293.48|STIPENDIUM ASES.|Legal, gestión, software|
+273|2026-07-08|caixa|-534.1|MAKRO CENTRO 18|COGS|
+275|2026-07-08|caixa|-53.36|WWW.AMAZON|Otros|
+272|2026-07-09|caixa|-0.9|CASH LEPE JAMON 1|COGS|
+485|2026-07-09|santander|-300.14|Transferencia A Favor De Id Hostelería Concepto: Fregadero|Equipamiento|
+486|2026-07-09|santander|-299.14|Comisiones/intereses Por Financiación Liq.dem.:08/07/2026|Financiero|
+269|2026-07-10|caixa|-190.0|BAZAR CHINO|Equipamiento|
+270|2026-07-10|caixa|-26.05|MAKRO CENTRO 18|COGS|
+271|2026-07-10|caixa|-116.46|LEROY MERLIN JERE|Equipamiento|
+268|2026-07-11|caixa|-205.1|MAKRO CENTRO 18|COGS|
+457|2026-07-13|santander|-4000.0|Transferencia A Favor De Merino Concepto: Pago Merino 1|COGS|
+459|2026-07-13|santander|-521.0|Transferencia A Favor De Hielo Expresss Concepto: Enviado Por Banco Sa|COGS|
+267|2026-07-14|caixa|-59.0|WWW.AMAZON|Otros|
+449|2026-07-14|santander|-4000.0|Transferencia A Favor De Melgarejo Concepto: Deuda 1|COGS|
+264|2026-07-16|caixa|-17.64|AQUALAR PISCINAS|Equipamiento|
+265|2026-07-16|caixa|-128.44|MAKRO CENTRO 18|COGS|
+258|2026-07-17|caixa|-6.14|FRUTERIA VISTAHER|COGS|
+259|2026-07-17|caixa|-147.0|WWW.AMAZON|Otros|
+260|2026-07-17|caixa|-169.9|WWW.AMAZON|Otros|
+262|2026-07-17|caixa|-165.24|COCA COLA EUROPAC|COGS|
+263|2026-07-17|caixa|-249.62|COCA COLA EUROPAC|COGS|
+256|2026-07-20|caixa|-251.97|PICKING GADES SL|COGS|
+257|2026-07-20|caixa|-381.04|COCA COLA EUROPAC|COGS|
+395|2026-07-20|santander|-160.78|Compra Internet En Doyouspain.com, Castellon De Es, Tarj. :*565836|Gastos extra actividad|
+396|2026-07-20|santander|-192.39|Transferencia A Favor De Love My Bar Concepto: Cartas|Gastos extra actividad|
+399|2026-07-20|santander|-5000.0|Transferencia A Favor De Merino Concepto: Pago 2 Merino|COGS|
+400|2026-07-20|santander|-6000.0|Su Orden De Imposicion En Contrato A Plazo 0049 7343 30 20000771|Financiero|
+411|2026-07-20|santander|-871.2|Transferencia A Favor De Ignacio Concepto: Cerrajero Muebles|Equipamiento|
+392|2026-07-21|santander|-9.57|Pago Movil En El Jamon 197, Pto Sta Mariaes, Tarj. :*565836|COGS|
+393|2026-07-21|santander|-1.08|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+394|2026-07-21|santander|-146.68|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+376|2026-07-22|santander|-148.41|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+377|2026-07-22|santander|-24.0|Compra Restaurante Plato Al Cent, Puerto De San, Tarjeta 4176570178565|Financiero|
+383|2026-07-22|santander|-1069.1|Transferencia A Favor De Hielo Express Concepto: Hielos|COGS|
+384|2026-07-22|santander|-5000.0|Transferencia A Favor De Melgarejo Concepto: Deuda 2|COGS|
+385|2026-07-22|santander|-29.34|Pago Movil En La Parafarmacia, El Puerto De Es, Tarj. :*565836|Gastos extra actividad|
+386|2026-07-22|santander|-12.9|Pago Movil En Papeleria Vista, Puerto Santa Es, Tarj. :*565836|Gastos extra actividad|
+375|2026-07-23|santander|-43.2|Pago Movil En Buzo, Cadiz Es, Tarj. :*565836|Gastos extra actividad|
+361|2026-07-24|santander|-6000.0|Transferencia A Favor De Merino Concepto: Merino 3|COGS|
+368|2026-07-24|santander|-609.46|Recibo Mapfre, Concepto: Recibo:8814545031 Poliza:0742680123590 Del 07|Costes Fijos|
+369|2026-07-24|santander|-12.01|Pago Movil En Fruteria Vistah, Cadiz Es, Tarj. :*565836|COGS|
+346|2026-07-27|santander|-12.71|Pago Movil En Farmacia Vistah, Pto Sta Mariaes, Tarj. :*565836|Gastos extra actividad|
+349|2026-07-27|santander|-136.71|Recibo Mapfre Vida S.a, Concepto: Rec:8819623067 Pol:0622000.0000.0000|Costes Fijos|
+355|2026-07-27|santander|-319.6|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+252|2026-07-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+338|2026-07-28|santander|-10.3|Pago Movil En Aqualar Piscina, Cadiz Es, Tarj. :*565836|Equipamiento|
+251|2026-07-29|caixa|-10.99|WWW.AMAZON|Otros|
+323|2026-07-30|santander|-500.0|Pago Movil En Jamones La Enci, El Puerto De Es, Tarj. :*565836|COGS|
+324|2026-07-30|santander|-500.0|Pago Movil En Jamones La Enci, El Puerto De Es, Tarj. :*565836|COGS|
+330|2026-07-30|santander|-18.5|Pago Movil En Bazar Viýador,, Cadiz Es, Tarj. :*565836|Equipamiento|
+331|2026-07-30|santander|-49.73|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+248|2026-07-31|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+249|2026-07-31|caixa|-80.12|PRECIO ABONO TRF.|Financiero|
+314|2026-07-31|santander|-1.15|Pago Movil En El Jamon 197, Pto Sta Mariaes, Tarj. :*565836|COGS|
+247|2026-08-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+245|2026-08-03|caixa|-4594.02|REALMIVO SL.|Alquiler/Fianza|
+246|2026-08-03|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+301|2026-08-03|santander|-44.7|Pago Movil En El Jamon 197, Pto Sta Mariaes, Tarj. :*565836|COGS|
+307|2026-08-03|santander|-680.12|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+243|2026-08-04|caixa|-32.97|WWW.AMAZON|Otros|
+244|2026-08-04|caixa|-269.12|DEPOSITOS DE CUEN|Financiero|
+287|2026-08-04|santander|-1531.0|Transferencia A Favor De Hielos Concepto: Hielos|COGS|
+294|2026-08-04|santander|-387.42|Recibo Mapfre, Concepto: Recibo:8814438584 Poliza:0962600015510 Del 06|Costes Fijos|
+295|2026-08-04|santander|-10000.0|Transferencia A Favor De Merino Concepto: Pago Merino|COGS|
+242|2026-08-05|caixa|-40.57|COCA COLA EUROPAC|COGS|
+278|2026-08-05|santander|-1062.0|Pago Movil En Jamones La Enci, El Puerto De Es, Tarj. :*565836|COGS|
+643|2026-08-06|santander|-107.3|Compra Europcar, Jerez De La F, Tarjeta 4176570178565836 , Comision 0,|Financiero|
+648|2026-08-06|santander|-7263.56|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+649|2026-08-06|santander|-4088.04|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+650|2026-08-06|santander|-5740.43|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+652|2026-08-06|santander|-121.97|Recibo Multiservicios Mapfre S.a. Nº Recibo 0049 7343 755 Bbdjkxb Ref.|Costes Fijos|
+653|2026-08-06|santander|-2.27|Pago Movil En El Jamon 197, Pto Sta Mariaes, Tarj. :*565836|COGS|
+654|2026-08-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+655|2026-08-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+656|2026-08-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+657|2026-08-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+658|2026-08-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+659|2026-08-06|santander|-6.05|Cuota App Android. Comercio: 0048628614|Financiero|
+685|2026-08-06|caixa|-88.87|REST.BOOKING|Gastos extra actividad|
+686|2026-08-06|caixa|-18.99|Trimble|Legal, gestión, software|
+637|2026-08-07|santander|-108.63|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+682|2026-08-07|caixa|-274.27|PICKING GADES SL|COGS|
+683|2026-08-07|caixa|-2739.35|COCA COLA EUROPAC|COGS|
+684|2026-08-07|caixa|-38.0|O2 FIBRA|Costes Fijos|
+623|2026-08-10|santander|-605.0|Recibo Barter Consultancy Partners S.l. Nº Recibo 0049 7343 755 Bbdjlx|Marketing|
+624|2026-08-10|santander|-21.21|Pago Movil En Market Urb. El, Aguila Caminoes, Tarj. :*565836|COGS|
+635|2026-08-10|santander|-242.0|Pago Movil En Reparaciones 24, El Puerto De Es, Tarj. :*565836|Gastos extra actividad|
+636|2026-08-10|santander|-786.5|Pago Movil En Reparaciones 24, El Puerto De Es, Tarj. :*565836|Gastos extra actividad|
+605|2026-08-11|santander|-349.65|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+612|2026-08-11|santander|-1211.36|Recibo Distribuciones Dilaso S.l. Nº Recibo 0049 7343 755 Bbdjmgs Ref.|COGS|
+614|2026-08-11|santander|-2465.71|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjmbv |COGS|
+615|2026-08-11|santander|-354.48|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjmbt |COGS|
+616|2026-08-11|santander|-657.03|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjmbs |COGS|
+617|2026-08-11|santander|-9.66|Recibo Mapfre, Concepto: Recibo:8823763101 Poliza:0742680123590 Del 07|Costes Fijos|
+596|2026-08-12|santander|-33.0|Pago Movil En M2 Milca Evento, Jerez De La Fes, Tarj. :*565836|Gastos extra actividad|
+597|2026-08-12|santander|-64.33|Transferencia A Favor De Berlys Concepto: Pan Berlys|COGS|
+598|2026-08-12|santander|-146.4|Transferencia A Favor De Berlys Concepto: Berlys Pan|COGS|
+599|2026-08-12|santander|-1751.0|Transferencia A Favor De Mellis Hielos Concepto: Hielos|COGS|
+681|2026-08-12|caixa|-94.8|P.SERV. TRF. AJENA|Financiero|
+591|2026-08-13|santander|-349.02|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjmrh |COGS|
+592|2026-08-13|santander|-1872.46|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjmrg |COGS|
+593|2026-08-13|santander|-179.28|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+594|2026-08-13|santander|-2203.34|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+595|2026-08-13|santander|-5535.92|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+679|2026-08-13|caixa|-54.33|PROSEGUR ALARMAS|Costes Fijos|
+566|2026-08-17|santander|-1003.96|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+567|2026-08-17|santander|-1138.42|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnfq |COGS|
+568|2026-08-17|santander|-373.77|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnfp |COGS|
+569|2026-08-17|santander|-1895.88|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnfn |COGS|
+570|2026-08-17|santander|-1795.35|Recibo Ipasur Licores Y Vinos S.l, Concepto: Factura 534-603-666|COGS|
+552|2026-08-18|santander|-242.31|Pago Movil En Makro Centro 18, Aguila Caminoes, Tarj. :*565836|COGS|
+558|2026-08-18|santander|-10233.29|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+678|2026-08-18|caixa|-64.24|PICKING GADES SL|COGS|
+550|2026-08-19|santander|-2398.22|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnxq |COGS|
+551|2026-08-19|santander|-2636.48|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjnxp |COGS|
+677|2026-08-19|caixa|-202.01|FUTURE IS AN ATT.||
+542|2026-08-20|santander|-354.48|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjpff |COGS|
+543|2026-08-20|santander|-247.2|Transferencia A Favor De Francisco Ruiz Concepto: Pago Dj|DJs / Programación|
+544|2026-08-20|santander|-774.4|Transferencia A Favor De Adrián León Concepto: Pago Dj|DJs / Programación|
+529|2026-08-21|santander|-39.88|Retroc. Según Expediente 307235262-cio 48628614. Mail Info. Remitido A|Financiero|
+534|2026-08-21|santander|-1174.41|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+535|2026-08-21|santander|-717.0|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+513|2026-08-24|santander|-1011.61|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+514|2026-08-24|santander|-2081.2|Recibo Distribuciones Dilaso S.l. Nº Recibo 0049 7343 755 Bbdjpbx Ref.|COGS|
+525|2026-08-24|santander|-2037.2|Transferencia A Favor De Hielos Express Concepto: Enviado Por Banco Sa|COGS|
+526|2026-08-24|santander|-387.1|Transferencia A Favor De Marina Aguilar Concepto: Pago Dj|DJs / Programación|
+527|2026-08-24|santander|-464.52|Transferencia A Favor De Lucas Haurie Concepto: Pago Dj|DJs / Programación|
+505|2026-08-25|santander|-6823.97|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+511|2026-08-25|santander|-3720.51|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjpzc |COGS|
+512|2026-08-25|santander|-4224.4|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjpzb |COGS|
+672|2026-08-25|caixa|-188.98|PICKING GADES SL|COGS|
+671|2026-08-26|caixa|-63.0|PICKING GADES SL|COGS|
+490|2026-08-27|santander|-605.0|Recibo Barter Consultancy Partners S.l. Nº Recibo 0049 7343 755 Bbdjqr|Marketing|
+496|2026-08-27|santander|-2713.29|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjqnd |COGS|
+497|2026-08-27|santander|-708.73|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+709|2026-08-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+710|2026-08-28|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+734|2026-08-31|santander|-55.0|Pago Movil En Taxi Licencia 9, Cadiz Es, Tarj. :*565836|Gastos extra actividad|
+735|2026-08-31|santander|-9.0|Pago Movil En Chancleo, Chipiona Es, Tarj. :*565836|Gastos extra actividad|Chancleo (Chipiona) — comida de equipo (confirmado usuario 07/09)
+736|2026-08-31|santander|-1369.24|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+739|2026-08-31|santander|-1000.0|Pago Movil En Chancleo, Chipiona Es, Tarj. :*565836|Gastos extra actividad|Chancleo (Chipiona) — comida de equipo (confirmado usuario 07/09)
+740|2026-08-31|santander|-54.65|Pago Movil En Taxi Pto Lcia N, Pto Sta Mariaes, Tarj. :*565836|Gastos extra actividad|
+707|2026-09-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+708|2026-09-01|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+732|2026-09-02|santander|-354.48|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjvfz |COGS|
+706|2026-09-03|caixa|-63.0|PICKING GADES SL|COGS|
+725|2026-09-03|santander|-40.37|Compra Europcar Spain, Madrid, Tarjeta 4176570178565836 , Comision 0,0|Financiero|
+726|2026-09-03|santander|-1730.3|Transferencia A Favor De Stipendium Concepto: Gestoría|Legal, gestión, software|
+727|2026-09-03|santander|-1635.44|Transferencia A Favor De Henris Concepto: Camisetas|Gastos extra actividad|Henris — uniformes personal (confirmado usuario 07/09)
+729|2026-09-03|santander|-3244.87|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjvvm |COGS|
+730|2026-09-03|santander|-4417.04|Recibo Melgarejo Distribuidores De Bebidas S.l Nº Recibo 0049 7343 755|COGS|
+703|2026-09-04|caixa|-12.0|ARACELI CARRERãO||
+704|2026-09-04|caixa|-6.6|VICTOR GARCIA GON||
+705|2026-09-04|caixa|-2.5|MULTITIENDA 24 HO||
+722|2026-09-04|santander|-340.0|Transferencia A Favor De David Venegas Concepto: Dj|DJs / Programación|
+723|2026-09-04|santander|-1323.64|Recibo Coca Cola Europacific Partners Iberia,sl Nº Recibo 0049 7343 75|COGS|
+724|2026-09-04|santander|-6076.78|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjwgd |COGS|
+702|2026-09-06|caixa|-18.99|Trimble|Legal, gestión, software|
+699|2026-09-07|caixa|-119.79|REST.BOOKING|Gastos extra actividad|
+700|2026-09-07|caixa|-38.0|O2 FIBRA|Costes Fijos|
+711|2026-09-07|santander|-2755.0|Transferencia A Favor De Nacho Lara Concepto: Dj|DJs / Programación|
+712|2026-09-07|santander|-578.03|Transferencia A Favor De La Encina Concepto: Pago 4 Facturas|COGS|
+713|2026-09-07|santander|-1060.0|Transferencia A Favor De José María Carrión Concepto: Dj|DJs / Programación|
+715|2026-09-07|santander|-530.0|Transferencia A Favor De Danielo Concepto: Dj|DJs / Programación|
+716|2026-09-07|santander|-424.0|Transferencia A Favor De Lanero Concepto: Dj|DJs / Programación|
+717|2026-09-07|santander|-848.0|Transferencia A Favor De Nicolás Sainz Concepto: Dj|DJs / Programación|
+718|2026-09-07|santander|-609.84|Transferencia A Favor De Tipsy Concepto: Ordenador|Equipamiento|
+719|2026-09-07|santander|-4766.19|Transferencia A Favor De Chaman Concepto: Pago Chamán|COGS|Chamán — proveedor bebida (confirmado usuario 07/09)
+720|2026-09-07|santander|-712.8|Transferencia A Favor De Ulivo Concepto: Pizzas|Gastos extra actividad|Ulivo — cena de equipo (confirmado usuario 07/09)
+721|2026-09-07|santander|-64.06|Transferencia A Favor De Hielos Iglú Concepto: Hielos|COGS|
+775|2026-09-08|santander|-1262.9|Transferencia A Favor De Marina Aguilar Concepto: Dj|DJs / Programación|
+776|2026-09-08|santander|-423.5|Transferencia A Favor De Xite Y Clara Concepto: Dj|DJs / Programación|
+777|2026-09-08|santander|-242.0|Transferencia A Favor De Events Branch Concepto: Dj|DJs / Programación|
+778|2026-09-08|santander|-265.0|Transferencia A Favor De Rafael López Concepto: Dj|DJs / Programación|
+779|2026-09-08|santander|-1270.5|Transferencia A Favor De Event Branch Concepto: Dj|DJs / Programación|
+780|2026-09-08|santander|-212.0|Transferencia A Favor De Juan Francisco García Concepto: Dj|DJs / Programación|
+781|2026-09-08|santander|-2390.09|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjxmh |COGS|
+782|2026-09-08|santander|-148.2|Transferencia A Favor De Jorge Bermúdez Concepto: Dj|DJs / Programación|
+783|2026-09-08|santander|-154.5|Transferencia A Favor De José María Pérez Fesser Concepto: Dj|DJs / Programación|
+784|2026-09-08|santander|-477.0|Transferencia A Favor De Fernando Chavarri Concepto: Dj|DJs / Programación|
+785|2026-09-08|santander|-495.48|Transferencia A Favor De Lucas Haurie Concepto: Dj|DJs / Programación|
+786|2026-09-08|santander|-242.0|Transferencia A Favor De Manu Pérez Concepto: Dj|DJs / Programación|
+787|2026-09-08|santander|-190.8|Transferencia A Favor De Nico Pescador Concepto: Dj|DJs / Programación|
+788|2026-09-08|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+789|2026-09-08|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+790|2026-09-08|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+791|2026-09-08|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+792|2026-09-08|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+793|2026-09-08|santander|-6.05|Cuota App Android. Comercio: 0048628614|Financiero|
+759|2026-09-09|caixa|-3.0|PRECIO ED. EXTRACTO|Financiero|
+760|2026-09-09|caixa|-54.33|PROSEGUR ALARMAS|Costes Fijos|
+773|2026-09-09|santander|-322.36|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjxvf |COGS|
+774|2026-09-09|santander|-3231.46|Recibo Miguel Merino Distribuciones S Nº Recibo 0049 7343 755 Bbdjxvd |COGS|
+770|2026-09-10|santander|-417.72|Transferencia A Favor De Legal V35 Concepto: Notaría|Legal, gestión, software|
+771|2026-09-10|santander|-1754.5|Transferencia A Favor De Álvaro Sarrion Concepto: Dj|DJs / Programación|
+772|2026-09-10|santander|-339.2|Transferencia A Favor De Alfonso Tagua Concepto: Dj|DJs / Programación|
+769|2026-09-11|santander|-4878.39|Recibo Realmivo Sl., Concepto: Rcbo.alquiler Julio-septiembre 2026|Alquiler/Fianza|
+765|2026-09-15|santander|-3389.67|Transferencia A Favor De Ramón Romero Concepto: Abono Facturas|Gastos extra actividad|
+763|2026-09-16|santander|-1089.0|Transferencia A Favor De Events Branch Concepto: Dj|DJs / Programación|
+764|2026-09-16|santander|-151.25|Transferencia A Favor De Bodegas Mirasierra Concepto: Servicios|DJs / Programación|
+844|2026-09-18|santander|-907.5|Transferencia A Favor De Bruce Mood Concepto: Dj|DJs / Programación|
+845|2026-09-18|santander|-3420.0|Transferencia A Favor De Álvaro Pastor Concepto: Gestión Comercial|Marketing|
+805|2026-09-19|caixa|-167.1|PRECIO ABONO TRF.|Financiero|
+840|2026-09-21|santander|-111.15|Compra Trainline.com, Paris, Tarjeta 4176570178565836 , Comision 0,00||
+843|2026-09-21|santander|-1060.0|Transferencia A Favor De Juan Máximo Concepto: Fotógrafo|Marketing|
+837|2026-09-22|santander|-74.92|Pago Movil En Notaria Ruiz Il, El Puerto De Es, Tarj. :*565836|Legal, gestión, software|
+838|2026-09-22|santander|-1125.2|Transferencia A Favor De Hielos Express Concepto: Hielos|COGS|
+839|2026-09-22|santander|-225.0|Liquidacion Materializacion Del Aval 0049 7343 21 10000087|Financiero|
+836|2026-09-23|santander|-36.9|Compra Trainline.com, Paris, Tarjeta 4176570178565836 , Comision 0,00||
+835|2026-09-24|santander|-82.28|Transferencia A Favor De Mantec Concepto: Aire|Gastos extra actividad|
+802|2026-09-28|caixa|-8.12|Adobe Systems Sof|Legal, gestión, software|
+803|2026-09-28|caixa|-36.29|Adobe Systems Sof|Legal, gestión, software|
+833|2026-09-30|santander|-1264.97|Recibo Elega.b Nº Recibo 0049 7343 755 Bbdkcsz Ref. Mandato El13557m1,|Costes Fijos|
+800|2026-10-01|caixa|-8.1|Google Workspace_|Legal, gestión, software|
+798|2026-10-05|caixa|-580.8|RECIBO EXTRA ASC.|Legal, gestión, software|
+799|2026-10-05|caixa|-145.2|REMESA ASES.CAST.|Legal, gestión, software|
+828|2026-10-05|santander|-2232.87|Recibo Elega.b Nº Recibo 0049 7343 755 Bbdkjfb Ref. Mandato El13557m1,|Costes Fijos|
+796|2026-10-06|caixa|-18.99|Trimble|Legal, gestión, software|
+797|2026-10-06|caixa|-119.79|REST.BOOKING|Gastos extra actividad|
+822|2026-10-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+823|2026-10-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+824|2026-10-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+825|2026-10-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+826|2026-10-06|santander|-3.63|Comision Por Instalacion O Mantenimiento De Tpv 0049 7343 524 0000143|Financiero|
+827|2026-10-06|santander|-6.05|Cuota App Android. Comercio: 0048628614|Financiero|
+795|2026-10-07|caixa|-38.0|O2 FIBRA|Costes Fijos|
+821|2026-10-07|santander|-2756.63|Recibo Elega Energia Sl., Concepto: 26ee3n051263-urbanizaci?n Cecovisa|Costes Fijos|
+794|2026-10-08|caixa|-54.33|PROSEGUR ALARMAS|Costes Fijos|
+820|2026-10-13|santander|-467.88|Recibo Elega Energia Nº Recibo 0049 7343 755 Bbdkmgy Ref. Mandato El13|Costes Fijos|
+819|2026-10-14|santander|-2319.18|Recibo Realmivo Sl., Concepto: Nuevo Vh Sl|Alquiler/Fianza|
+818|2026-10-15|santander|-617.1|Transferencia A Favor De Chaman Concepto: Chamán|COGS|
+858|2026-10-26|santander|-1862.56|Recibo Ipasur Licores Y Vinos S.l. Nº Recibo 0049 7343 755 Bbdkqfx Ref|COGS|Ipasur facts 728 (15/08) + 804 (31/08)

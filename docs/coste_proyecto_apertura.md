@@ -1,5 +1,7 @@
 # Coste del proyecto de apertura Dingui — FUENTE DE VERDAD
 
+**CORREGIDO 26/10/2026 (usuario, 2º mensaje): los 4.000 € a Stima SÍ se pagaron, en efectivo sin factura (B), dentro del efectivo gastado sin papeles de la temporada → COSTE DE PROYECTO = 501.255,86 € (Arquitecto 30.741,00, pagado entero: 26.741 por banco + 4.000 en efectivo).** ~~ACTUALIZADO 26/10/2026: los 4.000 € en efectivo de Stima NO se van a pagar → 497.255,86~~ (superado). Pendiente: solo licencia DR 10.000 (Sonicolor 318,22 la pagó un socio con tarjeta personal, usuario 26/10). Viento cerró el 21/09 con 12.279,08 (≈3.519 por debajo de lo registrado aquí, por conciliar). Inversión total para abrir (con informativas) = 532.415,12.**
+
 **Cerrado en sesión del 27-28/08/2026 con el usuario. Coste total: 532.297,62 €. Actualizado 17/09/2026: 532.415,12 € (Stima +117,50). Pagado/pendiente actualizado 17/09 con extractos hasta 16/09: Aycoa pagada entera en septiembre. DECISIÓN 17/09 (usuario): SALEN del coste de proyecto la pre-apertura operativa (27.619,34), Tipsi (1.149,33) y los gastos extra de apertura/marketing (2.390,59) → COSTE DE PROYECTO = 501.255,86 € (pagado 469.021,67 + pendiente 32.234,19).**
 Si otra sesión calcula un número distinto, comparar SU desglose contra este fichero línea a línea — no recalcular de cero. Actualizar este fichero (y commitear) cuando cambie algo.
 
@@ -22,10 +24,10 @@ Si otra sesión calcula un número distinto, comparar SU desglose contra este fi
 | Sonido / iluminación | 60.665,60 | 60.347,38 | 318,22 |
 | Ventilación / clima | 50.486,19 | 50.486,19 | 0 |
 | Insonorización | 45.798,50 | 45.798,50 | 0 |
-| Arquitecto | 30.741,00 | 24.623,50 | 6.117,50 |
+| Arquitecto | 30.741,00 | 30.741,00 | 0 |
 | Licencia / legal | 21.754,04 | 11.754,04 | 10.000,00 |
 | Equipamiento / mobiliario | 7.426,63 | 7.426,63 | 0 |
-| **TOTAL COSTE DE PROYECTO** | **501.255,86** | **469.021,67** | **32.234,19** |
+| **TOTAL COSTE DE PROYECTO** | **501.255,86** | _ver nota 26/10_ | _10.318,22_ |
 | _(informativo, fuera desde 17/09) Gastos extra apertura / marketing: Barter 1.815 + Otherview 342 + BA visuals 138 + Pedraza 95,59_ | _2.390,59_ | _2.390,59_ | _0_ |
 | _(informativo, fuera desde 17/09) Tipsi, alta TPV + 1er mes licencia_ | _1.149,33_ | _1.149,33_ | _0_ |
 | _(informativo, fuera del total desde 17/09) Pre-apertura operativa: alquiler/fianza 23.508,13 + stock junio 2.436,16 + software/gestoría 1.224,64 + otros 450,41_ | _27.619,34_ | _27.619,34_ | _0_ |
