@@ -42,3 +42,4 @@
 - [Feedback: subir siempre](feedback_subir_siempre.md) — REGLA 30/09: 'sube todo siempre tú' → Drive + commit + push sin preguntar, incluso facturas dudosas.
 - [PyG gestoría 29/09→08/10](pyg_gestoria_v1_2909.md) — v4 08/10: res 231.607; aceptó amort 10 % (desde fecha factura), Realmivo a sep, Viento a activo. Quedan: lista +14K ventas, desglose 219 (+26K), bancos 228,8K sin conciliar, Pepsi/Pernod.
 - [Capital social Nuevo VH](capital_social_nuevovh.md) — 160.400 € escriturado e inscrito (3.000 constitución 08/08/25 + 157.400 ampliación 16/02/26); el balance de la gestoría está bien en esto. 551 165.650 = resto aportado como deuda.
+- [Propuesta devolución préstamos nov-26](propuesta_devolucion_prestamos_nov26.md) — Borja v1: 130K (136,1K c/IVA) por % capital, incl. factura Borja 29,2K+IVA. No cabe en caja (114,6K); con ella may-27 ≈ 0 y sin IS. Máx. razonable ~60–65K.
