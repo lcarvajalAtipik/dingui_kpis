@@ -1,12 +1,14 @@
 ---
 name: project-bank-ingest-state
-description: "Estado ingesta bancaria: al día a 26/11/2026 (Caixa 107.027,07 + Santander 7.594,76 = 114.621,83, validados). Schweppes probablemente cobrado (15.276,25+1.815). Cruzcampo 30K entra martes 01/12 (Borja). OJO: cada re-ingesta re-añade los 11 dups Santander 05/08 → borrarlos."
+description: "Estado ingesta bancaria: al día a 26/11/2026 (Caixa 107.027,07 + Santander 7.594,76 = 114.621,83, validados). Schweppes COBRADO (15.276,25+1.815), DR 4.496,82 pagada. Cruzcampo 30K entra martes 01/12 (Borja). OJO: cada re-ingesta re-añade los 11 dups Santander 05/08 → borrarlos."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 0fcf9b70-bc26-470d-ac7f-733d5eca643e
   modified: 2026-09-07T16:45:19.420Z
 ---
+
+**CONFIRMADO 26/11/2026 (usuario):** +15.276,25 (22/10) y +1.815 (06/11) = SCHWEPPES/Pepsi (14.125+IVA) → Acuerdos comerciales; TRIBUTOS −4.496,82 (17/11) = licencia DR (menos de los 10K previstos); devolución puente 2K → OLVIDAR (no sale). Overrides persistidos. Previsión dada 26/11 (liquidez incl. plazo 6K, fijos ~900/mes obs., alquiler 2.319,18): hoy 120,6K · dic 142,7 (Cruzcampo/'Mahou' +30K martes 01/12, Stima −4K, bebida pdte ~−0,7K) · ene 149,5 (+10K 2º tramo) · feb 146,2 · mar 143,0 · abr 139,8 · may 136,6. Sin contar: IVA sept/oct (no se ve pagado), 111 4T, pre-temporada abr-may, IS jul-27.
 
 **ACTUALIZACIÓN 26/11/2026 — LAS DOS CUENTAS AL DÍA (Caixa hasta 17/11, Santander hasta 26/11):** ingeridos `CaixaBank_digital_CaixaBankNow_20261126.csv` (histórico completo desde 20/08/2025) y `Documento_Ki2a5pq7.xls` Santander (31/08→26/11). Saldos validados al céntimo (Caixa suma = saldo; Santander 0 rupturas): **Caixa 107.027,07 + Santander 7.594,76 = 114.621,83** (+ plazo 6K disponible = 120,6K). Tramo 15/10→26/11: +12.002 netos. Entradas: **+15.276,25 (22/10) y +1.815 (06/11) Caixa "TRANSF. A SU FAVOR" = 12.625+IVA y 1.500+IVA → suman 14.125+IVA = SCHWEPPES (hipótesis, pendiente confirmar; el categorizador los puso en Aportaciones)** · Merino 8.771,29 = Pernod (override). Salidas: TRIBUTOS −4.496,82 (17/11, ¿IVA oct / DR?), retenciones 111 3T −2.160,41 (20/10), Realmivo ×2, Ipasur −1.862,56, Nacho Lara liquidación gastos −1.606,32, Chamán −617,10, Elega −459,18, Ignacio −326,70, Berlys −153,17, TGSS −94,38, aval −48. **Borja (26/11): entran los 30K de Cruzcampo el martes 01/12/2026.** ⚠ En el portátil de esta sesión la DB se reconstruyó SIN los exports Santander 09/07→30/08 (no estaban) → 104 overrides sin match y 73 movs post-31/08 sin categoría (las categorías `claude_inferred` de sept-oct solo vivían en la DB del otro ordenador).
 
