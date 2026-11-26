@@ -13,6 +13,8 @@ metadata:
 
 **Usuario 26/11: antes de abrir NO se necesita caja** (sin reserva de pretemporada; los gastos de arranque van en junio con la temporada). Entonces: pagar 136,1K tras Cruzcampo deja may-27 ≈ 0 (134,9 − 136,1), jun +25,6K neto temporada + devolución IVA 4T ~4,9K → ~30K antes del IS (~41K, 25/07) → el IS dependería de las ventas de julio. Pago NO posible el 30/11 (faltan 21,5K hasta que entre Cruzcampo 01/12).
 
-**Abierto:** ¿el préstamo de socio de Borja (2.000 27/06 + 1.750 20/08) está dentro de sus 9.750? · contratos de préstamo con el 1,5% · fechas reales de aportación (feb/abr/may) · decisión de importe/fecha.
+**Usuario 26/11 (VIGENTE): lo fiscal (factura Borja, intereses, retenciones) lo ha validado un ABOGADO → NO volver a sacarlo; mi papel = SOLO CAJA.** Pago previsto 01/12 (tras abono Cruzcampo). Horizonte: hasta fin de mayo (luego abren). Pagando 136,1K → may ≈ −0,2K (+~4,9K si llega antes la devolución IVA 4T).
+
+**Abierto (solo caja):** ¿el préstamo de socio de Borja (2.000 27/06 + 1.750 20/08) está dentro de sus 9.750? · contratos de préstamo con el 1,5% · fechas reales de aportación (feb/abr/may) · decisión de importe/fecha.
 
 Relacionado: [[project-bank-ingest-state]], [[conciliacion-liquidez-2808]], [[capital-social-nuevovh]].
